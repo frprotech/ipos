@@ -370,8 +370,16 @@ def fetch_cse() -> list[dict]:
 # ---------------------------------------------------------------------------
 
 SECTOR_RULES: list[tuple[str, "re.Pattern"]] = [
+    ("ETF / Fund", re.compile(
+        r"\bETF\b|\bCDR\b|\bindex fund\b|\bportfolio\b|\byield maximizer\b", re.I)),
     ("SPAC / Blank Check", re.compile(
-        r"\bacquisition\w*.{0,25}\bcorp\b|\bblank check\b|\bspac\b", re.I)),
+        r"\bacquisition\w*\b|\bblank check\b|\bspac\b|"
+        # Shell-series naming like "Gores Holdings XI, Inc." or "Cartesian
+        # Growth Corp IV" — keyword + a multi-letter roman numeral nearby.
+        # Single-letter numerals (I, V, X) are excluded since they collide
+        # with ordinary English words.
+        r"\b(holdings?|growth|capital|partners|ventures?)\b.{0,30}\b"
+        r"(II|III|IV|VI|VII|VIII|IX|XI|XII|XIII)\b", re.I)),
     ("Mining & Materials", re.compile(
         r"\bmin(e|es|ing|eral|erals)\b|\bresources\b|\bgold\b|\blithium\b|\buranium\b|"
         r"\bmetals?\b|\bexploration\b|\bcopper\b|\bnickel\b|\bcobalt\b|\bcoal\b", re.I)),
@@ -379,14 +387,16 @@ SECTOR_RULES: list[tuple[str, "re.Pattern"]] = [
         r"\bsolar\b|\bwind\b|\brenewable\b|\bclean energy\b|\bgreen energy\b|\bhydrogen\b|"
         r"\bcarbon\b.{0,25}(technolog|\bcapture\b|\benergy\b)", re.I)),
     ("Energy", re.compile(
-        r"\boil\b|\bgas\b|\bpetroleum\b|\benergy\b|\bnuclear\b|\butilit\w*\b", re.I)),
+        r"\boil\b|\bgas\b|\bpetroleum\b|\benergy\b|\bnuclear\b|\bfission\b|\breactor\w*\b|"
+        r"\butilit\w*\b", re.I)),
     ("Healthcare", re.compile(
-        r"\bhealth\w*\b|\bmedical\b|\bmedtech\b|\bpharma\w*\b|\bbiotech\b|\btherapeutic\w*\b|"
-        r"\bclinical\b|\blife sciences?\b|\bdiagnostic\w*\b", re.I)),
+        r"\bhealth\w*\b|\bmedical\b|\bmedtech\b|\bmedicines?\b|\bpharma\w*\b|\bbiotech\b|"
+        r"\btherapeutic\w*\b|\bclinical\b|\blife sciences?\b|\bdiagnostic\w*\b|"
+        r"\brx\b|\bcannabis\b", re.I)),
     ("Technology", re.compile(
         r"\btech(nolog(y|ies))?\b|\bsoftware\b|\bcyber\b|\bAI\b|\bdata\b|\bdigital\b|"
         r"\bcloud\b|\bsemiconductor\w*\b|\brobotic\w*\b|\bautonomous\b|\binternet\b|"
-        r"\bplatform\b", re.I)),
+        r"\bplatform\b|\bquantum\w*\b|\bmobile\b", re.I)),
     ("Financial Services", re.compile(
         r"\bcapital\b|\bbank\w*\b|\bfinanc\w*\b|\binsurance\b|\bcredit\b|"
         r"\basset management\b|\binvestment\w*\b|\bfund\b", re.I)),
