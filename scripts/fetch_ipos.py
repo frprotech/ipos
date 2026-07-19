@@ -300,7 +300,7 @@ def fetch_cse() -> list[dict]:
 
     from openpyxl import load_workbook
 
-    url = "https://thecse.com/sites/default/files/CSE_Stock_List.xlsx"
+    url = "https://listings.thecse.com/sites/default/files/CSE_Stock_List.xlsx"
     wb = load_workbook(io.BytesIO(http_get(url).content), read_only=True, data_only=True)
     ws = wb.active
     rows = ws.iter_rows(values_only=True)
