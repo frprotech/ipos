@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IPO Tracker — TSX · NASDAQ · NYSE · ASX · CSE</title>
+<style>
+  :root {
+    --blue: #3b6fd4;
+    --blue-dark: #2f5cb8;
+    --text: #1a1f2e;
+    --muted: #6b7280;
+    --row-alt: #f7f8fb;
+    --border: #e7e9f0;
+    --pill: #4a7de0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: #fff;
+    padding: 32px 16px;
+  }
+  .wrap { max-width: 1200px; margin: 0 auto; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 20px; font-size: 14px; }
+
+  .controls {
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    margin-bottom: 16px;
+  }
+  .tabs { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tab {
+    border: 1px solid var(--border); background: #fff; color: var(--text);
+    padding: 7px 14px; border-radius: 999px; font-size: 13px; cursor: pointer;
+  }
+  .tab.active { background: var(--blue); border-color: var(--blue); color: #fff; }
+  #search {
+    margin-left: auto; padding: 8px 12px; border: 1px solid var(--border);
+    border-radius: 8px; font-size: 14px; min-width: 220px;
+  }
+
+  .table-card { border-radius: 14px; overflow: hidden; box-shadow: 0 1px 3px rgba(20,30,60,.08); border: 1px solid var(--border); }
+  .scroller { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; min-width: 760px; }
+  thead th {
+    background: var(--blue); color: #fff; text-align: left;
+    font-size: 16px; font-weight: 700; padding: 16px 18px;
+    cursor: pointer; user-select: none; white-space: nowrap;
+  }
+  thead th .arrow { font-size: 11px; opacity: .85; margin-left: 4px; }
+  tbody td { padding: 18px; font-size: 15px; border-top: 1px solid var(--border); white-space: nowrap; }
+  tbody td.company { white-space: normal; font-weight: 500; }
+  tbody tr:nth-child(even) { background: var(--row-alt); }
+  .ticker {
+    display: inline-block; background: var(--pill); color: #fff;
+    padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600;
+  }
+  .ticker.empty { background: #d6dae6; color: #5a6070; }
+  .status { color: var(--muted); font-size: 12px; margin-left: 6px; }
+  .exch a { color: var(--blue); text-decoration: none; }
+  .exch a:hover { text-decoration: underline; }
+  .muted { color: var(--muted); }
+  .empty-state { padding: 40px; text-align: center; color: var(--muted); }
+
+  .foot {
+    display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;
+    padding: 14px 4px 0; color: var(--muted); font-size: 14px;
+  }
+  .foot a { color: var(--blue); font-weight: 600; text-decoration: none; }
+  .foot a:hover { text-decoration: underline; }
+  .dot { color: #b3b9c9; margin: 0 4px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>IPO Tracker</h1>
+  <p class="sub">Recent and upcoming listings on TSX, NASDAQ, NYSE, ASX and CSE &middot;
+    <span id="updated">loading…</span></p>
+
+  <div class="controls">
+    <div class="tabs" id="tabs"></div>
+    <input id="search" type="search" placeholder="Search company or ticker…">
+  </div>
+
+  <div class="table-card">
+    <div class="scroller">
+      <table>
+        <thead>
+          <tr>
+            <th data-sort="company">Company<span class="arrow"></span></th>
+            <th data-sort="ticker">Ticker<span class="arrow"></span></th>
+            <th data-sort="exchange">Exchange<span class="arrow"></span></th>
+            <th data-sort="listing_date">Listing Date<span class="arrow"></span></th>
+            <th data-sort="sector">Sector<span class="arrow"></span></th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <div class="empty-state" id="empty" hidden></div>
+  </div>
+
+  <div class="foot">
+    <span>Source: Exchange Filings</span>
+    <span>View listings on:
+      <a href="https://www.tsx.com/listings/current-listing-activity" target="_blank" rel="noopener">TSX</a><span class="dot">&bull;</span>
+      <a href="https://www.nasdaq.com/market-activity/ipos" target="_blank" rel="noopener">NASDAQ</a><span class="dot">&bull;</span>
+      <a href="https://www.nyse.com/ipo-center/recent-ipo" target="_blank" rel="noopener">NYSE</a><span class="dot">&bull;</span>
+      <a href="https://www.asx.com.au/markets/trade-our-cash-market/upcoming-floats-and-listings" target="_blank" rel="noopener">ASX</a><span class="dot">&bull;</span>
+      <a href="https://thecse.com/listings/" target="_blank" rel="noopener">CSE</a>
+    </span>
+  </div>
+</div>
+
+<script>
+(function () {
+  const EXCHANGES = ["All", "TSX", "NASDAQ", "NYSE", "ASX", "CSE"];
+  const REFRESH_MS = 15 * 60 * 1000; // re-fetch the data file every 15 minutes
+
+  let data = [];
+  let filter = "All";
+  let query = "";
+  let sortKey = "listing_date";
+  let sortDir = -1; // newest first
+
+  const rowsEl = document.getElementById("rows");
+  const emptyEl = document.getElementById("empty");
+  const updatedEl = document.getElementById("updated");
+  const tabsEl = document.getElementById("tabs");
+
+  EXCHANGES.forEach(function (ex) {
+    const b = document.createElement("button");
+    b.className = "tab" + (ex === filter ? " active" : "");
+    b.textContent = ex;
+    b.onclick = function () {
+      filter = ex;
+      tabsEl.querySelectorAll(".tab").forEach(t => t.classList.toggle("active", t === b));
+      render();
+    };
+    tabsEl.appendChild(b);
+  });
+
+  document.getElementById("search").addEventListener("input", function (e) {
+    query = e.target.value.trim().toLowerCase();
+    render();
+  });
+
+  document.querySelectorAll("thead th").forEach(function (th) {
+    th.addEventListener("click", function () {
+      const key = th.dataset.sort;
+      if (sortKey === key) { sortDir *= -1; } else { sortKey = key; sortDir = key === "listing_date" ? -1 : 1; }
+      render();
+    });
+  });
+
+  function fmtDate(iso) {
+    if (!iso) return null;
+    const d = new Date(iso + "T00:00:00");
+    if (isNaN(d)) return iso;
+    return d.toLocaleDateString("en-US", { month: "short", day: "2-digit", year: "numeric" });
+  }
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    }[c]));
+  }
+
+  function matchesFilter(r) {
+    if (filter === "All") return true;
+    if (filter === "TSX") return r.exchange === "TSX" || r.exchange === "TSXV";
+    if (filter === "NYSE") return r.exchange === "NYSE" || r.exchange === "NYSE American";
+    return r.exchange === filter;
+  }
+
+  function render() {
+    const rows = data
+      .filter(matchesFilter)
+      .filter(r => !query ||
+        (r.company || "").toLowerCase().includes(query) ||
+        (r.ticker || "").toLowerCase().includes(query))
+      .sort(function (a, b) {
+        const av = a[sortKey] || "", bv = b[sortKey] || "";
+        if (sortKey === "listing_date") {
+          return ((av || "0000") < (bv || "0000") ? -1 : av === bv ? 0 : 1) * sortDir;
+        }
+        return av.localeCompare(bv) * sortDir;
+      });
+
+    document.querySelectorAll("thead th").forEach(function (th) {
+      th.querySelector(".arrow").textContent =
+        th.dataset.sort === sortKey ? (sortDir === 1 ? "▲" : "▼") : "";
+    });
+
+    rowsEl.innerHTML = rows.map(function (r) {
+      const date = fmtDate(r.listing_date);
+      const status = r.status && r.status !== "Listed" && r.status !== "Priced"
+        ? '<span class="status">(' + esc(r.status) + ')</span>' : "";
+      return "<tr>" +
+        '<td class="company">' + esc(r.company) + "</td>" +
+        "<td>" + (r.ticker
+          ? '<span class="ticker">' + esc(r.ticker) + "</span>"
+          : '<span class="ticker empty">TBA</span>') + "</td>" +
+        '<td class="exch">' + (r.source
+          ? '<a href="' + esc(r.source) + '" target="_blank" rel="noopener">' + esc(r.exchange) + "</a>"
+          : esc(r.exchange)) + "</td>" +
+        "<td>" + (date ? esc(date) : '<span class="muted">TBA</span>') + status + "</td>" +
+        "<td>" + (r.sector ? esc(r.sector) : '<span class="muted">&mdash;</span>') + "</td>" +
+        "</tr>";
+    }).join("");
+
+    emptyEl.hidden = rows.length > 0;
+    emptyEl.textContent = data.length === 0
+      ? "No data yet — the update workflow hasn't run. Trigger \"Update IPO data\" under the repo's Actions tab."
+      : "No listings match the current filter.";
+  }
+
+  function load() {
+    fetch("data/ipos.json?t=" + Date.now())
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (json) {
+        data = json.ipos || [];
+        if (json.updated_at) {
+          updatedEl.textContent = "Last updated " +
+            new Date(json.updated_at).toLocaleString() +
+            (json.sources_failed && json.sources_failed.length
+              ? " (stale: " + json.sources_failed.join(", ") + ")" : "");
+        } else {
+          updatedEl.textContent = "Awaiting first data update";
+        }
+        render();
+      })
+      .catch(function () {
+        updatedEl.textContent = "Could not load data file";
+        render();
+      });
+  }
+
+  load();
+  setInterval(load, REFRESH_MS);
+})();
+</script>
+</body>
+</html>
