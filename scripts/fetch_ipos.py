@@ -361,6 +361,70 @@ def fetch_cse() -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
+# Sector classification — free, deterministic keyword rules applied to every
+# record after fetching. Uses the company name plus whatever raw sector /
+# industry / description text the source gave us (if any) as extra signal,
+# and reduces it to one short label from a fixed taxonomy. Checked in order;
+# first match wins, so more specific buckets (SPAC, Mining) come before
+# broader ones (Financial Services).
+# ---------------------------------------------------------------------------
+
+SECTOR_RULES: list[tuple[str, "re.Pattern"]] = [
+    ("SPAC / Blank Check", re.compile(
+        r"\bacquisition\w*.{0,25}\bcorp\b|\bblank check\b|\bspac\b", re.I)),
+    ("Mining & Materials", re.compile(
+        r"\bmin(e|es|ing|eral|erals)\b|\bresources\b|\bgold\b|\blithium\b|\buranium\b|"
+        r"\bmetals?\b|\bexploration\b|\bcopper\b|\bnickel\b|\bcobalt\b|\bcoal\b", re.I)),
+    ("Clean Energy", re.compile(
+        r"\bsolar\b|\bwind\b|\brenewable\b|\bclean energy\b|\bgreen energy\b|\bhydrogen\b|"
+        r"\bcarbon\b.{0,25}(technolog|\bcapture\b|\benergy\b)", re.I)),
+    ("Energy", re.compile(
+        r"\boil\b|\bgas\b|\bpetroleum\b|\benergy\b|\bnuclear\b|\butilit\w*\b", re.I)),
+    ("Healthcare", re.compile(
+        r"\bhealth\w*\b|\bmedical\b|\bmedtech\b|\bpharma\w*\b|\bbiotech\b|\btherapeutic\w*\b|"
+        r"\bclinical\b|\blife sciences?\b|\bdiagnostic\w*\b", re.I)),
+    ("Technology", re.compile(
+        r"\btech(nolog(y|ies))?\b|\bsoftware\b|\bcyber\b|\bAI\b|\bdata\b|\bdigital\b|"
+        r"\bcloud\b|\bsemiconductor\w*\b|\brobotic\w*\b|\bautonomous\b|\binternet\b|"
+        r"\bplatform\b", re.I)),
+    ("Financial Services", re.compile(
+        r"\bcapital\b|\bbank\w*\b|\bfinanc\w*\b|\binsurance\b|\bcredit\b|"
+        r"\basset management\b|\binvestment\w*\b|\bfund\b", re.I)),
+    ("Real Estate", re.compile(
+        r"\brealty\b|\breal estate\b|\breit\b|\bproperties\b|\bresidential\b", re.I)),
+    ("Industrials", re.compile(
+        r"\bindustr\w*\b|\bmanufactur\w*\b|\baerospace\b|\bdefen[cs]e\b|\bengineering\b|"
+        r"\blogistics\b|\btransport\w*\b|\baero\b|\bdynamics\b", re.I)),
+    ("Consumer Defensive", re.compile(
+        r"\bfoods?\b|\bbeverages?\b|\bagri\w*\b|\bgrocery\b|\bstaples\b", re.I)),
+    ("Consumer Discretionary", re.compile(
+        r"\bretail\w*\b|\bapparel\b|\brestaurants?\b|\btravel\b|\bleisure\b|"
+        r"\bhospitality\b", re.I)),
+    ("Communication Services", re.compile(
+        r"\bmedia\b|\btelecom\w*\b|\bbroadcast\w*\b|\bpublishing\b|\bstreaming\b", re.I)),
+]
+
+
+# Branding like "QumulusAI" fuses "AI" onto the name with no word boundary,
+# so it needs its own case-sensitive check (matches capitalized AI only, to
+# avoid false positives from ordinary words that happen to contain "ai").
+_AI_SUFFIX_RE = re.compile(r"(?<=[a-z])AI\b")
+
+
+def classify_sector(company: str, hint: str = "") -> str:
+    """Best-effort short sector label from company name (+ any raw sector
+    text the source provided). Returns "" when nothing matches — an honest
+    unknown beats a guessed label."""
+    text = f"{company} {hint}"
+    for label, pattern in SECTOR_RULES:
+        if pattern.search(text):
+            return label
+    if _AI_SUFFIX_RE.search(text):
+        return "Technology"
+    return ""
+
+
+# ---------------------------------------------------------------------------
 # Merge / prune / write
 # ---------------------------------------------------------------------------
 
@@ -402,6 +466,12 @@ def main() -> int:
             print(f"WARNING: [{name}] fetch failed ({exc}); keeping previous data")
             failures.append(name)
             merged.extend(r for r in existing if r.get("exchange") in exchanges)
+
+    # Reduce whatever raw sector/description text a source gave (or none, for
+    # TSX/NASDAQ/NYSE) to one short label, so every exchange shows the same
+    # kind of value instead of long descriptions on some and blanks on others.
+    for rec in merged:
+        rec["sector"] = classify_sector(rec.get("company", ""), rec.get("sector", ""))
 
     # Dedupe by exchange + ticker (or company when no ticker), newest wins.
     deduped: dict[tuple, dict] = {}

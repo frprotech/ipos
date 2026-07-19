@@ -56,11 +56,12 @@
 
   .table-card { border-radius: 14px; overflow: hidden; box-shadow: 0 1px 3px rgba(20,30,60,.08); border: 1px solid var(--border); }
   .scroller { overflow: auto; max-height: 700px; }
-  table { width: 100%; border-collapse: collapse; min-width: 720px; table-layout: fixed; }
-  col.col-company { width: 42%; }
-  col.col-ticker { width: 14%; }
-  col.col-exchange { width: 16%; }
-  col.col-date { width: 28%; }
+  table { width: 100%; border-collapse: collapse; min-width: 820px; table-layout: fixed; }
+  col.col-company { width: 32%; }
+  col.col-ticker { width: 12%; }
+  col.col-exchange { width: 13%; }
+  col.col-date { width: 25%; }
+  col.col-sector { width: 18%; }
   thead th {
     position: sticky; top: 0; z-index: 1;
     background: var(--blue); color: #fff; text-align: left;
@@ -76,10 +77,7 @@
   .company-name {
     display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
   }
-  .company-sub {
-    font-weight: 400; color: var(--muted); font-size: 12.5px; margin-top: 3px;
-    min-height: 16px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-  }
+  td.sector { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text); }
   tbody tr:nth-child(even) { background: var(--row-alt); }
   tbody tr:hover { background: #eef3fd; }
   .ticker {
@@ -144,7 +142,7 @@
     <div class="scroller">
       <table>
         <colgroup>
-          <col class="col-company"><col class="col-ticker"><col class="col-exchange"><col class="col-date">
+          <col class="col-company"><col class="col-ticker"><col class="col-exchange"><col class="col-date"><col class="col-sector">
         </colgroup>
         <thead>
           <tr>
@@ -152,6 +150,7 @@
             <th data-sort="ticker">Ticker<span class="arrow"></span></th>
             <th data-sort="exchange">Exchange<span class="arrow"></span></th>
             <th data-sort="listing_date">Listing Date<span class="arrow"></span></th>
+            <th data-sort="sector">Sector<span class="arrow"></span></th>
           </tr>
         </thead>
         <tbody id="rows"></tbody>
@@ -321,9 +320,6 @@
       return "<tr>" +
         '<td class="company">' +
           '<span class="company-name" title="' + esc(r.company) + '">' + esc(r.company) + "</span>" +
-          '<div class="company-sub"' + (r.sector ? ' title="' + esc(r.sector) + '"' : "") + ">" +
-            (r.sector ? esc(r.sector) : "") +
-          "</div>" +
         "</td>" +
         "<td>" + (r.ticker
           ? '<span class="ticker">' + esc(r.ticker) + "</span>"
@@ -336,6 +332,9 @@
           '<div class="date-sub"><span class="badge ' + badgeClass + '">' + esc(badgeLabel) + "</span>" +
             (rel ? '<span class="rel">' + esc(rel) + "</span>" : "") +
           "</div>" +
+        "</td>" +
+        '<td class="sector" title="' + esc(r.sector || "") + '">' +
+          (r.sector ? esc(r.sector) : '<span class="muted">&mdash;</span>') +
         "</td>" +
         "</tr>";
     }).join("");
