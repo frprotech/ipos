@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Diagnostic: probe candidate data-source URLs from a GitHub runner and print
-what they return, so the real fetchers can be pointed at working endpoints.
+"""Diagnostic: probe candidate CSE data sources from a GitHub runner.
 Temporary tool — not part of the site."""
 
+import io
+import json
 import re
 import requests
 
@@ -12,48 +13,77 @@ HEADERS = {
         "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
     ),
     "Accept": "application/json, text/html;q=0.9, */*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.9",
 }
 
-URLS = [
-    # CSE — hunt for the current stock-list file / data API
-    "https://thecse.com/listing/listed-companies/",
-    "https://thecse.com/market-activity/market-overview/",
-    "https://market-reports.thecse.com/Deprecated/CSE%20Stock%20List%20Changes.xlsx",
-    "https://market-reports.thecse.com/CSE%20Stock%20List.xlsx",
-    "https://market-reports.thecse.com/CSE_Stock_List.xlsx",
-    "https://listings.thecse.com/sites/default/files/CSE_Stock_List.xlsx",
-]
+# 1) Inspect the "Stock List Changes" workbook — it usually carries new
+#    listings/delistings with effective dates.
+print("=" * 100)
+url = "https://market-reports.thecse.com/Deprecated/CSE%20Stock%20List%20Changes.xlsx"
+print("URL:", url)
+try:
+    from openpyxl import load_workbook
+    r = requests.get(url, headers=HEADERS, timeout=30)
+    print("STATUS:", r.status_code, "| LEN:", len(r.content))
+    wb = load_workbook(io.BytesIO(r.content), read_only=True, data_only=True)
+    for ws in wb.worksheets:
+        print("SHEET:", ws.title)
+        for i, row in enumerate(ws.iter_rows(values_only=True)):
+            print("  ROW", i, ":", [str(c)[:40] if c is not None else "" for c in row[:12]])
+            if i >= 14:
+                break
+except Exception as exc:
+    print("ERROR:", exc)
 
-for url in URLS:
+# 2) The thecse.com Next.js data route for the listed-companies page.
+print("=" * 100)
+page_url = "https://thecse.com/listing/listed-companies/"
+print("URL:", page_url, "(discover buildId, then fetch _next data)")
+try:
+    html = requests.get(page_url, headers=HEADERS, timeout=30).text
+    m = re.search(r'"buildId"\s*:\s*"([^"]+)"', html)
+    print("BUILD-ID:", m.group(1) if m else None)
+    if m:
+        data_url = f"https://thecse.com/_next/data/{m.group(1)}/listing/listed-companies.json"
+        r = requests.get(data_url, headers=HEADERS, timeout=30)
+        print("DATA-URL:", data_url)
+        print("STATUS:", r.status_code, "| TYPE:", r.headers.get("content-type"),
+              "| LEN:", len(r.content))
+        if r.status_code == 200:
+            payload = r.json()
+
+            def walk(obj, path="", depth=0):
+                """Print the shape of the JSON: keys and first list items."""
+                if depth > 6:
+                    return
+                if isinstance(obj, dict):
+                    for k, v in list(obj.items())[:25]:
+                        if isinstance(v, (dict, list)):
+                            print("  " * depth + f"{path}.{k} ({type(v).__name__}, "
+                                  f"len={len(v)})")
+                            walk(v, f"{path}.{k}", depth + 1)
+                elif isinstance(obj, list) and obj:
+                    first = obj[0]
+                    if isinstance(first, dict):
+                        print("  " * depth + f"{path}[0] keys: {list(first.keys())[:20]}")
+                        print("  " * depth + f"{path}[0] sample: "
+                              + json.dumps(first, default=str)[:600])
+
+            walk(payload)
+except Exception as exc:
+    print("ERROR:", exc)
+
+# 3) Direct guesses at an API the CSE site might expose.
+for url in [
+    "https://thecse.com/api/listings",
+    "https://thecse.com/api/companies",
+]:
     print("=" * 100)
     print("URL:", url)
     try:
         r = requests.get(url, headers=HEADERS, timeout=30)
-        ct = r.headers.get("content-type", "")
-        print("STATUS:", r.status_code, "| TYPE:", ct, "| LEN:", len(r.content),
-              "| FINAL-URL:", r.url)
-        if r.status_code != 200 or "html" not in ct:
-            continue
-        body = r.text
-
-        for label, pattern in [
-            ("XLSX", r"[^\"'\s<>]*\.xlsx?[^\"'\s<>]*"),
-            ("CSV", r"[^\"'\s<>]*\.csv[^\"'\s<>]*"),
-            ("REL-API", r"[\"'](/[^\"']*api[^\"']*)[\"']"),
-            ("ABS-API", r"https?://[^\"'\s<>\\]+(?:api|json|graphql)[^\"'\s<>\\]*"),
-        ]:
-            for m in sorted(set(re.findall(pattern, body, re.I)))[:15]:
-                print(f"  {label}:", m)
-
-        # Next.js hints
-        if "__NEXT_DATA__" in body:
-            print("  HAS __NEXT_DATA__")
-        for m in sorted(set(re.findall(r'"buildId"\s*:\s*"([^"]+)"', body)))[:3]:
-            print("  NEXT-BUILD-ID:", m)
-        # Context around 'stock list' mentions
-        for m in re.finditer(r"stock[\s_-]*list", body, re.I):
-            start = max(0, m.start() - 150)
-            print("  CTX:", re.sub(r"\s+", " ", body[start:m.end() + 150]))
+        print("STATUS:", r.status_code, "| TYPE:", r.headers.get("content-type"),
+              "| LEN:", len(r.content))
+        if r.status_code == 200:
+            print(r.text[:1500])
     except Exception as exc:
         print("ERROR:", exc)
