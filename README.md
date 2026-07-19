@@ -47,6 +47,17 @@ Records older than 12 months are pruned automatically.
 You can also open `index.html` from any static host (or locally with
 `python -m http.server`) — it only needs `data/ipos.json` next to it.
 
+### Deploying on Vercel instead of GitHub Pages
+
+The repo includes `vercel.json` + `.vercelignore`, which tell Vercel this is a
+plain static site (the Python script only runs inside GitHub Actions, not on
+the host). Just import the repo in Vercel with default settings — no build
+command, no framework. Because the update workflow commits the refreshed
+`data/ipos.json` to the branch, every data update automatically triggers a new
+Vercel deployment, so the hosted table stays current. The workflow's
+`deploy` job (GitHub Pages) is optional and can be deleted from
+`.github/workflows/update-ipos.yml` if you only use Vercel.
+
 ## Notes & maintenance
 
 - The TSX and ASX fetchers parse public web pages; if an exchange redesigns
