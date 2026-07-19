@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-19T05:46:20+00:00",
+  "updated_at": "2026-07-19T05:49:32+00:00",
   "sources_failed": [
     "CSE"
   ],
   "ipos": [
     {
-      "company": "Energy Fuels Inc. - Monday 31 August 2026 12.00pm AEST ##",
+      "company": "Energy Fuels Inc.",
       "ticker": "EF2",
       "exchange": "ASX",
       "listing_date": "2026-08-31",
@@ -15,7 +15,7 @@
       "fetched_at": "2026-07-19"
     },
     {
-      "company": "Whiterock Lithium Corp. - Thursday 20 August 2026 12:00pm AEST ##",
+      "company": "Whiterock Lithium Corp.",
       "ticker": "WLC",
       "exchange": "ASX",
       "listing_date": "2026-08-20",
@@ -25,7 +25,7 @@
       "fetched_at": "2026-07-19"
     },
     {
-      "company": "Powerhaus Uranium Limited - Monday 17 August 2026 11.00am AEST ##",
+      "company": "Powerhaus Uranium Limited",
       "ticker": "POW",
       "exchange": "ASX",
       "listing_date": "2026-08-17",
@@ -35,7 +35,7 @@
       "fetched_at": "2026-07-19"
     },
     {
-      "company": "Almasar Minerals Limited - Friday 14 August 2026 #",
+      "company": "Almasar Minerals Limited",
       "ticker": "AMK",
       "exchange": "ASX",
       "listing_date": "2026-08-14",
@@ -45,7 +45,7 @@
       "fetched_at": "2026-07-19"
     },
     {
-      "company": "Aventine Resources Ltd - Friday 7 August 2026 12.00pm AEST ##",
+      "company": "Aventine Resources Ltd",
       "ticker": "ARE",
       "exchange": "ASX",
       "listing_date": "2026-08-07",
@@ -55,7 +55,7 @@
       "fetched_at": "2026-07-19"
     },
     {
-      "company": "Elk Range Mining Limited - Monday 3 August 2026 12.00pm AEST ##",
+      "company": "Elk Range Mining Limited",
       "ticker": "ELK",
       "exchange": "ASX",
       "listing_date": "2026-08-03",
@@ -65,7 +65,7 @@
       "fetched_at": "2026-07-19"
     },
     {
-      "company": "Alurion Resources Limited - Friday 31 July 2026 12.00pm AEST ##",
+      "company": "Alurion Resources Limited",
       "ticker": "ALU",
       "exchange": "ASX",
       "listing_date": "2026-07-31",
@@ -75,7 +75,7 @@
       "fetched_at": "2026-07-19"
     },
     {
-      "company": "Ceretas Limited - Tuesday 28 July 2026 12.00pm AEST ##",
+      "company": "Ceretas Limited",
       "ticker": "CTS",
       "exchange": "ASX",
       "listing_date": "2026-07-28",
@@ -85,7 +85,7 @@
       "fetched_at": "2026-07-19"
     },
     {
-      "company": "Gwardar Resources Limited - Tuesday 28 July 2026 1.00pm AEST ##",
+      "company": "Gwardar Resources Limited",
       "ticker": "GRS",
       "exchange": "ASX",
       "listing_date": "2026-07-28",
@@ -95,7 +95,7 @@
       "fetched_at": "2026-07-19"
     },
     {
-      "company": "Monvia Limited - Friday 24 July 2026 12.00pm AEST ##",
+      "company": "Monvia Limited",
       "ticker": "MNV",
       "exchange": "ASX",
       "listing_date": "2026-07-24",
@@ -115,7 +115,7 @@
       "fetched_at": "2026-07-19"
     },
     {
-      "company": "Lux Copper Corp. Ltd - Friday 17 July 2026 12.00pm AEST ##",
+      "company": "Lux Copper Corp. Ltd",
       "ticker": "LUX",
       "exchange": "ASX",
       "listing_date": "2026-07-17",
