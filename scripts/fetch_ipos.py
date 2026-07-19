@@ -291,67 +291,73 @@ def fetch_asx() -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
-# CSE — the CSE publishes its full stock list as an Excel file that includes
-# each security's listing date; keep the ones listed in the past year.
+# CSE — thecse.com's own data API (discovered in the site's JS bundles)
+# serves the listed-companies dataset including each company's listingDate.
 # ---------------------------------------------------------------------------
 
+CSE_API_CANDIDATES = [
+    "https://thecse.com/api/webapi/listed-companies/",
+    "https://thecse.com/api/companies/all",
+    "https://website-data-api-v2.thecse.com/listed-companies/",
+    "https://webapi-backup.thecse.com/trading/listed/market/securities.json",
+]
+
+
+def _largest_dict_list(obj, depth: int = 0) -> list[dict]:
+    """Find the largest list of dicts that looks like a securities table."""
+    best: list[dict] = []
+    if isinstance(obj, list):
+        dicts = [x for x in obj if isinstance(x, dict)]
+        if dicts and any(re.search(r"symbol|ticker", str(k), re.I) for k in dicts[0]):
+            best = dicts
+    elif isinstance(obj, dict) and depth < 6:
+        for v in obj.values():
+            cand = _largest_dict_list(v, depth + 1)
+            if len(cand) > len(best):
+                best = cand
+    return best
+
+
 def fetch_cse() -> list[dict]:
-    import io
+    notes = []
+    for url in CSE_API_CANDIDATES:
+        try:
+            payload = http_get(url).json()
+        except Exception as exc:
+            notes.append(f"{url} -> {exc}")
+            continue
+        items = _largest_dict_list(payload)
+        out: list[dict] = []
+        for item in items:
+            low = {re.sub(r"[\s_-]", "", str(k)).lower(): v for k, v in item.items()}
 
-    from openpyxl import load_workbook
-
-    url = "https://listings.thecse.com/sites/default/files/CSE_Stock_List.xlsx"
-    wb = load_workbook(io.BytesIO(http_get(url).content), read_only=True, data_only=True)
-    ws = wb.active
-    rows = ws.iter_rows(values_only=True)
-
-    header = None
-    for row in rows:
-        cells = [str(c).strip().lower() if c is not None else "" for c in row]
-        if any("symbol" in c for c in cells) and any("company" in c or "name" in c for c in cells):
-            header = cells
-            break
-    if header is None:
-        raise RuntimeError("Could not find header row in CSE stock list")
-
-    def col(*keys):
-        for i, h in enumerate(header):
-            if any(k in h for k in keys):
-                return i
-        return None
-
-    ci_symbol = col("symbol", "ticker")
-    ci_company = col("company", "name", "security")
-    ci_date = col("date listed", "listing date", "listed", "list date")
-    ci_sector = col("industry", "sector")
-    if ci_date is None:
-        raise RuntimeError(f"CSE stock list has no listing-date column (header: {header})")
-
-    out: list[dict] = []
-    for row in rows:
-        def cell(i):
-            if i is None or i >= len(row) or row[i] is None:
+            def pick(*keys):
+                for k in keys:
+                    for lk, v in low.items():
+                        if k in lk and v not in (None, ""):
+                            return v
                 return ""
-            v = row[i]
-            return v.date().isoformat() if isinstance(v, dt.datetime) else str(v)
 
-        listing_date = parse_date(cell(ci_date))
-        if not listing_date or listing_date < KEEP_AFTER.isoformat():
-            continue  # only recent listings belong in an IPO table
-        rec = record(
-            exchange="CSE",
-            company=cell(ci_company),
-            ticker=cell(ci_symbol),
-            listing_date=listing_date,
-            sector=cell(ci_sector),
-            status="Listed",
-            source="https://thecse.com/listing/listed-companies/",
-        )
-        if rec:
-            out.append(rec)
-    if not out:
-        raise RuntimeError("CSE stock list yielded no recent listings")
-    return out
+            listing_date = parse_date(pick("listingdate", "datelisted", "listeddate",
+                                           "listdate", "dateoflisting"))
+            if not listing_date or listing_date < KEEP_AFTER.isoformat():
+                continue  # only recent listings belong in an IPO table
+            rec = record(
+                exchange="CSE",
+                company=pick("companyname", "company", "name", "title", "security"),
+                ticker=pick("symbol", "ticker"),
+                listing_date=listing_date,
+                sector=pick("industry", "sector"),
+                status="Listed",
+                source="https://thecse.com/listing/listed-companies/",
+            )
+            if rec:
+                out.append(rec)
+        notes.append(f"{url} -> {len(items)} items, {len(out)} recent")
+        if out:
+            print(f"[CSE] using {url}")
+            return out
+    raise RuntimeError("No CSE candidate yielded recent listings: " + "; ".join(notes))
 
 
 # ---------------------------------------------------------------------------
