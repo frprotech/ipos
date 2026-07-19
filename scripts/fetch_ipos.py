@@ -54,8 +54,13 @@ def parse_date(value) -> str | None:
     text = str(value).strip()
     if not text or text.lower() in {"tba", "tbd", "n/a", "-", "--"}:
         return None
-    # Strip common noise like "(expected)" or trailing notes.
-    text = re.sub(r"\(.*?\)", " ", text).strip()
+    # Strip common noise: "(expected)" notes, footnote markers ("#"),
+    # times ("12.00pm") and timezone tags, as seen on the ASX page.
+    text = re.sub(r"\(.*?\)", " ", text)
+    text = re.sub(r"#+", " ", text)
+    text = re.sub(r"\b\d{1,2}[.:]\d{2}\s*(?:am|pm)?\b", " ", text, flags=re.I)
+    text = re.sub(r"\b(?:AEST|AEDT|EST|EDT|ET|noon|midday)\b", " ", text, flags=re.I)
+    text = re.sub(r"\s+", " ", text).strip()
     try:
         return dateparser.parse(text, dayfirst=False, fuzzy=True).date().isoformat()
     except (ValueError, OverflowError):
@@ -192,135 +197,153 @@ def extract_table_rows(html: str, exchange: str, source: str, status: str) -> li
 
 
 # ---------------------------------------------------------------------------
-# TSX / TSX Venture — tsx.com publishes current listing activity as HTML.
+# TSX / TSX Venture — tsx.com publishes new company listings (TSX and TSXV
+# combined) as a server-rendered Date | Company table, where the company cell
+# reads "Company Name (TICKER)".
 # ---------------------------------------------------------------------------
 
 def fetch_tsx() -> list[dict]:
-    url = "https://www.tsx.com/listings/current-listing-activity"
-    html = http_get(url).text
-    rows = extract_table_rows(html, "TSX", url, "Listed")
-    # The page covers both TSX and TSXV; if a row's text mentions the venture
-    # exchange, relabel it.
-    soup_text_venture = re.compile(r"\bTSXV?\b|venture", re.I)
-    for rec in rows:
-        if soup_text_venture.search(rec["sector"]):
-            rec["exchange"] = "TSXV"
-    if not rows:
-        raise RuntimeError("No listing tables found on tsx.com")
-    return rows
-
-
-# ---------------------------------------------------------------------------
-# ASX — try the JSON feed behind the "upcoming floats & listings" page first,
-# then fall back to parsing the page's HTML tables.
-# ---------------------------------------------------------------------------
-
-ASX_PAGE = "https://www.asx.com.au/markets/trade-our-cash-market/upcoming-floats-and-listings"
-
-ASX_JSON_CANDIDATES = [
-    "https://asx.api.markitdigital.com/asx-research/1.0/companies/upcoming-floats-and-listings",
-    "https://asx.api.markitdigital.com/asx-research/1.0/companies/upcoming-listings",
-    "https://www.asx.com.au/asx/1/upcoming-floats",
-]
-
-
-def _asx_from_items(items: list[dict]) -> list[dict]:
-    out = []
-    for item in items:
-        if not isinstance(item, dict):
+    url = "https://www.tsx.com/en/news/new-company-listings"
+    soup = BeautifulSoup(http_get(url).text, "html.parser")
+    out: list[dict] = []
+    for table in soup.find_all("table"):
+        headers = [c.get_text(" ", strip=True).lower()
+                   for c in table.find_all(["th"])]
+        if "date" not in headers or "company" not in headers:
             continue
-        low = {str(k).lower(): v for k, v in item.items()}
+        for tr in table.find_all("tr"):
+            cells = tr.find_all("td")
+            if len(cells) < 2:
+                continue
+            date = parse_date(cells[0].get_text(" ", strip=True))
+            name = cells[1].get_text(" ", strip=True).replace("\xa0", " ")
+            m = re.match(r"^(.*?)\s*\(([^()]{1,12})\)\s*$", name)
+            company, ticker = (m.group(1), m.group(2)) if m else (name, "")
+            rec = record(
+                exchange="TSX",
+                company=company,
+                ticker=ticker,
+                listing_date=date,
+                status="Listed",
+                source=url,
+            )
+            if rec:
+                out.append(rec)
+    if not out:
+        raise RuntimeError("No new-company-listings table found on tsx.com")
+    return out
 
-        def pick(*keys):
-            for k in keys:
-                for lk, v in low.items():
-                    if k in lk and v not in (None, ""):
-                        return v
-            return ""
 
+# ---------------------------------------------------------------------------
+# ASX — the upcoming floats page renders one key/value detail table per
+# company (Listing date / Security code / Principal activities / ...), with
+# the company name in the nearest preceding heading.
+# ---------------------------------------------------------------------------
+
+ASX_PAGE = "https://www.asx.com.au/listings/upcoming-floats-and-listings"
+
+ASX_FIELD_LABELS = {"listing date", "contact details", "principal activities",
+                    "issue price", "issue type", "security code",
+                    "capital to be raised", "expected offer close date",
+                    "underwriter"}
+
+
+def fetch_asx() -> list[dict]:
+    soup = BeautifulSoup(http_get(ASX_PAGE).text, "html.parser")
+    out: list[dict] = []
+    for table in soup.find_all("table"):
+        kv: dict[str, str] = {}
+        for tr in table.find_all("tr"):
+            cells = tr.find_all("td")
+            if len(cells) >= 2:
+                key = cells[0].get_text(" ", strip=True).lower().rstrip(":")
+                kv[key] = cells[1].get_text(" ", strip=True)
+        if "listing date" not in kv or "security code" not in kv:
+            continue  # not a company detail table
+
+        company = ""
+        heading = table.find_previous(["h2", "h3", "h4", "h5"])
+        if heading:
+            text = heading.get_text(" ", strip=True)
+            if text and text.lower() not in ASX_FIELD_LABELS and len(text) < 120:
+                company = text
         rec = record(
             exchange="ASX",
-            company=pick("companyname", "displayname", "name", "entity"),
-            ticker=pick("symbol", "asxcode", "code", "ticker"),
-            listing_date=parse_date(pick("listingdate", "expecteddate", "date")),
-            sector=pick("industry", "sector", "gics"),
+            company=company or kv.get("security code", ""),
+            ticker=kv.get("security code", ""),
+            listing_date=parse_date(kv.get("listing date")),
+            sector=kv.get("principal activities", ""),
             status="Upcoming",
             source=ASX_PAGE,
         )
         if rec:
             out.append(rec)
+    if not out:
+        raise RuntimeError("No company detail tables found on the ASX floats page")
     return out
 
 
-def fetch_asx() -> list[dict]:
-    for url in ASX_JSON_CANDIDATES:
-        try:
-            payload = http_get(url).json()
-        except Exception:
-            continue
-        items = payload
-        if isinstance(payload, dict):
-            items = (payload.get("data") or {})
-            if isinstance(items, dict):
-                items = items.get("items") or items.get("rows") or items.get("listings") or []
-        if isinstance(items, list):
-            rows = _asx_from_items(items)
-            if rows:
-                return rows
-    # Fallback: scrape the public page.
-    html = http_get(ASX_PAGE).text
-    rows = extract_table_rows(html, "ASX", ASX_PAGE, "Upcoming")
-    if not rows:
-        raise RuntimeError("No ASX upcoming listings found via JSON or HTML")
-    return rows
-
-
 # ---------------------------------------------------------------------------
-# CSE — the CSE publishes a machine-readable feed of all listed securities,
-# including their listing dates; keep the recently listed ones.
+# CSE — the CSE publishes its full stock list as an Excel file that includes
+# each security's listing date; keep the ones listed in the past year.
 # ---------------------------------------------------------------------------
 
 def fetch_cse() -> list[dict]:
-    url = "https://webapi.thecse.ca/trading/listed/market/securities.json"
-    payload = http_get(url).json()
-    items = payload
-    if isinstance(payload, dict):
-        for key in ("securities", "data", "rows", "results"):
-            if isinstance(payload.get(key), list):
-                items = payload[key]
-                break
-    if not isinstance(items, list):
-        raise RuntimeError("Unexpected CSE feed shape")
+    import io
+
+    from openpyxl import load_workbook
+
+    url = "https://thecse.com/sites/default/files/CSE_Stock_List.xlsx"
+    wb = load_workbook(io.BytesIO(http_get(url).content), read_only=True, data_only=True)
+    ws = wb.active
+    rows = ws.iter_rows(values_only=True)
+
+    header = None
+    for row in rows:
+        cells = [str(c).strip().lower() if c is not None else "" for c in row]
+        if any("symbol" in c for c in cells) and any("company" in c or "name" in c for c in cells):
+            header = cells
+            break
+    if header is None:
+        raise RuntimeError("Could not find header row in CSE stock list")
+
+    def col(*keys):
+        for i, h in enumerate(header):
+            if any(k in h for k in keys):
+                return i
+        return None
+
+    ci_symbol = col("symbol", "ticker")
+    ci_company = col("company", "name", "security")
+    ci_date = col("date listed", "listing date", "listed", "list date")
+    ci_sector = col("industry", "sector")
+    if ci_date is None:
+        raise RuntimeError(f"CSE stock list has no listing-date column (header: {header})")
 
     out: list[dict] = []
-    for item in items:
-        if not isinstance(item, dict):
-            continue
-        low = {str(k).lower().replace("_", " "): v for k, v in item.items()}
+    for row in rows:
+        def cell(i):
+            if i is None or i >= len(row) or row[i] is None:
+                return ""
+            v = row[i]
+            return v.date().isoformat() if isinstance(v, dt.datetime) else str(v)
 
-        def pick(*keys):
-            for k in keys:
-                for lk, v in low.items():
-                    if k in lk and v not in (None, ""):
-                        return v
-            return ""
-
-        listing_date = parse_date(pick("date listed", "listed date", "listing date", "list date"))
+        listing_date = parse_date(cell(ci_date))
         if not listing_date or listing_date < KEEP_AFTER.isoformat():
             continue  # only recent listings belong in an IPO table
         rec = record(
             exchange="CSE",
-            company=pick("company", "name", "security"),
-            ticker=pick("symbol", "ticker"),
+            company=cell(ci_company),
+            ticker=cell(ci_symbol),
             listing_date=listing_date,
-            sector=pick("industry", "sector"),
+            sector=cell(ci_sector),
             status="Listed",
-            source="https://thecse.com/listings/",
+            source="https://thecse.com/listing/listed-companies/",
         )
         if rec:
             out.append(rec)
     if not out:
-        raise RuntimeError("CSE feed returned no recent listings")
+        raise RuntimeError("CSE stock list yielded no recent listings")
     return out
 
 
