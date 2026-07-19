@@ -1,10 +1,5 @@
 {
-  "updated_at": "2026-07-19T05:29:44+00:00",
-  "sources_failed": [
-    "US",
-    "TSX",
-    "ASX",
-    "CSE"
-  ],
+  "updated_at": null,
+  "sources_failed": [],
   "ipos": []
 }
