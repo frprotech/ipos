@@ -16,17 +16,13 @@ HEADERS = {
 }
 
 URLS = [
-    # TSX
-    "https://www.tsx.com/en/news/new-company-listings",
-    "https://www.tsx.com/en/listings/current-market-statistics",
-    # ASX
-    "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-    "https://asx.api.markitdigital.com/asx-research/1.0/companies/upcoming-floats-and-listings",
-    "https://www.asx.com.au/asx/1/upcoming-floats",
-    # CSE
-    "https://listings.thecse.com/en/listings",
+    # CSE — hunt for the current stock-list file / data API
     "https://thecse.com/listing/listed-companies/",
-    "https://webapi.thecse.ca/trading/listed/market/securities.json",
+    "https://thecse.com/market-activity/market-overview/",
+    "https://market-reports.thecse.com/Deprecated/CSE%20Stock%20List%20Changes.xlsx",
+    "https://market-reports.thecse.com/CSE%20Stock%20List.xlsx",
+    "https://market-reports.thecse.com/CSE_Stock_List.xlsx",
+    "https://listings.thecse.com/sites/default/files/CSE_Stock_List.xlsx",
 ]
 
 for url in URLS:
@@ -37,37 +33,27 @@ for url in URLS:
         ct = r.headers.get("content-type", "")
         print("STATUS:", r.status_code, "| TYPE:", ct, "| LEN:", len(r.content),
               "| FINAL-URL:", r.url)
-        if r.status_code != 200:
-            print("BODY-HEAD:", r.text[:500].replace("\n", " "))
+        if r.status_code != 200 or "html" not in ct:
             continue
         body = r.text
 
-        # Any embedded API-ish endpoints (for JS-rendered pages).
-        apiish = sorted(set(re.findall(
-            r"https?://[^\"'\s<>\\]+(?:api|json|graphql)[^\"'\s<>\\]*", body, re.I)))
-        for m in apiish[:25]:
-            print("  EMBEDDED-API:", m)
+        for label, pattern in [
+            ("XLSX", r"[^\"'\s<>]*\.xlsx?[^\"'\s<>]*"),
+            ("CSV", r"[^\"'\s<>]*\.csv[^\"'\s<>]*"),
+            ("REL-API", r"[\"'](/[^\"']*api[^\"']*)[\"']"),
+            ("ABS-API", r"https?://[^\"'\s<>\\]+(?:api|json|graphql)[^\"'\s<>\\]*"),
+        ]:
+            for m in sorted(set(re.findall(pattern, body, re.I)))[:15]:
+                print(f"  {label}:", m)
 
-        if "json" in ct:
-            print("JSON-HEAD:")
-            print(body[:4000])
-            continue
-
-        tables = re.findall(r"<table.*?</table>", body, re.S | re.I)
-        print("  TABLE-COUNT:", len(tables))
-        for t in tables[:2]:
-            print("  TABLE-HEAD:", re.sub(r"\s+", " ", t)[:2500])
-
-        # Anchors that look like listing items or data files.
-        anchors = re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', body, re.S | re.I)
-        interesting = [(h, re.sub(r"<[^>]+>|\s+", " ", txt).strip()[:80])
-                       for h, txt in anchors
-                       if re.search(r"new-company-listings\?|\.xlsx|\.csv|\.json|recent|float|listed",
-                                    h, re.I)]
-        for h, txt in interesting[:30]:
-            print("  ANCHOR:", h, "|", txt)
-
-        if not tables and not interesting:
-            print("BODY-HEAD:", re.sub(r"\s+", " ", body)[:2500])
+        # Next.js hints
+        if "__NEXT_DATA__" in body:
+            print("  HAS __NEXT_DATA__")
+        for m in sorted(set(re.findall(r'"buildId"\s*:\s*"([^"]+)"', body)))[:3]:
+            print("  NEXT-BUILD-ID:", m)
+        # Context around 'stock list' mentions
+        for m in re.finditer(r"stock[\s_-]*list", body, re.I):
+            start = max(0, m.start() - 150)
+            print("  CTX:", re.sub(r"\s+", " ", body[start:m.end() + 150]))
     except Exception as exc:
         print("ERROR:", exc)

@@ -247,6 +247,11 @@ ASX_FIELD_LABELS = {"listing date", "contact details", "principal activities",
                     "capital to be raised", "expected offer close date",
                     "underwriter"}
 
+ASX_DATE_TAIL = re.compile(
+    r"\s*[-–—]\s*(?:(?:mon|tues|wednes|thurs|fri|satur|sun)day\b.*"
+    r"|\d{1,2}\s+(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\w*\s+20\d\d.*)$",
+    re.I)
+
 
 def fetch_asx() -> list[dict]:
     soup = BeautifulSoup(http_get(ASX_PAGE).text, "html.parser")
@@ -266,7 +271,9 @@ def fetch_asx() -> list[dict]:
         if heading:
             text = heading.get_text(" ", strip=True)
             if text and text.lower() not in ASX_FIELD_LABELS and len(text) < 120:
-                company = text
+                # Headings read "Company Name - Monday 31 August 2026 ..." —
+                # drop the date tail.
+                company = ASX_DATE_TAIL.sub("", text).strip()
         rec = record(
             exchange="ASX",
             company=company or kv.get("security code", ""),
