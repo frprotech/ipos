@@ -55,8 +55,12 @@
   .result-count { color: var(--muted); font-size: 13px; margin: 0 0 10px 2px; }
 
   .table-card { border-radius: 14px; overflow: hidden; box-shadow: 0 1px 3px rgba(20,30,60,.08); border: 1px solid var(--border); }
-  .scroller { overflow: auto; max-height: 660px; }
-  table { width: 100%; border-collapse: collapse; min-width: 720px; }
+  .scroller { overflow: auto; max-height: 700px; }
+  table { width: 100%; border-collapse: collapse; min-width: 720px; table-layout: fixed; }
+  col.col-company { width: 42%; }
+  col.col-ticker { width: 14%; }
+  col.col-exchange { width: 16%; }
+  col.col-date { width: 28%; }
   thead th {
     position: sticky; top: 0; z-index: 1;
     background: var(--blue); color: #fff; text-align: left;
@@ -64,23 +68,33 @@
     cursor: pointer; user-select: none; white-space: nowrap;
   }
   thead th .arrow { font-size: 11px; opacity: .85; margin-left: 4px; }
-  tbody td { padding: 15px 18px; font-size: 15px; border-top: 1px solid var(--border); white-space: nowrap; vertical-align: top; }
-  tbody td.company { white-space: normal; font-weight: 500; }
-  .company-sub { font-weight: 400; color: var(--muted); font-size: 12.5px; margin-top: 3px; }
+  tbody td {
+    padding: 15px 18px; font-size: 15px; border-top: 1px solid var(--border);
+    vertical-align: top; height: 74px; overflow: hidden;
+  }
+  tbody td.company { font-weight: 500; }
+  .company-name {
+    display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .company-sub {
+    font-weight: 400; color: var(--muted); font-size: 12.5px; margin-top: 3px;
+    min-height: 16px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
   tbody tr:nth-child(even) { background: var(--row-alt); }
   tbody tr:hover { background: #eef3fd; }
   .ticker {
     display: inline-block; background: var(--pill); color: #fff;
     padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600;
+    white-space: nowrap;
   }
   .ticker.empty { background: #d6dae6; color: #5a6070; }
-  .exch a { color: var(--blue); text-decoration: none; }
+  .exch a { color: var(--blue); text-decoration: none; white-space: nowrap; }
   .exch a:hover { text-decoration: underline; }
   .muted { color: var(--muted); }
   .empty-state { padding: 40px; text-align: center; color: var(--muted); }
 
   .date-main { white-space: nowrap; }
-  .date-sub { margin-top: 5px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .date-sub { margin-top: 5px; display: flex; align-items: center; gap: 6px; flex-wrap: nowrap; overflow: hidden; }
   .badge {
     display: inline-block; padding: 2px 9px; border-radius: 999px;
     font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em;
@@ -129,6 +143,9 @@
   <div class="table-card">
     <div class="scroller">
       <table>
+        <colgroup>
+          <col class="col-company"><col class="col-ticker"><col class="col-exchange"><col class="col-date">
+        </colgroup>
         <thead>
           <tr>
             <th data-sort="company">Company<span class="arrow"></span></th>
@@ -302,8 +319,11 @@
       const rel = relativeLabel(r.listing_date, todayIso);
 
       return "<tr>" +
-        '<td class="company">' + esc(r.company) +
-          (r.sector ? '<div class="company-sub">' + esc(r.sector) + "</div>" : "") +
+        '<td class="company">' +
+          '<span class="company-name" title="' + esc(r.company) + '">' + esc(r.company) + "</span>" +
+          '<div class="company-sub"' + (r.sector ? ' title="' + esc(r.sector) + '"' : "") + ">" +
+            (r.sector ? esc(r.sector) : "") +
+          "</div>" +
         "</td>" +
         "<td>" + (r.ticker
           ? '<span class="ticker">' + esc(r.ticker) + "</span>"
