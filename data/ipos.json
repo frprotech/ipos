@@ -1,5 +1,550 @@
 {
-  "updated_at": null,
-  "sources_failed": [],
-  "ipos": []
+  "updated_at": "2026-07-19T05:41:20+00:00",
+  "sources_failed": [
+    "TSX",
+    "ASX",
+    "CSE"
+  ],
+  "ipos": [
+    {
+      "company": "Southern Cross Acquisition I Corp.",
+      "ticker": "NCOU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-17",
+      "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "QumulusAI, Inc.",
+      "ticker": "QMLS",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-16",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Standard Nuclear, Inc.",
+      "ticker": "STDN",
+      "exchange": "NYSE",
+      "listing_date": "2026-07-16",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Csquare, Inc.",
+      "ticker": "CSQR",
+      "exchange": "NYSE",
+      "listing_date": "2026-07-16",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Jones Ventures INTL Acquisition1 Corp",
+      "ticker": "JONEU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-14",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Research Alliance Corp IV",
+      "ticker": "RACD",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-13",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Samos Energy Acquisition Corp",
+      "ticker": "SAMOU",
+      "exchange": "NYSE",
+      "listing_date": "2026-07-10",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "SK hynix Inc.",
+      "ticker": "SKHY",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-10",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Columbus Circle Capital Corp III",
+      "ticker": "CCCTU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-09",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Mercator Acquisition Corp.",
+      "ticker": "MRCOU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-09",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Freedom Metals Acquisition Corp.",
+      "ticker": "FDMMU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-08",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Bleichroeder Acquisition Corp. III",
+      "ticker": "BCCQU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-07",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Viking Acquisition Corp. II",
+      "ticker": "VIIU",
+      "exchange": "NYSE",
+      "listing_date": "2026-07-02",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Meridian3 Industrials Acquisition Corp",
+      "ticker": "MIACU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-02",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "ITG, Inc./DE/",
+      "ticker": "ITG",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-01",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Neutron Holdings, Inc.",
+      "ticker": "LIME",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-01",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Bending Spoons S.p.A.",
+      "ticker": "BSP",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-01",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Osprey Acquisition Corp. III",
+      "ticker": "OSPRU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-01",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Ares Acquisition Corp III",
+      "ticker": "AAC'U",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-30",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Sinda Ltd.",
+      "ticker": "SIND",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-26",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Alpex Acquisition Corp",
+      "ticker": "ALPXU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-25",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Futurewave Acquisition Corp",
+      "ticker": "FWACU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-25",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Cartesian Growth Corp IV",
+      "ticker": "CGCFU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-25",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "DPC Holdings Ltd",
+      "ticker": "DPC",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-25",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "DSC Holdings Ltd.",
+      "ticker": "DSC",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-25",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Gores Holdings XI, Inc.",
+      "ticker": "GHXIU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-23",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "First Carolina Financial Services, Inc.",
+      "ticker": "FCBM",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-18",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Kardigan, Inc.",
+      "ticker": "KARD",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-18",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Wilco 63 Corp",
+      "ticker": "WLCOU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-18",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Texas Ventures Acquisition IV Corp",
+      "ticker": "TVIVU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-18",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "DEEP FISSION, INC.",
+      "ticker": "FISN",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-18",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Cantor Equity Partners VII, Inc.",
+      "ticker": "CAES",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-17",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Yorkville International Capital Corp.",
+      "ticker": "YICCU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-16",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "SPACE EXPLORATION TECHNOLOGIES CORP",
+      "ticker": "SPCX",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-12",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Forbright, Inc.",
+      "ticker": "FRBT",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-11",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "JAB Acquisition Corp I",
+      "ticker": "JABRU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-10",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "ERock, Inc.",
+      "ticker": "EROC",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-10",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Parabilis Medicines, Inc.",
+      "ticker": "PBLS",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-10",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "RMG ML Sports Holdings",
+      "ticker": "SHOTU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-10",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "WhiteHawk Minerals Corp.",
+      "ticker": "WHK",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-09",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Ocean Capital Acquisition Corp",
+      "ticker": "OCACU",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-09",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Eloxx Pharmaceuticals, Inc.",
+      "ticker": "ELOX",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-09",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Snow Rothschild Acquisition Corp.",
+      "ticker": "ISNRU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-09",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "FutureCorp Space Acquisition 1",
+      "ticker": "FTRAU",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-05",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Long Table Growth Corp.",
+      "ticker": "LTGRU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-04",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Liftoff Mobile, Inc.",
+      "ticker": "LFTO",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-04",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Sunshine Silver Mining & Refining Co",
+      "ticker": "SSMR",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-04",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "InterPrivate Investment Partners V, Inc.",
+      "ticker": "IPVVU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-04",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Quantinuum Inc.",
+      "ticker": "QNT",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-04",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "INNIO N.V.",
+      "ticker": "INIO",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-04",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Applied Aerospace & Defense, Inc.",
+      "ticker": "AADX",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-03",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Keystone Acquisition Corp.",
+      "ticker": "KEYYU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-03",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "AmperCap Acquisition Co",
+      "ticker": "APMCU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-03",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Aeon Acquisition I Corp.",
+      "ticker": "AESPU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-03",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    }
+  ]
 }
