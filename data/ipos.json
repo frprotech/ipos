@@ -1,10 +1,2306 @@
 {
-  "updated_at": "2026-07-19T05:29:44+00:00",
-  "sources_failed": [
-    "US",
-    "TSX",
-    "ASX",
-    "CSE"
-  ],
-  "ipos": []
+  "updated_at": "2026-07-19T13:52:30+00:00",
+  "sources_failed": [],
+  "ipos": [
+    {
+      "company": "Energy Fuels Inc.",
+      "ticker": "EF2",
+      "exchange": "ASX",
+      "listing_date": "2026-08-31",
+      "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Whiterock Lithium Corp.",
+      "ticker": "WLC",
+      "exchange": "ASX",
+      "listing_date": "2026-08-20",
+      "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Powerhaus Uranium Limited",
+      "ticker": "POW",
+      "exchange": "ASX",
+      "listing_date": "2026-08-17",
+      "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Almasar Minerals Limited",
+      "ticker": "AMK",
+      "exchange": "ASX",
+      "listing_date": "2026-08-14",
+      "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Aventine Resources Ltd",
+      "ticker": "ARE",
+      "exchange": "ASX",
+      "listing_date": "2026-08-07",
+      "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Elk Range Mining Limited",
+      "ticker": "ELK",
+      "exchange": "ASX",
+      "listing_date": "2026-08-03",
+      "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Alurion Resources Limited",
+      "ticker": "ALU",
+      "exchange": "ASX",
+      "listing_date": "2026-07-31",
+      "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Ceretas Limited",
+      "ticker": "CTS",
+      "exchange": "ASX",
+      "listing_date": "2026-07-28",
+      "sector": "Healthcare",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Gwardar Resources Limited",
+      "ticker": "GRS",
+      "exchange": "ASX",
+      "listing_date": "2026-07-28",
+      "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Monvia Limited",
+      "ticker": "MNV",
+      "exchange": "ASX",
+      "listing_date": "2026-07-24",
+      "sector": "Technology",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Southern Cross Acquisition I Corp.",
+      "ticker": "NCOU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-17",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Lux Copper Corp. Ltd",
+      "ticker": "LUX",
+      "exchange": "ASX",
+      "listing_date": "2026-07-17",
+      "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "QumulusAI, Inc.",
+      "ticker": "QMLS",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-16",
+      "sector": "Technology",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Standard Nuclear, Inc.",
+      "ticker": "STDN",
+      "exchange": "NYSE",
+      "listing_date": "2026-07-16",
+      "sector": "Energy",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Csquare, Inc.",
+      "ticker": "CSQR",
+      "exchange": "NYSE",
+      "listing_date": "2026-07-16",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Jones Ventures INTL Acquisition1 Corp",
+      "ticker": "JONEU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-14",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Research Alliance Corp IV",
+      "ticker": "RACD",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-13",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Samos Energy Acquisition Corp",
+      "ticker": "SAMOU",
+      "exchange": "NYSE",
+      "listing_date": "2026-07-10",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "SK hynix Inc.",
+      "ticker": "SKHY",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-10",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Columbus Circle Capital Corp III",
+      "ticker": "CCCTU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-09",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Mercator Acquisition Corp.",
+      "ticker": "MRCOU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-09",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Freedom Metals Acquisition Corp.",
+      "ticker": "FDMMU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-08",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Bleichroeder Acquisition Corp. III",
+      "ticker": "BCCQU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-07",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Viking Acquisition Corp. II",
+      "ticker": "VIIU",
+      "exchange": "NYSE",
+      "listing_date": "2026-07-02",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Meridian3 Industrials Acquisition Corp",
+      "ticker": "MIACU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-02",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "ITG, Inc./DE/",
+      "ticker": "ITG",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-01",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Neutron Holdings, Inc.",
+      "ticker": "LIME",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-01",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Bending Spoons S.p.A.",
+      "ticker": "BSP",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-01",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Osprey Acquisition Corp. III",
+      "ticker": "OSPRU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-01",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Ares Acquisition Corp III",
+      "ticker": "AAC'U",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-30",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Sinda Ltd.",
+      "ticker": "SIND",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-26",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Alpex Acquisition Corp",
+      "ticker": "ALPXU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-25",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Futurewave Acquisition Corp",
+      "ticker": "FWACU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-25",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Cartesian Growth Corp IV",
+      "ticker": "CGCFU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-25",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "DPC Holdings Ltd",
+      "ticker": "DPC",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-25",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "DSC Holdings Ltd.",
+      "ticker": "DSC",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-25",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Gores Holdings XI, Inc.",
+      "ticker": "GHXIU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-23",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "First Carolina Financial Services, Inc.",
+      "ticker": "FCBM",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-18",
+      "sector": "Financial Services",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Kardigan, Inc.",
+      "ticker": "KARD",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-18",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Wilco 63 Corp",
+      "ticker": "WLCOU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-18",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Texas Ventures Acquisition IV Corp",
+      "ticker": "TVIVU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-18",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "DEEP FISSION, INC.",
+      "ticker": "FISN",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-18",
+      "sector": "Energy",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Cantor Equity Partners VII, Inc.",
+      "ticker": "CAES",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-17",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Yorkville International Capital Corp.",
+      "ticker": "YICCU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-16",
+      "sector": "Financial Services",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "SPACE EXPLORATION TECHNOLOGIES CORP",
+      "ticker": "SPCX",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-12",
+      "sector": "Mining & Materials",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Forbright, Inc.",
+      "ticker": "FRBT",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-11",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "JAB Acquisition Corp I",
+      "ticker": "JABRU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-10",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "ERock, Inc.",
+      "ticker": "EROC",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-10",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Parabilis Medicines, Inc.",
+      "ticker": "PBLS",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-10",
+      "sector": "Healthcare",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "RMG ML Sports Holdings",
+      "ticker": "SHOTU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-10",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "WhiteHawk Minerals Corp.",
+      "ticker": "WHK",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-09",
+      "sector": "Mining & Materials",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Ocean Capital Acquisition Corp",
+      "ticker": "OCACU",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-09",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Eloxx Pharmaceuticals, Inc.",
+      "ticker": "ELOX",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-09",
+      "sector": "Healthcare",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Snow Rothschild Acquisition Corp.",
+      "ticker": "ISNRU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-09",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "FutureCorp Space Acquisition 1",
+      "ticker": "FTRAU",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-05",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Long Table Growth Corp.",
+      "ticker": "LTGRU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-04",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Liftoff Mobile, Inc.",
+      "ticker": "LFTO",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-04",
+      "sector": "Technology",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Sunshine Silver Mining & Refining Co",
+      "ticker": "SSMR",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-04",
+      "sector": "Mining & Materials",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "InterPrivate Investment Partners V, Inc.",
+      "ticker": "IPVVU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-04",
+      "sector": "Financial Services",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Quantinuum Inc.",
+      "ticker": "QNT",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-04",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "INNIO N.V.",
+      "ticker": "INIO",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-04",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Applied Aerospace & Defense, Inc.",
+      "ticker": "AADX",
+      "exchange": "NYSE",
+      "listing_date": "2026-06-03",
+      "sector": "Industrials",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Keystone Acquisition Corp.",
+      "ticker": "KEYYU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-03",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "AmperCap Acquisition Co",
+      "ticker": "APMCU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-03",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Aeon Acquisition I Corp.",
+      "ticker": "AESPU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-06-03",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Atlantico Energy Metals Corp.",
+      "ticker": "ATLA",
+      "exchange": "CSE",
+      "listing_date": "2026-06-03",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Flow Capital Corp",
+      "ticker": "FW",
+      "exchange": "CSE",
+      "listing_date": "2026-06-01",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Avila Energy Corporation 22MAY2031 Warrants",
+      "ticker": "VIK.WT",
+      "exchange": "CSE",
+      "listing_date": "2026-05-25",
+      "sector": "Energy",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Purecore Metals Inc.",
+      "ticker": "PURE",
+      "exchange": "CSE",
+      "listing_date": "2026-05-15",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "North America Home Finance Inc. Series 1 Non-Voting Preferred Shares",
+      "ticker": "NAHF.PR.A",
+      "exchange": "CSE",
+      "listing_date": "2026-05-12",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Hamilton Canadian Equity YIELD MAXIMIZER\u2122 ETF",
+      "ticker": "CMAX",
+      "exchange": "TSX",
+      "listing_date": "2026-05-08",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Hamilton International Equity YIELD MAXIMIZER\u2122 ETF",
+      "ticker": "IMAX",
+      "exchange": "TSX",
+      "listing_date": "2026-05-08",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Yocale.ai Inc.",
+      "ticker": "YAI",
+      "exchange": "CSE",
+      "listing_date": "2026-05-07",
+      "sector": "Technology",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Amphenol CDR (CAD Hedged)",
+      "ticker": "APH",
+      "exchange": "TSX",
+      "listing_date": "2026-05-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "CoreWeave CDR (CAD Hedged)",
+      "ticker": "CRWV",
+      "exchange": "TSX",
+      "listing_date": "2026-05-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "D.R. Horton CDR (CAD Hedged)",
+      "ticker": "DHI",
+      "exchange": "TSX",
+      "listing_date": "2026-05-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Freeport-McMoRan CDR (CAD Hedged)",
+      "ticker": "FCXS",
+      "exchange": "TSX",
+      "listing_date": "2026-05-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Intuit CDR (CAD Hedged)",
+      "ticker": "INTU",
+      "exchange": "TSX",
+      "listing_date": "2026-05-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "KLA CDR (CAD Hedged)",
+      "ticker": "KLAC",
+      "exchange": "TSX",
+      "listing_date": "2026-05-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Lam Research CDR (CAD Hedged)",
+      "ticker": "LRCX",
+      "exchange": "TSX",
+      "listing_date": "2026-05-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Marvell Technology CDR (CAD Hedged)",
+      "ticker": "MRV",
+      "exchange": "TSX",
+      "listing_date": "2026-05-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Northrop Grumman CDR (CAD Hedged)",
+      "ticker": "NOC",
+      "exchange": "TSX",
+      "listing_date": "2026-05-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Quanta Services CDR (CAD Hedged)",
+      "ticker": "PWRS",
+      "exchange": "TSX",
+      "listing_date": "2026-05-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Sandisk CDR (CAD Hedged)",
+      "ticker": "SNDK",
+      "exchange": "TSX",
+      "listing_date": "2026-05-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Stryker CDR (CAD Hedged)",
+      "ticker": "SYK",
+      "exchange": "TSX",
+      "listing_date": "2026-05-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "T-Mobile CDR (CAD Hedged)",
+      "ticker": "TMUS",
+      "exchange": "TSX",
+      "listing_date": "2026-05-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Vertiv CDR (CAD Hedged)",
+      "ticker": "VRT",
+      "exchange": "TSX",
+      "listing_date": "2026-05-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Western Digital CDR (CAD Hedged)",
+      "ticker": "WDC",
+      "exchange": "TSX",
+      "listing_date": "2026-05-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "JPMorgan Nasdaq Equity Premium Income Active ETF - CAD Hedged",
+      "ticker": "JPQH",
+      "exchange": "TSX",
+      "listing_date": "2026-05-01",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "JPMorgan US Equity Premium Income Active ETF - CAD Hedged",
+      "ticker": "JEPH",
+      "exchange": "TSX",
+      "listing_date": "2026-05-01",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "NG Energy International Corp. (GASX, GASX.WT.A, GAS)",
+      "ticker": "",
+      "exchange": "TSX",
+      "listing_date": "2026-04-30",
+      "sector": "Energy",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Global X U.S. Infrastructure Development Index ETF",
+      "ticker": "PAVE.U, PAVE",
+      "exchange": "TSX",
+      "listing_date": "2026-04-29",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Lumina Metals Corp.",
+      "ticker": "LMCU",
+      "exchange": "TSX",
+      "listing_date": "2026-04-29",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Global X Space Tech Index ETF",
+      "ticker": "ORBX",
+      "exchange": "TSX",
+      "listing_date": "2026-04-28",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "ATEX Resources Inc.",
+      "ticker": "ATX",
+      "exchange": "TSX",
+      "listing_date": "2026-04-27",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Manulife Balanced ETF Portfolio",
+      "ticker": "MBAP",
+      "exchange": "TSX",
+      "listing_date": "2026-04-27",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Manulife Conservative ETF Portfolio",
+      "ticker": "MCAP",
+      "exchange": "TSX",
+      "listing_date": "2026-04-27",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Manulife Growth ETF Portfolio",
+      "ticker": "MGAP",
+      "exchange": "TSX",
+      "listing_date": "2026-04-27",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Walhalla Gold Corp.",
+      "ticker": "WAU",
+      "exchange": "CSE",
+      "listing_date": "2026-04-27",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Great Red Lake Gold Corp.",
+      "ticker": "RLGC",
+      "exchange": "CSE",
+      "listing_date": "2026-04-23",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Predictive Discovery Limited",
+      "ticker": "PDI",
+      "exchange": "TSX",
+      "listing_date": "2026-04-20",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Trulieve Cannabis Corp. 17DEC2030 10.5% Senior Secured Notes",
+      "ticker": "TRUL.NT.A.U",
+      "exchange": "CSE",
+      "listing_date": "2026-04-20",
+      "sector": "Healthcare",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "First Trust Nasdaq\u00ae Clean Edge\u00ae Smart Grid Infrastructure ETF",
+      "ticker": "SGRD",
+      "exchange": "TSX",
+      "listing_date": "2026-04-17",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Ninepoint Alphabet HighShares ETF",
+      "ticker": "GOHI",
+      "exchange": "TSX",
+      "listing_date": "2026-04-15",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Ninepoint Intel HighShares ETF",
+      "ticker": "INHI",
+      "exchange": "TSX",
+      "listing_date": "2026-04-15",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Ninepoint NVIDIA HighShares ETF",
+      "ticker": "NVHI",
+      "exchange": "TSX",
+      "listing_date": "2026-04-15",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Ninepoint Palantir HighShares ETF",
+      "ticker": "PLHI",
+      "exchange": "TSX",
+      "listing_date": "2026-04-15",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Ninepoint Tesla HighShares ETF",
+      "ticker": "TSHI",
+      "exchange": "TSX",
+      "listing_date": "2026-04-15",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "QuantumCore Ltd.",
+      "ticker": "QNCR",
+      "exchange": "CSE",
+      "listing_date": "2026-04-14",
+      "sector": "Technology",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Contango Silver & Gold Inc.",
+      "ticker": "CTGO",
+      "exchange": "TSX",
+      "listing_date": "2026-04-13",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "IA Clarington Global Multifactor Equity Fund",
+      "ticker": "IMFE",
+      "exchange": "TSX",
+      "listing_date": "2026-04-10",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "IA Clarington Thematic Innovation Class",
+      "ticker": "ITIN",
+      "exchange": "TSX",
+      "listing_date": "2026-04-10",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Ninepoint Celestica HighShares ETF",
+      "ticker": "CLHI",
+      "exchange": "TSX",
+      "listing_date": "2026-04-10",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Ninepoint Constellation Software CoreShares ETF",
+      "ticker": "CSUC",
+      "exchange": "TSX",
+      "listing_date": "2026-04-10",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Ninepoint Constellation Software HighShares ETF",
+      "ticker": "CSHI",
+      "exchange": "TSX",
+      "listing_date": "2026-04-10",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Ninepoint Kinross Gold HighShares ETF",
+      "ticker": "KGHI",
+      "exchange": "TSX",
+      "listing_date": "2026-04-10",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Elemental Royalty Corporation",
+      "ticker": "ELE",
+      "exchange": "TSX",
+      "listing_date": "2026-04-07",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "TelyRx Holdings Inc.",
+      "ticker": "TELY",
+      "exchange": "TSX",
+      "listing_date": "2026-04-07",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "RBC Canadian Equity ETF",
+      "ticker": "RCAN",
+      "exchange": "TSX",
+      "listing_date": "2026-04-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "RBC Target 2032 Canadian Corporate Bond ETF",
+      "ticker": "RQU",
+      "exchange": "TSX",
+      "listing_date": "2026-04-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "RBC Target 2032 Canadian Government Bond ETF",
+      "ticker": "RGQU",
+      "exchange": "TSX",
+      "listing_date": "2026-04-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "RBC Target 2032 U.S. Corporate Bond ETF",
+      "ticker": "RUQU, RUQU.U",
+      "exchange": "TSX",
+      "listing_date": "2026-04-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "RBC U.S. Large-Cap Equity ETF",
+      "ticker": "RUSA, RUSA.U",
+      "exchange": "TSX",
+      "listing_date": "2026-04-06",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Elysian Mineral Exploration Corp.",
+      "ticker": "ELYX",
+      "exchange": "CSE",
+      "listing_date": "2026-04-02",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Americas Uranium Corp.",
+      "ticker": "NUCA",
+      "exchange": "CSE",
+      "listing_date": "2026-03-31",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Avantis CIBC Emerging Markets Equity ETF",
+      "ticker": "CAEM",
+      "exchange": "TSX",
+      "listing_date": "2026-03-30",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Brompton Global Cash Flow Kings ETF",
+      "ticker": "KNGG",
+      "exchange": "TSX",
+      "listing_date": "2026-03-30",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Brompton Global Equity HighPay ETF",
+      "ticker": "PAYG",
+      "exchange": "TSX",
+      "listing_date": "2026-03-30",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Humilis Fundamental Opportunities ETF",
+      "ticker": "HBOP",
+      "exchange": "TSX",
+      "listing_date": "2026-03-30",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Humilis North American Dividend Growth ETF",
+      "ticker": "HBDV",
+      "exchange": "TSX",
+      "listing_date": "2026-03-30",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Humilis North American Tactical Equity Fund",
+      "ticker": "HBTA",
+      "exchange": "TSX",
+      "listing_date": "2026-03-30",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "ICG Silver Gold Ltd.",
+      "ticker": "ICG",
+      "exchange": "CSE",
+      "listing_date": "2026-03-27",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Xanadu Quantum Technologies Limited",
+      "ticker": "XNDU",
+      "exchange": "TSX",
+      "listing_date": "2026-03-26",
+      "sector": "Technology",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Rockbridge Resources Inc.",
+      "ticker": "ROCB",
+      "exchange": "CSE",
+      "listing_date": "2026-03-26",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Bunker Hill Mining Corp.",
+      "ticker": "BNKR",
+      "exchange": "TSX",
+      "listing_date": "2026-03-25",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Global X NYSE 100 Index ETF",
+      "ticker": "NYSX, NYSX.U",
+      "exchange": "TSX",
+      "listing_date": "2026-03-25",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Metatek-Group Ltd.",
+      "ticker": "MTEK",
+      "exchange": "TSX",
+      "listing_date": "2026-03-25",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Vanguard U.S. High Dividend Yield Index ETF",
+      "ticker": "VUDV",
+      "exchange": "TSX",
+      "listing_date": "2026-03-24",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "All-Canadian Oil & Gas ETF",
+      "ticker": "COIL",
+      "exchange": "TSX",
+      "listing_date": "2026-03-20",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Clinch Resources Ltd.",
+      "ticker": "CLCH",
+      "exchange": "TSX",
+      "listing_date": "2026-03-20",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Volatus Aerospace Inc.",
+      "ticker": "FLT",
+      "exchange": "TSX",
+      "listing_date": "2026-03-20",
+      "sector": "Industrials",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Avantis CIBC All-Equity Asset Allocation ETF",
+      "ticker": "CAGE",
+      "exchange": "TSX",
+      "listing_date": "2026-03-17",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Middlefield ActivEnergy Dividend Class",
+      "ticker": "MAEC",
+      "exchange": "TSX",
+      "listing_date": "2026-03-17",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Middlefield Income Plus Class",
+      "ticker": "MIPC",
+      "exchange": "TSX",
+      "listing_date": "2026-03-17",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Coeur Mining, Inc.",
+      "ticker": "CDE",
+      "exchange": "TSX",
+      "listing_date": "2026-03-16",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Manulife CQS Multi Asset Credit Fund",
+      "ticker": "MMAC",
+      "exchange": "TSX",
+      "listing_date": "2026-03-16",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Avantis CIBC Global Small Cap Value ETF",
+      "ticker": "CASV",
+      "exchange": "TSX",
+      "listing_date": "2026-03-12",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Avantis CIBC International Equity ETF",
+      "ticker": "CADE",
+      "exchange": "TSX",
+      "listing_date": "2026-03-12",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Rise Nano Optics Ltd.",
+      "ticker": "EYE",
+      "exchange": "CSE",
+      "listing_date": "2026-03-12",
+      "sector": "Technology",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Evolve All-in-One UltraYield ETF",
+      "ticker": "EASY",
+      "exchange": "TSX",
+      "listing_date": "2026-03-11",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Trading Central Quant Canada 50 Equity Index ETF",
+      "ticker": "TCCA",
+      "exchange": "TSX",
+      "listing_date": "2026-03-10",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Trading Central Quant Europe 50 Equity Index ETF",
+      "ticker": "TCEU",
+      "exchange": "TSX",
+      "listing_date": "2026-03-10",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Trading Central Quant Global 50 Equity Index ETF",
+      "ticker": "TCWW",
+      "exchange": "TSX",
+      "listing_date": "2026-03-10",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Trading Central Quant U.S. 50 Equity Index ETF",
+      "ticker": "TCUS",
+      "exchange": "TSX",
+      "listing_date": "2026-03-10",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Guardian Canadian Equity Income Fund",
+      "ticker": "GCEI",
+      "exchange": "TSX",
+      "listing_date": "2026-03-09",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Guardian Fundamental Global Equity Fund",
+      "ticker": "GFGE",
+      "exchange": "TSX",
+      "listing_date": "2026-03-09",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Guardian Short Duration Bond Fund",
+      "ticker": "GSDB",
+      "exchange": "TSX",
+      "listing_date": "2026-03-09",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "AGT Food and Ingredients Inc.",
+      "ticker": "AGTF",
+      "exchange": "TSX",
+      "listing_date": "2026-03-06",
+      "sector": "Consumer Defensive",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Cannara Biotech Inc.",
+      "ticker": "LOVE",
+      "exchange": "TSX",
+      "listing_date": "2026-03-02",
+      "sector": "Healthcare",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Silver Mountain Resources Inc. (AGMR, AGMR.WT.B)",
+      "ticker": "",
+      "exchange": "TSX",
+      "listing_date": "2026-02-26",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "North America Home Finance Inc.",
+      "ticker": "NAHF",
+      "exchange": "CSE",
+      "listing_date": "2026-02-24",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "North America Home Finance Inc. Warrants",
+      "ticker": "NAHF.WT",
+      "exchange": "CSE",
+      "listing_date": "2026-02-24",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Beaumont Exploration Corp.",
+      "ticker": "BEAU",
+      "exchange": "CSE",
+      "listing_date": "2026-02-24",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Avantis CIBC Canadian Equity ETF",
+      "ticker": "CACE",
+      "exchange": "TSX",
+      "listing_date": "2026-02-19",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Avantis CIBC U.S. All-Cap Equity ETF",
+      "ticker": "CAUS",
+      "exchange": "TSX",
+      "listing_date": "2026-02-19",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Avantis CIBC U.S. Large Cap Value ETF",
+      "ticker": "CALV",
+      "exchange": "TSX",
+      "listing_date": "2026-02-19",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Avantis CIBC U.S. Small Cap Value ETF",
+      "ticker": "CAUV",
+      "exchange": "TSX",
+      "listing_date": "2026-02-19",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "ReVolve Renewable Power Corp.",
+      "ticker": "REVV",
+      "exchange": "CSE",
+      "listing_date": "2026-02-19",
+      "sector": "Clean Energy",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "NetraMark Holdings Inc.",
+      "ticker": "AIAI",
+      "exchange": "TSX",
+      "listing_date": "2026-02-18",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Rua Gold Inc.",
+      "ticker": "RUA",
+      "exchange": "TSX",
+      "listing_date": "2026-02-17",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Russell Investments Core Plus Fixed Income ETF",
+      "ticker": "RBND",
+      "exchange": "TSX",
+      "listing_date": "2026-02-17",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Russell Investments Fallen Angels ETF",
+      "ticker": "HALO",
+      "exchange": "TSX",
+      "listing_date": "2026-02-17",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Russell Investments Multi-Factor Canadian Equity Pool",
+      "ticker": "RQCA",
+      "exchange": "TSX",
+      "listing_date": "2026-02-17",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Russell Investments Multi-Factor International Equity Pool",
+      "ticker": "RQIN",
+      "exchange": "TSX",
+      "listing_date": "2026-02-17",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Russell Investments Multi-Factor US Equity Pool",
+      "ticker": "RQUS",
+      "exchange": "TSX",
+      "listing_date": "2026-02-17",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Mackenzie Global Value ETF",
+      "ticker": "MAGV",
+      "exchange": "TSX",
+      "listing_date": "2026-02-13",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Mackenzie GQE Global Balanced ETF",
+      "ticker": "MBQG",
+      "exchange": "TSX",
+      "listing_date": "2026-02-13",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Mackenzie US All Cap Growth ETF",
+      "ticker": "MAUG",
+      "exchange": "TSX",
+      "listing_date": "2026-02-13",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Mackenzie US Value ETF",
+      "ticker": "MAUV",
+      "exchange": "TSX",
+      "listing_date": "2026-02-13",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Purpose Credit Opportunities Class",
+      "ticker": "CROC",
+      "exchange": "TSX",
+      "listing_date": "2026-02-11",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Bahia Metals Corp.",
+      "ticker": "BMT",
+      "exchange": "CSE",
+      "listing_date": "2026-02-10",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Redwood AI Corp.",
+      "ticker": "AIRX",
+      "exchange": "CSE",
+      "listing_date": "2026-02-06",
+      "sector": "Technology",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Maximus Metals Inc.",
+      "ticker": "MM",
+      "exchange": "CSE",
+      "listing_date": "2026-02-06",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "BMO MSCI Canada IMI High Dividend Yield Index ETF",
+      "ticker": "ZDIV",
+      "exchange": "TSX",
+      "listing_date": "2026-02-05",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "BMO MSCI EAFE Small-Mid Cap Index ETF",
+      "ticker": "ZESM",
+      "exchange": "TSX",
+      "listing_date": "2026-02-05",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "BMO MSCI USA Equal Weight Index ETF (ZEQL, ZEQL.F, ZEQL.U)",
+      "ticker": "",
+      "exchange": "TSX",
+      "listing_date": "2026-02-05",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Roxmore Resources Inc.",
+      "ticker": "RM",
+      "exchange": "TSX",
+      "listing_date": "2026-02-05",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "SavvyShort (-2X) COIN ETF",
+      "ticker": "COID",
+      "exchange": "TSX",
+      "listing_date": "2026-02-04",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "SavvyShort (-2X) MSTR ETF",
+      "ticker": "MSTZ",
+      "exchange": "TSX",
+      "listing_date": "2026-02-04",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Blossom Gold Inc.",
+      "ticker": "BGAU",
+      "exchange": "TSX",
+      "listing_date": "2026-02-02",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Middlefield Short Duration Bond Plus ETF",
+      "ticker": "MSBP",
+      "exchange": "TSX",
+      "listing_date": "2026-02-02",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "SLGI MFS Blended Research Low Vol Global Fund",
+      "ticker": "SBLG",
+      "exchange": "TSX",
+      "listing_date": "2026-01-30",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "SLGI MFS Blended Research Low Vol International Fund",
+      "ticker": "SBLI",
+      "exchange": "TSX",
+      "listing_date": "2026-01-30",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Fidelity American Equity Fund",
+      "ticker": "FCAE",
+      "exchange": "TSX",
+      "listing_date": "2026-01-28",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Fidelity Global Opportunities Long/Short Fund",
+      "ticker": "FLSE",
+      "exchange": "TSX",
+      "listing_date": "2026-01-28",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "JPMorgan International Developed Equity Active ETF",
+      "ticker": "JIDE",
+      "exchange": "TSX",
+      "listing_date": "2026-01-27",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "CI Balanced+ Asset Allocation ETF Fund",
+      "ticker": "CBAP",
+      "exchange": "TSX",
+      "listing_date": "2026-01-26",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "CI Equity+ Asset Allocation ETF Fund",
+      "ticker": "CEQP",
+      "exchange": "TSX",
+      "listing_date": "2026-01-26",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Alaros Exploration Inc.",
+      "ticker": "ALAR",
+      "exchange": "CSE",
+      "listing_date": "2026-01-26",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Titan Technology Corp.",
+      "ticker": "TTC",
+      "exchange": "CSE",
+      "listing_date": "2026-01-26",
+      "sector": "Technology",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "PIMCO Managed Balanced Portfolio",
+      "ticker": "PBAL",
+      "exchange": "TSX",
+      "listing_date": "2026-01-23",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Global X Tokenization Ecosystem Index ETF",
+      "ticker": "TOKN",
+      "exchange": "TSX",
+      "listing_date": "2026-01-21",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "HAMILTON CHAMPIONS\u2122 U.S. Technology Index ETF",
+      "ticker": "QMVP",
+      "exchange": "TSX",
+      "listing_date": "2026-01-20",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "HAMILTON CHAMPIONS\u2122 Utilities Index ETF",
+      "ticker": "UMVP",
+      "exchange": "TSX",
+      "listing_date": "2026-01-20",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Harvest Premium Yield Canadian Bank ETF",
+      "ticker": "HPYB",
+      "exchange": "TSX",
+      "listing_date": "2026-01-20",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Harvest Premium Yield Enhanced ETF",
+      "ticker": "HPYE",
+      "exchange": "TSX",
+      "listing_date": "2026-01-20",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "First Trust Bloomberg Nuclear Power ETF",
+      "ticker": "RCTR",
+      "exchange": "TSX",
+      "listing_date": "2026-01-16",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Evolve International Equity UltraYield ETF",
+      "ticker": "INTY",
+      "exchange": "TSX",
+      "listing_date": "2026-01-14",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Harvest Block Enhanced High Income Shares ETF",
+      "ticker": "BLKY",
+      "exchange": "TSX",
+      "listing_date": "2026-01-14",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Harvest CrowdStrike Enhanced High Income Shares ETF",
+      "ticker": "CRWY",
+      "exchange": "TSX",
+      "listing_date": "2026-01-14",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Harvest JnJ Enhanced High Income Shares ETF",
+      "ticker": "JNJY",
+      "exchange": "TSX",
+      "listing_date": "2026-01-14",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Harvest JPHE Enhanced High Income Shares ETF",
+      "ticker": "JPHE",
+      "exchange": "TSX",
+      "listing_date": "2026-01-14",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Harvest Novo Enhanced High Income Shares ETF",
+      "ticker": "NOVY",
+      "exchange": "TSX",
+      "listing_date": "2026-01-14",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Harvest Oracle Enhanced High Income Shares ETF",
+      "ticker": "ORCY",
+      "exchange": "TSX",
+      "listing_date": "2026-01-14",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Moat Active Premium Yield ETF",
+      "ticker": "MOAT",
+      "exchange": "TSX",
+      "listing_date": "2026-01-13",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Lysander-Canso U.S. Corporate Value Bond Fund",
+      "ticker": "LYUV.U",
+      "exchange": "TSX",
+      "listing_date": "2026-01-09",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "AGF American Growth Fund",
+      "ticker": "AMGR",
+      "exchange": "TSX",
+      "listing_date": "2026-01-07",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "AGF Global Select Fund",
+      "ticker": "AGSL",
+      "exchange": "TSX",
+      "listing_date": "2026-01-07",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Upside Gold Corp.",
+      "ticker": "UG",
+      "exchange": "CSE",
+      "listing_date": "2026-01-05",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Predictiv AI Inc.",
+      "ticker": "PAI",
+      "exchange": "CSE",
+      "listing_date": "2025-12-22",
+      "sector": "Technology",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Encore Technologies Corp.",
+      "ticker": "ENCR",
+      "exchange": "CSE",
+      "listing_date": "2025-11-26",
+      "sector": "Technology",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Bitzero Holdings Inc.",
+      "ticker": "AIBZ.U",
+      "exchange": "CSE",
+      "listing_date": "2025-11-24",
+      "sector": "Technology",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "CAT Strategic Metals Corporation 21NOV2030 Warrants",
+      "ticker": "CAT.WT",
+      "exchange": "CSE",
+      "listing_date": "2025-11-24",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Stinger Resources Inc.",
+      "ticker": "STNG",
+      "exchange": "CSE",
+      "listing_date": "2025-11-10",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "TempraMed Technologies Ltd.",
+      "ticker": "VIVI",
+      "exchange": "CSE",
+      "listing_date": "2025-10-15",
+      "sector": "Healthcare",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Commodore Metals Corp.",
+      "ticker": "C",
+      "exchange": "CSE",
+      "listing_date": "2025-09-29",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Kleen HY-DRO-GEN Inc.",
+      "ticker": "KLN",
+      "exchange": "CSE",
+      "listing_date": "2025-09-09",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Super Lithium Corp.",
+      "ticker": "SL",
+      "exchange": "CSE",
+      "listing_date": "2025-09-03",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Avventura Resources Ltd.",
+      "ticker": "AA",
+      "exchange": "CSE",
+      "listing_date": "2025-08-22",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    },
+    {
+      "company": "Goldcana Resources Inc.",
+      "ticker": "GC",
+      "exchange": "CSE",
+      "listing_date": "2025-08-13",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-19"
+    }
+  ]
 }

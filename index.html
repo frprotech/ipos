@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>IPO Tracker — TSX · NASDAQ · NYSE · ASX · CSE</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
     --blue: #3b6fd4;
@@ -17,7 +20,7 @@
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     color: var(--text);
     background: #fff;
     padding: 32px 16px;
@@ -28,7 +31,7 @@
 
   .controls {
     display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
   }
   .tabs { display: flex; flex-wrap: wrap; gap: 6px; }
   .tab {
@@ -36,33 +39,72 @@
     padding: 7px 14px; border-radius: 999px; font-size: 13px; cursor: pointer;
   }
   .tab.active { background: var(--blue); border-color: var(--blue); color: #fff; }
+
+  .search-wrap { position: relative; margin-left: auto; }
+  .search-wrap svg { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); opacity: .45; pointer-events: none; }
   #search {
-    margin-left: auto; padding: 8px 12px; border: 1px solid var(--border);
-    border-radius: 8px; font-size: 14px; min-width: 220px;
+    padding: 8px 30px 8px 32px; border: 1px solid var(--border);
+    border-radius: 8px; font-size: 14px; min-width: 240px; outline: none;
+    transition: border-color .15s, box-shadow .15s;
   }
+  #search:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(59,111,212,.12); }
+  #searchClear {
+    position: absolute; right: 6px; top: 50%; transform: translateY(-50%);
+    border: none; background: none; color: var(--muted); font-size: 18px;
+    line-height: 1; cursor: pointer; padding: 4px 6px; border-radius: 50%;
+  }
+  #searchClear:hover { background: var(--row-alt); color: var(--text); }
+
+  .result-count { color: var(--muted); font-size: 13px; margin: 0 0 10px 2px; }
 
   .table-card { border-radius: 14px; overflow: hidden; box-shadow: 0 1px 3px rgba(20,30,60,.08); border: 1px solid var(--border); }
-  .scroller { overflow-x: auto; }
-  table { width: 100%; border-collapse: collapse; min-width: 760px; }
+  .scroller { overflow: auto; max-height: 700px; }
+  table { width: 100%; border-collapse: collapse; min-width: 820px; table-layout: fixed; }
+  col.col-company { width: 32%; }
+  col.col-ticker { width: 12%; }
+  col.col-exchange { width: 13%; }
+  col.col-date { width: 25%; }
+  col.col-sector { width: 18%; }
   thead th {
+    position: sticky; top: 0; z-index: 1;
     background: var(--blue); color: #fff; text-align: left;
-    font-size: 16px; font-weight: 700; padding: 16px 18px;
+    font-size: 16px; font-weight: 700; padding: 15px 18px;
     cursor: pointer; user-select: none; white-space: nowrap;
   }
   thead th .arrow { font-size: 11px; opacity: .85; margin-left: 4px; }
-  tbody td { padding: 18px; font-size: 15px; border-top: 1px solid var(--border); white-space: nowrap; }
-  tbody td.company { white-space: normal; font-weight: 500; }
+  tbody td {
+    padding: 15px 18px; font-size: 15px; border-top: 1px solid var(--border);
+    vertical-align: top; height: 74px; overflow: hidden;
+  }
+  tbody td.company { font-weight: 500; }
+  .company-name {
+    display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  td.sector { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text); }
   tbody tr:nth-child(even) { background: var(--row-alt); }
+  tbody tr:hover { background: #eef3fd; }
   .ticker {
     display: inline-block; background: var(--pill); color: #fff;
     padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600;
+    white-space: nowrap;
   }
   .ticker.empty { background: #d6dae6; color: #5a6070; }
-  .status { color: var(--muted); font-size: 12px; margin-left: 6px; }
-  .exch a { color: var(--blue); text-decoration: none; }
+  .exch a { color: var(--blue); text-decoration: none; white-space: nowrap; }
   .exch a:hover { text-decoration: underline; }
   .muted { color: var(--muted); }
   .empty-state { padding: 40px; text-align: center; color: var(--muted); }
+
+  .date-main { white-space: nowrap; }
+  .date-sub { margin-top: 5px; display: flex; align-items: center; gap: 6px; flex-wrap: nowrap; overflow: hidden; }
+  .badge {
+    display: inline-block; padding: 2px 9px; border-radius: 999px;
+    font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em;
+    white-space: nowrap;
+  }
+  .badge-upcoming { background: #e3ebfc; color: var(--blue-dark); }
+  .badge-listed { background: #eaf7ee; color: #2a8a4a; }
+  .badge-tba { background: #f3eee0; color: #93701f; }
+  .rel { color: var(--muted); font-size: 12px; }
 
   .foot {
     display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;
@@ -71,22 +113,40 @@
   .foot a { color: var(--blue); font-weight: 600; text-decoration: none; }
   .foot a:hover { text-decoration: underline; }
   .dot { color: #b3b9c9; margin: 0 4px; }
+
+  @media (max-width: 640px) {
+    .search-wrap { margin-left: 0; width: 100%; }
+    #search { width: 100%; }
+    thead th, tbody td { padding: 11px 12px; font-size: 13.5px; }
+    thead th { font-size: 14px; }
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
   <h1>IPO Tracker</h1>
-  <p class="sub">Recent and upcoming listings on TSX, NASDAQ, NYSE, ASX and CSE &middot;
+  <p class="sub" id="subline">Recent and upcoming listings on TSX, NASDAQ, NYSE, ASX and CSE &middot;
     <span id="updated">loading…</span></p>
 
   <div class="controls">
     <div class="tabs" id="tabs"></div>
-    <input id="search" type="search" placeholder="Search company or ticker…">
+    <div class="search-wrap">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input id="search" type="text" placeholder="Search company or ticker…" autocomplete="off">
+      <button id="searchClear" type="button" aria-label="Clear search" hidden>&times;</button>
+    </div>
   </div>
+
+  <p class="result-count" id="resultCount"></p>
 
   <div class="table-card">
     <div class="scroller">
       <table>
+        <colgroup>
+          <col class="col-company"><col class="col-ticker"><col class="col-exchange"><col class="col-date"><col class="col-sector">
+        </colgroup>
         <thead>
           <tr>
             <th data-sort="company">Company<span class="arrow"></span></th>
@@ -103,13 +163,13 @@
   </div>
 
   <div class="foot">
-    <span>Source: Exchange Filings</span>
+    <span id="footLeft">Source: Exchange Filings</span>
     <span>View listings on:
-      <a href="https://www.tsx.com/listings/current-listing-activity" target="_blank" rel="noopener">TSX</a><span class="dot">&bull;</span>
+      <a href="https://www.tsx.com/en/news/new-company-listings" target="_blank" rel="noopener">TSX</a><span class="dot">&bull;</span>
       <a href="https://www.nasdaq.com/market-activity/ipos" target="_blank" rel="noopener">NASDAQ</a><span class="dot">&bull;</span>
       <a href="https://www.nyse.com/ipo-center/recent-ipo" target="_blank" rel="noopener">NYSE</a><span class="dot">&bull;</span>
-      <a href="https://www.asx.com.au/markets/trade-our-cash-market/upcoming-floats-and-listings" target="_blank" rel="noopener">ASX</a><span class="dot">&bull;</span>
-      <a href="https://thecse.com/listings/" target="_blank" rel="noopener">CSE</a>
+      <a href="https://www.asx.com.au/listings/upcoming-floats-and-listings" target="_blank" rel="noopener">ASX</a><span class="dot">&bull;</span>
+      <a href="https://thecse.com/listing/listed-companies/" target="_blank" rel="noopener">CSE</a>
     </span>
   </div>
 </div>
@@ -123,12 +183,17 @@
   let filter = "All";
   let query = "";
   let sortKey = "listing_date";
-  let sortDir = -1; // newest first
+  let sortDir = 1;            // used for non-date columns
+  let dateSortMode = "group"; // "group" (upcoming-first, default) | "asc" | "desc"
 
   const rowsEl = document.getElementById("rows");
   const emptyEl = document.getElementById("empty");
   const updatedEl = document.getElementById("updated");
   const tabsEl = document.getElementById("tabs");
+  const footLeftEl = document.getElementById("footLeft");
+  const resultCountEl = document.getElementById("resultCount");
+  const searchEl = document.getElementById("search");
+  const searchClearEl = document.getElementById("searchClear");
 
   EXCHANGES.forEach(function (ex) {
     const b = document.createElement("button");
@@ -142,15 +207,31 @@
     tabsEl.appendChild(b);
   });
 
-  document.getElementById("search").addEventListener("input", function (e) {
+  searchEl.addEventListener("input", function (e) {
     query = e.target.value.trim().toLowerCase();
+    searchClearEl.hidden = !query;
+    render();
+  });
+  searchClearEl.addEventListener("click", function () {
+    searchEl.value = "";
+    query = "";
+    searchClearEl.hidden = true;
+    searchEl.focus();
     render();
   });
 
   document.querySelectorAll("thead th").forEach(function (th) {
     th.addEventListener("click", function () {
       const key = th.dataset.sort;
-      if (sortKey === key) { sortDir *= -1; } else { sortKey = key; sortDir = key === "listing_date" ? -1 : 1; }
+      if (key === "listing_date") {
+        if (sortKey !== "listing_date") { sortKey = "listing_date"; dateSortMode = "group"; }
+        else { dateSortMode = dateSortMode === "group" ? "desc" : dateSortMode === "desc" ? "asc" : "group"; }
+      } else if (sortKey === key) {
+        sortDir *= -1;
+      } else {
+        sortKey = key;
+        sortDir = 1;
+      }
       render();
     });
   });
@@ -160,6 +241,17 @@
     const d = new Date(iso + "T00:00:00");
     if (isNaN(d)) return iso;
     return d.toLocaleDateString("en-US", { month: "short", day: "2-digit", year: "numeric" });
+  }
+
+  function relativeLabel(iso, todayIso) {
+    if (!iso) return null;
+    const target = new Date(iso + "T00:00:00");
+    const today = new Date(todayIso + "T00:00:00");
+    const diffDays = Math.round((target - today) / 86400000);
+    if (diffDays === 0) return "today";
+    if (diffDays === 1) return "tomorrow";
+    if (diffDays === -1) return "yesterday";
+    return diffDays > 0 ? "in " + diffDays + " days" : Math.abs(diffDays) + " days ago";
   }
 
   function esc(s) {
@@ -175,39 +267,78 @@
     return r.exchange === filter;
   }
 
+  function compareRows(a, b, todayIso) {
+    if (sortKey === "listing_date") {
+      if (dateSortMode === "group") {
+        const aUp = !a.listing_date || a.listing_date >= todayIso;
+        const bUp = !b.listing_date || b.listing_date >= todayIso;
+        if (aUp !== bUp) return aUp ? -1 : 1;
+        if (aUp) {
+          const av = a.listing_date || "9999-99-99";
+          const bv = b.listing_date || "9999-99-99";
+          return av < bv ? -1 : av > bv ? 1 : 0; // soonest upcoming first
+        }
+        const av = a.listing_date || "0000-00-00";
+        const bv = b.listing_date || "0000-00-00";
+        return av > bv ? -1 : av < bv ? 1 : 0;   // most recently expired first
+      }
+      const av = a.listing_date || "0000-00-00";
+      const bv = b.listing_date || "0000-00-00";
+      const cmp = av < bv ? -1 : av > bv ? 1 : 0;
+      return dateSortMode === "asc" ? cmp : -cmp;
+    }
+    const av = (a[sortKey] || "").toString();
+    const bv = (b[sortKey] || "").toString();
+    return av.localeCompare(bv) * sortDir;
+  }
+
+  function arrowFor(key) {
+    if (key !== sortKey) return "";
+    if (key === "listing_date") {
+      return dateSortMode === "asc" ? "▲" : dateSortMode === "desc" ? "▼" : "↕";
+    }
+    return sortDir === 1 ? "▲" : "▼";
+  }
+
   function render() {
-    const rows = data
-      .filter(matchesFilter)
+    const todayIso = new Date().toISOString().slice(0, 10);
+    const all = data.filter(matchesFilter);
+    const rows = all
       .filter(r => !query ||
         (r.company || "").toLowerCase().includes(query) ||
         (r.ticker || "").toLowerCase().includes(query))
-      .sort(function (a, b) {
-        const av = a[sortKey] || "", bv = b[sortKey] || "";
-        if (sortKey === "listing_date") {
-          return ((av || "0000") < (bv || "0000") ? -1 : av === bv ? 0 : 1) * sortDir;
-        }
-        return av.localeCompare(bv) * sortDir;
-      });
+      .sort((a, b) => compareRows(a, b, todayIso));
 
     document.querySelectorAll("thead th").forEach(function (th) {
-      th.querySelector(".arrow").textContent =
-        th.dataset.sort === sortKey ? (sortDir === 1 ? "▲" : "▼") : "";
+      th.querySelector(".arrow").textContent = arrowFor(th.dataset.sort);
     });
 
     rowsEl.innerHTML = rows.map(function (r) {
       const date = fmtDate(r.listing_date);
-      const status = r.status && r.status !== "Listed" && r.status !== "Priced"
-        ? '<span class="status">(' + esc(r.status) + ')</span>' : "";
+      const isUpcoming = !r.listing_date || r.listing_date >= todayIso;
+      const badgeClass = !r.listing_date ? "badge-tba" : (isUpcoming ? "badge-upcoming" : "badge-listed");
+      const badgeLabel = r.status || (!r.listing_date ? "TBA" : (isUpcoming ? "Upcoming" : "Listed"));
+      const rel = relativeLabel(r.listing_date, todayIso);
+
       return "<tr>" +
-        '<td class="company">' + esc(r.company) + "</td>" +
+        '<td class="company">' +
+          '<span class="company-name" title="' + esc(r.company) + '">' + esc(r.company) + "</span>" +
+        "</td>" +
         "<td>" + (r.ticker
           ? '<span class="ticker">' + esc(r.ticker) + "</span>"
           : '<span class="ticker empty">TBA</span>') + "</td>" +
         '<td class="exch">' + (r.source
           ? '<a href="' + esc(r.source) + '" target="_blank" rel="noopener">' + esc(r.exchange) + "</a>"
           : esc(r.exchange)) + "</td>" +
-        "<td>" + (date ? esc(date) : '<span class="muted">TBA</span>') + status + "</td>" +
-        "<td>" + (r.sector ? esc(r.sector) : '<span class="muted">&mdash;</span>') + "</td>" +
+        "<td>" +
+          '<div class="date-main">' + (date ? esc(date) : '<span class="muted">TBA</span>') + "</div>" +
+          '<div class="date-sub"><span class="badge ' + badgeClass + '">' + esc(badgeLabel) + "</span>" +
+            (rel ? '<span class="rel">' + esc(rel) + "</span>" : "") +
+          "</div>" +
+        "</td>" +
+        '<td class="sector" title="' + esc(r.sector || "") + '">' +
+          (r.sector ? esc(r.sector) : '<span class="muted">&mdash;</span>') +
+        "</td>" +
         "</tr>";
     }).join("");
 
@@ -215,6 +346,10 @@
     emptyEl.textContent = data.length === 0
       ? "No data yet — the update workflow hasn't run. Trigger \"Update IPO data\" under the repo's Actions tab."
       : "No listings match the current filter.";
+
+    resultCountEl.textContent = rows.length === 0 ? "" :
+      rows.length + (rows.length === 1 ? " listing" : " listings") +
+      (rows.length > 10 ? " — scroll for more" : "");
   }
 
   function load() {
@@ -230,6 +365,8 @@
         } else {
           updatedEl.textContent = "Awaiting first data update";
         }
+        footLeftEl.textContent = "Source: Exchange Filings" +
+          (data.length ? " · " + data.length + " listings tracked" : "");
         render();
       })
       .catch(function () {

@@ -29,11 +29,17 @@ GitHub Actions (every 6 h) ──► scripts/fetch_ipos.py ──► data/ipos.j
 | Exchange | Source |
 | --- | --- |
 | NASDAQ / NYSE | Nasdaq IPO calendar API (`api.nasdaq.com/api/ipo/calendar`) — covers all US exchanges and tags each deal with its proposed exchange |
-| TSX / TSXV | [tsx.com — Current listing activity](https://www.tsx.com/listings/current-listing-activity) |
-| ASX | [asx.com.au — Upcoming floats & listings](https://www.asx.com.au/markets/trade-our-cash-market/upcoming-floats-and-listings) |
-| CSE | CSE public securities feed (`webapi.thecse.ca`), filtered to listings from the past 12 months |
+| TSX / TSXV | [tsx.com — New company listings](https://www.tsx.com/en/news/new-company-listings) |
+| ASX | [asx.com.au — Upcoming floats & listings](https://www.asx.com.au/listings/upcoming-floats-and-listings) |
+| CSE | thecse.com listed-companies data API, filtered to listings from the past 12 months |
 
 Records older than 12 months are pruned automatically.
+
+There is also a **Probe data sources** workflow (`.github/workflows/probe.yml`
++ `scripts/probe_sources.py`) — a manual diagnostic that fetches candidate
+URLs from a runner and prints what they return. If an exchange fetcher breaks
+after a website redesign, edit the probe's URL list, run it from the Actions
+tab, and point the fetcher at whatever the logs show is working.
 
 ## Setup (one-time)
 
@@ -46,6 +52,17 @@ Records older than 12 months are pruned automatically.
 
 You can also open `index.html` from any static host (or locally with
 `python -m http.server`) — it only needs `data/ipos.json` next to it.
+
+### Deploying on Vercel instead of GitHub Pages
+
+The repo includes `vercel.json` + `.vercelignore`, which tell Vercel this is a
+plain static site (the Python script only runs inside GitHub Actions, not on
+the host). Just import the repo in Vercel with default settings — no build
+command, no framework. Because the update workflow commits the refreshed
+`data/ipos.json` to the branch, every data update automatically triggers a new
+Vercel deployment, so the hosted table stays current. The workflow's
+`deploy` job (GitHub Pages) is optional and can be deleted from
+`.github/workflows/update-ipos.yml` if you only use Vercel.
 
 ## Notes & maintenance
 

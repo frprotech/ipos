@@ -54,8 +54,13 @@ def parse_date(value) -> str | None:
     text = str(value).strip()
     if not text or text.lower() in {"tba", "tbd", "n/a", "-", "--"}:
         return None
-    # Strip common noise like "(expected)" or trailing notes.
-    text = re.sub(r"\(.*?\)", " ", text).strip()
+    # Strip common noise: "(expected)" notes, footnote markers ("#"),
+    # times ("12.00pm") and timezone tags, as seen on the ASX page.
+    text = re.sub(r"\(.*?\)", " ", text)
+    text = re.sub(r"#+", " ", text)
+    text = re.sub(r"\b\d{1,2}[.:]\d{2}\s*(?:am|pm)?\b", " ", text, flags=re.I)
+    text = re.sub(r"\b(?:AEST|AEDT|EST|EDT|ET|noon|midday)\b", " ", text, flags=re.I)
+    text = re.sub(r"\s+", " ", text).strip()
     try:
         return dateparser.parse(text, dayfirst=False, fuzzy=True).date().isoformat()
     except (ValueError, OverflowError):
@@ -192,136 +197,241 @@ def extract_table_rows(html: str, exchange: str, source: str, status: str) -> li
 
 
 # ---------------------------------------------------------------------------
-# TSX / TSX Venture — tsx.com publishes current listing activity as HTML.
+# TSX / TSX Venture — tsx.com publishes new company listings (TSX and TSXV
+# combined) as a server-rendered Date | Company table, where the company cell
+# reads "Company Name (TICKER)".
 # ---------------------------------------------------------------------------
 
 def fetch_tsx() -> list[dict]:
-    url = "https://www.tsx.com/listings/current-listing-activity"
-    html = http_get(url).text
-    rows = extract_table_rows(html, "TSX", url, "Listed")
-    # The page covers both TSX and TSXV; if a row's text mentions the venture
-    # exchange, relabel it.
-    soup_text_venture = re.compile(r"\bTSXV?\b|venture", re.I)
-    for rec in rows:
-        if soup_text_venture.search(rec["sector"]):
-            rec["exchange"] = "TSXV"
-    if not rows:
-        raise RuntimeError("No listing tables found on tsx.com")
-    return rows
-
-
-# ---------------------------------------------------------------------------
-# ASX — try the JSON feed behind the "upcoming floats & listings" page first,
-# then fall back to parsing the page's HTML tables.
-# ---------------------------------------------------------------------------
-
-ASX_PAGE = "https://www.asx.com.au/markets/trade-our-cash-market/upcoming-floats-and-listings"
-
-ASX_JSON_CANDIDATES = [
-    "https://asx.api.markitdigital.com/asx-research/1.0/companies/upcoming-floats-and-listings",
-    "https://asx.api.markitdigital.com/asx-research/1.0/companies/upcoming-listings",
-    "https://www.asx.com.au/asx/1/upcoming-floats",
-]
-
-
-def _asx_from_items(items: list[dict]) -> list[dict]:
-    out = []
-    for item in items:
-        if not isinstance(item, dict):
+    url = "https://www.tsx.com/en/news/new-company-listings"
+    soup = BeautifulSoup(http_get(url).text, "html.parser")
+    out: list[dict] = []
+    for table in soup.find_all("table"):
+        headers = [c.get_text(" ", strip=True).lower()
+                   for c in table.find_all(["th"])]
+        if "date" not in headers or "company" not in headers:
             continue
-        low = {str(k).lower(): v for k, v in item.items()}
+        for tr in table.find_all("tr"):
+            cells = tr.find_all("td")
+            if len(cells) < 2:
+                continue
+            date = parse_date(cells[0].get_text(" ", strip=True))
+            name = cells[1].get_text(" ", strip=True).replace("\xa0", " ")
+            m = re.match(r"^(.*?)\s*\(([^()]{1,12})\)\s*$", name)
+            company, ticker = (m.group(1), m.group(2)) if m else (name, "")
+            rec = record(
+                exchange="TSX",
+                company=company,
+                ticker=ticker,
+                listing_date=date,
+                status="Listed",
+                source=url,
+            )
+            if rec:
+                out.append(rec)
+    if not out:
+        raise RuntimeError("No new-company-listings table found on tsx.com")
+    return out
 
-        def pick(*keys):
-            for k in keys:
-                for lk, v in low.items():
-                    if k in lk and v not in (None, ""):
-                        return v
-            return ""
 
+# ---------------------------------------------------------------------------
+# ASX — the upcoming floats page renders one key/value detail table per
+# company (Listing date / Security code / Principal activities / ...), with
+# the company name in the nearest preceding heading.
+# ---------------------------------------------------------------------------
+
+ASX_PAGE = "https://www.asx.com.au/listings/upcoming-floats-and-listings"
+
+ASX_FIELD_LABELS = {"listing date", "contact details", "principal activities",
+                    "issue price", "issue type", "security code",
+                    "capital to be raised", "expected offer close date",
+                    "underwriter"}
+
+ASX_DATE_TAIL = re.compile(
+    r"\s*[-–—]\s*(?:(?:mon|tues|wednes|thurs|fri|satur|sun)day\b.*"
+    r"|\d{1,2}\s+(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\w*\s+20\d\d.*)$",
+    re.I)
+
+
+def fetch_asx() -> list[dict]:
+    soup = BeautifulSoup(http_get(ASX_PAGE).text, "html.parser")
+    out: list[dict] = []
+    for table in soup.find_all("table"):
+        kv: dict[str, str] = {}
+        for tr in table.find_all("tr"):
+            cells = tr.find_all("td")
+            if len(cells) >= 2:
+                key = cells[0].get_text(" ", strip=True).lower().rstrip(":")
+                kv[key] = cells[1].get_text(" ", strip=True)
+        if "listing date" not in kv or "security code" not in kv:
+            continue  # not a company detail table
+
+        company = ""
+        heading = table.find_previous(["h2", "h3", "h4", "h5"])
+        if heading:
+            text = heading.get_text(" ", strip=True)
+            if text and text.lower() not in ASX_FIELD_LABELS and len(text) < 120:
+                # Headings read "Company Name - Monday 31 August 2026 ..." —
+                # drop the date tail.
+                company = ASX_DATE_TAIL.sub("", text).strip()
         rec = record(
             exchange="ASX",
-            company=pick("companyname", "displayname", "name", "entity"),
-            ticker=pick("symbol", "asxcode", "code", "ticker"),
-            listing_date=parse_date(pick("listingdate", "expecteddate", "date")),
-            sector=pick("industry", "sector", "gics"),
+            company=company or kv.get("security code", ""),
+            ticker=kv.get("security code", ""),
+            listing_date=parse_date(kv.get("listing date")),
+            sector=kv.get("principal activities", ""),
             status="Upcoming",
             source=ASX_PAGE,
         )
         if rec:
             out.append(rec)
+    if not out:
+        raise RuntimeError("No company detail tables found on the ASX floats page")
     return out
 
 
-def fetch_asx() -> list[dict]:
-    for url in ASX_JSON_CANDIDATES:
-        try:
-            payload = http_get(url).json()
-        except Exception:
-            continue
-        items = payload
-        if isinstance(payload, dict):
-            items = (payload.get("data") or {})
-            if isinstance(items, dict):
-                items = items.get("items") or items.get("rows") or items.get("listings") or []
-        if isinstance(items, list):
-            rows = _asx_from_items(items)
-            if rows:
-                return rows
-    # Fallback: scrape the public page.
-    html = http_get(ASX_PAGE).text
-    rows = extract_table_rows(html, "ASX", ASX_PAGE, "Upcoming")
-    if not rows:
-        raise RuntimeError("No ASX upcoming listings found via JSON or HTML")
-    return rows
+# ---------------------------------------------------------------------------
+# CSE — thecse.com's own data API (discovered in the site's JS bundles)
+# serves the listed-companies dataset including each company's listingDate.
+# ---------------------------------------------------------------------------
+
+CSE_API_CANDIDATES = [
+    "https://thecse.com/api/webapi/listed-companies/",
+    "https://thecse.com/api/companies/all",
+    "https://website-data-api-v2.thecse.com/listed-companies/",
+    "https://webapi-backup.thecse.com/trading/listed/market/securities.json",
+]
 
 
-# ---------------------------------------------------------------------------
-# CSE — the CSE publishes a machine-readable feed of all listed securities,
-# including their listing dates; keep the recently listed ones.
-# ---------------------------------------------------------------------------
+def _largest_dict_list(obj, depth: int = 0) -> list[dict]:
+    """Find the largest list of dicts that looks like a securities table."""
+    best: list[dict] = []
+    if isinstance(obj, list):
+        dicts = [x for x in obj if isinstance(x, dict)]
+        if dicts and any(re.search(r"symbol|ticker", str(k), re.I) for k in dicts[0]):
+            best = dicts
+    elif isinstance(obj, dict) and depth < 6:
+        for v in obj.values():
+            cand = _largest_dict_list(v, depth + 1)
+            if len(cand) > len(best):
+                best = cand
+    return best
+
 
 def fetch_cse() -> list[dict]:
-    url = "https://webapi.thecse.ca/trading/listed/market/securities.json"
-    payload = http_get(url).json()
-    items = payload
-    if isinstance(payload, dict):
-        for key in ("securities", "data", "rows", "results"):
-            if isinstance(payload.get(key), list):
-                items = payload[key]
-                break
-    if not isinstance(items, list):
-        raise RuntimeError("Unexpected CSE feed shape")
-
-    out: list[dict] = []
-    for item in items:
-        if not isinstance(item, dict):
+    notes = []
+    for url in CSE_API_CANDIDATES:
+        try:
+            payload = http_get(url).json()
+        except Exception as exc:
+            notes.append(f"{url} -> {exc}")
             continue
-        low = {str(k).lower().replace("_", " "): v for k, v in item.items()}
+        items = _largest_dict_list(payload)
+        out: list[dict] = []
+        for item in items:
+            low = {re.sub(r"[\s_-]", "", str(k)).lower(): v for k, v in item.items()}
 
-        def pick(*keys):
-            for k in keys:
-                for lk, v in low.items():
-                    if k in lk and v not in (None, ""):
-                        return v
-            return ""
+            def pick(*keys):
+                for k in keys:
+                    for lk, v in low.items():
+                        if k in lk and v not in (None, ""):
+                            return v
+                return ""
 
-        listing_date = parse_date(pick("date listed", "listed date", "listing date", "list date"))
-        if not listing_date or listing_date < KEEP_AFTER.isoformat():
-            continue  # only recent listings belong in an IPO table
-        rec = record(
-            exchange="CSE",
-            company=pick("company", "name", "security"),
-            ticker=pick("symbol", "ticker"),
-            listing_date=listing_date,
-            sector=pick("industry", "sector"),
-            status="Listed",
-            source="https://thecse.com/listings/",
-        )
-        if rec:
-            out.append(rec)
-    if not out:
-        raise RuntimeError("CSE feed returned no recent listings")
-    return out
+            listing_date = parse_date(pick("listingdate", "datelisted", "listeddate",
+                                           "listdate", "dateoflisting"))
+            if not listing_date or listing_date < KEEP_AFTER.isoformat():
+                continue  # only recent listings belong in an IPO table
+            rec = record(
+                exchange="CSE",
+                company=pick("companyname", "company", "name", "title", "security"),
+                ticker=pick("symbol", "ticker"),
+                listing_date=listing_date,
+                sector=pick("industry", "sector"),
+                status="Listed",
+                source="https://thecse.com/listing/listed-companies/",
+            )
+            if rec:
+                out.append(rec)
+        notes.append(f"{url} -> {len(items)} items, {len(out)} recent")
+        if out:
+            print(f"[CSE] using {url}")
+            return out
+    raise RuntimeError("No CSE candidate yielded recent listings: " + "; ".join(notes))
+
+
+# ---------------------------------------------------------------------------
+# Sector classification — free, deterministic keyword rules applied to every
+# record after fetching. Uses the company name plus whatever raw sector /
+# industry / description text the source gave us (if any) as extra signal,
+# and reduces it to one short label from a fixed taxonomy. Checked in order;
+# first match wins, so more specific buckets (SPAC, Mining) come before
+# broader ones (Financial Services).
+# ---------------------------------------------------------------------------
+
+SECTOR_RULES: list[tuple[str, "re.Pattern"]] = [
+    ("ETF / Fund", re.compile(
+        r"\bETF\b|\bCDR\b|\bindex fund\b|\bportfolio\b|\byield maximizer\b", re.I)),
+    ("SPAC / Blank Check", re.compile(
+        r"\bacquisition\w*\b|\bblank check\b|\bspac\b|"
+        # Shell-series naming like "Gores Holdings XI, Inc." or "Cartesian
+        # Growth Corp IV" — keyword + a multi-letter roman numeral nearby.
+        # Single-letter numerals (I, V, X) are excluded since they collide
+        # with ordinary English words.
+        r"\b(holdings?|growth|capital|partners|ventures?)\b.{0,30}\b"
+        r"(II|III|IV|VI|VII|VIII|IX|XI|XII|XIII)\b", re.I)),
+    ("Mining & Materials", re.compile(
+        r"\bmin(e|es|ing|eral|erals)\b|\bresources\b|\bgold\b|\blithium\b|\buranium\b|"
+        r"\bmetals?\b|\bexploration\b|\bcopper\b|\bnickel\b|\bcobalt\b|\bcoal\b", re.I)),
+    ("Clean Energy", re.compile(
+        r"\bsolar\b|\bwind\b|\brenewable\b|\bclean energy\b|\bgreen energy\b|\bhydrogen\b|"
+        r"\bcarbon\b.{0,25}(technolog|\bcapture\b|\benergy\b)", re.I)),
+    ("Energy", re.compile(
+        r"\boil\b|\bgas\b|\bpetroleum\b|\benergy\b|\bnuclear\b|\bfission\b|\breactor\w*\b|"
+        r"\butilit\w*\b", re.I)),
+    ("Healthcare", re.compile(
+        r"\bhealth\w*\b|\bmedical\b|\bmedtech\b|\bmedicines?\b|\bpharma\w*\b|\bbiotech\b|"
+        r"\btherapeutic\w*\b|\bclinical\b|\blife sciences?\b|\bdiagnostic\w*\b|"
+        r"\brx\b|\bcannabis\b", re.I)),
+    ("Technology", re.compile(
+        r"\btech(nolog(y|ies))?\b|\bsoftware\b|\bcyber\b|\bAI\b|\bdata\b|\bdigital\b|"
+        r"\bcloud\b|\bsemiconductor\w*\b|\brobotic\w*\b|\bautonomous\b|\binternet\b|"
+        r"\bplatform\b|\bquantum\w*\b|\bmobile\b", re.I)),
+    ("Financial Services", re.compile(
+        r"\bcapital\b|\bbank\w*\b|\bfinanc\w*\b|\binsurance\b|\bcredit\b|"
+        r"\basset management\b|\binvestment\w*\b|\bfund\b", re.I)),
+    ("Real Estate", re.compile(
+        r"\brealty\b|\breal estate\b|\breit\b|\bproperties\b|\bresidential\b", re.I)),
+    ("Industrials", re.compile(
+        r"\bindustr\w*\b|\bmanufactur\w*\b|\baerospace\b|\bdefen[cs]e\b|\bengineering\b|"
+        r"\blogistics\b|\btransport\w*\b|\baero\b|\bdynamics\b", re.I)),
+    ("Consumer Defensive", re.compile(
+        r"\bfoods?\b|\bbeverages?\b|\bagri\w*\b|\bgrocery\b|\bstaples\b", re.I)),
+    ("Consumer Discretionary", re.compile(
+        r"\bretail\w*\b|\bapparel\b|\brestaurants?\b|\btravel\b|\bleisure\b|"
+        r"\bhospitality\b", re.I)),
+    ("Communication Services", re.compile(
+        r"\bmedia\b|\btelecom\w*\b|\bbroadcast\w*\b|\bpublishing\b|\bstreaming\b", re.I)),
+]
+
+
+# Branding like "QumulusAI" fuses "AI" onto the name with no word boundary,
+# so it needs its own case-sensitive check (matches capitalized AI only, to
+# avoid false positives from ordinary words that happen to contain "ai").
+_AI_SUFFIX_RE = re.compile(r"(?<=[a-z])AI\b")
+
+
+def classify_sector(company: str, hint: str = "") -> str:
+    """Best-effort short sector label from company name (+ any raw sector
+    text the source provided). Returns "" when nothing matches — an honest
+    unknown beats a guessed label."""
+    text = f"{company} {hint}"
+    for label, pattern in SECTOR_RULES:
+        if pattern.search(text):
+            return label
+    if _AI_SUFFIX_RE.search(text):
+        return "Technology"
+    return ""
 
 
 # ---------------------------------------------------------------------------
@@ -366,6 +476,12 @@ def main() -> int:
             print(f"WARNING: [{name}] fetch failed ({exc}); keeping previous data")
             failures.append(name)
             merged.extend(r for r in existing if r.get("exchange") in exchanges)
+
+    # Reduce whatever raw sector/description text a source gave (or none, for
+    # TSX/NASDAQ/NYSE) to one short label, so every exchange shows the same
+    # kind of value instead of long descriptions on some and blanks on others.
+    for rec in merged:
+        rec["sector"] = classify_sector(rec.get("company", ""), rec.get("sector", ""))
 
     # Dedupe by exchange + ticker (or company when no ticker), newest wins.
     deduped: dict[tuple, dict] = {}
