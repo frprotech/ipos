@@ -1,0 +1,1728 @@
+{
+  "updated_at": "2026-07-21T18:34:02+00:00",
+  "sources_failed": [
+    "TSX"
+  ],
+  "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "Harvest Technology Group Ltd",
+      "old_ticker": "HTG",
+      "new_name": "Nodestream Ltd",
+      "new_ticker": "NS1",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-27",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Variscan Mines Limited",
+      "old_ticker": "VAR",
+      "new_name": "Altoro Metals Limited",
+      "new_ticker": "ARO",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-23",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Advanced Energy Minerals Ltd",
+      "old_ticker": "AEM",
+      "new_name": "Advanced Engineered Materials Ltd",
+      "new_ticker": "AEM",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-17",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Belararox Limited",
+      "old_ticker": "BRX",
+      "new_name": "Vantage Metals Limited",
+      "new_ticker": "VAN",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-17",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Alicanto Minerals Limited",
+      "old_ticker": "AQI",
+      "new_name": "Sinclair Gold Ltd",
+      "new_ticker": "SGC",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-16",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Arctic Fox Lithium Corp",
+      "new_ticker": "AFX",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-16",
+      "source": "https://thecse.com/bulletin/2026-0716-name-and-symbol-change-arctic-fox-lithium-corp-afx"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "55 North Mining Inc",
+      "new_ticker": "FFF",
+      "change_type": "Name Change",
+      "date": "2026-07-12",
+      "source": "https://thecse.com/bulletin/2026-0712-name-change-55-north-mining-inc-fff"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Opthea Limited",
+      "old_ticker": "OPT",
+      "new_name": "Ceryvyn Therapeutics Limited",
+      "new_ticker": "CYV",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-09",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Meteoric Resources NL",
+      "old_ticker": "MEI",
+      "new_name": "Meteoric Resources Limited",
+      "new_ticker": "MEI",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-09",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Bioxyne Limited",
+      "old_ticker": "BXN",
+      "new_name": "BLS Pharmaceuticals Limited",
+      "new_ticker": "BLS",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-07",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Abacus Storage King",
+      "old_ticker": "ASK",
+      "new_name": "Storage King Group",
+      "new_ticker": "SKG",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-06",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Westmount Minerals Corp",
+      "new_ticker": "WMC",
+      "change_type": "Name Change",
+      "date": "2026-07-06",
+      "source": "https://thecse.com/bulletin/2026-0706-name-change-and-consolidation-westmount-minerals-corp-wmc"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Global Health Clinics Ltd",
+      "new_ticker": "MJRX",
+      "change_type": "Symbol Change",
+      "date": "2026-06-25",
+      "source": "https://thecse.com/bulletin/2026-0625-symbol-change-inactive-designation-global-health-clinics-ltd-mjrx"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Corella Resources Ltd",
+      "old_ticker": "CR9",
+      "new_name": "Maverick Minerals Australia Ltd",
+      "new_ticker": "M96",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-06-23",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Uberdoc Health Technologies Corp",
+      "new_ticker": "APPT",
+      "change_type": "Name Change",
+      "date": "2026-06-22",
+      "source": "https://thecse.com/bulletin/2026-0622-name-change-uberdoc-health-technologies-corp-appt"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Hydrocarbon Dynamics Limited",
+      "old_ticker": "HCD",
+      "new_name": "Great Bear Exploration Ltd",
+      "new_ticker": "GBL",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-06-16",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Egf Theramed Health Corp",
+      "new_ticker": "TMED",
+      "change_type": "Symbol Change",
+      "date": "2026-06-15",
+      "source": "https://thecse.com/bulletin/2026-0615-symbol-change-inactive-designation-egf-theramed-health-corp-tmed"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Cullinan Metals Corp",
+      "new_ticker": "CMT",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-06-11",
+      "source": "https://thecse.com/bulletin/2026-0611-name-and-symbol-change-cullinan-metals-corp-cmt"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Asian Battery Metals PLC",
+      "old_ticker": "AZ9",
+      "new_name": "Azzuro Resources PLC",
+      "new_ticker": "AZ9",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-06-10",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Yari Minerals Limited",
+      "old_ticker": "YAR",
+      "new_name": "Yari Resources Ltd",
+      "new_ticker": "YAR",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-06-09",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Bitzero Holdings Inc",
+      "new_ticker": "BITZ.U",
+      "change_type": "Symbol Change",
+      "date": "2026-06-05",
+      "source": "https://thecse.com/bulletin/2026-0605-symbol-change-bitzero-holdings-inc-bitz-u"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Lithium Energy Limited",
+      "old_ticker": "LEL",
+      "new_name": "LE Minerals Limited",
+      "new_ticker": "LEL",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-06-03",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Ardiden Ltd",
+      "old_ticker": "ADV",
+      "new_name": "Lac Gold Limited",
+      "new_ticker": "LAC",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-26",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Copper One Resources Corp",
+      "new_ticker": "BFG",
+      "change_type": "Symbol Change",
+      "date": "2026-05-23",
+      "source": "https://thecse.com/bulletin/2026-0523-symbol-change-copper-one-resources-corp-bfg"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "United Lithium Corp",
+      "new_ticker": "ULTH",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-20",
+      "source": "https://thecse.com/bulletin/2026-0520-name-symbol-change-and-consolidation-united-lithium-corp-ulth"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Enegex Limited",
+      "old_ticker": "ENX",
+      "new_name": "Famien Resources Limited",
+      "new_ticker": "FMN",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-19",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Premier1 Lithium Limited",
+      "old_ticker": "PLC",
+      "new_name": "PLC Resources Limited",
+      "new_ticker": "PLC",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-19",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Adelong Gold Limited",
+      "old_ticker": "ADG",
+      "new_name": "Amara Minerals Limited",
+      "new_ticker": "AM3",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-15",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Spod Lithium Corp",
+      "new_ticker": "SPOD",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-15",
+      "source": "https://thecse.com/bulletin/2026-0515-name-symbol-change-and-consolidation-spod-lithium-corp-spod"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Scryb Inc",
+      "new_ticker": "SCYB",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-09",
+      "source": "https://thecse.com/bulletin/2026-0509-name-and-symbol-change-scryb-inc-scyb"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Aneka Tambang (Persero) TBK (PT)",
+      "old_ticker": "ATM",
+      "new_name": "PT Antam (Persero) Tbk",
+      "new_ticker": "ATM",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-07",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "GreenHy2 Limited",
+      "old_ticker": "H2G",
+      "new_name": "H2G Limited",
+      "new_ticker": "H2G",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-06",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Nuclear Vision Limited",
+      "new_ticker": "NUKV",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-06",
+      "source": "https://thecse.com/bulletin/2026-0506-name-and-symbol-change-nuclear-vision-limited-nukv"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Safe Supply Streaming Co Ltd",
+      "new_ticker": "SPLY",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-04-28",
+      "source": "https://thecse.com/bulletin/2026-0428-name-and-symbol-change-safe-supply-streaming-co-ltd-sply"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Giant Mining Corp",
+      "new_ticker": "BFG",
+      "change_type": "Name Change",
+      "date": "2026-04-25",
+      "source": "https://thecse.com/bulletin/2026-0425-name-change-and-consolidation-giant-mining-corp-bfg"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "BMG Resources Limited",
+      "old_ticker": "BMG",
+      "new_name": "WA Gold Limited",
+      "new_ticker": "WAU",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-04-22",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Kairos Minerals Limited",
+      "old_ticker": "KAI",
+      "new_name": "Pilbara Gold Limited",
+      "new_ticker": "PGL",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-04-22",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Quebec Nickel Corp",
+      "new_ticker": "QNI",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-04-20",
+      "source": "https://thecse.com/bulletin/2026-0420-name-and-symbol-change-quebec-nickel-corp-qni"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Vanguard Mining Corp",
+      "new_ticker": "UUU",
+      "change_type": "Name Change",
+      "date": "2026-04-19",
+      "source": "https://thecse.com/bulletin/2026-0419-name-change-and-consolidation-vanguard-mining-corp-uuu"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Horizon Minerals Limited",
+      "old_ticker": "HRZ",
+      "new_name": "Maritana Minerals Limited",
+      "new_ticker": "MRT",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-04-13",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Allied Strategic Resource Corp",
+      "new_ticker": "ASR",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-04-13",
+      "source": "https://thecse.com/bulletin/2026-0413-name-and-symbol-change-allied-strategic-resource-corp-asr"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Algernon Health Inc",
+      "new_ticker": "AGN",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-04-12",
+      "source": "https://thecse.com/bulletin/2026-0412-name-symbol-change-and-consolidation-algernon-health-inc-agn"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Supreme Critical Metals Inc",
+      "new_ticker": "CRIT",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-04-10",
+      "source": "https://thecse.com/bulletin/2026-0410-name-and-symbol-change-supreme-critical-metals-inc-crit"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Carmanah Minerals Corp",
+      "new_ticker": "CARM",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-04-07",
+      "source": "https://thecse.com/bulletin/2026-0407-name-and-symbol-change-carmanah-minerals-corp-carm"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "PVW Resources Limited",
+      "old_ticker": "PVW",
+      "new_name": "Union Star Metals Ltd",
+      "new_ticker": "USM",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-03-25",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Sbd Capital Corp",
+      "new_ticker": "SBD",
+      "change_type": "Symbol Change",
+      "date": "2026-03-21",
+      "source": "https://thecse.com/bulletin/2026-0321-symbol-change-inactive-designation-sbd-capital-corp-sbd"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "South Harz Potash Ltd",
+      "old_ticker": "SHP",
+      "new_name": "Turnstone Resources Ltd",
+      "new_ticker": "TSR",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-03-20",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "AuMake Limited",
+      "old_ticker": "AUK",
+      "new_name": "Xenitra Limited",
+      "new_ticker": "XEN",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-03-19",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Pangea Wellness Inc",
+      "new_ticker": "PNGA",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-03-12",
+      "source": "https://thecse.com/bulletin/2026-0312-name-and-symbol-change-pangea-wellness-inc-pnga"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Summit Minerals Limited",
+      "old_ticker": "SUM",
+      "new_name": "Western Ridge Resources Limited",
+      "new_ticker": "WRX",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-03-04",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Xcite Resources Inc",
+      "new_ticker": "XRI",
+      "change_type": "Name Change",
+      "date": "2026-03-04",
+      "source": "https://thecse.com/bulletin/2026-0304-name-change-xcite-resources-inc-xri"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Hancock & Gore Ltd",
+      "old_ticker": "HNG",
+      "new_name": "Schoolblazer Limited",
+      "new_ticker": "SBZ",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-03-03",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Nirvana Life Sciences Inc",
+      "new_ticker": "NIRV",
+      "change_type": "Symbol Change",
+      "date": "2026-02-28",
+      "source": "https://thecse.com/bulletin/2026-0228-symbol-change-inactive-designation-nirvana-life-sciences-inc-nirv"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Global Uav Technologies Ltd",
+      "new_ticker": "UAV",
+      "change_type": "Symbol Change",
+      "date": "2026-02-25",
+      "source": "https://thecse.com/bulletin/2026-0225-symbol-change-inactive-designation-global-uav-technologies-ltd-uav"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Inspiration Energy Corp",
+      "new_ticker": "ISP",
+      "change_type": "Name Change",
+      "date": "2026-02-23",
+      "source": "https://thecse.com/bulletin/2026-0223-name-change-inspiration-energy-corp-isp"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Exploits Discovery Corp",
+      "new_ticker": "NFLD",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-20",
+      "source": "https://thecse.com/bulletin/2026-0220-name-and-symbol-change-exploits-discovery-corp-nfld"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Inhalerx Limited",
+      "old_ticker": "IRX",
+      "new_name": "Nexalis Therapeutics Ltd",
+      "new_ticker": "NX1",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-17",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "IPB Petroleum Limited",
+      "old_ticker": "IPB",
+      "new_name": "Forte Energy Limited",
+      "new_ticker": "FEL",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-13",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Canadian Metals Inc",
+      "new_ticker": "CME",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-13",
+      "source": "https://thecse.com/bulletin/2026-0213-name-and-symbol-change-canadian-metals-inc-cme"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Rumble Resources",
+      "new_ticker": "INC.RB",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-12",
+      "source": "https://thecse.com/bulletin/2026-0212-name-and-symbol-change-rumble-resources-inc-rb"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Beyond Lithium",
+      "new_ticker": "INC.BY",
+      "change_type": "Name Change",
+      "date": "2026-02-10",
+      "source": "https://thecse.com/bulletin/2026-0210-name-change-beyond-lithium-inc-by"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Elanor Commercial Property Fund",
+      "old_ticker": "ECF",
+      "new_name": "LDR Capital Property Fund",
+      "new_ticker": "LED",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-09",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Cyclone Metals Limited",
+      "old_ticker": "CLE",
+      "new_name": "Iron Bear Resources Ltd",
+      "new_ticker": "IBR",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-03",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Bastion Minerals Limited",
+      "old_ticker": "BMO",
+      "new_name": "Vita Resources NL",
+      "new_ticker": "VTA",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-03",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "ENRG Elements Ltd",
+      "old_ticker": "EEL",
+      "new_name": "Barys Resources Limited",
+      "new_ticker": "BRY",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-02",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Mydecine Innovations Group Inc",
+      "new_ticker": "MYCO",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-01",
+      "source": "https://thecse.com/bulletin/2026-0201-name-and-symbol-change-mydecine-innovations-group-inc-myco"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Eastern Metals Limited",
+      "old_ticker": "EMS",
+      "new_name": "Raptor Metals Ltd",
+      "new_ticker": "RAP",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-01-29",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Troy Minerals Inc",
+      "new_ticker": "TROY",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-01-25",
+      "source": "https://thecse.com/bulletin/2026-0125-name-and-symbol-change-troy-minerals-inc-troy"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Stock Trend Capital Inc",
+      "new_ticker": "PUMP",
+      "change_type": "Symbol Change",
+      "date": "2026-01-24",
+      "source": "https://thecse.com/bulletin/2026-0124-symbol-change-stock-trend-capital-inc-pump"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Predictmedix Ai Inc",
+      "new_ticker": "PMED",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-01-20",
+      "source": "https://thecse.com/bulletin/2026-0120-name-and-symbol-change-predictmedix-ai-inc-pmed"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Manhattan Corporation Limited",
+      "old_ticker": "MHC",
+      "new_name": "Manhattan Gold Corporation Limited",
+      "new_ticker": "MHC",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-01-16",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Ajn Resources Inc",
+      "new_ticker": "AJN",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-01-16",
+      "source": "https://thecse.com/bulletin/2026-0116-name-and-symbol-change-ajn-resources-inc-ajn"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Mount Burgess Mining NL",
+      "old_ticker": "MTB",
+      "new_name": "TalonX Resources Limited",
+      "new_ticker": "TXR",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-01-09",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Inactive Designation Mijem Newcomm Tech Inc",
+      "new_ticker": "MJEM",
+      "change_type": "Symbol Change",
+      "date": "2026-01-09",
+      "source": "https://thecse.com/bulletin/2026-0109-resumption-and-symbol-change-inactive-designation-mijem-newcomm-tech-inc-mjem"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Forte Group Holdings Inc",
+      "new_ticker": "FGH",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-01-06",
+      "source": "https://thecse.com/bulletin/2026-0106-name-symbol-change-and-consolidation-forte-group-holdings-inc-fgh"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Hi View Resources Inc",
+      "new_ticker": "HVW",
+      "change_type": "Symbol Change",
+      "date": "2026-01-05",
+      "source": "https://thecse.com/bulletin/2026-0105-symbol-change-hi-view-resources-inc-hvw"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Equity Story Group Ltd",
+      "old_ticker": "EQS",
+      "new_name": "Aland Equity Group Limited",
+      "new_ticker": "AEG",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-29",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Prudent Minerals Corp",
+      "new_ticker": "PRUD",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-27",
+      "source": "https://thecse.com/bulletin/2025-1227-name-and-symbol-change-prudent-minerals-corp-prud"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Prospech Limited",
+      "old_ticker": "PRS",
+      "new_name": "European Resources Limited",
+      "new_ticker": "ERE",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-23",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Ironbark Capital Limited",
+      "old_ticker": "IBC",
+      "new_name": "Ironbark Balanced Income Limited",
+      "new_ticker": "IBC",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-19",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "WhiteBark Energy Limited",
+      "old_ticker": "WBE",
+      "new_name": "H3 Energy Limited",
+      "new_ticker": "H3E",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-19",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Alerio Gold Corp",
+      "new_ticker": "ALE",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-19",
+      "source": "https://thecse.com/bulletin/2025-1219-name-and-symbol-change-alerio-gold-corp-ale"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Cascada Silver Corp",
+      "new_ticker": "CSS",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-17",
+      "source": "https://thecse.com/bulletin/2025-1217-name-and-symbol-change-cascada-silver-corp-css"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Trigg Minerals Limited",
+      "old_ticker": "TMG",
+      "new_name": "American Tungsten & Antimony Ltd",
+      "new_ticker": "AT4",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-15",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Netlinkz Limited",
+      "old_ticker": "NET",
+      "new_name": "Securelink Networks Limited",
+      "new_ticker": "SN8",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-15",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Axiom Properties Limited",
+      "old_ticker": "AXI",
+      "new_name": "Axtec Limited",
+      "new_ticker": "AXI",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-15",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Black Dragon Gold Corp.",
+      "old_ticker": "BDG",
+      "new_name": "EMC Gold Corporation",
+      "new_ticker": "EM3",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-12",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Race Oncology Ltd",
+      "old_ticker": "RAC",
+      "new_name": "Racura Oncology Ltd",
+      "new_ticker": "RAC",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-10",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "GBM Resources Limited",
+      "old_ticker": "GBZ",
+      "new_name": "GBM Resources Limited.",
+      "new_ticker": "GBM",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-10",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Scope Technologies Corp",
+      "new_ticker": "SCPE",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-10",
+      "source": "https://thecse.com/bulletin/2025-1210-name-and-symbol-change-scope-technologies-corp-scpe"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Thunderbird Resources Limited",
+      "old_ticker": "THB",
+      "new_name": "Xpedra Resources Limited",
+      "new_ticker": "XPD",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-09",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Pure Hydrogen Corporation Limited",
+      "old_ticker": "PH2",
+      "new_name": "Pure One Corporation Limited",
+      "new_ticker": "P1E",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-09",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Green Critical Minerals Limited",
+      "old_ticker": "GCM",
+      "new_name": "GCM Corporation Limited",
+      "new_ticker": "GCM",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-09",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Althea Group Holdings Limited",
+      "old_ticker": "AGH",
+      "new_name": "Peak Processing Limited",
+      "new_ticker": "PKP",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-08",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Free Battery Metal Limited",
+      "new_ticker": "FREE",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-06",
+      "source": "https://thecse.com/bulletin/2025-1206-name-and-symbol-change-free-battery-metal-limited-free"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Mount Gibson Iron Limited",
+      "old_ticker": "MGX",
+      "new_name": "MGX Resources Limited",
+      "new_ticker": "MGX",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-04",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Oceana Lithium Limited",
+      "old_ticker": "OCN",
+      "new_name": "Oceana Metals Limited",
+      "new_ticker": "OCN",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-04",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Liontown Resources Limited",
+      "old_ticker": "LTR",
+      "new_name": "Liontown Limited",
+      "new_ticker": "LTR",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-04",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Swift Networks Group Limited",
+      "old_ticker": "SW1",
+      "new_name": "Swift TV Ltd",
+      "new_ticker": "STV",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-04",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Linius Technologies Limited",
+      "old_ticker": "LNU",
+      "new_name": "Ion Video Ltd",
+      "new_ticker": "IOV",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-04",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "And Reclassification S2 Minerals Inc",
+      "new_ticker": "STWO",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-04",
+      "source": "https://thecse.com/bulletin/2025-1204-name-and-symbol-change-and-reclassification-s2-minerals-inc-stwo"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "PMC Capital Limited",
+      "old_ticker": "PMC",
+      "new_name": "L1 Global Long Short Fund Limited",
+      "new_ticker": "GLS",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-03",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Chariot Corporation Ltd",
+      "old_ticker": "CC9",
+      "new_name": "Chariot Resources Ltd",
+      "new_ticker": "CC9",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-03",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Uvre Limited",
+      "old_ticker": "UVA",
+      "new_name": "Minerals Exploration limited",
+      "new_ticker": "MEX",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-03",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Pilbara Minerals Limited",
+      "old_ticker": "PLS",
+      "new_name": "PLS Group Limited",
+      "new_ticker": "PLS",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-03",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Bryah Resources Limited",
+      "old_ticker": "BYH",
+      "new_name": "Albright Metals Ltd",
+      "new_ticker": "ABR",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-03",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Equinox Resources Limited",
+      "old_ticker": "EQN",
+      "new_name": "Eminence Minerals Limited",
+      "new_ticker": "EMA",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-02",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Pioneer Lithium Limited",
+      "old_ticker": "PLN",
+      "new_name": "Pioneer Minerals Limited",
+      "new_ticker": "PMM",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-02",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Investigator Resources Ltd",
+      "old_ticker": "IVR",
+      "new_name": "Investigator Silver Limited",
+      "new_ticker": "IVR",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-02",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Bettermoo D Food Corporation",
+      "new_ticker": "MOOO",
+      "change_type": "Symbol Change",
+      "date": "2025-12-02",
+      "source": "https://thecse.com/bulletin/2025-1202-symbol-change-inactive-designation-bettermoo-d-food-corporation-mooo"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Gladiator Resources Limited",
+      "old_ticker": "GLA",
+      "new_name": "US1 Critical Minerals Limited",
+      "new_ticker": "USC",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-01",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Future Battery Minerals Limited",
+      "old_ticker": "FBM",
+      "new_name": "Ore Resources Limited",
+      "new_ticker": "OR3",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-01",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Medadvisor Limited",
+      "old_ticker": "MDR",
+      "new_name": "Adheris Health Limited",
+      "new_ticker": "AHE",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-01",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "DY6 Metals Ltd",
+      "old_ticker": "DY6",
+      "new_name": "Tusker Minerals Ltd",
+      "new_ticker": "TSK",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-01",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "First American Uranium Inc",
+      "new_ticker": "NIOB",
+      "change_type": "Name Change",
+      "date": "2025-11-29",
+      "source": "https://thecse.com/bulletin/2025-1129-name-change-first-american-uranium-inc-niob"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Evergreen Lithium Limited",
+      "old_ticker": "EG1",
+      "new_name": "Evergold Minerals Limited",
+      "new_ticker": "EG1",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-11-28",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Pantera Lithium Limited",
+      "old_ticker": "PFE",
+      "new_name": "Pantera Minerals Limited",
+      "new_ticker": "PFE",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-11-27",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Austchina Holdings Limited",
+      "old_ticker": "AUH",
+      "new_name": "Pacific Resources Limited",
+      "new_ticker": "PXR",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-11-25",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Pangea Natural Foods Inc",
+      "new_ticker": "PNGA",
+      "change_type": "Name Change",
+      "date": "2025-11-25",
+      "source": "https://thecse.com/bulletin/2025-1125-name-change-pangea-natural-foods-inc-pnga"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "VGI Partners Global Investments Limited",
+      "old_ticker": "VG1",
+      "new_name": "Regal Partners Global Investments Limited",
+      "new_ticker": "RG1",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-11-24",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Energy Plug Technologies Corp",
+      "new_ticker": "PLUG",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-11-24",
+      "source": "https://thecse.com/bulletin/2025-1124-name-and-symbol-change-energy-plug-technologies-corp-plug"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Tryptamine Therapeutics Limited",
+      "old_ticker": "TYP",
+      "new_name": "Entropy Neurodynamics Limited",
+      "new_ticker": "ENP",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-11-21",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "World Blockchain",
+      "new_ticker": "CORP.CK",
+      "change_type": "Symbol Change",
+      "date": "2025-11-21",
+      "source": "https://thecse.com/bulletin/2025-1121-symbol-change-world-blockchain-corp-ck"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "James Bay Minerals Limited",
+      "old_ticker": "JBY",
+      "new_name": "Black Bear Minerals Limited",
+      "new_ticker": "BKB",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-11-20",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Tombador Iron Limited",
+      "old_ticker": "TI1",
+      "new_name": "Atomic Eagle Ltd",
+      "new_ticker": "AEU",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-11-19",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Inactive Designation Digicann Ventures Inc",
+      "new_ticker": "DCNN",
+      "change_type": "Symbol Change",
+      "date": "2025-11-16",
+      "source": "https://thecse.com/bulletin/2025-1116-resumption-and-symbol-change-inactive-designation-digicann-ventures-inc-dcnn"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Petratherm Ltd",
+      "old_ticker": "PTR",
+      "new_name": "PTR Minerals Ltd",
+      "new_ticker": "PTR",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-11-11",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Spirit Technology Solutions Ltd",
+      "old_ticker": "ST1",
+      "new_name": "Infotrust Ltd",
+      "new_ticker": "ITS",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-11-10",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "First American Uranium Inc",
+      "new_ticker": "URM",
+      "change_type": "Symbol Change",
+      "date": "2025-11-04",
+      "source": "https://thecse.com/bulletin/2025-1104-symbol-change-first-american-uranium-inc-urm"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "My Rewards International Limited",
+      "old_ticker": "MRI",
+      "new_name": "Klevo Rewards Limited",
+      "new_ticker": "KLV",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-27",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Algernon Pharmaceuticals Inc",
+      "new_ticker": "AGN",
+      "change_type": "Name Change",
+      "date": "2025-10-22",
+      "source": "https://thecse.com/bulletin/2025-1022-name-change-algernon-pharmaceuticals-inc-agn"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "My Foodie Box Limited",
+      "old_ticker": "MBX",
+      "new_name": "Tarrina Resources Limited",
+      "new_ticker": "TR8",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-20",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Duxton Water Limited",
+      "old_ticker": "D2O",
+      "new_name": "Rivco Australia Ltd",
+      "new_ticker": "RIV",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-15",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "York Harbour Metals Inc",
+      "new_ticker": "YORK",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-15",
+      "source": "https://thecse.com/bulletin/2025-1015-name-and-symbol-change-york-harbour-metals-inc-york"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Traka Resources Limited",
+      "old_ticker": "TKL",
+      "new_name": "Liberty Metals Ltd",
+      "new_ticker": "LIB",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-14",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Astute Metals NL",
+      "old_ticker": "ASE",
+      "new_name": "Venari Minerals NL",
+      "new_ticker": "VMS",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-14",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Crestview Exploration Inc",
+      "new_ticker": "CRS",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-08",
+      "source": "https://thecse.com/bulletin/2025-1008-name-symbol-change-and-consolidation-crestview-exploration-inc-crs"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Raptis Group Limited",
+      "old_ticker": "RPG",
+      "new_name": "Group One Capital Limited",
+      "new_ticker": "G1C",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-06",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Platinum Asset Management Limited",
+      "old_ticker": "PTM",
+      "new_name": "L1 Group Limited",
+      "new_ticker": "L1G",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-03",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Stearman Resources Inc",
+      "new_ticker": "STMN",
+      "change_type": "Name Change",
+      "date": "2025-09-28",
+      "source": "https://thecse.com/bulletin/2025-0928-name-change-stearman-resources-inc-stmn"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Sayona Mining Limited",
+      "old_ticker": "SYA",
+      "new_name": "Elevra Lithium Limited",
+      "new_ticker": "ELV",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-26",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Arizona Lithium Limited",
+      "old_ticker": "AZL",
+      "new_name": "Prairie Lithium Limited",
+      "new_ticker": "PL9",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-26",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Terra Uranium Limited",
+      "old_ticker": "T92",
+      "new_name": "Terra Critical Minerals Limited",
+      "new_ticker": "T92",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-24",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Prisma Exploration Inc",
+      "new_ticker": "PMS",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-24",
+      "source": "https://thecse.com/bulletin/2025-0924-name-and-symbol-change-prisma-exploration-inc-pms"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Cardiex Limited",
+      "old_ticker": "CDX",
+      "new_name": "Conneqt Health Limited",
+      "new_ticker": "CQT",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-23",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Trinex Minerals Limited",
+      "old_ticker": "TX3",
+      "new_name": "Xenora Minerals Limited",
+      "new_ticker": "XRA",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-23",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Patriot Battery Metals Inc.",
+      "old_ticker": "PMT",
+      "new_name": "PMET Resources Inc.",
+      "new_ticker": "PMT",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-19",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "MPower Group Limited",
+      "old_ticker": "MPR",
+      "new_name": "MPR Australia Limited",
+      "new_ticker": "MPR",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-17",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Asra Minerals Limited",
+      "old_ticker": "ASR",
+      "new_name": "Goldarc Resources Limited",
+      "new_ticker": "GA8",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-17",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Oberon Uranium Corp",
+      "new_ticker": "OBRN",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-16",
+      "source": "https://thecse.com/bulletin/2025-0916-name-symbol-change-and-consolidation-oberon-uranium-corp-obrn"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Zoglo S Food Corp",
+      "new_ticker": "ZOG",
+      "change_type": "Symbol Change",
+      "date": "2025-09-12",
+      "source": "https://thecse.com/bulletin/2025-0912-symbol-change-inactive-designation-zoglo-s-food-corp-zog"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Sipa Resources Limited",
+      "old_ticker": "SRI",
+      "new_name": "Auravelle Metals Limited",
+      "new_ticker": "AUV",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-11",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Magnis Energy Technologies Ltd",
+      "old_ticker": "MNS",
+      "new_name": "Ryzon Materials Limited",
+      "new_ticker": "RYZ",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-01",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "GTI Energy Ltd",
+      "old_ticker": "GTR",
+      "new_name": "American Uranium Limited",
+      "new_ticker": "AMU",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-29",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Opyl Limited",
+      "old_ticker": "OPL",
+      "new_name": "Pathkey.AI Ltd",
+      "new_ticker": "PKY",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-28",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Ameriwest Lithium Inc",
+      "new_ticker": "AWLI",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-23",
+      "source": "https://thecse.com/bulletin/2025-0823-name-and-symbol-change-ameriwest-lithium-inc-awli"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Lanthanein Resources Ltd",
+      "old_ticker": "LNR",
+      "new_name": "Fortuna Metals Ltd",
+      "new_ticker": "FUN",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-20",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Treatment Com Ai Inc",
+      "new_ticker": "TRUE",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-18",
+      "source": "https://thecse.com/bulletin/2025-0818-name-and-symbol-change-treatment-com-ai-inc-true"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Peak Minerals Limited",
+      "old_ticker": "PUA",
+      "new_name": "Lion Rock Minerals Ltd",
+      "new_ticker": "LRM",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-15",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Firetail Resources Limited",
+      "old_ticker": "FTL",
+      "new_name": "Mammoth Minerals Limited",
+      "new_ticker": "M79",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-14",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Catapult Group International Ltd",
+      "old_ticker": "CAT",
+      "new_name": "Catapult Sports Ltd",
+      "new_ticker": "CAT",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-13",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Infinity Lithium Corporation Limited",
+      "old_ticker": "INF",
+      "new_name": "Infinity Metals Limited",
+      "new_ticker": "INF",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-12",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Mayur Resources Limited",
+      "old_ticker": "MRL",
+      "new_name": "Pacific Lime and Cement Limited",
+      "new_ticker": "PLA",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-12",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Resource Mining Corporation Limited",
+      "old_ticker": "RMI",
+      "new_name": "Resource Minerals International Ltd",
+      "new_ticker": "RMI",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-07",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Dynamic Group Holdings Limited",
+      "old_ticker": "DDB",
+      "new_name": "BWE Drilling Ltd",
+      "new_ticker": "BWE",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-06",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Kwg Resources Inc Cacr",
+      "new_ticker": "CACR.A",
+      "change_type": "Name Change",
+      "date": "2025-08-05",
+      "source": "https://thecse.com/bulletin/2025-0805-name-change-kwg-resources-inc-cacr-cacr-a"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Pampa Metals",
+      "new_ticker": "CORPORATION.PM",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-03",
+      "source": "https://thecse.com/bulletin/2025-0803-name-and-symbol-change-pampa-metals-corporation-pm"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Mighty Kingdom Limited",
+      "old_ticker": "MKL",
+      "new_name": "Fortifai Ltd",
+      "new_ticker": "FTI",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-07-28",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Great Northern Energy Metals Inc",
+      "new_ticker": "GNEM",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-07-25",
+      "source": "https://thecse.com/bulletin/2025-0725-name-and-symbol-change-great-northern-energy-metals-inc-gnem"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Copper Search Limited",
+      "old_ticker": "CUS",
+      "new_name": "Altitude Minerals Ltd",
+      "new_ticker": "ATT",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-07-24",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "MTM Critical Metals Limited",
+      "old_ticker": "MTM",
+      "new_name": "Metallium Limited",
+      "new_ticker": "MTM",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-07-22",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Inca Minerals Limited",
+      "old_ticker": "ICG",
+      "new_name": "Rokeby Resources Limited",
+      "new_ticker": "RKB",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-07-21",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    }
+  ]
+}
