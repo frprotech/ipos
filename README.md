@@ -37,9 +37,10 @@ Records older than 12 months are pruned automatically.
 
 ### Name & Symbol Changes (RTOs)
 
-The site also has a dedicated **Name & Symbol Changes** section tracking
-company name/ticker changes (including reverse takeovers), updated on the
-same 6-hour cycle by `scripts/fetch_rtos.py` into `data/rtos.json`:
+`rtos.html` is a **separate, standalone page** (its own embed/iframe, not a
+tab inside `index.html`) tracking company name/ticker changes — including
+reverse takeovers — updated on the same 6-hour cycle by
+`scripts/fetch_rtos.py` into `data/rtos.json`:
 
 | Exchange | Source |
 | --- | --- |
@@ -63,8 +64,10 @@ tab, and point the fetcher at whatever the logs show is working.
 3. **First data load** — go to *Actions → Update IPO data → Run workflow* to
    populate the table immediately instead of waiting for the next cron tick.
 
-You can also open `index.html` from any static host (or locally with
-`python -m http.server`) — it only needs `data/ipos.json` next to it.
+You can also open `index.html` or `rtos.html` from any static host (or
+locally with `python -m http.server`) — they only need `data/ipos.json` /
+`data/rtos.json` respectively, next to them. Embed each as its own iframe
+wherever it's needed on the site; they don't share any UI state.
 
 ### Deploying on Vercel instead of GitHub Pages
 

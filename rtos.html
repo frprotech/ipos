@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>IPO Tracker — TSX · NASDAQ · NYSE · ASX · CSE</title>
+<title>Name &amp; Symbol Changes — NASDAQ · NYSE · ASX · CSE</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -26,7 +26,6 @@
     padding: 32px 16px;
   }
   .wrap { max-width: 1200px; margin: 0 auto; }
-  h1 { font-size: 26px; margin: 0 0 4px; }
   .sub { color: var(--muted); margin: 0 0 20px; font-size: 14px; }
 
   .controls {
@@ -61,10 +60,10 @@
   .scroller { overflow: auto; max-height: 700px; }
   table { width: 100%; border-collapse: collapse; min-width: 820px; table-layout: fixed; }
   col.col-company { width: 32%; }
-  col.col-ticker { width: 12%; }
+  col.col-ticker { width: 15%; }
   col.col-exchange { width: 13%; }
-  col.col-date { width: 25%; }
-  col.col-sector { width: 18%; }
+  col.col-date { width: 17%; }
+  col.col-type { width: 23%; }
   thead th {
     position: sticky; top: 0; z-index: 1;
     background: var(--blue); color: #fff; text-align: left;
@@ -80,7 +79,7 @@
   .company-name {
     display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
   }
-  td.sector { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text); }
+  .formerly { display: block; margin-top: 3px; font-size: 12px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   tbody tr:nth-child(even) { background: var(--row-alt); }
   tbody tr:hover { background: #eef3fd; }
   .ticker {
@@ -88,23 +87,18 @@
     padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600;
     white-space: nowrap;
   }
-  .ticker.empty { background: #d6dae6; color: #5a6070; }
+  .ticker.was { background: #d6dae6; color: #5a6070; font-size: 11px; margin-left: 5px; padding: 2px 8px; }
   .exch a { color: var(--blue); text-decoration: none; white-space: nowrap; }
   .exch a:hover { text-decoration: underline; }
   .muted { color: var(--muted); }
   .empty-state { padding: 40px; text-align: center; color: var(--muted); }
 
-  .date-main { white-space: nowrap; }
-  .date-sub { margin-top: 5px; display: flex; align-items: center; gap: 6px; flex-wrap: nowrap; overflow: hidden; }
   .badge {
     display: inline-block; padding: 2px 9px; border-radius: 999px;
     font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em;
     white-space: nowrap;
   }
-  .badge-upcoming { background: #e3ebfc; color: var(--blue-dark); }
-  .badge-listed { background: #eaf7ee; color: #2a8a4a; }
-  .badge-tba { background: #f3eee0; color: #93701f; }
-  .rel { color: var(--muted); font-size: 12px; }
+  .change-badge { background: #ece3fc; color: #6a3fc9; }
 
   .foot {
     display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;
@@ -113,6 +107,8 @@
   .foot a { color: var(--blue); font-weight: 600; text-decoration: none; }
   .foot a:hover { text-decoration: underline; }
   .dot { color: #b3b9c9; margin: 0 4px; }
+  .note { margin-top: 10px; }
+  .note a { color: var(--blue); }
 
   @media (max-width: 640px) {
     .search-wrap { margin-left: 0; width: 100%; }
@@ -124,7 +120,7 @@
 </head>
 <body>
 <div class="wrap">
-  <p class="sub" id="subline">Recent and upcoming listings on TSX, NASDAQ, NYSE, ASX and CSE &middot;
+  <p class="sub" id="subline">Recent company name &amp; ticker symbol changes (incl. reverse takeovers) on NASDAQ, NYSE, ASX and CSE &middot;
     <span id="updated">loading…</span></p>
 
   <div class="controls">
@@ -133,7 +129,7 @@
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
         <circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
       </svg>
-      <input id="search" type="text" placeholder="Search company or ticker…" autocomplete="off">
+      <input id="search" type="text" placeholder="Search old or new company/ticker…" autocomplete="off">
       <button id="searchClear" type="button" aria-label="Clear search" hidden>&times;</button>
     </div>
   </div>
@@ -144,15 +140,15 @@
     <div class="scroller">
       <table>
         <colgroup>
-          <col class="col-company"><col class="col-ticker"><col class="col-exchange"><col class="col-date"><col class="col-sector">
+          <col class="col-company"><col class="col-ticker"><col class="col-exchange"><col class="col-date"><col class="col-type">
         </colgroup>
         <thead>
           <tr>
-            <th data-sort="company">Company<span class="arrow"></span></th>
-            <th data-sort="ticker">Ticker<span class="arrow"></span></th>
+            <th data-sort="new_name">Company<span class="arrow"></span></th>
+            <th data-sort="new_ticker">Ticker<span class="arrow"></span></th>
             <th data-sort="exchange">Exchange<span class="arrow"></span></th>
-            <th data-sort="listing_date">Listing Date<span class="arrow"></span></th>
-            <th data-sort="sector">Sector<span class="arrow"></span></th>
+            <th data-sort="date">Date<span class="arrow"></span></th>
+            <th data-sort="change_type">Change Type<span class="arrow"></span></th>
           </tr>
         </thead>
         <tbody id="rows"></tbody>
@@ -163,27 +159,25 @@
 
   <div class="foot">
     <span id="footLeft">Source: Exchange Filings</span>
-    <span>View listings on:
-      <a href="https://www.tsx.com/en/news/new-company-listings" target="_blank" rel="noopener">TSX</a><span class="dot">&bull;</span>
-      <a href="https://www.nasdaq.com/market-activity/ipos" target="_blank" rel="noopener">NASDAQ</a><span class="dot">&bull;</span>
-      <a href="https://www.nyse.com/ipo-center/recent-ipo" target="_blank" rel="noopener">NYSE</a><span class="dot">&bull;</span>
-      <a href="https://www.asx.com.au/listings/upcoming-floats-and-listings" target="_blank" rel="noopener">ASX</a><span class="dot">&bull;</span>
-      <a href="https://thecse.com/listing/listed-companies/" target="_blank" rel="noopener">CSE</a>
+    <span>Official sources:
+      <a href="https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes" target="_blank" rel="noopener">ASX</a><span class="dot">&bull;</span>
+      <a href="https://thecse.com/news/bulletins/" target="_blank" rel="noopener">CSE</a><span class="dot">&bull;</span>
+      <a href="https://www.nasdaqtrader.com/Trader.aspx?id=symboldirdefs" target="_blank" rel="noopener">NASDAQ/NYSE</a>
     </span>
   </div>
+  <p class="sub note">TSX name/symbol changes aren't automated yet &mdash; TMX's official corporate-actions feed is a paid product. Check <a href="https://www.tsx.com/" target="_blank" rel="noopener">tsx.com</a> directly in the meantime.</p>
 </div>
 
 <script>
 (function () {
-  const EXCHANGES = ["All", "TSX", "NASDAQ", "NYSE", "ASX", "CSE"];
+  const EXCHANGES = ["All", "NASDAQ", "NYSE", "ASX", "CSE", "TSX"];
   const REFRESH_MS = 15 * 60 * 1000; // re-fetch the data file every 15 minutes
 
   let data = [];
   let filter = "All";
   let query = "";
-  let sortKey = "listing_date";
-  let sortDir = 1;            // used for non-date columns
-  let dateSortMode = "group"; // "group" (upcoming-first, default) | "asc" | "desc"
+  let sortKey = "date";
+  let sortDir = -1;
 
   const rowsEl = document.getElementById("rows");
   const emptyEl = document.getElementById("empty");
@@ -222,15 +216,8 @@
   document.querySelectorAll("thead th").forEach(function (th) {
     th.addEventListener("click", function () {
       const key = th.dataset.sort;
-      if (key === "listing_date") {
-        if (sortKey !== "listing_date") { sortKey = "listing_date"; dateSortMode = "group"; }
-        else { dateSortMode = dateSortMode === "group" ? "desc" : dateSortMode === "desc" ? "asc" : "group"; }
-      } else if (sortKey === key) {
-        sortDir *= -1;
-      } else {
-        sortKey = key;
-        sortDir = 1;
-      }
+      if (sortKey === key) { sortDir *= -1; }
+      else { sortKey = key; sortDir = key === "date" ? -1 : 1; }
       render();
     });
   });
@@ -242,17 +229,6 @@
     return d.toLocaleDateString("en-US", { month: "short", day: "2-digit", year: "numeric" });
   }
 
-  function relativeLabel(iso, todayIso) {
-    if (!iso) return null;
-    const target = new Date(iso + "T00:00:00");
-    const today = new Date(todayIso + "T00:00:00");
-    const diffDays = Math.round((target - today) / 86400000);
-    if (diffDays === 0) return "today";
-    if (diffDays === 1) return "tomorrow";
-    if (diffDays === -1) return "yesterday";
-    return diffDays > 0 ? "in " + diffDays + " days" : Math.abs(diffDays) + " days ago";
-  }
-
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({
       "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
@@ -261,82 +237,55 @@
 
   function matchesFilter(r) {
     if (filter === "All") return true;
-    if (filter === "TSX") return r.exchange === "TSX" || r.exchange === "TSXV";
     if (filter === "NYSE") return r.exchange === "NYSE" || r.exchange === "NYSE American";
     return r.exchange === filter;
   }
 
-  function compareRows(a, b, todayIso) {
-    if (sortKey === "listing_date") {
-      if (dateSortMode === "group") {
-        const aUp = !a.listing_date || a.listing_date >= todayIso;
-        const bUp = !b.listing_date || b.listing_date >= todayIso;
-        if (aUp !== bUp) return aUp ? -1 : 1;
-        if (aUp) {
-          const av = a.listing_date || "9999-99-99";
-          const bv = b.listing_date || "9999-99-99";
-          return av < bv ? -1 : av > bv ? 1 : 0; // soonest upcoming first
-        }
-        const av = a.listing_date || "0000-00-00";
-        const bv = b.listing_date || "0000-00-00";
-        return av > bv ? -1 : av < bv ? 1 : 0;   // most recently expired first
-      }
-      const av = a.listing_date || "0000-00-00";
-      const bv = b.listing_date || "0000-00-00";
-      const cmp = av < bv ? -1 : av > bv ? 1 : 0;
-      return dateSortMode === "asc" ? cmp : -cmp;
-    }
-    const av = (a[sortKey] || "").toString();
-    const bv = (b[sortKey] || "").toString();
-    return av.localeCompare(bv) * sortDir;
-  }
-
   function arrowFor(key) {
     if (key !== sortKey) return "";
-    if (key === "listing_date") {
-      return dateSortMode === "asc" ? "▲" : dateSortMode === "desc" ? "▼" : "↕";
-    }
     return sortDir === 1 ? "▲" : "▼";
   }
 
   function render() {
-    const todayIso = new Date().toISOString().slice(0, 10);
     const all = data.filter(matchesFilter);
     const rows = all
       .filter(r => !query ||
-        (r.company || "").toLowerCase().includes(query) ||
-        (r.ticker || "").toLowerCase().includes(query))
-      .sort((a, b) => compareRows(a, b, todayIso));
+        (r.new_name || "").toLowerCase().includes(query) ||
+        (r.old_name || "").toLowerCase().includes(query) ||
+        (r.new_ticker || "").toLowerCase().includes(query) ||
+        (r.old_ticker || "").toLowerCase().includes(query))
+      .sort(function (a, b) {
+        const av = (a[sortKey] || "").toString();
+        const bv = (b[sortKey] || "").toString();
+        return av.localeCompare(bv) * sortDir;
+      });
 
     document.querySelectorAll("thead th").forEach(function (th) {
       th.querySelector(".arrow").textContent = arrowFor(th.dataset.sort);
     });
 
     rowsEl.innerHTML = rows.map(function (r) {
-      const date = fmtDate(r.listing_date);
-      const isUpcoming = !r.listing_date || r.listing_date >= todayIso;
-      const badgeClass = !r.listing_date ? "badge-tba" : (isUpcoming ? "badge-upcoming" : "badge-listed");
-      const badgeLabel = r.status || (!r.listing_date ? "TBA" : (isUpcoming ? "Upcoming" : "Listed"));
-      const rel = relativeLabel(r.listing_date, todayIso);
-
+      const date = fmtDate(r.date);
+      const showOldTicker = r.old_ticker && r.old_ticker !== r.new_ticker;
       return "<tr>" +
         '<td class="company">' +
-          '<span class="company-name" title="' + esc(r.company) + '">' + esc(r.company) + "</span>" +
+          '<span class="company-name" title="' + esc(r.new_name) + '">' + esc(r.new_name) + "</span>" +
+          (r.old_name && r.old_name !== r.new_name
+            ? '<span class="formerly" title="Formerly ' + esc(r.old_name) + '">Formerly ' + esc(r.old_name) + "</span>"
+            : "") +
         "</td>" +
-        "<td>" + (r.ticker
-          ? '<span class="ticker">' + esc(r.ticker) + "</span>"
-          : '<span class="ticker empty">TBA</span>') + "</td>" +
+        "<td>" +
+          '<span class="ticker">' + esc(r.new_ticker || "—") + "</span>" +
+          (showOldTicker ? '<span class="ticker was">was ' + esc(r.old_ticker) + "</span>" : "") +
+        "</td>" +
         '<td class="exch">' + (r.source
           ? '<a href="' + esc(r.source) + '" target="_blank" rel="noopener">' + esc(r.exchange) + "</a>"
           : esc(r.exchange)) + "</td>" +
         "<td>" +
-          '<div class="date-main">' + (date ? esc(date) : '<span class="muted">TBA</span>') + "</div>" +
-          '<div class="date-sub"><span class="badge ' + badgeClass + '">' + esc(badgeLabel) + "</span>" +
-            (rel ? '<span class="rel">' + esc(rel) + "</span>" : "") +
-          "</div>" +
+          '<div class="date-main">' + (date ? esc(date) : '<span class="muted">&mdash;</span>') + "</div>" +
         "</td>" +
-        '<td class="sector" title="' + esc(r.sector || "") + '">' +
-          (r.sector ? esc(r.sector) : '<span class="muted">&mdash;</span>') +
+        "<td>" +
+          '<span class="badge change-badge">' + esc(r.change_type || "") + "</span>" +
         "</td>" +
         "</tr>";
     }).join("");
@@ -344,18 +293,18 @@
     emptyEl.hidden = rows.length > 0;
     emptyEl.textContent = data.length === 0
       ? "No data yet — the update workflow hasn't run. Trigger \"Update IPO data\" under the repo's Actions tab."
-      : "No listings match the current filter.";
+      : "No name/symbol changes match the current filter.";
 
     resultCountEl.textContent = rows.length === 0 ? "" :
-      rows.length + (rows.length === 1 ? " listing" : " listings") +
+      rows.length + (rows.length === 1 ? " change" : " changes") +
       (rows.length > 10 ? " — scroll for more" : "");
   }
 
   function load() {
-    fetch("data/ipos.json?t=" + Date.now())
+    fetch("data/rtos.json?t=" + Date.now())
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (json) {
-        data = json.ipos || [];
+        data = json.rtos || [];
         if (json.updated_at) {
           updatedEl.textContent = "Last updated " +
             new Date(json.updated_at).toLocaleString() +
@@ -365,7 +314,7 @@
           updatedEl.textContent = "Awaiting first data update";
         }
         footLeftEl.textContent = "Source: Exchange Filings" +
-          (data.length ? " · " + data.length + " listings tracked" : "");
+          (data.length ? " · " + data.length + " changes tracked" : "");
         render();
       })
       .catch(function () {
