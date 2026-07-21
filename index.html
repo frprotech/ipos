@@ -114,6 +114,20 @@
   .foot a:hover { text-decoration: underline; }
   .dot { color: #b3b9c9; margin: 0 4px; }
 
+  .section-switch { display: flex; gap: 6px; margin-bottom: 18px; border-bottom: 1px solid var(--border); }
+  .section-btn {
+    border: none; background: none; color: var(--muted); cursor: pointer;
+    font-family: inherit; font-size: 15px; font-weight: 600;
+    padding: 10px 4px 12px; margin-right: 18px; border-bottom: 2px solid transparent;
+  }
+  .section-btn.active { color: var(--blue-dark); border-bottom-color: var(--blue); }
+  .view { display: none; }
+  .view.active { display: block; }
+
+  .formerly { display: block; margin-top: 3px; font-size: 12px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .ticker.was { background: #d6dae6; color: #5a6070; font-size: 11px; margin-left: 5px; padding: 2px 8px; }
+  .change-badge { background: #ece3fc; color: #6a3fc9; }
+
   @media (max-width: 640px) {
     .search-wrap { margin-left: 0; width: 100%; }
     #search { width: 100%; }
@@ -124,52 +138,108 @@
 </head>
 <body>
 <div class="wrap">
-  <p class="sub" id="subline">Recent and upcoming listings on TSX, NASDAQ, NYSE, ASX and CSE &middot;
-    <span id="updated">loading…</span></p>
+  <div class="section-switch">
+    <button class="section-btn active" id="sectionIpos" type="button">IPO Tracker</button>
+    <button class="section-btn" id="sectionRtos" type="button">Name &amp; Symbol Changes</button>
+  </div>
 
-  <div class="controls">
-    <div class="tabs" id="tabs"></div>
-    <div class="search-wrap">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-        <circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-      </svg>
-      <input id="search" type="text" placeholder="Search company or ticker…" autocomplete="off">
-      <button id="searchClear" type="button" aria-label="Clear search" hidden>&times;</button>
+  <div class="view active" id="ipoView">
+    <p class="sub" id="subline">Recent and upcoming listings on TSX, NASDAQ, NYSE, ASX and CSE &middot;
+      <span id="updated">loading…</span></p>
+
+    <div class="controls">
+      <div class="tabs" id="tabs"></div>
+      <div class="search-wrap">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input id="search" type="text" placeholder="Search company or ticker…" autocomplete="off">
+        <button id="searchClear" type="button" aria-label="Clear search" hidden>&times;</button>
+      </div>
+    </div>
+
+    <p class="result-count" id="resultCount"></p>
+
+    <div class="table-card">
+      <div class="scroller">
+        <table>
+          <colgroup>
+            <col class="col-company"><col class="col-ticker"><col class="col-exchange"><col class="col-date"><col class="col-sector">
+          </colgroup>
+          <thead>
+            <tr>
+              <th data-sort="company">Company<span class="arrow"></span></th>
+              <th data-sort="ticker">Ticker<span class="arrow"></span></th>
+              <th data-sort="exchange">Exchange<span class="arrow"></span></th>
+              <th data-sort="listing_date">Listing Date<span class="arrow"></span></th>
+              <th data-sort="sector">Sector<span class="arrow"></span></th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <div class="empty-state" id="empty" hidden></div>
+    </div>
+
+    <div class="foot">
+      <span id="footLeft">Source: Exchange Filings</span>
+      <span>View listings on:
+        <a href="https://www.tsx.com/en/news/new-company-listings" target="_blank" rel="noopener">TSX</a><span class="dot">&bull;</span>
+        <a href="https://www.nasdaq.com/market-activity/ipos" target="_blank" rel="noopener">NASDAQ</a><span class="dot">&bull;</span>
+        <a href="https://www.nyse.com/ipo-center/recent-ipo" target="_blank" rel="noopener">NYSE</a><span class="dot">&bull;</span>
+        <a href="https://www.asx.com.au/listings/upcoming-floats-and-listings" target="_blank" rel="noopener">ASX</a><span class="dot">&bull;</span>
+        <a href="https://thecse.com/listing/listed-companies/" target="_blank" rel="noopener">CSE</a>
+      </span>
     </div>
   </div>
 
-  <p class="result-count" id="resultCount"></p>
+  <div class="view" id="rtoView">
+    <p class="sub" id="rtoSubline">Recent company name &amp; ticker symbol changes (incl. reverse takeovers) on NASDAQ, NYSE, ASX and CSE &middot;
+      <span id="rtoUpdated">loading…</span></p>
 
-  <div class="table-card">
-    <div class="scroller">
-      <table>
-        <colgroup>
-          <col class="col-company"><col class="col-ticker"><col class="col-exchange"><col class="col-date"><col class="col-sector">
-        </colgroup>
-        <thead>
-          <tr>
-            <th data-sort="company">Company<span class="arrow"></span></th>
-            <th data-sort="ticker">Ticker<span class="arrow"></span></th>
-            <th data-sort="exchange">Exchange<span class="arrow"></span></th>
-            <th data-sort="listing_date">Listing Date<span class="arrow"></span></th>
-            <th data-sort="sector">Sector<span class="arrow"></span></th>
-          </tr>
-        </thead>
-        <tbody id="rows"></tbody>
-      </table>
+    <div class="controls">
+      <div class="tabs" id="rtoTabs"></div>
+      <div class="search-wrap">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input id="rtoSearch" type="text" placeholder="Search old or new company/ticker…" autocomplete="off">
+        <button id="rtoSearchClear" type="button" aria-label="Clear search" hidden>&times;</button>
+      </div>
     </div>
-    <div class="empty-state" id="empty" hidden></div>
-  </div>
 
-  <div class="foot">
-    <span id="footLeft">Source: Exchange Filings</span>
-    <span>View listings on:
-      <a href="https://www.tsx.com/en/news/new-company-listings" target="_blank" rel="noopener">TSX</a><span class="dot">&bull;</span>
-      <a href="https://www.nasdaq.com/market-activity/ipos" target="_blank" rel="noopener">NASDAQ</a><span class="dot">&bull;</span>
-      <a href="https://www.nyse.com/ipo-center/recent-ipo" target="_blank" rel="noopener">NYSE</a><span class="dot">&bull;</span>
-      <a href="https://www.asx.com.au/listings/upcoming-floats-and-listings" target="_blank" rel="noopener">ASX</a><span class="dot">&bull;</span>
-      <a href="https://thecse.com/listing/listed-companies/" target="_blank" rel="noopener">CSE</a>
-    </span>
+    <p class="result-count" id="rtoResultCount"></p>
+
+    <div class="table-card">
+      <div class="scroller">
+        <table>
+          <colgroup>
+            <col class="col-company"><col class="col-ticker"><col class="col-exchange"><col class="col-date"><col class="col-sector">
+          </colgroup>
+          <thead>
+            <tr>
+              <th data-rsort="new_name">Company<span class="arrow"></span></th>
+              <th data-rsort="new_ticker">Ticker<span class="arrow"></span></th>
+              <th data-rsort="exchange">Exchange<span class="arrow"></span></th>
+              <th data-rsort="date">Date<span class="arrow"></span></th>
+              <th data-rsort="change_type">Change Type<span class="arrow"></span></th>
+            </tr>
+          </thead>
+          <tbody id="rtoRows"></tbody>
+        </table>
+      </div>
+      <div class="empty-state" id="rtoEmpty" hidden></div>
+    </div>
+
+    <div class="foot">
+      <span id="rtoFootLeft">Source: Exchange Filings</span>
+      <span>Official sources:
+        <a href="https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes" target="_blank" rel="noopener">ASX</a><span class="dot">&bull;</span>
+        <a href="https://thecse.com/news/bulletins/" target="_blank" rel="noopener">CSE</a><span class="dot">&bull;</span>
+        <a href="https://www.nasdaqtrader.com/Trader.aspx?id=symboldirdefs" target="_blank" rel="noopener">NASDAQ/NYSE</a>
+      </span>
+    </div>
+    <p class="sub" style="margin-top: 10px;">TSX name/symbol changes aren't automated yet &mdash; TMX's official corporate-actions feed is a paid product. Check <a href="https://www.tsx.com/" target="_blank" rel="noopener" style="color: var(--blue);">tsx.com</a> directly in the meantime.</p>
   </div>
 </div>
 
@@ -373,6 +443,162 @@
         render();
       });
   }
+
+  // --- Name & Symbol Changes (RTOs) -----------------------------------
+  const RTO_EXCHANGES = ["All", "NASDAQ", "NYSE", "ASX", "CSE", "TSX"];
+
+  let rtoData = [];
+  let rtoFilter = "All";
+  let rtoQuery = "";
+  let rtoSortKey = "date";
+  let rtoSortDir = -1;
+
+  const rtoRowsEl = document.getElementById("rtoRows");
+  const rtoEmptyEl = document.getElementById("rtoEmpty");
+  const rtoUpdatedEl = document.getElementById("rtoUpdated");
+  const rtoTabsEl = document.getElementById("rtoTabs");
+  const rtoFootLeftEl = document.getElementById("rtoFootLeft");
+  const rtoResultCountEl = document.getElementById("rtoResultCount");
+  const rtoSearchEl = document.getElementById("rtoSearch");
+  const rtoSearchClearEl = document.getElementById("rtoSearchClear");
+
+  RTO_EXCHANGES.forEach(function (ex) {
+    const b = document.createElement("button");
+    b.className = "tab" + (ex === rtoFilter ? " active" : "");
+    b.textContent = ex;
+    b.onclick = function () {
+      rtoFilter = ex;
+      rtoTabsEl.querySelectorAll(".tab").forEach(t => t.classList.toggle("active", t === b));
+      renderRtos();
+    };
+    rtoTabsEl.appendChild(b);
+  });
+
+  rtoSearchEl.addEventListener("input", function (e) {
+    rtoQuery = e.target.value.trim().toLowerCase();
+    rtoSearchClearEl.hidden = !rtoQuery;
+    renderRtos();
+  });
+  rtoSearchClearEl.addEventListener("click", function () {
+    rtoSearchEl.value = "";
+    rtoQuery = "";
+    rtoSearchClearEl.hidden = true;
+    rtoSearchEl.focus();
+    renderRtos();
+  });
+
+  document.querySelectorAll("#rtoView thead th").forEach(function (th) {
+    th.addEventListener("click", function () {
+      const key = th.dataset.rsort;
+      if (rtoSortKey === key) { rtoSortDir *= -1; }
+      else { rtoSortKey = key; rtoSortDir = key === "date" ? -1 : 1; }
+      renderRtos();
+    });
+  });
+
+  function rtoMatchesFilter(r) {
+    if (rtoFilter === "All") return true;
+    if (rtoFilter === "NYSE") return r.exchange === "NYSE" || r.exchange === "NYSE American";
+    return r.exchange === rtoFilter;
+  }
+
+  function renderRtos() {
+    const all = rtoData.filter(rtoMatchesFilter);
+    const rows = all
+      .filter(r => !rtoQuery ||
+        (r.new_name || "").toLowerCase().includes(rtoQuery) ||
+        (r.old_name || "").toLowerCase().includes(rtoQuery) ||
+        (r.new_ticker || "").toLowerCase().includes(rtoQuery) ||
+        (r.old_ticker || "").toLowerCase().includes(rtoQuery))
+      .sort(function (a, b) {
+        const av = (a[rtoSortKey] || "").toString();
+        const bv = (b[rtoSortKey] || "").toString();
+        return av.localeCompare(bv) * rtoSortDir;
+      });
+
+    document.querySelectorAll("#rtoView thead th").forEach(function (th) {
+      const key = th.dataset.rsort;
+      th.querySelector(".arrow").textContent = key !== rtoSortKey ? "" : (rtoSortDir === 1 ? "▲" : "▼");
+    });
+
+    rtoRowsEl.innerHTML = rows.map(function (r) {
+      const date = fmtDate(r.date);
+      const showOldTicker = r.old_ticker && r.old_ticker !== r.new_ticker;
+      return "<tr>" +
+        '<td class="company">' +
+          '<span class="company-name" title="' + esc(r.new_name) + '">' + esc(r.new_name) + "</span>" +
+          (r.old_name && r.old_name !== r.new_name
+            ? '<span class="formerly" title="Formerly ' + esc(r.old_name) + '">Formerly ' + esc(r.old_name) + "</span>"
+            : "") +
+        "</td>" +
+        "<td>" +
+          '<span class="ticker">' + esc(r.new_ticker || "—") + "</span>" +
+          (showOldTicker ? '<span class="ticker was">was ' + esc(r.old_ticker) + "</span>" : "") +
+        "</td>" +
+        '<td class="exch">' + (r.source
+          ? '<a href="' + esc(r.source) + '" target="_blank" rel="noopener">' + esc(r.exchange) + "</a>"
+          : esc(r.exchange)) + "</td>" +
+        "<td>" +
+          '<div class="date-main">' + (date ? esc(date) : '<span class="muted">&mdash;</span>') + "</div>" +
+        "</td>" +
+        '<td class="sector">' +
+          '<span class="badge change-badge">' + esc(r.change_type || "") + "</span>" +
+        "</td>" +
+        "</tr>";
+    }).join("");
+
+    rtoEmptyEl.hidden = rows.length > 0;
+    rtoEmptyEl.textContent = rtoData.length === 0
+      ? "No data yet — the update workflow hasn't run. Trigger \"Update IPO data\" under the repo's Actions tab."
+      : "No name/symbol changes match the current filter.";
+
+    rtoResultCountEl.textContent = rows.length === 0 ? "" :
+      rows.length + (rows.length === 1 ? " change" : " changes") +
+      (rows.length > 10 ? " — scroll for more" : "");
+  }
+
+  function loadRtos() {
+    fetch("data/rtos.json?t=" + Date.now())
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (json) {
+        rtoData = json.rtos || [];
+        if (json.updated_at) {
+          rtoUpdatedEl.textContent = "Last updated " +
+            new Date(json.updated_at).toLocaleString() +
+            (json.sources_failed && json.sources_failed.length
+              ? " (stale: " + json.sources_failed.join(", ") + ")" : "");
+        } else {
+          rtoUpdatedEl.textContent = "Awaiting first data update";
+        }
+        rtoFootLeftEl.textContent = "Source: Exchange Filings" +
+          (rtoData.length ? " · " + rtoData.length + " changes tracked" : "");
+        renderRtos();
+      })
+      .catch(function () {
+        rtoUpdatedEl.textContent = "Could not load data file";
+        renderRtos();
+      });
+  }
+
+  const sectionIposEl = document.getElementById("sectionIpos");
+  const sectionRtosEl = document.getElementById("sectionRtos");
+  const ipoViewEl = document.getElementById("ipoView");
+  const rtoViewEl = document.getElementById("rtoView");
+  let rtoLoaded = false;
+
+  sectionIposEl.addEventListener("click", function () {
+    sectionIposEl.classList.add("active");
+    sectionRtosEl.classList.remove("active");
+    ipoViewEl.classList.add("active");
+    rtoViewEl.classList.remove("active");
+  });
+  sectionRtosEl.addEventListener("click", function () {
+    sectionRtosEl.classList.add("active");
+    sectionIposEl.classList.remove("active");
+    rtoViewEl.classList.add("active");
+    ipoViewEl.classList.remove("active");
+    if (!rtoLoaded) { rtoLoaded = true; loadRtos(); setInterval(loadRtos, REFRESH_MS); }
+  });
 
   load();
   setInterval(load, REFRESH_MS);

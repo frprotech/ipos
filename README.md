@@ -35,6 +35,19 @@ GitHub Actions (every 6 h) ──► scripts/fetch_ipos.py ──► data/ipos.j
 
 Records older than 12 months are pruned automatically.
 
+### Name & Symbol Changes (RTOs)
+
+The site also has a dedicated **Name & Symbol Changes** section tracking
+company name/ticker changes (including reverse takeovers), updated on the
+same 6-hour cycle by `scripts/fetch_rtos.py` into `data/rtos.json`:
+
+| Exchange | Source |
+| --- | --- |
+| ASX | [asx.com.au — ASX code changes](https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes) — full history table, scraped directly |
+| CSE | thecse.com's bulletins sitemap — the bulletin type (name change / symbol change / name & symbol change) is encoded in the URL slug itself |
+| NASDAQ / NYSE | No free change-log exists for these, so the fetcher snapshots the current Symbol → Security Name map from nasdaqtrader.com's anonymous FTP symbol directory each run and diffs it against the previous run's snapshot (`data/snapshots/us_symbols.json`, committed alongside the data). A same-ticker name change is reported as a "Name Change" event. This only catches changes going forward from whenever tracking started — there's no way to backfill history from this source. |
+| TSX | **Not automated.** TMX's official corporate-actions feed (Datalinx) is a paid product, and there's no reliable free structured alternative; this is reported as a standing `sources_failed` entry so the gap stays visible instead of silently showing nothing. |
+
 There is also a **Probe data sources** workflow (`.github/workflows/probe.yml`
 + `scripts/probe_sources.py`) — a manual diagnostic that fetches candidate
 URLs from a runner and prints what they return. If an exchange fetcher breaks
