@@ -221,7 +221,13 @@ def _sec_search_name_change_ciks(start_date: str, end_date: str) -> set[str]:
         frm = page * page_size
         url = ("https://efts.sec.gov/LATEST/search-index?q=%22changed+its+name+to%22"
                f"&forms=8-K&startdt={start_date}&enddt={end_date}&from={frm}")
-        data = _sec_get(url).json()
+        try:
+            data = _sec_get(url).json()
+        except Exception as exc:
+            # A flaky page (SEC's search occasionally 500s at some offsets)
+            # shouldn't discard CIKs already found on earlier pages.
+            print(f"  SEC search page from={frm} failed ({exc}); stopping pagination early")
+            break
         hits = data.get("hits", {}).get("hits", [])
         if not hits:
             break
