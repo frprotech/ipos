@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Diagnostic round 9: how to discover CURRENT TSXV daily bulletins (not just
-one hardcoded old example) -- via newswire.ca link structure, RSS, or the
-infoventure.tsx.com bulletin database's own search/filter parameters.
-Temporary tool -- not part of the site."""
+"""Diagnostic round 10: is TSXV's NOTICE_ID a global sequential counter we
+can scan (like CSE's bulletin slugs), or is it scoped per-company (PO_ID)?
+Also inspect one real notice's content/structure. Temporary tool -- not
+part of the site."""
 
 import re
 import requests
@@ -15,80 +15,59 @@ HEADERS = {
 def get(url, **kw):
     return requests.get(url, headers=HEADERS, timeout=30, **kw)
 
+BASE = "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController"
+
 # ---------------------------------------------------------------------------
-# 1) Dump ALL hrefs on the newswire.ca org page to see the real link pattern
+# 1) Fetch one known notice directly (with its real PO_ID) and inspect it
 # ---------------------------------------------------------------------------
-print("=" * 100, "\nnewswire.ca/news/tsx-venture-exchange/ -- all links")
+print("=" * 100, "\nOne known notice, full content")
 try:
-    r = get("https://www.newswire.ca/news/tsx-venture-exchange/")
+    r = get(f"{BASE}?GetPage=NoticesContents&PO_ID=1044821&NOTICE_ID=319314&CORRECTION_FLG=N&HC_FLAG1=checked")
     print("  status:", r.status_code, "len:", len(r.text))
-    hrefs = re.findall(r'href="([^"]+)"', r.text)
-    rel = [h for h in hrefs if "news-releases" in h or "daily-bulletin" in h.lower()]
-    print("  news-release-ish hrefs:", len(rel))
-    for h in sorted(set(rel))[:20]:
-        print("   ", h)
+    body = re.sub(r"<[^>]+>", " ", r.text)
+    body = re.sub(r"\s+", " ", body).strip()
+    print("  TEXT:", body[:1500])
 except Exception as exc:
     print("  ERROR:", exc)
 
 # ---------------------------------------------------------------------------
-# 2) Try RSS feed patterns for this organization
+# 2) Try that same NOTICE_ID with a WRONG/blank PO_ID -- does it still work?
+#    (tests whether NOTICE_ID alone is globally sufficient)
 # ---------------------------------------------------------------------------
-print("=" * 100, "\nnewswire.ca RSS feed candidates")
-for url in [
-    "https://www.newswire.ca/rss/news/tsx-venture-exchange.rss",
-    "https://rss.newswire.ca/news-releases-list.rss?keyword=tsx+venture+exchange+daily+bulletins",
-    "https://www.newswire.ca/news/tsx-venture-exchange/rss/",
-]:
+print("=" * 100, "\nSame NOTICE_ID, no PO_ID / wrong PO_ID")
+for po in ["", "0", "1"]:
     try:
-        r = get(url)
-        print(f"  {url} -> {r.status_code} type={r.headers.get('content-type')} len={len(r.content)}")
-        if r.status_code == 200 and "xml" in (r.headers.get("content-type") or "").lower():
-            print("  SAMPLE:", r.text[:500])
+        r = get(f"{BASE}?GetPage=NoticesContents&PO_ID={po}&NOTICE_ID=319314&CORRECTION_FLG=N&HC_FLAG1=checked")
+        body = re.sub(r"<[^>]+>", " ", r.text)
+        body = re.sub(r"\s+", " ", body).strip()
+        print(f"  PO_ID={po!r} -> {r.status_code} len={len(r.text)} text[:200]={body[:200]!r}")
     except Exception as exc:
-        print(f"  {url} -> ERROR {exc}")
+        print(f"  PO_ID={po!r} ERROR:", exc)
 
 # ---------------------------------------------------------------------------
-# 3) infoventure.tsx.com over plain HTTP -- dump its search form / links for
-#    a way to filter by date or bulletin type instead of one hardcoded PO_ID
+# 3) Try nearby/different NOTICE_IDs with the SAME PO_ID -- and with a
+#    DIFFERENT PO_ID than the notice was originally tied to, to see if
+#    NOTICE_ID collisions/lookups cross companies
 # ---------------------------------------------------------------------------
-print("=" * 100, "\ninfoventure.tsx.com -- links and form fields on the bulletins page")
-try:
-    r = get("http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=CompanyDocuments&PO_ID=1044821&HC_FLAG1=Y&NewsReleases=on&BulletinsMode=on")
-    body = r.text
-    print("  status:", r.status_code, "len:", len(body))
-    forms = re.findall(r"<form[^>]*>(.*?)</form>", body, re.S | re.I)
-    print("  form count:", len(forms))
-    inputs = re.findall(r'<input[^>]*name="([^"]+)"[^>]*>', body, re.I)
-    print("  input names:", sorted(set(inputs))[:30])
-    hrefs = re.findall(r'href="([^"]+)"', body)
-    ventures = [h for h in hrefs if "GetPage" in h or "Bulletin" in h]
-    print("  relevant hrefs:", len(ventures))
-    for h in sorted(set(ventures))[:20]:
-        print("   ", h)
-except Exception as exc:
-    print("  ERROR:", exc)
-
-# try a general search page without a specific PO_ID
-print("-- try without PO_ID (general search) --")
-for url in [
-    "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=Bulletins",
-    "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=DailyBulletins",
-    "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=Search",
-]:
+print("=" * 100, "\nAdjacent NOTICE_IDs under the same PO_ID")
+for nid in [319313, 319315, 319320, 300000, 250000]:
     try:
-        r = get(url)
-        print(f"  {url} -> {r.status_code} len={len(r.content)}")
+        r = get(f"{BASE}?GetPage=NoticesContents&PO_ID=1044821&NOTICE_ID={nid}&CORRECTION_FLG=N&HC_FLAG1=checked")
+        body = re.sub(r"<[^>]+>", " ", r.text)
+        body = re.sub(r"\s+", " ", body).strip()
+        print(f"  NOTICE_ID={nid} -> {r.status_code} len={len(r.text)} text[:150]={body[:150]!r}")
     except Exception as exc:
-        print(f"  {url} -> ERROR {exc}")
+        print(f"  NOTICE_ID={nid} ERROR:", exc)
 
 # ---------------------------------------------------------------------------
-# 4) SEDAR+ -- check if the SPA has a discoverable JSON API backend
+# 4) What does LcdbSearch actually do -- a company/symbol lookup form, or
+#    something broader?
 # ---------------------------------------------------------------------------
-print("=" * 100, "\nSEDAR+ backend API hunt")
+print("=" * 100, "\nLcdbSearch page")
 try:
-    r = get("https://www.sedarplus.ca/landingpage/")
-    body = r.text
-    apis = sorted(set(re.findall(r'"(/csa-party/[^"]+|/api/[^"]+)"', body)))
-    print("  api-ish paths found on landing page:", apis[:20])
+    r = get(f"{BASE}?GetPage=LcdbSearch")
+    print("  status:", r.status_code, "len:", len(r.text))
+    body = re.sub(r"\s+", " ", r.text)
+    print("  SAMPLE:", body[:800])
 except Exception as exc:
     print("  ERROR:", exc)
