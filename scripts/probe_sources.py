@@ -1,60 +1,46 @@
 #!/usr/bin/env python3
-"""Diagnostic round 12: does the TSXV notice body itself contain the company
-name/ticker (before "BULLETIN TYPE"), independent of PO_ID? Also specifically
-find a real Name Change / Symbol Change bulletin to confirm its exact text
-format. Temporary tool -- not part of the site."""
+"""Diagnostic round 13: verify CSE bulletin slug parsing against the ACTUAL
+bulletin page content -- specifically checking whether "symbol-change" slugs
+encode the OLD ticker or the NEW ticker, since two different bulletins
+(Copper One Resources Corp, Giant Mining Corp) both parsed to ticker "BFG"
+which looks suspicious. Also check acronym-style company names like "Egf
+Theramed Health Corp" (should probably be "EGF"). Temporary tool -- not
+part of the site."""
 
 import re
 import requests
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126.0",
-    "Accept": "application/json, text/html;q=0.9, */*;q=0.8",
+    "Accept": "text/html,application/xhtml+xml",
 }
 
 def get(url, **kw):
     return requests.get(url, headers=HEADERS, timeout=30, **kw)
 
-BASE = "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController"
-
-
-def clean(html: str) -> str:
+def clean(html):
     body = re.sub(r"<script.*?</script>", " ", html, flags=re.S | re.I)
     body = re.sub(r"<style.*?</style>", " ", body, flags=re.S | re.I)
     body = re.sub(r"<[^>]+>", " ", body)
-    body = re.sub(r"&nbsp;", " ", body)
     return re.sub(r"\s+", " ", body).strip()
 
+urls = [
+    "https://thecse.com/bulletin/2026-0523-symbol-change-copper-one-resources-corp-bfg/",
+    "https://thecse.com/bulletin/2026-0425-name-change-and-consolidation-giant-mining-corp-bfg/",
+    "https://thecse.com/bulletin/2026-0615-symbol-change-inactive-designation-egf-theramed-health-corp-tmed/",
+    "https://thecse.com/bulletin/2026-0716-name-and-symbol-change-arctic-fox-lithium-corp-afx/",
+]
 
-print("=" * 100, "\nFull body (no PO_ID) around 'Bulletin Contents' heading -- look for company name/ticker")
-for nid in [319314, 319313, 300000]:
-    r = get(f"{BASE}?GetPage=NoticesContents&PO_ID=0&NOTICE_ID={nid}&CORRECTION_FLG=N&HC_FLAG1=checked")
-    body = clean(r.text)
-    idx = body.find("Bulletin Contents")
-    print(f"--- NOTICE_ID={nid} (PO_ID=0) ---")
-    print(" ", body[idx:idx+700] if idx != -1 else body[:700])
-
-print("=" * 100, "\nSame notices WITH a correct-ish PO_ID (from the earlier list) to compare")
-# 1044821 was the PO_ID tied to notice 319314 in the original probe
-for nid, po in [(319314, 1044821)]:
-    r = get(f"{BASE}?GetPage=NoticesContents&PO_ID={po}&NOTICE_ID={nid}&CORRECTION_FLG=N&HC_FLAG1=checked")
-    body = clean(r.text)
-    idx = body.find("Bulletin Contents")
-    print(f"--- NOTICE_ID={nid} PO_ID={po} ---")
-    print(" ", body[idx:idx+700] if idx != -1 else body[:700])
-
-print("=" * 100, "\nScan a range for an actual Name/Symbol Change bulletin to see its exact text")
-found = 0
-for nid in range(319300, 319400):
+for u in urls:
+    print("=" * 100, "\n", u)
     try:
-        r = get(f"{BASE}?GetPage=NoticesContents&PO_ID=0&NOTICE_ID={nid}&CORRECTION_FLG=N&HC_FLAG1=checked")
-        body = clean(r.text)
-        if re.search(r"BULLETIN TYPE:[^.]*?(Name Change|Symbol Change)", body, re.I):
-            idx = body.find("Bulletin Contents")
-            print(f"  NOTICE_ID={nid}:", body[idx:idx+900] if idx != -1 else body[:900])
-            found += 1
-            if found >= 3:
-                break
-    except Exception:
-        continue
-print("  total Name/Symbol Change bulletins found in range:", found)
+        r = get(u)
+        print("  status:", r.status_code, "len:", len(r.text))
+        text = clean(r.text)
+        # find the main content area -- look for keywords
+        idx = text.lower().find("symbol")
+        if idx == -1:
+            idx = text.lower().find("name")
+        print("  TEXT sample:", text[max(0, idx-300):idx+900])
+    except Exception as exc:
+        print("  ERROR:", exc)
