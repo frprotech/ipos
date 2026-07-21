@@ -10,9 +10,15 @@ Covered exchanges:
     the date the change took effect) and its ticker history -- the CIK is a
     stable ID that never changes, so old and new ticker link up properly
     even when the ticker itself changes (not just the company name).
-  - TSX   has no free structured feed (TMX's Datalinx corporate-actions data
-    is a paid product); this source is reported as failed every run so the
-    gap is visible rather than silently empty.
+  - TSXV  via infoventure.tsx.com's bulletin system: each bulletin's
+    NOTICE_ID is a global sequential counter, and the bulletin text itself
+    (e.g. "NEW NAME (\"TICK\") [formerly Old Name (\"OLD\")] BULLETIN TYPE:
+    Name Change") carries everything needed, so a plain incremental scan
+    (persisted last-seen NOTICE_ID) finds every one -- no per-company lookup
+    needed.
+  - TSX   (senior board) has no equivalent free feed (TMX's Datalinx "TSX
+    Bulletins" covering it is paid); reported as a standing failure so the
+    gap stays visible rather than silently empty.
 
 Each exchange fetcher is isolated: if one fails, previous data for its
 exchanges is kept and the rest still update.
@@ -301,14 +307,109 @@ def fetch_us_rtos() -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
-# TSX — no free structured feed found; report as a standing gap.
+# TSXV (TSX Venture) — infoventure.tsx.com's bulletin system. Each bulletin's
+# NOTICE_ID is a global sequential counter (independent of the company/PO_ID
+# it's tied to), and the bulletin body itself contains the company name,
+# ticker, bulletin type and date regardless of PO_ID -- so a plain sequential
+# scan finds every bulletin, including "[formerly Old Name ("OLD")]" for
+# Name/Symbol Change ones, without needing to already know which company to
+# look up. We only ever scan forward from the last NOTICE_ID checked
+# (persisted in the repo) so a run only makes a small, polite number of
+# requests once caught up to the present.
+#
+# Senior TSX (non-Venture) has no equivalent free source -- TMX's "TSX
+# Bulletins" product covering it is paid (Datalinx) -- so that board is
+# reported as a standing gap separately from TSXV.
 # ---------------------------------------------------------------------------
+
+TSXV_STATE_FILE = ROOT / "data" / "snapshots" / "tsxv_last_notice_id.json"
+TSXV_BASE = "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController"
+TSXV_BACKFILL_START = 298000  # calibrated 2026-07: a little before our 365-day KEEP_AFTER cutoff
+TSXV_BATCH_SIZE = 4000  # requests per run -- backfills a year of history over a handful of runs
+TSXV_STOP_AFTER_EMPTY_STREAK = 300  # long run of empty IDs means we've caught up to the live edge
+
+TSXV_NOTICE_RE = re.compile(
+    r'BULLETIN\s+V[\w-]+\s+(?P<new_name>.+?)\s*\("(?P<new_ticker>[^"]{1,15})"\)'
+    r'(?:\s*\[formerly\s+(?P<old_name>.+?)\s*\("(?P<old_ticker>[^"]{1,15})"\)\])?'
+    r'\s*BULLETIN TYPE:\s*(?P<type>.+?)\s*BULLETIN DATE:\s*(?P<date>[A-Za-z]+ \d{1,2},? \d{4})',
+    re.S,
+)
+
+
+def _tsxv_notice_url(nid: int) -> str:
+    return f"{TSXV_BASE}?GetPage=NoticesContents&PO_ID=0&NOTICE_ID={nid}&CORRECTION_FLG=N&HC_FLAG1=checked"
+
+
+def fetch_tsxv_rtos() -> list[dict]:
+    state: dict = {}
+    if TSXV_STATE_FILE.exists():
+        try:
+            state = json.loads(TSXV_STATE_FILE.read_text())
+        except json.JSONDecodeError:
+            state = {}
+    nid = state.get("last_notice_id", TSXV_BACKFILL_START)
+
+    out: list[dict] = []
+    empty_streak = 0
+    for _ in range(TSXV_BATCH_SIZE):
+        if empty_streak >= TSXV_STOP_AFTER_EMPTY_STREAK:
+            break
+        nid += 1
+        try:
+            body = http_get(_tsxv_notice_url(nid)).text
+        except Exception:
+            empty_streak += 1
+            continue
+
+        text = re.sub(r"<script.*?</script>", " ", body, flags=re.S | re.I)
+        text = re.sub(r"<[^>]+>", " ", text)
+        text = re.sub(r"&nbsp;", " ", text)
+        text = re.sub(r"\s+", " ", text)
+        m = TSXV_NOTICE_RE.search(text)
+        if not m:
+            empty_streak += 1
+            continue
+        empty_streak = 0
+
+        btype = m.group("type").strip()
+        if not re.search(r"name change|symbol change", btype, re.I):
+            continue
+        date_str = parse_date(m.group("date"))
+        if not date_str:
+            continue
+        new_name = re.sub(r"\s+", " ", m.group("new_name")).strip()
+        new_ticker = m.group("new_ticker").strip()
+        old_name = re.sub(r"\s+", " ", m.group("old_name") or "").strip()
+        old_ticker = (m.group("old_ticker") or "").strip()
+        name_changed = bool(old_name) and old_name.lower() != new_name.lower()
+        ticker_changed = bool(old_ticker) and old_ticker != new_ticker
+        if name_changed and ticker_changed:
+            change_type = "Name & Symbol Change"
+        elif ticker_changed:
+            change_type = "Symbol Change"
+        else:
+            change_type = "Name Change"  # the bulletin itself is typed as one, even if brackets are sparse
+        rec = rto_record(
+            exchange="TSXV",
+            old_name=old_name, old_ticker=old_ticker,
+            new_name=new_name, new_ticker=new_ticker,
+            change_type=change_type,
+            date=date_str,
+            source=_tsxv_notice_url(nid),
+        )
+        if rec:
+            out.append(rec)
+
+    TSXV_STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    TSXV_STATE_FILE.write_text(json.dumps({"last_notice_id": nid}, indent=2) + "\n")
+    return out
+
 
 def fetch_tsx_rtos() -> list[dict]:
     raise RuntimeError(
-        "No free structured feed for TSX name/symbol changes: TMX's official "
-        "corporate-actions data (Datalinx) is a paid product, and press-release "
-        "search engines don't expose a reliable filter for this."
+        "No free structured feed for senior TSX (non-Venture) name/symbol "
+        "changes: TMX's official corporate-actions data (Datalinx / TSX "
+        "Bulletins) covering the senior board is a paid product."
     )
 
 
@@ -322,7 +423,8 @@ RTO_FETCHERS: dict[str, tuple] = {
     "ASX": (fetch_asx_rtos, {"ASX"}, False),
     "CSE": (fetch_cse_rtos, {"CSE"}, False),
     "US": (fetch_us_rtos, {"NASDAQ", "NYSE", "NYSE American"}, False),
-    "TSX": (fetch_tsx_rtos, {"TSX", "TSXV"}, False),
+    "TSXV": (fetch_tsxv_rtos, {"TSXV"}, True),
+    "TSX": (fetch_tsx_rtos, {"TSX"}, False),
 }
 
 
