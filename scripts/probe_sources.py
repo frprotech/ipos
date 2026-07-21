@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""Diagnostic: probe candidate RTO / name-change data sources for all 5
-exchanges from a GitHub runner. Temporary tool — not part of the site."""
+"""Diagnostic round 2: fix NASDAQ Daily List URL, find NYSE's underlying API,
+find CSE's bulletins API, and extract TSX press-release search results.
+Temporary tool — not part of the site."""
 
 import datetime as dt
 import re
@@ -16,106 +17,96 @@ def get(url, **kw):
     return requests.get(url, headers=HEADERS, timeout=30, **kw)
 
 # ---------------------------------------------------------------------------
-# 1) NASDAQ Daily List — find the working file-naming pattern
+# 1) NASDAQ Daily List — inspect the product-description page for the real
+#    download link/form, and try the FTP host over HTTPS mirror.
 # ---------------------------------------------------------------------------
-print("=" * 100, "\nNASDAQ Daily List")
-for days_back in range(0, 6):
-    d = today - dt.timedelta(days=days_back)
-    fname = f"nq{d.month:02d}{d.day:02d}{d.year}.txt"
-    for base in [
-        "https://www.nasdaqtrader.com/Trader.aspx?id=DailyListFile&file=",
-        "https://www.nasdaqtrader.com/Micro.aspx?id=DailyListFile&file=",
-        "https://www.nasdaqtrader.com/dynamic/SymDir/",
-    ]:
-        url = base + fname
-        try:
-            r = get(url)
-            print(f"  {url} -> {r.status_code} len={len(r.content)}")
-            if r.status_code == 200 and len(r.content) > 100:
-                print("  SAMPLE:", r.text[:500].replace("\n", " | "))
-        except Exception as exc:
-            print(f"  {url} -> ERROR {exc}")
-
-# Try FTP-style HTTP mirror and the plain nasdaqtrader.com listing page
-for url in [
-    "https://www.nasdaqtrader.com/trader.aspx?id=DailyListPD",
-    "https://www.nasdaqtrader.com/Trader.aspx?id=dailylistpd",
-]:
-    try:
-        r = get(url)
-        print(f"  PAGE {url} -> {r.status_code} len={len(r.content)}")
-        links = re.findall(r'href="([^"]+\.txt[^"]*)"', r.text, re.I)
-        for l in links[:10]:
-            print("    txt link:", l)
-    except Exception as exc:
-        print(f"  PAGE {url} -> ERROR {exc}")
-
-# ---------------------------------------------------------------------------
-# 2) NYSE Market Notices / Listing Notices
-# ---------------------------------------------------------------------------
-print("=" * 100, "\nNYSE Notices")
-for url in [
-    "https://www.nyse.com/markets/notices",
-    "https://www.nyse.com/market-data/corporate-actions/nyse-and-nyse-american-listing-notices",
-]:
-    try:
-        r = get(url)
-        print(f"  {url} -> {r.status_code} len={len(r.content)} type={r.headers.get('content-type')}")
-        apis = sorted(set(re.findall(r'https?://[^"\'\s]+api[^"\'\s]*', r.text, re.I)))
-        for a in apis[:15]:
-            print("    api-hint:", a)
-        tables = re.findall(r"<table.*?</table>", r.text, re.S | re.I)
-        print("    table-count:", len(tables))
-    except Exception as exc:
-        print(f"  {url} -> ERROR {exc}")
-
-# ---------------------------------------------------------------------------
-# 3) ASX code changes page
-# ---------------------------------------------------------------------------
-print("=" * 100, "\nASX code changes")
-url = "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+print("=" * 100, "\nNASDAQ Daily List — page internals")
 try:
-    r = get(url)
-    print(f"  {url} -> {r.status_code} len={len(r.content)}")
-    tables = re.findall(r"<table.*?</table>", r.text, re.S | re.I)
-    print("  table-count:", len(tables))
-    for t in tables[:2]:
-        print("  TABLE-HEAD:", re.sub(r"\s+", " ", t)[:1500])
+    r = get("https://www.nasdaqtrader.com/Trader.aspx?id=dailylistpd")
+    body = r.text
+    for pat in [r'href="([^"]*DailyList[^"]*)"', r'href="([^"]*\.txt[^"]*)"',
+                r"action=\"([^\"]+)\"", r'ftp[^"\'\s]+']:
+        hits = sorted(set(re.findall(pat, body, re.I)))
+        print(f"  pattern {pat!r}: {len(hits)} hits")
+        for h in hits[:10]:
+            print("    ", h)
 except Exception as exc:
-    print(f"  {url} -> ERROR {exc}")
+    print("  ERROR:", exc)
 
-# ---------------------------------------------------------------------------
-# 4) CSE bulletins index — filter for name/symbol change bulletins
-# ---------------------------------------------------------------------------
-print("=" * 100, "\nCSE bulletins")
 for url in [
-    "https://thecse.com/news-events/bulletins/",
-    "https://listings.thecse.com/en/about/publications/bulletins",
+    "https://ftp.nasdaqtrader.com/Trader.aspx?id=DailyListFile",
+    f"https://www.nasdaqtrader.com/dynamic/DailyList/nq{today.month:02d}{today.day:02d}{today.year}.txt",
+    "https://www.nasdaqtrader.com/RemoveNASD.aspx",
 ]:
     try:
         r = get(url)
-        print(f"  {url} -> {r.status_code} len={len(r.content)}")
-        links = re.findall(r'href="(/bulletin/[^"]+)"', r.text, re.I)
-        print("  bulletin-links found:", len(links))
-        for l in links[:10]:
-            print("    ", l)
-        m = re.search(r'"buildId"\s*:\s*"([^"]+)"', r.text)
-        if m:
-            print("  NEXT-BUILD-ID:", m.group(1))
+        print(f"  TRY {url} -> {r.status_code} type={r.headers.get('content-type')} len={len(r.content)}")
+        if r.status_code == 200 and "html" not in (r.headers.get("content-type") or ""):
+            print("  SAMPLE:", r.text[:400])
+    except Exception as exc:
+        print(f"  TRY {url} -> ERROR {exc}")
+
+# ---------------------------------------------------------------------------
+# 2) NYSE — dump actual table rows from /markets/notices, and hunt for API
+#    endpoints in the listing-notices SPA's JS bundles.
+# ---------------------------------------------------------------------------
+print("=" * 100, "\nNYSE notices — table content + API hints")
+try:
+    r = get("https://www.nyse.com/markets/notices")
+    tables = re.findall(r"<table.*?</table>", r.text, re.S | re.I)
+    for i, t in enumerate(tables):
+        print(f"  TABLE {i} HEAD:", re.sub(r"\s+", " ", t)[:1200])
+except Exception as exc:
+    print("  ERROR:", exc)
+
+try:
+    r = get("https://www.nyse.com/market-data/corporate-actions/nyse-and-nyse-american-listing-notices")
+    body = r.text
+    apis = sorted(set(re.findall(r'https?://[^"\'\s]+(?:api|json|graphql)[^"\'\s]*', body, re.I)))
+    for a in apis[:20]:
+        print("    api-hint:", a)
+    scripts = re.findall(r'src="(/[^"]+\.js[^"]*)"', body)
+    print("  script count:", len(scripts))
+    for s in scripts[:15]:
+        print("    script:", s)
+except Exception as exc:
+    print("  ERROR:", exc)
+
+# ---------------------------------------------------------------------------
+# 3) CSE — try the webapi pattern that worked for listed-companies, and
+#    the sitemap as a fallback way to enumerate bulletin URLs.
+# ---------------------------------------------------------------------------
+print("=" * 100, "\nCSE bulletins API / sitemap")
+for url in [
+    "https://thecse.com/api/webapi/bulletins/",
+    "https://thecse.com/api/bulletins/",
+    "https://thecse.com/api/webapi/news/",
+    "https://thecse.com/sitemap.xml",
+    "https://thecse.com/bulletin-sitemap.xml",
+    "https://thecse.com/sitemaps/bulletins.xml",
+]:
+    try:
+        r = get(url)
+        print(f"  {url} -> {r.status_code} type={r.headers.get('content-type')} len={len(r.content)}")
+        if r.status_code == 200:
+            print("  SAMPLE:", r.text[:500])
     except Exception as exc:
         print(f"  {url} -> ERROR {exc}")
 
 # ---------------------------------------------------------------------------
-# 5) TSX name/symbol changes via free press-release wires
+# 4) TSX via Newsfile Corp — extract actual result links from the search page
 # ---------------------------------------------------------------------------
-print("=" * 100, "\nTSX via press release wires")
-for url in [
-    "https://www.newsfilecorp.com/search?q=%22name+and+symbol+change%22+TSX",
-    "https://www.globenewswire.com/search/keyword/TSX%2520name%2520and%2520symbol%2520change",
-]:
-    try:
-        r = get(url)
-        print(f"  {url} -> {r.status_code} len={len(r.content)}")
-        print("  SAMPLE:", re.sub(r"\s+", " ", r.text)[:800])
-    except Exception as exc:
-        print(f"  {url} -> ERROR {exc}")
+print("=" * 100, "\nNewsfile Corp search — result extraction")
+try:
+    r = get("https://www.newsfilecorp.com/search?q=%22name+and+symbol+change%22+TSX")
+    body = r.text
+    links = re.findall(r'href="(/release/[^"]+)"[^>]*>([^<]{5,120})<', body)
+    print("  release links found:", len(links))
+    for href, title in links[:15]:
+        print("   ", href, "|", title.strip())
+    # Also check if there's a JSON API backing the search (XHR)
+    apis = sorted(set(re.findall(r'https?://[^"\'\s]+search[^"\'\s]*', body, re.I)))
+    for a in apis[:10]:
+        print("    api-hint:", a)
+except Exception as exc:
+    print("  ERROR:", exc)
