@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T22:33:34+00:00",
+  "updated_at": "2026-07-21T23:54:00+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -306,16 +306,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Perceptive Capital Solutions Corp",
-      "old_ticker": "",
-      "new_name": "Freenome, Inc.",
-      "new_ticker": "PCSC",
-      "change_type": "Name Change",
-      "date": "2026-07-15",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002017526&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Osisko Development Corp.",
       "old_ticker": "ODVWZ",
       "new_name": "Osisko Gold Group Inc.",
@@ -323,6 +313,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-07-15",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001431852&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Perceptive Capital Solutions Corp",
+      "old_ticker": "",
+      "new_name": "Freenome, Inc.",
+      "new_ticker": "PCSC",
+      "change_type": "Name Change",
+      "date": "2026-07-15",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002017526&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -708,7 +708,7 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "Uberdoc Health Technologies Corp",
+      "new_name": "UBERDOC Health Technologies Corp",
       "new_ticker": "APPT",
       "change_type": "Name Change",
       "date": "2026-06-22",
@@ -838,7 +838,7 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "Egf Theramed Health Corp",
+      "new_name": "EGF Theramed Health Corp",
       "new_ticker": "TMED",
       "change_type": "Symbol Change",
       "date": "2026-06-15",
@@ -1858,7 +1858,7 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "Sbd Capital Corp",
+      "new_name": "SBD Capital Corp",
       "new_ticker": "SBD",
       "change_type": "Symbol Change",
       "date": "2026-03-21",
@@ -2148,7 +2148,7 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "Global Uav Technologies Ltd",
+      "new_name": "Global UAV Technologies Ltd",
       "new_ticker": "UAV",
       "change_type": "Symbol Change",
       "date": "2026-02-25",
@@ -2308,8 +2308,8 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "Rumble Resources",
-      "new_ticker": "INC.RB",
+      "new_name": "Rumble Resources Inc",
+      "new_ticker": "RB",
       "change_type": "Name & Symbol Change",
       "date": "2026-02-12",
       "source": "https://thecse.com/bulletin/2026-0212-name-and-symbol-change-rumble-resources-inc-rb"
@@ -2358,8 +2358,8 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "Beyond Lithium",
-      "new_ticker": "INC.BY",
+      "new_name": "Beyond Lithium Inc",
+      "new_ticker": "BY",
       "change_type": "Name Change",
       "date": "2026-02-10",
       "source": "https://thecse.com/bulletin/2026-0210-name-change-beyond-lithium-inc-by"
@@ -2688,7 +2688,7 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "Predictmedix Ai Inc",
+      "new_name": "Predictmedix AI Inc",
       "new_ticker": "PMED",
       "change_type": "Name & Symbol Change",
       "date": "2026-01-20",
@@ -2748,7 +2748,7 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "Ajn Resources Inc",
+      "new_name": "AJN Resources Inc",
       "new_ticker": "AJN",
       "change_type": "Name & Symbol Change",
       "date": "2026-01-16",
@@ -2796,16 +2796,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Ondas Holdings Inc.",
-      "old_ticker": "",
-      "new_name": "Ondas Inc.",
-      "new_ticker": "ONDS",
-      "change_type": "Name Change",
-      "date": "2026-01-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001646188&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "iRhythm Technologies, Inc.",
       "old_ticker": "",
       "new_name": "iRhythm Holdings, Inc.",
@@ -2813,6 +2803,16 @@
       "change_type": "Name Change",
       "date": "2026-01-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Ondas Holdings Inc.",
+      "old_ticker": "",
+      "new_name": "Ondas Inc.",
+      "new_ticker": "ONDS",
+      "change_type": "Name Change",
+      "date": "2026-01-12",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001646188&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -2838,7 +2838,7 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "Inactive Designation Mijem Newcomm Tech Inc",
+      "new_name": "Mijem Newcomm Tech Inc",
       "new_ticker": "MJEM",
       "change_type": "Symbol Change",
       "date": "2026-01-09",
@@ -2958,7 +2958,7 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "Hi View Resources Inc",
+      "new_name": "Hi-View Resources Inc",
       "new_ticker": "HVW",
       "change_type": "Symbol Change",
       "date": "2026-01-05",
@@ -3458,7 +3458,7 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "And Reclassification S2 Minerals Inc",
+      "new_name": "S2 Minerals Inc",
       "new_ticker": "STWO",
       "change_type": "Name & Symbol Change",
       "date": "2025-12-04",
@@ -3548,7 +3548,7 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "Bettermoo D Food Corporation",
+      "new_name": "Bettermoo(d) Food Corporation",
       "new_ticker": "MOOO",
       "change_type": "Symbol Change",
       "date": "2025-12-02",
@@ -3768,8 +3768,8 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "World Blockchain",
-      "new_ticker": "CORP.CK",
+      "new_name": "World Blockchain Corp",
+      "new_ticker": "CK",
       "change_type": "Symbol Change",
       "date": "2025-11-21",
       "source": "https://thecse.com/bulletin/2025-1121-symbol-change-world-blockchain-corp-ck"
@@ -3858,7 +3858,7 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "Inactive Designation Digicann Ventures Inc",
+      "new_name": "Digicann Ventures Inc",
       "new_ticker": "DCNN",
       "change_type": "Symbol Change",
       "date": "2025-11-16",
@@ -3993,6 +3993,16 @@
       "change_type": "Name Change",
       "date": "2025-11-10",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001932770&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "APPLIED DNA SCIENCES INC",
+      "old_ticker": "",
+      "new_name": "BNB PLUS CORP.",
+      "new_ticker": "BNBX",
+      "change_type": "Name Change",
+      "date": "2025-11-10",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000744452&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -4708,7 +4718,7 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "Zoglo S Food Corp",
+      "new_name": "Zoglo&#x27;s Food Corp",
       "new_ticker": "ZOG",
       "change_type": "Symbol Change",
       "date": "2025-09-12",
@@ -4845,6 +4855,46 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001898766&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "CARBEEZA INC.",
+      "old_ticker": "AUTO",
+      "new_name": "AGEREH TECHNOLOGIES INC.",
+      "new_ticker": "AUTO",
+      "change_type": "Name Change",
+      "date": "2025-09-09",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301885&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Stelmine Canada Ltd.",
+      "old_ticker": "STH",
+      "new_name": "STELMINE CANADA LTD.",
+      "new_ticker": "STH.H",
+      "change_type": "Symbol Change",
+      "date": "2025-09-09",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301887&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "TUT Fitness Group Inc.",
+      "old_ticker": "GYM",
+      "new_name": "TUT FITNESS GROUP INC.",
+      "new_ticker": "GYM.H",
+      "change_type": "Symbol Change",
+      "date": "2025-09-09",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301888&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Victory Opportunities 1 Corp.",
+      "old_ticker": "VOC.P",
+      "new_name": "EXCALIBUR METALS CORP.",
+      "new_ticker": "EXCL",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-09",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301889&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "Surfside Acquisition Inc.",
       "old_ticker": "",
@@ -4893,6 +4943,26 @@
       "change_type": "Name Change",
       "date": "2025-09-04",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001828588&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "G.E.T.T. GOLD INC.",
+      "old_ticker": "GETT",
+      "new_name": "G.E.T.T. GOLD INC.",
+      "new_ticker": "GETT.H",
+      "change_type": "Symbol Change",
+      "date": "2025-09-04",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301654&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Three Valley Copper Corp.",
+      "old_ticker": "TVC.H",
+      "new_name": "THREE VALLEY COPPER CORP.",
+      "new_ticker": "TVC",
+      "change_type": "Symbol Change",
+      "date": "2025-09-04",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301660&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NYSE",
@@ -4963,6 +5033,26 @@
       "change_type": "Name Change",
       "date": "2025-09-02",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001898604&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "GOLDSHORE RESOURCES INC.",
+      "old_ticker": "GSHR",
+      "new_name": "GOLD X2 MINING INC.",
+      "new_ticker": "AUXX",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-02",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301385&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "REEM CAPITAL CORP.",
+      "old_ticker": "REEM.P",
+      "new_name": "SEEGNAL INC.",
+      "new_ticker": "SEGN",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-02",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301387&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "ASX",
@@ -5055,6 +5145,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001527728&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "CALLINEX MINES INC.",
+      "old_ticker": "CNX",
+      "new_name": "VISIONARY COPPER AND GOLD MINES INC.",
+      "new_ticker": "VCG",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-26",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301221&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NYSE",
       "old_name": "BERKSHIRE HILLS BANCORP INC",
       "old_ticker": "",
@@ -5135,6 +5235,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001502292&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "XANDER RESOURCES INC.",
+      "old_ticker": "XND",
+      "new_name": "CORE CRITICAL METALS CORP.",
+      "new_ticker": "CCMC",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-22",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301147&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "Solstice Advanced Materials, LLC",
       "old_ticker": "",
@@ -5188,7 +5298,7 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "Treatment Com Ai Inc",
+      "new_name": "Treatment.com AI Inc",
       "new_ticker": "TRUE",
       "change_type": "Name & Symbol Change",
       "date": "2025-08-18",
@@ -5265,6 +5375,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001747661&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "PACE METALS LTD.",
+      "old_ticker": "PACE",
+      "new_name": "TOTAL METALS CORP.",
+      "new_ticker": "TT",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-14",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=300825&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "ASX",
       "old_name": "Catapult Group International Ltd",
       "old_ticker": "CAT",
@@ -5313,6 +5433,16 @@
       "change_type": "Name Change",
       "date": "2025-08-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001596961&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Aranjin Resources Ltd.",
+      "old_ticker": "ARJN",
+      "new_name": "TRINITY ONE METALS LTD.",
+      "new_ticker": "TOM",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-12",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=300565&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NASDAQ",
@@ -5398,8 +5528,8 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "Kwg Resources Inc Cacr",
-      "new_ticker": "CACR.A",
+      "new_name": "KWG Resources Inc",
+      "new_ticker": "CACR, CACR.A",
       "change_type": "Name Change",
       "date": "2025-08-05",
       "source": "https://thecse.com/bulletin/2025-0805-name-change-kwg-resources-inc-cacr-cacr-a"
@@ -5413,6 +5543,16 @@
       "change_type": "Name Change",
       "date": "2025-08-05",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002080073&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Empire Metals Corp.",
+      "old_ticker": "EP",
+      "new_name": "ROLAND MINERAL ENTERPRISES CORP.",
+      "new_ticker": "RME",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-05",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=300028&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NASDAQ",
@@ -5448,8 +5588,8 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
-      "new_name": "Pampa Metals",
-      "new_ticker": "CORPORATION.PM",
+      "new_name": "Pampa Metals Corporation",
+      "new_ticker": "PM",
       "change_type": "Name & Symbol Change",
       "date": "2025-08-03",
       "source": "https://thecse.com/bulletin/2025-0803-name-and-symbol-change-pampa-metals-corporation-pm"
@@ -5473,6 +5613,36 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-07-31",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002030829&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "ROVER CRITICAL MINERALS CORP.",
+      "old_ticker": "ROVR",
+      "new_name": "STOCKWORKS GOLD INC.",
+      "new_ticker": "STW",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-07-31",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=299986&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "SONORAN DESERT COPPER CORPORATION",
+      "old_ticker": "SDCU",
+      "new_name": "BRASNOVA ENERGY MATERIALS INC.",
+      "new_ticker": "BEM",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-07-31",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=299987&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "MIDASCO CAPITAL CORP.",
+      "old_ticker": "MGC.H",
+      "new_name": "SPARTAN METALS CORP.",
+      "new_ticker": "W",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-07-31",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=299988&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NYSE",
