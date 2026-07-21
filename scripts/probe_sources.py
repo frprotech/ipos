@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Diagnostic round 11: extract the actual bulletin text (past the nav
-boilerplate) for several TSXV NOTICE_IDs to confirm the Name/Symbol Change
-format is parseable, and get a rough sense of the NOTICE_ID range for our
-tracking window. Temporary tool -- not part of the site."""
+"""Diagnostic round 12: does the TSXV notice body itself contain the company
+name/ticker (before "BULLETIN TYPE"), independent of PO_ID? Also specifically
+find a real Name Change / Symbol Change bulletin to confirm its exact text
+format. Temporary tool -- not part of the site."""
 
 import re
 import requests
@@ -18,40 +18,43 @@ def get(url, **kw):
 BASE = "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController"
 
 
-def bulletin_text(nid: int) -> str:
-    r = get(f"{BASE}?GetPage=NoticesContents&PO_ID=0&NOTICE_ID={nid}&CORRECTION_FLG=N&HC_FLAG1=checked")
-    body = re.sub(r"<script.*?</script>", " ", r.text, flags=re.S | re.I)
+def clean(html: str) -> str:
+    body = re.sub(r"<script.*?</script>", " ", html, flags=re.S | re.I)
+    body = re.sub(r"<style.*?</style>", " ", body, flags=re.S | re.I)
     body = re.sub(r"<[^>]+>", " ", body)
     body = re.sub(r"&nbsp;", " ", body)
-    body = re.sub(r"\s+", " ", body).strip()
-    # the real content starts after the nav menu; find "Bulletin" heading
-    idx = body.find("Bulletin Type")
-    if idx == -1:
-        idx = body.find("BULLETIN TYPE")
-    return body[idx: idx + 1200] if idx != -1 else body[-1200:]
+    return re.sub(r"\s+", " ", body).strip()
 
 
-print("=" * 100, "\nFull bulletin text for several NOTICE_IDs")
-for nid in [319314, 319313, 319315, 319320, 300000]:
-    print(f"--- NOTICE_ID={nid} ---")
-    try:
-        print(" ", bulletin_text(nid)[:900])
-    except Exception as exc:
-        print("  ERROR:", exc)
+print("=" * 100, "\nFull body (no PO_ID) around 'Bulletin Contents' heading -- look for company name/ticker")
+for nid in [319314, 319313, 300000]:
+    r = get(f"{BASE}?GetPage=NoticesContents&PO_ID=0&NOTICE_ID={nid}&CORRECTION_FLG=N&HC_FLAG1=checked")
+    body = clean(r.text)
+    idx = body.find("Bulletin Contents")
+    print(f"--- NOTICE_ID={nid} (PO_ID=0) ---")
+    print(" ", body[idx:idx+700] if idx != -1 else body[:700])
 
-# ---------------------------------------------------------------------------
-# Try to calibrate the ID->date relationship: fetch a handful more and print
-# any date string found, to see roughly how many IDs correspond to a year.
-# ---------------------------------------------------------------------------
-print("=" * 100, "\nDate calibration across a spread of NOTICE_IDs")
-for nid in [50000, 100000, 150000, 200000, 250000, 280000, 300000, 310000, 315000, 319000, 319314, 320000, 321000]:
+print("=" * 100, "\nSame notices WITH a correct-ish PO_ID (from the earlier list) to compare")
+# 1044821 was the PO_ID tied to notice 319314 in the original probe
+for nid, po in [(319314, 1044821)]:
+    r = get(f"{BASE}?GetPage=NoticesContents&PO_ID={po}&NOTICE_ID={nid}&CORRECTION_FLG=N&HC_FLAG1=checked")
+    body = clean(r.text)
+    idx = body.find("Bulletin Contents")
+    print(f"--- NOTICE_ID={nid} PO_ID={po} ---")
+    print(" ", body[idx:idx+700] if idx != -1 else body[:700])
+
+print("=" * 100, "\nScan a range for an actual Name/Symbol Change bulletin to see its exact text")
+found = 0
+for nid in range(319300, 319400):
     try:
         r = get(f"{BASE}?GetPage=NoticesContents&PO_ID=0&NOTICE_ID={nid}&CORRECTION_FLG=N&HC_FLAG1=checked")
-        body = re.sub(r"<script.*?</script>", " ", r.text, flags=re.S | re.I)
-        body = re.sub(r"<[^>]+>", " ", body)
-        body = re.sub(r"&nbsp;", " ", body)
-        body = re.sub(r"\s+", " ", body)
-        m = re.search(r"Bulletin Date:?\s*([A-Za-z]+ \d{1,2},? \d{4})", body, re.I)
-        print(f"  NOTICE_ID={nid} -> date: {m.group(1) if m else 'NOT FOUND'} (len={len(body)})")
-    except Exception as exc:
-        print(f"  NOTICE_ID={nid} ERROR:", exc)
+        body = clean(r.text)
+        if re.search(r"BULLETIN TYPE:[^.]*?(Name Change|Symbol Change)", body, re.I):
+            idx = body.find("Bulletin Contents")
+            print(f"  NOTICE_ID={nid}:", body[idx:idx+900] if idx != -1 else body[:900])
+            found += 1
+            if found >= 3:
+                break
+    except Exception:
+        continue
+print("  total Name/Symbol Change bulletins found in range:", found)
