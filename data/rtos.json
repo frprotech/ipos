@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T22:19:30+00:00",
+  "updated_at": "2026-07-21T22:24:13+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -70,7 +70,7 @@
       "old_ticker": "HYMCW",
       "new_name": "HYCROFT MINING HOLDING CORP",
       "new_ticker": "HYMC",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Symbol Change",
       "date": "2026-07-16",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001718405&type=8-K"
     },
@@ -103,16 +103,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-07-09",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Applied Digital Corp.",
-      "old_ticker": "",
-      "new_name": "Applied Digital Corp.",
-      "new_ticker": "APLD",
-      "change_type": "Name Change",
-      "date": "2026-07-08",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001144879&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -150,19 +140,9 @@
       "old_ticker": "RILYG",
       "new_name": "BRC Group Holdings, Inc.",
       "new_ticker": "RILY",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Symbol Change",
       "date": "2026-07-02",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001464790&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "ONITY GROUP INC.",
-      "old_ticker": "",
-      "new_name": "ONITY GROUP INC.",
-      "new_ticker": "ONIT",
-      "change_type": "Name Change",
-      "date": "2026-07-01",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000873860&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -2216,16 +2196,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Conifer Holdings, Inc.",
-      "old_ticker": "PRHIZ",
-      "new_name": "Presurance Holdings, Inc.",
-      "new_ticker": "PRHI",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-22",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001502292&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "HomeStreet, Inc.",
       "old_ticker": "",
       "new_name": "Mechanics Bancorp",
@@ -2233,6 +2203,16 @@
       "change_type": "Name Change",
       "date": "2025-08-22",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001518715&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Conifer Holdings, Inc.",
+      "old_ticker": "PRHIZ",
+      "new_name": "Presurance Holdings, Inc.",
+      "new_ticker": "PRHI",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-08-22",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001502292&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -2395,16 +2375,6 @@
       "source": "https://thecse.com/bulletin/2025-0725-name-and-symbol-change-great-northern-energy-metals-inc-gnem"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "Ikena Oncology, Inc.",
-      "old_ticker": "",
-      "new_name": "ImageneBio, Inc.",
-      "new_ticker": "IMA",
-      "change_type": "Name Change",
-      "date": "2025-07-25",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001835579&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "UNITED STATES CELLULAR CORP",
       "old_ticker": "UZD",
@@ -2413,6 +2383,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-07-25",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000821130&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Ikena Oncology, Inc.",
+      "old_ticker": "",
+      "new_name": "ImageneBio, Inc.",
+      "new_ticker": "IMA",
+      "change_type": "Name Change",
+      "date": "2025-07-25",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001835579&type=8-K"
     },
     {
       "exchange": "ASX",
