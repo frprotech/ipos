@@ -1,118 +1,77 @@
 #!/usr/bin/env python3
-"""Diagnostic round 5: is SEC EDGAR a viable free source for NASDAQ/NYSE
-name & ticker change tracking (a real alternative to paid EODHD)? Temporary
-tool -- not part of the site."""
+"""Diagnostic round 6: why doesn't the NMAD/LIXT case show up via our
+"changed its name to" full-text search query? Temporary tool -- not part
+of the site."""
 
-import json
-import re
 import requests
 
 HEADERS = {
-    # SEC requires a descriptive User-Agent with contact info, or it 403s.
-    "User-Agent": "ipos.com RTO research contact@ipos.com",
-    "Accept": "application/json, text/html;q=0.9, */*;q=0.8",
+    "User-Agent": "ipos.com RTO tracker (contact: admin@ipos.com)",
+    "Accept": "application/json",
 }
 
-def get(url, **kw):
-    return requests.get(url, headers=HEADERS, timeout=30, **kw)
+def get(url):
+    return requests.get(url, headers=HEADERS, timeout=30)
 
-# ---------------------------------------------------------------------------
-# 1) Bulk ticker/CIK/exchange file -- if this updates promptly when a company
-#    changes ticker, we could diff it daily keyed by CIK (which never
-#    changes) to link old ticker -> new ticker properly, unlike the
-#    nasdaqtrader.com snapshot we use now (no stable ID there).
-# ---------------------------------------------------------------------------
-print("=" * 100, "\nSEC bulk company_tickers_exchange.json")
-try:
-    r = get("https://www.sec.gov/files/company_tickers_exchange.json")
-    print("  status:", r.status_code, "len:", len(r.content))
-    if r.status_code == 200:
-        data = r.json()
-        print("  top-level keys:", list(data.keys())[:5])
-        print("  fields:", data.get("fields"))
-        print("  sample rows:", data.get("data", [])[:5])
-        print("  total rows:", len(data.get("data", [])))
-except Exception as exc:
-    print("  ERROR:", exc)
+NMAD_CIK = "1335105"
 
-# ---------------------------------------------------------------------------
-# 2) Find LIXT/NMAD's CIK (the real NMAD example) via SEC full text search,
-#    then check its submissions.json for a "formerNames" entry with dates.
-# ---------------------------------------------------------------------------
-print("=" * 100, "\nFind LIXT/NMAD CIK via full text search")
-cik = None
-try:
-    r = get("https://efts.sec.gov/LATEST/search-index?q=%22NOMAD+Power+Solutions%22&forms=8-K")
-    print("  status:", r.status_code)
-    if r.status_code == 200:
-        data = r.json()
-        hits = data.get("hits", {}).get("hits", [])
-        print("  hit count:", len(hits))
-        for h in hits[:3]:
-            src = h.get("_source", {})
-            print("   ", src.get("display_names"), src.get("file_date"))
-            ciks = src.get("ciks")
-            if ciks:
-                cik = ciks[0]
-        print("  resolved cik:", cik)
-except Exception as exc:
-    print("  ERROR:", exc)
-
-if not cik:
-    # fallback: try the plain company search JSON
+print("=" * 100, "\nDoes our production query find NMAD's CIK?")
+url = ("https://efts.sec.gov/LATEST/search-index?q=%22changed+its+name+to%22"
+       "&forms=8-K&startdt=2025-07-21&enddt=2026-07-21&from=0")
+found = False
+for page in range(30):
+    frm = page * 10
+    u = url.replace("from=0", f"from={frm}")
     try:
-        r = get("https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=nomad+power&type=8-K&dateb=&owner=include&count=10&output=atom")
-        print("  fallback browse-edgar status:", r.status_code)
-        m = re.search(r"CIK=(\d+)", r.text)
-        if m:
-            cik = m.group(1)
-            print("  resolved cik via fallback:", cik)
-    except Exception as exc:
-        print("  fallback ERROR:", exc)
-
-print("=" * 100, "\nsubmissions.json formerNames check")
-if cik:
-    try:
-        padded = str(int(cik)).zfill(10)
-        r = get(f"https://data.sec.gov/submissions/CIK{padded}.json")
-        print("  status:", r.status_code)
-        if r.status_code == 200:
-            data = r.json()
-            print("  name:", data.get("name"))
-            print("  tickers:", data.get("tickers"))
-            print("  exchanges:", data.get("exchanges"))
-            print("  formerNames:", json.dumps(data.get("formerNames"), indent=2))
-    except Exception as exc:
-        print("  ERROR:", exc)
-else:
-    print("  no CIK resolved, skipping")
-
-# ---------------------------------------------------------------------------
-# 3) Full text search for recent 8-Ks announcing name changes generally --
-#    a complementary/independent way to catch new events without scanning
-#    every CIK's submissions.json.
-# ---------------------------------------------------------------------------
-print("=" * 100, "\nFull text search for recent name-change 8-Ks")
-try:
-    r = get('https://efts.sec.gov/LATEST/search-index?q=%22changed+its+name+to%22&forms=8-K&dateRange=custom&startdt=2026-07-01&enddt=2026-07-21')
-    print("  status:", r.status_code)
-    if r.status_code == 200:
+        r = get(u)
         data = r.json()
-        hits = data.get("hits", {}).get("hits", [])
-        print("  total hits:", data.get("hits", {}).get("total", {}))
-        for h in hits[:10]:
-            src = h.get("_source", {})
-            print("   ", src.get("file_date"), src.get("display_names"))
+    except Exception as exc:
+        print(f"  page {frm} error: {exc}")
+        break
+    hits = data.get("hits", {}).get("hits", [])
+    if not hits:
+        print(f"  no more hits at page {frm}")
+        break
+    for h in hits:
+        ciks = h.get("_source", {}).get("ciks") or []
+        if NMAD_CIK in ciks:
+            found = True
+            print(f"  FOUND at page {frm}:", h.get("_source", {}).get("display_names"), h.get("_source", {}).get("file_date"))
+    total = data.get("hits", {}).get("total", {}).get("value", 0)
+    if frm + 10 >= total:
+        print(f"  reached end of results, total={total}")
+        break
+print("  NMAD found via production query:", found)
+
+# Now check what 8-Ks NMAD actually filed, and what phrases they use
+print("=" * 100, "\nNMAD's actual 8-K filings and full text search for its own CIK")
+r = get(f"https://data.sec.gov/submissions/CIK{int(NMAD_CIK):010d}.json")
+data = r.json()
+recent = data.get("filings", {}).get("recent", {})
+forms = recent.get("form", [])
+dates = recent.get("filingDate", [])
+accns = recent.get("accessionNumber", [])
+docs = recent.get("primaryDocument", [])
+for i, f in enumerate(forms):
+    if f == "8-K" and dates[i] >= "2026-06-01":
+        print(f"  {dates[i]} {f} accn={accns[i]} doc={docs[i]}")
+
+print("=" * 100, "\nSearch efts.sec.gov filtered to just this CIK, no phrase filter")
+r = get(f"https://efts.sec.gov/LATEST/search-index?q=%22name+change%22&forms=8-K&ciks={NMAD_CIK}")
+try:
+    data = r.json()
+    print("  status:", r.status_code, "total:", data.get("hits", {}).get("total"))
+    for h in data.get("hits", {}).get("hits", [])[:5]:
+        print("   ", h.get("_source", {}).get("file_date"), h.get("_id"))
 except Exception as exc:
     print("  ERROR:", exc)
 
-# ---------------------------------------------------------------------------
-# 4) Rate limit / fair-access sanity check -- fire a few quick requests.
-# ---------------------------------------------------------------------------
-print("=" * 100, "\nRate limit spot check (5 quick requests)")
-import time
-t0 = time.time()
-for i in range(5):
-    r = get("https://data.sec.gov/submissions/CIK0000320193.json")
-    print(f"  req {i}: {r.status_code}")
-print("  elapsed:", round(time.time() - t0, 2), "s")
+print("=" * 100, "\nTry a few alternate phrase queries restricted to this CIK")
+for phrase in ["name+change", "changed+its+name", "will+begin+trading", "new+name", "symbol+change"]:
+    r = get(f"https://efts.sec.gov/LATEST/search-index?q=%22{phrase}%22&forms=8-K&ciks={NMAD_CIK}")
+    try:
+        data = r.json()
+        total = data.get("hits", {}).get("total", {}).get("value")
+        print(f"  phrase '{phrase.replace('+',' ')}' -> total hits: {total}")
+    except Exception as exc:
+        print(f"  phrase '{phrase}' ERROR:", exc)
