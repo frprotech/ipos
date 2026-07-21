@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
-"""Diagnostic round 4: NASDAQ FTP Files/Downloads dirs + api.nasdaq.com corporate
-actions endpoints, CSE bulletin slug variety, NYSE proxy endpoint. Temporary
-tool — not part of the site."""
+"""Diagnostic round 5: is SEC EDGAR a viable free source for NASDAQ/NYSE
+name & ticker change tracking (a real alternative to paid EODHD)? Temporary
+tool -- not part of the site."""
 
-import ftplib
+import json
 import re
 import requests
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126.0",
+    # SEC requires a descriptive User-Agent with contact info, or it 403s.
+    "User-Agent": "ipos.com RTO research contact@ipos.com",
     "Accept": "application/json, text/html;q=0.9, */*;q=0.8",
 }
 
@@ -16,85 +17,102 @@ def get(url, **kw):
     return requests.get(url, headers=HEADERS, timeout=30, **kw)
 
 # ---------------------------------------------------------------------------
-# 1) NASDAQ FTP — look inside Files and Downloads for daily-list archives
+# 1) Bulk ticker/CIK/exchange file -- if this updates promptly when a company
+#    changes ticker, we could diff it daily keyed by CIK (which never
+#    changes) to link old ticker -> new ticker properly, unlike the
+#    nasdaqtrader.com snapshot we use now (no stable ID there).
 # ---------------------------------------------------------------------------
-print("=" * 100, "\nNASDAQ FTP — Files / Downloads contents")
+print("=" * 100, "\nSEC bulk company_tickers_exchange.json")
 try:
-    ftp = ftplib.FTP("ftp.nasdaqtrader.com", timeout=20)
-    ftp.login()
-    for d in ["/Files", "/Downloads"]:
-        try:
-            ftp.cwd(d)
-            items = ftp.nlst()
-            print(f"  DIR {d}: {items[:40]}")
-        except Exception as exc:
-            print(f"  cwd {d} FAILED: {exc}")
-    ftp.quit()
-except Exception as exc:
-    print("  FTP ERROR:", exc)
-
-# ---------------------------------------------------------------------------
-# 2) api.nasdaq.com — try corporate-actions / symbol-change style endpoints
-#    (same host/pattern as the working IPO calendar API)
-# ---------------------------------------------------------------------------
-print("=" * 100, "\napi.nasdaq.com corporate-action endpoint hunt")
-for url in [
-    "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
-    "https://api.nasdaq.com/api/company/symbol-change",
-    "https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=5",
-    "https://api.nasdaq.com/api/corporate-actions",
-    "https://api.nasdaq.com/api/news/symbolchange",
-    "https://www.nasdaq.com/market-activity/stocks/symbol-change-history",
-]:
-    try:
-        r = get(url)
-        print(f"  {url} -> {r.status_code} type={r.headers.get('content-type')} len={len(r.content)}")
-        if r.status_code == 200 and "json" in (r.headers.get("content-type") or ""):
-            print("  SAMPLE:", r.text[:500])
-    except Exception as exc:
-        print(f"  {url} -> ERROR {exc}")
-
-# ---------------------------------------------------------------------------
-# 3) CSE bulletins sitemap — survey the variety of bulletin slug types
-# ---------------------------------------------------------------------------
-print("=" * 100, "\nCSE bulletins sitemap — slug type survey")
-try:
-    r = get("https://thecse.com/sitemaps/bulletins.xml")
-    locs = re.findall(r"<loc>(https://thecse\.com/bulletin/[^<]+)</loc>", r.text)
-    print("  total bulletin urls:", len(locs))
-    # bulletin slug pattern: /bulletin/YYYY-MMDD-<type>-...
-    types = {}
-    for loc in locs:
-        m = re.search(r"/bulletin/\d{4}-\d{4}-([a-z0-9-]+?)-[a-z0-9-]*$", loc)
-        slug_tail = loc.rsplit("/bulletin/", 1)[-1]
-        m2 = re.match(r"\d{4}-\d{4}-(.+)$", slug_tail)
-        if m2:
-            words = m2.group(1).split("-")
-            key = "-".join(words[:3])
-            types.setdefault(key, []).append(loc)
-    name_change_like = [loc for loc in locs if re.search(r"name-change|symbol-change|trading-symbol|change-of-name|ticker-change", loc, re.I)]
-    print("  name/symbol-change-like urls found:", len(name_change_like))
-    for u in name_change_like[:15]:
-        print("   ", u)
-    # print a sample of distinct type prefixes to see the taxonomy
-    prefixes = sorted(set("-".join(re.match(r"\d{4}-\d{4}-(.+)$", loc.rsplit('/bulletin/',1)[-1]).group(1).split("-")[:2]) for loc in locs if re.match(r"\d{4}-\d{4}-", loc.rsplit('/bulletin/',1)[-1])))
-    print("  distinct 2-word type prefixes (sample):", prefixes[:40])
+    r = get("https://www.sec.gov/files/company_tickers_exchange.json")
+    print("  status:", r.status_code, "len:", len(r.content))
+    if r.status_code == 200:
+        data = r.json()
+        print("  top-level keys:", list(data.keys())[:5])
+        print("  fields:", data.get("fields"))
+        print("  sample rows:", data.get("data", [])[:5])
+        print("  total rows:", len(data.get("data", [])))
 except Exception as exc:
     print("  ERROR:", exc)
 
 # ---------------------------------------------------------------------------
-# 4) NYSE proxy endpoint — try calling it directly
+# 2) Find LIXT/NMAD's CIK (the real NMAD example) via SEC full text search,
+#    then check its submissions.json for a "formerNames" entry with dates.
 # ---------------------------------------------------------------------------
-print("=" * 100, "\nNYSE /api/sites/nyse/proxy hunt")
-for url in [
-    "https://beta.nyse.com/api/sites/nyse/proxy?path=/market-data/corporate-actions/listing-notices",
-    "https://beta.nyse.com/api/sites/nyse/proxy?url=/quotes/filter",
-    "https://www.nyse.com/api/quotes/filter",
-]:
+print("=" * 100, "\nFind LIXT/NMAD CIK via full text search")
+cik = None
+try:
+    r = get("https://efts.sec.gov/LATEST/search-index?q=%22NOMAD+Power+Solutions%22&forms=8-K")
+    print("  status:", r.status_code)
+    if r.status_code == 200:
+        data = r.json()
+        hits = data.get("hits", {}).get("hits", [])
+        print("  hit count:", len(hits))
+        for h in hits[:3]:
+            src = h.get("_source", {})
+            print("   ", src.get("display_names"), src.get("file_date"))
+            ciks = src.get("ciks")
+            if ciks:
+                cik = ciks[0]
+        print("  resolved cik:", cik)
+except Exception as exc:
+    print("  ERROR:", exc)
+
+if not cik:
+    # fallback: try the plain company search JSON
     try:
-        r = get(url)
-        print(f"  {url} -> {r.status_code} type={r.headers.get('content-type')} len={len(r.content)}")
-        if r.status_code == 200:
-            print("  SAMPLE:", r.text[:400])
+        r = get("https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=nomad+power&type=8-K&dateb=&owner=include&count=10&output=atom")
+        print("  fallback browse-edgar status:", r.status_code)
+        m = re.search(r"CIK=(\d+)", r.text)
+        if m:
+            cik = m.group(1)
+            print("  resolved cik via fallback:", cik)
     except Exception as exc:
-        print(f"  {url} -> ERROR {exc}")
+        print("  fallback ERROR:", exc)
+
+print("=" * 100, "\nsubmissions.json formerNames check")
+if cik:
+    try:
+        padded = str(int(cik)).zfill(10)
+        r = get(f"https://data.sec.gov/submissions/CIK{padded}.json")
+        print("  status:", r.status_code)
+        if r.status_code == 200:
+            data = r.json()
+            print("  name:", data.get("name"))
+            print("  tickers:", data.get("tickers"))
+            print("  exchanges:", data.get("exchanges"))
+            print("  formerNames:", json.dumps(data.get("formerNames"), indent=2))
+    except Exception as exc:
+        print("  ERROR:", exc)
+else:
+    print("  no CIK resolved, skipping")
+
+# ---------------------------------------------------------------------------
+# 3) Full text search for recent 8-Ks announcing name changes generally --
+#    a complementary/independent way to catch new events without scanning
+#    every CIK's submissions.json.
+# ---------------------------------------------------------------------------
+print("=" * 100, "\nFull text search for recent name-change 8-Ks")
+try:
+    r = get('https://efts.sec.gov/LATEST/search-index?q=%22changed+its+name+to%22&forms=8-K&dateRange=custom&startdt=2026-07-01&enddt=2026-07-21')
+    print("  status:", r.status_code)
+    if r.status_code == 200:
+        data = r.json()
+        hits = data.get("hits", {}).get("hits", [])
+        print("  total hits:", data.get("hits", {}).get("total", {}))
+        for h in hits[:10]:
+            src = h.get("_source", {})
+            print("   ", src.get("file_date"), src.get("display_names"))
+except Exception as exc:
+    print("  ERROR:", exc)
+
+# ---------------------------------------------------------------------------
+# 4) Rate limit / fair-access sanity check -- fire a few quick requests.
+# ---------------------------------------------------------------------------
+print("=" * 100, "\nRate limit spot check (5 quick requests)")
+import time
+t0 = time.time()
+for i in range(5):
+    r = get("https://data.sec.gov/submissions/CIK0000320193.json")
+    print(f"  req {i}: {r.status_code}")
+print("  elapsed:", round(time.time() - t0, 2), "s")
