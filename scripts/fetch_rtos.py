@@ -5,13 +5,11 @@ write data/rtos.json.
 Covered exchanges:
   - ASX   via the official asx.com.au code-changes page (full history table)
   - CSE   via thecse.com's bulletins sitemap (bulletin type is in the slug)
-  - NASDAQ + NYSE (+ NYSE American) via SEC EDGAR: full-text search for 8-K
-    filings containing "changed its name to" surfaces candidate CIKs, then
-    each CIK's free submissions.json gives formerNames (old name + the date
-    the change took effect) and the current/former ticker list -- unlike a
-    plain symbol-directory snapshot, the CIK is a stable ID that never
-    changes, so old and new ticker can be linked properly even when the
-    ticker itself changes (not just the company name).
+  - NASDAQ + NYSE (+ NYSE American) via SEC EDGAR's bulk submissions.zip:
+    every US-listed CIK's filing history includes formerNames (old name +
+    the date the change took effect) and its ticker history -- the CIK is a
+    stable ID that never changes, so old and new ticker link up properly
+    even when the ticker itself changes (not just the company name).
   - TSX   has no free structured feed (TMX's Datalinx corporate-actions data
     is a paid product); this source is reported as failed every run so the
     gap is visible rather than silently empty.
@@ -24,8 +22,11 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import os
 import re
 import sys
+import tempfile
+import zipfile
 
 import requests
 from bs4 import BeautifulSoup
@@ -181,11 +182,14 @@ def fetch_cse_rtos() -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
-# NASDAQ + NYSE (+ NYSE American) — via SEC EDGAR. Full-text search finds
-# CIKs with an 8-K mentioning a name change in the tracking window; each
-# CIK's submissions.json then gives the exact former name(s) + effective
-# date(s), plus the current and previous ticker (the CIK itself is the
-# stable link between them, which a plain ticker-list snapshot can't give).
+# NASDAQ + NYSE (+ NYSE American) — via SEC EDGAR. A full-text phrase search
+# turned out to be unreliable (real filings, including the exact NASDAQ RTO
+# example that prompted this feature, don't contain any of the phrases a
+# name-change 8-K "should" use), so instead we scan SEC's own bulk
+# submissions.zip -- one filing-history JSON per company -- for every
+# NASDAQ/NYSE-listed CIK and read its formerNames directly. This guarantees
+# nothing is missed by wording, and is also far more polite to SEC's servers
+# than thousands of individual per-CIK requests.
 # ---------------------------------------------------------------------------
 
 SEC_HEADERS = {
@@ -194,6 +198,8 @@ SEC_HEADERS = {
     "User-Agent": "ipos.com RTO tracker (contact: admin@ipos.com)",
     "Accept": "application/json",
 }
+
+SUBMISSIONS_ZIP_URL = "https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip"
 
 
 def _sec_get(url: str) -> requests.Response:
@@ -213,81 +219,84 @@ def _map_us_exchange(raw: str) -> str | None:
     return None
 
 
-def _sec_search_name_change_ciks(start_date: str, end_date: str) -> set[str]:
-    ciks: set[str] = set()
-    page_size = 10
-    max_pages = 60  # safety cap (~600 hits; a year averages ~250 name changes)
-    for page in range(max_pages):
-        frm = page * page_size
-        url = ("https://efts.sec.gov/LATEST/search-index?q=%22changed+its+name+to%22"
-               f"&forms=8-K&startdt={start_date}&enddt={end_date}&from={frm}")
-        try:
-            data = _sec_get(url).json()
-        except Exception as exc:
-            # A flaky page (SEC's search occasionally 500s at some offsets)
-            # shouldn't discard CIKs already found on earlier pages.
-            print(f"  SEC search page from={frm} failed ({exc}); stopping pagination early")
-            break
-        hits = data.get("hits", {}).get("hits", [])
-        if not hits:
-            break
-        for h in hits:
-            for c in (h.get("_source", {}).get("ciks") or []):
-                ciks.add(str(c))
-        if frm + page_size >= data.get("hits", {}).get("total", {}).get("value", 0):
-            break
-    return ciks
+def _us_listed_ciks() -> dict[str, str]:
+    """Zero-padded CIK -> our exchange label, for every NASDAQ/NYSE/NYSE
+    American-listed company SEC currently knows about."""
+    data = _sec_get("https://www.sec.gov/files/company_tickers_exchange.json").json()
+    fields = data.get("fields") or []
+    idx = {f: i for i, f in enumerate(fields)}
+    wanted: dict[str, str] = {}
+    for row in data.get("data") or []:
+        exchange = _map_us_exchange(row[idx["exchange"]] if "exchange" in idx else "")
+        if exchange:
+            wanted[str(row[idx["cik"]]).zfill(10)] = exchange
+    return wanted
+
+
+def _download_submissions_zip() -> str:
+    fd, path = tempfile.mkstemp(suffix=".zip")
+    os.close(fd)
+    with requests.get(SUBMISSIONS_ZIP_URL, headers=SEC_HEADERS, timeout=600, stream=True) as resp:
+        resp.raise_for_status()
+        with open(path, "wb") as fh:
+            for chunk in resp.iter_content(chunk_size=1 << 20):
+                fh.write(chunk)
+    return path
 
 
 def fetch_us_rtos() -> list[dict]:
     start_date = KEEP_AFTER.isoformat()
-    end_date = TODAY.isoformat()
-    ciks = _sec_search_name_change_ciks(start_date, end_date)
+    wanted = _us_listed_ciks()
+    if not wanted:
+        raise RuntimeError("SEC company_tickers_exchange.json returned no US-listed companies")
 
+    zip_path = _download_submissions_zip()
     out: list[dict] = []
-    for cik in ciks:
-        try:
-            padded = str(int(cik)).zfill(10)
-            data = _sec_get(f"https://data.sec.gov/submissions/CIK{padded}.json").json()
-        except Exception:
-            continue
+    try:
+        with zipfile.ZipFile(zip_path) as zf:
+            for padded, exchange in wanted.items():
+                try:
+                    with zf.open(f"CIK{padded}.json") as fh:
+                        data = json.load(fh)
+                except KeyError:
+                    continue  # not in this dump
 
-        exchange = _map_us_exchange((data.get("exchanges") or [""])[0])
-        tickers = data.get("tickers") or []
-        if not exchange or not tickers:
-            continue
+                tickers = data.get("tickers") or []
+                if not tickers:
+                    continue
+                new_name = data.get("name", "")
+                new_ticker = tickers[0]
+                old_ticker = tickers[1] if len(tickers) > 1 else ""
 
-        new_name = data.get("name", "")
-        new_ticker = tickers[0]
-        old_ticker = tickers[1] if len(tickers) > 1 else ""
-
-        for former in data.get("formerNames") or []:
-            to_date = (former.get("to") or "")[:10]
-            if not to_date or to_date < start_date:
-                continue
-            former_name = re.sub(r"\s+", " ", former.get("name", "")).strip()
-            name_changed = former_name.lower() != new_name.lower()
-            ticker_changed = bool(old_ticker) and old_ticker != new_ticker
-            if name_changed and ticker_changed:
-                change_type = "Name & Symbol Change"
-            elif ticker_changed:
-                change_type = "Symbol Change"
-            elif name_changed:
-                change_type = "Name Change"
-            else:
-                continue  # SEC logged a formerNames entry but nothing user-visible actually changed
-            rec = rto_record(
-                exchange=exchange,
-                old_name=former_name, old_ticker=old_ticker,
-                new_name=new_name, new_ticker=new_ticker,
-                change_type=change_type,
-                date=to_date,
-                source=f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={padded}&type=8-K",
-            )
-            if rec:
-                out.append(rec)
+                for former in data.get("formerNames") or []:
+                    to_date = (former.get("to") or "")[:10]
+                    if not to_date or to_date < start_date:
+                        continue
+                    former_name = re.sub(r"\s+", " ", former.get("name", "")).strip()
+                    name_changed = former_name.lower() != new_name.lower()
+                    ticker_changed = bool(old_ticker) and old_ticker != new_ticker
+                    if name_changed and ticker_changed:
+                        change_type = "Name & Symbol Change"
+                    elif ticker_changed:
+                        change_type = "Symbol Change"
+                    elif name_changed:
+                        change_type = "Name Change"
+                    else:
+                        continue  # formerNames entry logged, but nothing user-visible actually changed
+                    rec = rto_record(
+                        exchange=exchange,
+                        old_name=former_name, old_ticker=old_ticker,
+                        new_name=new_name, new_ticker=new_ticker,
+                        change_type=change_type,
+                        date=to_date,
+                        source=f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={padded}&type=8-K",
+                    )
+                    if rec:
+                        out.append(rec)
+    finally:
+        os.remove(zip_path)
     if not out:
-        raise RuntimeError("SEC EDGAR search returned no US name-change filings")
+        raise RuntimeError("SEC bulk submissions scan returned no US name-change records")
     return out
 
 
