@@ -37,7 +37,7 @@ import zipfile
 import requests
 from bs4 import BeautifulSoup
 
-from fetch_ipos import ROOT, TIMEOUT, TODAY, KEEP_AFTER, http_get, parse_date
+from fetch_ipos import ROOT, TIMEOUT, TODAY, KEEP_AFTER, HEADERS, http_get, parse_date
 
 RTO_DATA_FILE = ROOT / "data" / "rtos.json"
 
@@ -118,10 +118,14 @@ def fetch_asx_rtos() -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
-# CSE — the bulletins sitemap URL slug already encodes the date, the bulletin
-# type (new-listing, name-change, symbol-change, name-and-symbol-change,
-# resumption-and-symbol-change, ...) and the company name + ticker, so no
-# per-bulletin page fetch is needed.
+# CSE — the bulletins sitemap URL slug encodes the date and bulletin type
+# (new-listing, name-change, symbol-change, name-and-symbol-change,
+# resumption-and-symbol-change, ...), which is enough to find and filter the
+# relevant bulletins cheaply. But the slug is lowercase, so it can't recover
+# a company's real capitalization (e.g. "EGF Theramed Health Corp" becomes
+# "egf-theramed-health-corp" in the URL, indistinguishable from a name that
+# was never capitalized that way) -- so once we know which bulletins matter,
+# we fetch each one's actual page title for the correctly-cased name/ticker.
 # ---------------------------------------------------------------------------
 
 CSE_BULLETINS_SITEMAP = "https://thecse.com/sitemaps/bulletins.xml"
@@ -143,11 +147,37 @@ CSE_CHANGE_LABELS = {
     "resumption-and-symbol-change": "Symbol Change",
 }
 
+# Bulletin page <title> looks like:
+#   "2026-0615 - Symbol Change - Inactive Designation - EGF Theramed Health
+#    Corp. (TMED) | The Canadian Securities Exchange (CSE)"
+# The type portion can itself contain " - ", so the company name is
+# whichever segment comes after the LAST " - " before ". (TICKER)".
+CSE_TITLE_PREFIX_RE = re.compile(r"^\d{4}-\d{4}\s*[-–]\s*(.+)$")
+CSE_TITLE_TICKER_RE = re.compile(r"\(([^)]{1,15})\)\s*$")
+
+
+def _parse_cse_bulletin_title(title: str) -> tuple[str, str] | None:
+    normalized = title.replace("–", "-").split(" | ")[0].strip()
+    prefix_m = CSE_TITLE_PREFIX_RE.match(normalized)
+    if not prefix_m:
+        return None
+    rest = prefix_m.group(1)
+    ticker_m = CSE_TITLE_TICKER_RE.search(rest)
+    if not ticker_m:
+        return None
+    ticker = ticker_m.group(1).strip()
+    before_ticker = rest[:ticker_m.start()].rstrip()
+    if before_ticker.endswith("."):
+        before_ticker = before_ticker[:-1].rstrip()
+    idx = before_ticker.rfind(" - ")
+    company = before_ticker[idx + 3:].strip() if idx != -1 else before_ticker.strip()
+    return (company, ticker) if company and ticker else None
+
 
 def fetch_cse_rtos() -> list[dict]:
     body = http_get(CSE_BULLETINS_SITEMAP).text
     locs = re.findall(r"<loc>(https://thecse\.com/bulletin/([^<]+?))/?</loc>", body)
-    out: list[dict] = []
+    candidates: list[tuple[str, str, str]] = []  # (url, date, change_type)
     for full_url, slug in locs:
         m = re.match(r"^(\d{4})-(\d{2})(\d{2})-(.+)$", slug)
         if not m:
@@ -156,27 +186,34 @@ def fetch_cse_rtos() -> list[dict]:
         type_m = CSE_CHANGE_TYPE_RE.match(tail)
         if not type_m:
             continue
-        change_slug, rest = type_m.group("type"), type_m.group("rest")
         try:
             listing_date = dt.date(int(year), int(month), int(day)).isoformat()
         except ValueError:
             continue
         if listing_date < KEEP_AFTER.isoformat():
             continue
-        tokens = rest.strip("-").split("-")
-        if not tokens:
+        change_type = CSE_CHANGE_LABELS.get(type_m.group("type"), "Name/Symbol Change")
+        candidates.append((full_url, listing_date, change_type))
+
+    out: list[dict] = []
+    session = requests.Session()
+    session.headers.update(HEADERS)
+    for full_url, listing_date, change_type in candidates:
+        try:
+            page = session.get(full_url, timeout=TIMEOUT).text
+        except Exception:
             continue
-        if len(tokens) >= 2 and len(tokens[-1]) <= 2:
-            ticker = f"{tokens[-2]}.{tokens[-1]}"
-            company_tokens = tokens[:-2]
-        else:
-            ticker = tokens[-1]
-            company_tokens = tokens[:-1]
-        company = " ".join(t.capitalize() for t in company_tokens)
+        title_m = re.search(r"<title>(.*?)</title>", page, re.S | re.I)
+        if not title_m:
+            continue
+        parsed = _parse_cse_bulletin_title(title_m.group(1))
+        if not parsed:
+            continue
+        company, ticker = parsed
         rec = rto_record(
             exchange="CSE",
             new_name=company, new_ticker=ticker,
-            change_type=CSE_CHANGE_LABELS.get(change_slug, "Name/Symbol Change"),
+            change_type=change_type,
             date=listing_date,
             source=full_url,
         )
