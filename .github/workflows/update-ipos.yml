@@ -40,8 +40,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- data/ipos.json data/rtos.json data/snapshots/us_symbols.json; then
-            git add data/ipos.json data/rtos.json data/snapshots/us_symbols.json
+          if ! git diff --quiet -- data/ipos.json data/rtos.json; then
+            git add data/ipos.json data/rtos.json
             git commit -m "chore: refresh IPO and RTO data"
             git push
           else

@@ -46,7 +46,7 @@ reverse takeovers — updated on the same 6-hour cycle by
 | --- | --- |
 | ASX | [asx.com.au — ASX code changes](https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes) — full history table, scraped directly |
 | CSE | thecse.com's bulletins sitemap — the bulletin type (name change / symbol change / name & symbol change) is encoded in the URL slug itself |
-| NASDAQ / NYSE | No free change-log exists for these, so the fetcher snapshots the current Symbol → Security Name map from nasdaqtrader.com's anonymous FTP symbol directory each run and diffs it against the previous run's snapshot (`data/snapshots/us_symbols.json`, committed alongside the data). A same-ticker name change is reported as a "Name Change" event. This only catches changes going forward from whenever tracking started — there's no way to backfill history from this source. |
+| NASDAQ / NYSE | SEC EDGAR: full-text search finds 8-K filings mentioning a name change within the tracking window, then each company's free `data.sec.gov/submissions/{CIK}.json` gives the exact former name(s), effective date(s), and former ticker. The CIK is a stable ID that never changes, so old and new ticker can be linked even when the ticker itself changes (not just the company name) — this properly covers cases like a reverse takeover that renames both the company and its ticker. |
 | TSX | **Not automated.** TMX's official corporate-actions feed (Datalinx) is a paid product, and there's no reliable free structured alternative; this is reported as a standing `sources_failed` entry so the gap stays visible instead of silently showing nothing. |
 
 There is also a **Probe data sources** workflow (`.github/workflows/probe.yml`

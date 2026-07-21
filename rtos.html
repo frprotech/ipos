@@ -165,7 +165,6 @@
       <a href="https://www.nasdaqtrader.com/Trader.aspx?id=symboldirdefs" target="_blank" rel="noopener">NASDAQ/NYSE</a>
     </span>
   </div>
-  <p class="sub note">NASDAQ/NYSE have no free historical archive of name/symbol changes, so those only show up here from whenever tracking started onward &mdash; ASX and CSE publish full history and are complete from day one.</p>
   <p class="sub note">TSX name/symbol changes aren't automated yet &mdash; TMX's official corporate-actions feed is a paid product. Check <a href="https://www.tsx.com/" target="_blank" rel="noopener">tsx.com</a> directly in the meantime.</p>
 </div>
 
@@ -294,8 +293,6 @@
     emptyEl.hidden = rows.length > 0;
     if (data.length === 0) {
       emptyEl.textContent = "No data yet — the update workflow hasn't run. Trigger \"Update IPO data\" under the repo's Actions tab.";
-    } else if (!query && (filter === "NASDAQ" || filter === "NYSE")) {
-      emptyEl.textContent = "No " + filter + " name/symbol changes detected yet. Unlike ASX/CSE, there's no free historical archive for NASDAQ/NYSE — tracking only started recently by comparing each day's ticker list to the day before, so changes will appear here as they actually happen, not before.";
     } else {
       emptyEl.textContent = "No name/symbol changes match the current filter.";
     }

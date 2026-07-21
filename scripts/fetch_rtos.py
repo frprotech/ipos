@@ -5,12 +5,13 @@ write data/rtos.json.
 Covered exchanges:
   - ASX   via the official asx.com.au code-changes page (full history table)
   - CSE   via thecse.com's bulletins sitemap (bulletin type is in the slug)
-  - NASDAQ + NYSE (+ NYSE American) via nasdaqtrader.com's anonymous FTP
-    symbol directory: there is no free change-log for these, so instead we
-    snapshot the current Symbol -> Security Name map each run and diff it
-    against the previous run's snapshot; a same-symbol name change is
-    reported as a "Name Change" event. This only surfaces changes going
-    forward from whenever tracking started, not historical ones.
+  - NASDAQ + NYSE (+ NYSE American) via SEC EDGAR: full-text search for 8-K
+    filings containing "changed its name to" surfaces candidate CIKs, then
+    each CIK's free submissions.json gives formerNames (old name + the date
+    the change took effect) and the current/former ticker list -- unlike a
+    plain symbol-directory snapshot, the CIK is a stable ID that never
+    changes, so old and new ticker can be linked properly even when the
+    ticker itself changes (not just the company name).
   - TSX   has no free structured feed (TMX's Datalinx corporate-actions data
     is a paid product); this source is reported as failed every run so the
     gap is visible rather than silently empty.
@@ -22,17 +23,16 @@ exchanges is kept and the rest still update.
 from __future__ import annotations
 
 import datetime as dt
-import ftplib
 import json
 import re
 import sys
 
+import requests
 from bs4 import BeautifulSoup
 
 from fetch_ipos import ROOT, TIMEOUT, TODAY, KEEP_AFTER, http_get, parse_date
 
 RTO_DATA_FILE = ROOT / "data" / "rtos.json"
-SNAPSHOT_FILE = ROOT / "data" / "snapshots" / "us_symbols.json"
 
 
 def rto_record(exchange: str, new_name: str, new_ticker: str, change_type: str,
@@ -181,77 +181,97 @@ def fetch_cse_rtos() -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
-# NASDAQ + NYSE (+ NYSE American) — no free change-log exists, so we diff
-# today's anonymous-FTP symbol directory snapshot against the previous run's
-# snapshot (persisted in the repo). A same-symbol name change is a "Name
-# Change" event; this only catches changes from whenever tracking started.
+# NASDAQ + NYSE (+ NYSE American) — via SEC EDGAR. Full-text search finds
+# CIKs with an 8-K mentioning a name change in the tracking window; each
+# CIK's submissions.json then gives the exact former name(s) + effective
+# date(s), plus the current and previous ticker (the CIK itself is the
+# stable link between them, which a plain ticker-list snapshot can't give).
 # ---------------------------------------------------------------------------
 
-FTP_HOST = "ftp.nasdaqtrader.com"
-US_EXCHANGE_MAP = {"N": "NYSE", "A": "NYSE American"}
+SEC_HEADERS = {
+    # SEC's fair-access policy requires a descriptive User-Agent identifying
+    # the application, not a browser string -- unlike the rest of this repo.
+    "User-Agent": "ipos.com RTO tracker (contact: admin@ipos.com)",
+    "Accept": "application/json",
+}
 
 
-def _fetch_ftp_lines(path: str) -> list[str]:
-    ftp = ftplib.FTP(FTP_HOST, timeout=TIMEOUT)
-    ftp.login()
-    lines: list[str] = []
-    ftp.retrlines(f"RETR {path}", lines.append)
-    ftp.quit()
-    return lines
+def _sec_get(url: str) -> requests.Response:
+    resp = requests.get(url, headers=SEC_HEADERS, timeout=TIMEOUT)
+    resp.raise_for_status()
+    return resp
 
 
-def _parse_symbol_directory() -> dict[str, dict]:
-    snapshot: dict[str, dict] = {}
+def _map_us_exchange(raw: str) -> str | None:
+    raw = (raw or "").upper().strip()
+    if "NASDAQ" in raw:
+        return "NASDAQ"
+    if "AMERICAN" in raw or "AMEX" in raw:
+        return "NYSE American"
+    if raw == "NYSE":
+        return "NYSE"  # exact match only -- NYSE Arca/National are different exchanges we don't track
+    return None
 
-    for line in _fetch_ftp_lines("/Symboldirectory/nasdaqlisted.txt")[1:]:
-        cols = line.split("|")
-        if len(cols) < 2 or line.startswith("File Creation Time"):
-            continue
-        symbol, name = cols[0].strip(), cols[1].strip()
-        if symbol:
-            snapshot[symbol] = {"name": name, "exchange": "NASDAQ"}
 
-    for line in _fetch_ftp_lines("/Symboldirectory/otherlisted.txt")[1:]:
-        cols = line.split("|")
-        if len(cols) < 3 or line.startswith("File Creation Time"):
-            continue
-        symbol, name, exch_code = cols[0].strip(), cols[1].strip(), cols[2].strip()
-        exchange = US_EXCHANGE_MAP.get(exch_code)
-        if symbol and exchange:
-            snapshot[symbol] = {"name": name, "exchange": exchange}
-
-    if not snapshot:
-        raise RuntimeError("NASDAQ symbol directory FTP returned no rows")
-    return snapshot
+def _sec_search_name_change_ciks(start_date: str, end_date: str) -> set[str]:
+    ciks: set[str] = set()
+    page_size = 10
+    max_pages = 60  # safety cap (~600 hits; a year averages ~250 name changes)
+    for page in range(max_pages):
+        frm = page * page_size
+        url = ("https://efts.sec.gov/LATEST/search-index?q=%22changed+its+name+to%22"
+               f"&forms=8-K&startdt={start_date}&enddt={end_date}&from={frm}")
+        data = _sec_get(url).json()
+        hits = data.get("hits", {}).get("hits", [])
+        if not hits:
+            break
+        for h in hits:
+            for c in (h.get("_source", {}).get("ciks") or []):
+                ciks.add(str(c))
+        if frm + page_size >= data.get("hits", {}).get("total", {}).get("value", 0):
+            break
+    return ciks
 
 
 def fetch_us_rtos() -> list[dict]:
-    current = _parse_symbol_directory()
-
-    previous: dict[str, dict] = {}
-    if SNAPSHOT_FILE.exists():
-        try:
-            previous = json.loads(SNAPSHOT_FILE.read_text())
-        except json.JSONDecodeError:
-            previous = {}
+    start_date = KEEP_AFTER.isoformat()
+    end_date = TODAY.isoformat()
+    ciks = _sec_search_name_change_ciks(start_date, end_date)
 
     out: list[dict] = []
-    for symbol, info in current.items():
-        prev_info = previous.get(symbol)
-        if prev_info and prev_info.get("name") and prev_info["name"] != info["name"]:
+    for cik in ciks:
+        try:
+            padded = str(int(cik)).zfill(10)
+            data = _sec_get(f"https://data.sec.gov/submissions/CIK{padded}.json").json()
+        except Exception:
+            continue
+
+        exchange = _map_us_exchange((data.get("exchanges") or [""])[0])
+        tickers = data.get("tickers") or []
+        if not exchange or not tickers:
+            continue
+
+        new_name = data.get("name", "")
+        new_ticker = tickers[0]
+        old_ticker = tickers[1] if len(tickers) > 1 else ""
+
+        for former in data.get("formerNames") or []:
+            to_date = (former.get("to") or "")[:10]
+            if not to_date or to_date < start_date:
+                continue
             rec = rto_record(
-                exchange=info["exchange"],
-                old_name=prev_info["name"], old_ticker=symbol,
-                new_name=info["name"], new_ticker=symbol,
-                change_type="Name Change",
-                date=TODAY.isoformat(),
-                source="https://www.nasdaqtrader.com/Trader.aspx?id=symboldirdefs",
+                exchange=exchange,
+                old_name=former.get("name", ""), old_ticker=old_ticker,
+                new_name=new_name, new_ticker=new_ticker,
+                change_type=("Name & Symbol Change" if old_ticker and old_ticker != new_ticker
+                             else "Name Change"),
+                date=to_date,
+                source=f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={padded}&type=8-K",
             )
             if rec:
                 out.append(rec)
-
-    SNAPSHOT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    SNAPSHOT_FILE.write_text(json.dumps(current, indent=2, sort_keys=True) + "\n")
+    if not out:
+        raise RuntimeError("SEC EDGAR search returned no US name-change filings")
     return out
 
 
@@ -276,7 +296,7 @@ def fetch_tsx_rtos() -> list[dict]:
 RTO_FETCHERS: dict[str, tuple] = {
     "ASX": (fetch_asx_rtos, {"ASX"}, False),
     "CSE": (fetch_cse_rtos, {"CSE"}, False),
-    "US": (fetch_us_rtos, {"NASDAQ", "NYSE", "NYSE American"}, True),
+    "US": (fetch_us_rtos, {"NASDAQ", "NYSE", "NYSE American"}, False),
     "TSX": (fetch_tsx_rtos, {"TSX", "TSXV"}, False),
 }
 
