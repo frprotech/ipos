@@ -265,12 +265,22 @@ def fetch_us_rtos() -> list[dict]:
             to_date = (former.get("to") or "")[:10]
             if not to_date or to_date < start_date:
                 continue
+            former_name = re.sub(r"\s+", " ", former.get("name", "")).strip()
+            name_changed = former_name.lower() != new_name.lower()
+            ticker_changed = bool(old_ticker) and old_ticker != new_ticker
+            if name_changed and ticker_changed:
+                change_type = "Name & Symbol Change"
+            elif ticker_changed:
+                change_type = "Symbol Change"
+            elif name_changed:
+                change_type = "Name Change"
+            else:
+                continue  # SEC logged a formerNames entry but nothing user-visible actually changed
             rec = rto_record(
                 exchange=exchange,
-                old_name=former.get("name", ""), old_ticker=old_ticker,
+                old_name=former_name, old_ticker=old_ticker,
                 new_name=new_name, new_ticker=new_ticker,
-                change_type=("Name & Symbol Change" if old_ticker and old_ticker != new_ticker
-                             else "Name Change"),
+                change_type=change_type,
                 date=to_date,
                 source=f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={padded}&type=8-K",
             )
