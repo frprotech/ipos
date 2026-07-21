@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T03:43:52+00:00",
+  "updated_at": "2026-07-21T08:44:04+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -73,16 +73,6 @@
       "fetched_at": "2026-07-21"
     },
     {
-      "company": "Ceretas Limited",
-      "ticker": "CTS",
-      "exchange": "ASX",
-      "listing_date": "2026-07-28",
-      "sector": "Healthcare",
-      "status": "Upcoming",
-      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-07-21"
-    },
-    {
       "company": "Gwardar Resources Limited",
       "ticker": "GRS",
       "exchange": "ASX",
@@ -98,6 +88,16 @@
       "exchange": "ASX",
       "listing_date": "2026-07-24",
       "sector": "Technology",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-07-21"
+    },
+    {
+      "company": "Ceretas Limited",
+      "ticker": "CTS",
+      "exchange": "ASX",
+      "listing_date": "2026-07-23",
+      "sector": "Healthcare",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
       "fetched_at": "2026-07-21"
