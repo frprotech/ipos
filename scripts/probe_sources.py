@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Diagnostic round 10: is TSXV's NOTICE_ID a global sequential counter we
-can scan (like CSE's bulletin slugs), or is it scoped per-company (PO_ID)?
-Also inspect one real notice's content/structure. Temporary tool -- not
-part of the site."""
+"""Diagnostic round 11: extract the actual bulletin text (past the nav
+boilerplate) for several TSXV NOTICE_IDs to confirm the Name/Symbol Change
+format is parseable, and get a rough sense of the NOTICE_ID range for our
+tracking window. Temporary tool -- not part of the site."""
 
 import re
 import requests
@@ -17,57 +17,41 @@ def get(url, **kw):
 
 BASE = "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController"
 
-# ---------------------------------------------------------------------------
-# 1) Fetch one known notice directly (with its real PO_ID) and inspect it
-# ---------------------------------------------------------------------------
-print("=" * 100, "\nOne known notice, full content")
-try:
-    r = get(f"{BASE}?GetPage=NoticesContents&PO_ID=1044821&NOTICE_ID=319314&CORRECTION_FLG=N&HC_FLAG1=checked")
-    print("  status:", r.status_code, "len:", len(r.text))
-    body = re.sub(r"<[^>]+>", " ", r.text)
+
+def bulletin_text(nid: int) -> str:
+    r = get(f"{BASE}?GetPage=NoticesContents&PO_ID=0&NOTICE_ID={nid}&CORRECTION_FLG=N&HC_FLAG1=checked")
+    body = re.sub(r"<script.*?</script>", " ", r.text, flags=re.S | re.I)
+    body = re.sub(r"<[^>]+>", " ", body)
+    body = re.sub(r"&nbsp;", " ", body)
     body = re.sub(r"\s+", " ", body).strip()
-    print("  TEXT:", body[:1500])
-except Exception as exc:
-    print("  ERROR:", exc)
+    # the real content starts after the nav menu; find "Bulletin" heading
+    idx = body.find("Bulletin Type")
+    if idx == -1:
+        idx = body.find("BULLETIN TYPE")
+    return body[idx: idx + 1200] if idx != -1 else body[-1200:]
 
-# ---------------------------------------------------------------------------
-# 2) Try that same NOTICE_ID with a WRONG/blank PO_ID -- does it still work?
-#    (tests whether NOTICE_ID alone is globally sufficient)
-# ---------------------------------------------------------------------------
-print("=" * 100, "\nSame NOTICE_ID, no PO_ID / wrong PO_ID")
-for po in ["", "0", "1"]:
+
+print("=" * 100, "\nFull bulletin text for several NOTICE_IDs")
+for nid in [319314, 319313, 319315, 319320, 300000]:
+    print(f"--- NOTICE_ID={nid} ---")
     try:
-        r = get(f"{BASE}?GetPage=NoticesContents&PO_ID={po}&NOTICE_ID=319314&CORRECTION_FLG=N&HC_FLAG1=checked")
-        body = re.sub(r"<[^>]+>", " ", r.text)
-        body = re.sub(r"\s+", " ", body).strip()
-        print(f"  PO_ID={po!r} -> {r.status_code} len={len(r.text)} text[:200]={body[:200]!r}")
+        print(" ", bulletin_text(nid)[:900])
     except Exception as exc:
-        print(f"  PO_ID={po!r} ERROR:", exc)
+        print("  ERROR:", exc)
 
 # ---------------------------------------------------------------------------
-# 3) Try nearby/different NOTICE_IDs with the SAME PO_ID -- and with a
-#    DIFFERENT PO_ID than the notice was originally tied to, to see if
-#    NOTICE_ID collisions/lookups cross companies
+# Try to calibrate the ID->date relationship: fetch a handful more and print
+# any date string found, to see roughly how many IDs correspond to a year.
 # ---------------------------------------------------------------------------
-print("=" * 100, "\nAdjacent NOTICE_IDs under the same PO_ID")
-for nid in [319313, 319315, 319320, 300000, 250000]:
+print("=" * 100, "\nDate calibration across a spread of NOTICE_IDs")
+for nid in [50000, 100000, 150000, 200000, 250000, 280000, 300000, 310000, 315000, 319000, 319314, 320000, 321000]:
     try:
-        r = get(f"{BASE}?GetPage=NoticesContents&PO_ID=1044821&NOTICE_ID={nid}&CORRECTION_FLG=N&HC_FLAG1=checked")
-        body = re.sub(r"<[^>]+>", " ", r.text)
-        body = re.sub(r"\s+", " ", body).strip()
-        print(f"  NOTICE_ID={nid} -> {r.status_code} len={len(r.text)} text[:150]={body[:150]!r}")
+        r = get(f"{BASE}?GetPage=NoticesContents&PO_ID=0&NOTICE_ID={nid}&CORRECTION_FLG=N&HC_FLAG1=checked")
+        body = re.sub(r"<script.*?</script>", " ", r.text, flags=re.S | re.I)
+        body = re.sub(r"<[^>]+>", " ", body)
+        body = re.sub(r"&nbsp;", " ", body)
+        body = re.sub(r"\s+", " ", body)
+        m = re.search(r"Bulletin Date:?\s*([A-Za-z]+ \d{1,2},? \d{4})", body, re.I)
+        print(f"  NOTICE_ID={nid} -> date: {m.group(1) if m else 'NOT FOUND'} (len={len(body)})")
     except Exception as exc:
         print(f"  NOTICE_ID={nid} ERROR:", exc)
-
-# ---------------------------------------------------------------------------
-# 4) What does LcdbSearch actually do -- a company/symbol lookup form, or
-#    something broader?
-# ---------------------------------------------------------------------------
-print("=" * 100, "\nLcdbSearch page")
-try:
-    r = get(f"{BASE}?GetPage=LcdbSearch")
-    print("  status:", r.status_code, "len:", len(r.text))
-    body = re.sub(r"\s+", " ", r.text)
-    print("  SAMPLE:", body[:800])
-except Exception as exc:
-    print("  ERROR:", exc)
