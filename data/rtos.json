@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T09:24:32+00:00",
+  "updated_at": "2026-07-22T14:52:21+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -13,6 +13,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-07-27",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Spacefy Inc",
+      "new_ticker": "SPFY",
+      "change_type": "Symbol Change",
+      "date": "2026-07-26",
+      "source": "https://thecse.com/bulletin/2026-0726-symbol-change-inactive-designation-spacefy-inc-spfy"
     },
     {
       "exchange": "ASX",
@@ -35,6 +45,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001718512&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "GOLDGROUP MINING INC.",
+      "old_ticker": "GGA",
+      "new_name": "GOLDGROUP MINING INC.",
+      "new_ticker": "GORO",
+      "change_type": "Symbol Change",
+      "date": "2026-07-20",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=319985&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "ASX",
       "old_name": "Advanced Energy Minerals Ltd",
       "old_ticker": "AEM",
@@ -55,6 +75,26 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "Ronin Ventures Corp.",
+      "old_ticker": "RVC.P",
+      "new_name": "OCAL FINANCIAL INC.",
+      "new_ticker": "OCAL",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-17",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=319966&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Vantex Resources Ltd.",
+      "old_ticker": "VAX",
+      "new_name": "VANTEX RESOURCES LTD.",
+      "new_ticker": "VAX.H",
+      "change_type": "Symbol Change",
+      "date": "2026-07-17",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=319967&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "ASX",
       "old_name": "Alicanto Minerals Limited",
       "old_ticker": "AQI",
@@ -73,6 +113,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-07-16",
       "source": "https://thecse.com/bulletin/2026-0716-name-and-symbol-change-arctic-fox-lithium-corp-afx"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "MEXICAN GOLD MINING CORP.",
+      "old_ticker": "MEX",
+      "new_name": "PLATAURO METALS CORP.",
+      "new_ticker": "PURO",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-16",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=319948&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NASDAQ",
@@ -105,6 +155,26 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002017526&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "Osisko Development Corp. (\"ODV\") (\"ODV.WT.A\") (\"ODV.WT.U\")",
+      "old_ticker": "ODV.WT.V",
+      "new_name": "OSISKO GOLD GROUP INC. (\"OGG\") (\"OGG.WT. A\") (\"OGG.WT. U\")",
+      "new_ticker": "OGG.WT. V",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-15",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=319925&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "PREMIER HEALTH OF AMERICA INC. (\"PHA.H\") [formerly Premier Health of America Inc.",
+      "new_ticker": "PHA",
+      "change_type": "Name Change",
+      "date": "2026-07-15",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=319926&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "Avalon GloboCare Corp.",
       "old_ticker": "",
@@ -133,6 +203,26 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-07-10",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002074850&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Gungnir Resources Inc.",
+      "old_ticker": "GUG",
+      "new_name": "THREE CROWNS CRITICAL METALS INC.",
+      "new_ticker": "TCCM",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-10",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=319866&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "NEW MEDIA CAPITAL 2.0 INC.",
+      "old_ticker": "NEME.P",
+      "new_name": "ASIATEL OUTSOURCING INC.",
+      "new_ticker": "ATOI",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-10",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=319867&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "ASX",
@@ -235,6 +325,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001335105&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "CONSOLIDATED LITHIUM METALS INC.",
+      "old_ticker": "CLM",
+      "new_name": "NORDIQUE CRITICAL METALS INC.",
+      "new_ticker": "NQC",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-02",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=319545&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "Marex Group plc",
       "old_ticker": "",
@@ -275,6 +375,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001605888&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "Amex Exploration Inc.",
+      "old_ticker": "AMX",
+      "new_name": "AMEX GOLD MINING INC.",
+      "new_ticker": "AMX",
+      "change_type": "Name Change",
+      "date": "2026-06-30",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=319325&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NYSE",
       "old_name": "MFS INTERMEDIATE INCOME TRUST",
       "old_ticker": "",
@@ -305,6 +415,26 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001509470&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "Grey Wolf Animal Health Corp.",
+      "old_ticker": "WOLF",
+      "new_name": "GREY WOLF HEALTH CORP.",
+      "new_ticker": "WOLF",
+      "change_type": "Name Change",
+      "date": "2026-06-26",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=319285&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Minera Alamos Inc.",
+      "old_ticker": "MAI",
+      "new_name": "MINING AMERICAS INC.",
+      "new_ticker": "MAI",
+      "change_type": "Name Change",
+      "date": "2026-06-26",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=319287&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
@@ -333,6 +463,16 @@
       "change_type": "Name Change",
       "date": "2026-06-25",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002070542&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Inceptus Capital Ltd.",
+      "old_ticker": "ICI.P",
+      "new_name": "SMARTWELL TECHNOLOGY CORP.",
+      "new_ticker": "SMWE",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-06-24",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=319246&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "ASX",
@@ -385,6 +525,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001734005&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "Chablis Capital Corp.",
+      "old_ticker": "CCZ.P",
+      "new_name": "NORTHMIN CORPORATION",
+      "new_ticker": "NMB",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-06-19",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=319185&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "LendingClub Corp",
       "old_ticker": "",
@@ -423,6 +573,16 @@
       "change_type": "Name Change",
       "date": "2026-06-18",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001471727&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "MIIVO Holdings Corp.",
+      "old_ticker": "MIVO",
+      "new_name": "MIIVO AI INC.",
+      "new_ticker": "MIVO",
+      "change_type": "Name Change",
+      "date": "2026-06-18",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=319167&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NASDAQ",
@@ -485,6 +645,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001653909&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "Bullion Gold Resources Corp.",
+      "old_ticker": "BGD",
+      "new_name": "BULLION GOLD DISCOVERIES CORP.",
+      "new_ticker": "BGD",
+      "change_type": "Name Change",
+      "date": "2026-06-12",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318886&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
@@ -533,6 +703,26 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-06-10",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Gratomic Inc.",
+      "old_ticker": "GRAT",
+      "new_name": "GRATOMIC INC.",
+      "new_ticker": "GRAT.H",
+      "change_type": "Symbol Change",
+      "date": "2026-06-10",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318845&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "LDB CAPITAL CORP.",
+      "old_ticker": "LDB.P",
+      "new_name": "EVENTER TECHNOLOGIES LTD.",
+      "new_ticker": "EVNT",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-06-10",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318846&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "ASX",
