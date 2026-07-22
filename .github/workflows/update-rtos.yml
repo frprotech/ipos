@@ -1,8 +1,8 @@
-name: Update IPO data
+name: Update RTO data
 
 on:
   schedule:
-    - cron: "17 */6 * * *"   # every 6 hours
+    - cron: "47 */6 * * *"   # every 6 hours, offset from the IPO workflow
   workflow_dispatch: {}       # allow manual runs from the Actions tab
   push:
     branches: [main]
@@ -13,7 +13,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: update-ipos
+  group: update-rtos
   cancel-in-progress: false
 
 jobs:
@@ -29,17 +29,17 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Fetch IPO data
-        run: python scripts/fetch_ipos.py
+      - name: Fetch RTO / name-change data
+        run: python scripts/fetch_rtos.py
 
       - name: Commit updated data
         if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- data/ipos.json; then
-            git add data/ipos.json
-            git commit -m "chore: refresh IPO data"
+          if ! git diff --quiet -- data/rtos.json data/snapshots/tsxv_last_notice_id.json; then
+            git add data/rtos.json data/snapshots/tsxv_last_notice_id.json
+            git commit -m "chore: refresh RTO data"
             git push
           else
             echo "No data changes."
