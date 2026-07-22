@@ -1,52 +1,71 @@
 #!/usr/bin/env python3
-"""Diagnostic round 20: figure out why the US (NASDAQ/NYSE) RTO fetcher is
-producing false "Symbol Change" entries for companies like JPMorgan, Morgan
-Stanley, Royal Bank of Canada, Citigroup, Barclays -- their preferred-stock
-suffixes (JPM-PC, MS-PK) and OTC/foreign-listing symbols (RYLBF, BWVTF) are
-NOT a prior ticker that was renamed, they're just OTHER securities of the
-same CIK (different share class or different market). Dump the raw
-submissions.json for a handful of these CIKs to see the full tickers[] /
-exchanges[] / formerNames[] shape, so we can find a reliable way to exclude
-these. Temporary tool -- not part of the site."""
+"""Diagnostic round 21: CSE enrichment is at 0/64 with exact-date matching.
+Hypothesis: some CSE bulletin types (name+CUSIP, symbol+CUSIP change) aren't
+recognized by fetch_cse_rtos()'s CSE_CHANGE_TYPE_RE, so those bulletins never
+even become candidates -- meaning a second, later bulletin for the same
+ticker (which IS what recent_change reflects) is silently missing from our
+list entirely, not just unenriched. Dump every distinct bulletin-type slug
+prefix seen in the sitemap in the last ~60 days, and check specifically for
+WMC/Wayfinder Metals Corp and FFF/55 North Gold Inc (both showed a SECOND,
+more recent rename in probe round 19 that recent_change reflects but that we
+never captured as a bulletin candidate). Temporary tool -- not part of the
+site."""
 
-import json
+import datetime as dt
+import re
 import requests
 
 HEADERS = {
-    "User-Agent": "ipos.com RTO tracker (contact: admin@ipos.com)",
-    "Accept": "application/json",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126.0",
+    "Accept": "application/json, text/html;q=0.9, */*;q=0.8",
 }
 
-def get(cik_padded):
-    url = f"https://data.sec.gov/submissions/CIK{cik_padded}.json"
-    r = requests.get(url, headers=HEADERS, timeout=30)
-    r.raise_for_status()
-    return r.json()
+def get(url, **kw):
+    return requests.get(url, headers=HEADERS, timeout=30, **kw)
 
-# CIKs for the companies the user flagged as wrong, plus one genuine
-# small-cap RTO shell (if we still remember one) for contrast.
-targets = {
-    "JPMorgan Chase": "0000019617",
-    "Morgan Stanley": "0000895421",
-    "Royal Bank of Canada": "0001000275",
-    "Citigroup": "0000831001",
-    "Barclays": "0000312069",
-}
+body = get("https://thecse.com/sitemaps/bulletins.xml").text
+locs = re.findall(r"<loc>(https://thecse\.com/bulletin/([^<]+?))/?</loc>", body)
+print("total bulletin URLs in sitemap:", len(locs))
 
-for name, cik in targets.items():
-    print("=" * 100)
-    print(name, cik)
-    try:
-        data = get(cik)
-    except Exception as exc:
-        print("FETCH FAILED:", exc)
+CSE_CHANGE_TYPE_RE = re.compile(
+    r"^(?P<type>name-and-symbol-change|name-symbol-change(?:-and-consolidation)?|"
+    r"name-change(?:-and-consolidation)?|symbol-change(?:-inactive-designation)?|"
+    r"resumption-and-symbol-change)-(?P<rest>.+)$"
+)
+
+cutoff = (dt.date(2026, 7, 22) - dt.timedelta(days=60)).isoformat()
+
+type_prefixes = {}
+unmatched_recent = []
+wmc_fff_hits = []
+for full_url, slug in locs:
+    m = re.match(r"^(\d{4})-(\d{2})(\d{2})-(.+)$", slug)
+    if not m:
         continue
-    print("name:", data.get("name"))
-    print("tickers:", data.get("tickers"))
-    print("exchanges:", data.get("exchanges"))
-    print("category:", data.get("category"))
-    print("sicDescription:", data.get("sicDescription"))
-    fn = data.get("formerNames") or []
-    print(f"formerNames ({len(fn)}):")
-    for f in fn[-5:]:
-        print(" ", f)
+    year, month, day, tail = m.groups()
+    try:
+        d = dt.date(int(year), int(month), int(day)).isoformat()
+    except ValueError:
+        continue
+    if d < cutoff:
+        continue
+    type_m = CSE_CHANGE_TYPE_RE.match(tail)
+    # bucket by first 4 hyphen-tokens of tail, to see slug shapes
+    prefix = "-".join(tail.split("-")[:5])
+    type_prefixes.setdefault(prefix, 0)
+    type_prefixes[prefix] += 1
+    if not type_m and re.search(r"name|symbol|cusip", tail, re.I):
+        unmatched_recent.append((d, tail))
+    if "wmc" in tail.lower() or "wayfinder" in tail.lower() or "55-north" in tail.lower() or tail.lower().endswith("-fff"):
+        wmc_fff_hits.append((d, tail, bool(type_m)))
+
+print("=" * 100)
+print("Unmatched name/symbol/cusip-ish slugs in the last 60 days (sample up to 40):")
+for d, tail in sorted(unmatched_recent)[:40]:
+    print(" ", d, tail)
+print("total unmatched:", len(unmatched_recent))
+
+print("=" * 100)
+print("WMC / Wayfinder / 55 North / FFF bulletins found in sitemap:")
+for d, tail, matched in sorted(wmc_fff_hits):
+    print(" ", d, tail, "MATCHED" if matched else "NOT MATCHED by current regex")
