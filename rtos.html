@@ -120,9 +120,6 @@
 </head>
 <body>
 <div class="wrap">
-  <p class="sub" id="subline">Recent company name &amp; ticker symbol changes (incl. reverse takeovers) on NASDAQ, NYSE, ASX and CSE &middot;
-    <span id="updated">loading…</span></p>
-
   <div class="controls">
     <div class="tabs" id="tabs"></div>
     <div class="search-wrap">
@@ -166,8 +163,6 @@
       <a href="http://infoventure.tsx.com/" target="_blank" rel="noopener">TSX Venture</a>
     </span>
   </div>
-  <p class="sub note">Senior-board TSX (non-Venture) name/symbol changes aren't automated yet &mdash; TMX's official corporate-actions feed covering it is a paid product. Check <a href="https://www.tsx.com/" target="_blank" rel="noopener">tsx.com</a> directly in the meantime. TSX Venture (TSXV) changes shown under the "TSX" tab are automated and update every 6 hours.</p>
-  <p class="sub note">CSE bulletins themselves don't publish the former company name/ticker, so "Formerly&hellip;" for CSE rows is filled in from thecse.com's listed-companies data, accumulated over time as each 6-hourly update runs &mdash; it can take a little while after a new row first appears before its former name shows up, and companies with several renames in quick succession may only get it once we've observed that specific change.</p>
 </div>
 
 <script>
@@ -183,7 +178,6 @@
 
   const rowsEl = document.getElementById("rows");
   const emptyEl = document.getElementById("empty");
-  const updatedEl = document.getElementById("updated");
   const tabsEl = document.getElementById("tabs");
   const footLeftEl = document.getElementById("footLeft");
   const resultCountEl = document.getElementById("resultCount");
@@ -310,20 +304,11 @@
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (json) {
         data = json.rtos || [];
-        if (json.updated_at) {
-          updatedEl.textContent = "Last updated " +
-            new Date(json.updated_at).toLocaleString() +
-            (json.sources_failed && json.sources_failed.length
-              ? " (stale: " + json.sources_failed.join(", ") + ")" : "");
-        } else {
-          updatedEl.textContent = "Awaiting first data update";
-        }
         footLeftEl.textContent = "Source: Exchange Filings" +
           (data.length ? " · " + data.length + " changes tracked" : "");
         render();
       })
       .catch(function () {
-        updatedEl.textContent = "Could not load data file";
         render();
       });
   }
