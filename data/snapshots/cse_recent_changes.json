@@ -1,0 +1,534 @@
+{
+  "SLA": [
+    {
+      "name_was": "Canadian Metals Inc.",
+      "symbol_was": "CME",
+      "effective_on": "2026-02-11"
+    }
+  ],
+  "CACR": [
+    {
+      "name_was": "KWG Resources Inc.",
+      "symbol_was": "",
+      "effective_on": "2025-08-07"
+    }
+  ],
+  "DCNN.X": [
+    {
+      "name_was": "",
+      "symbol_was": "DCNN",
+      "effective_on": "2025-11-11"
+    }
+  ],
+  "NP": [
+    {
+      "name_was": "Scryb Inc.",
+      "symbol_was": "SCYB",
+      "effective_on": "2026-05-07"
+    }
+  ],
+  "ZIGY": [
+    {
+      "name_was": "Mistango River Resources Inc.",
+      "symbol_was": "MIS",
+      "effective_on": "2025-11-21"
+    }
+  ],
+  "UAV.X": [
+    {
+      "name_was": "",
+      "symbol_was": "UAV",
+      "effective_on": "2026-02-25"
+    }
+  ],
+  "QESS": [
+    {
+      "name_was": "Energy Plug Technologies Corp.",
+      "symbol_was": "PLUG",
+      "effective_on": "2025-11-17"
+    }
+  ],
+  "GREY": [
+    {
+      "name_was": "Algernon Health Inc.",
+      "symbol_was": "AGN",
+      "effective_on": "2026-04-21"
+    }
+  ],
+  "TMED.X": [
+    {
+      "name_was": "",
+      "symbol_was": "TMED",
+      "effective_on": "2026-06-17"
+    }
+  ],
+  "CACR.A": [
+    {
+      "name_was": "KWG Resources Inc. MVS",
+      "symbol_was": "",
+      "effective_on": "2025-08-07"
+    }
+  ],
+  "LION": [
+    {
+      "name_was": "Global Li-Ion Graphite Corp.",
+      "symbol_was": "",
+      "effective_on": "2026-05-22"
+    }
+  ],
+  "HHE": [
+    {
+      "name_was": "Q Precious & Battery Metals Corp.",
+      "symbol_was": "QMET",
+      "effective_on": "2026-02-27"
+    }
+  ],
+  "CEXY": [
+    {
+      "name_was": "",
+      "symbol_was": "BFG",
+      "effective_on": "2026-05-19"
+    }
+  ],
+  "NRDX": [
+    {
+      "name_was": "United Lithium Corp.",
+      "symbol_was": "ULTH",
+      "effective_on": "2026-05-19"
+    }
+  ],
+  "SBD.X": [
+    {
+      "name_was": "",
+      "symbol_was": "SBD",
+      "effective_on": "2026-03-23"
+    }
+  ],
+  "DRC": [
+    {
+      "name_was": "AJN Resources Inc.",
+      "symbol_was": "AJN",
+      "effective_on": "2026-01-26"
+    }
+  ],
+  "MJRX.X": [
+    {
+      "name_was": "",
+      "symbol_was": "MJRX",
+      "effective_on": "2026-07-02"
+    }
+  ],
+  "WBG": [
+    {
+      "name_was": "",
+      "symbol_was": "CK",
+      "effective_on": "2025-11-18"
+    }
+  ],
+  "MAV": [
+    {
+      "name_was": "Supreme Critical Metals Inc.",
+      "symbol_was": "CRIT",
+      "effective_on": "2026-04-15"
+    }
+  ],
+  "BLR.X": [
+    {
+      "name_was": "",
+      "symbol_was": "BLR",
+      "effective_on": "2025-12-18"
+    }
+  ],
+  "SONI": [
+    {
+      "name_was": "Spetz Inc.",
+      "symbol_was": "SPTZ",
+      "effective_on": "2025-12-02"
+    }
+  ],
+  "STCQ": [
+    {
+      "name_was": "",
+      "symbol_was": "PUMP",
+      "effective_on": "2026-02-02"
+    }
+  ],
+  "VNTA": [
+    {
+      "name_was": "Forte Group Holdings Inc.",
+      "symbol_was": "FGH",
+      "effective_on": "2026-01-13"
+    }
+  ],
+  "GOGO": [
+    {
+      "name_was": "MedBright AI Investments Inc.",
+      "symbol_was": "MBAI",
+      "effective_on": "2026-01-05"
+    }
+  ],
+  "VC.X": [
+    {
+      "name_was": "",
+      "symbol_was": "VC",
+      "effective_on": "2026-03-02"
+    }
+  ],
+  "GRUN": [
+    {
+      "name_was": "Crestview Exploration Inc.",
+      "symbol_was": "CRS",
+      "effective_on": "2025-10-06"
+    }
+  ],
+  "MIRA": [
+    {
+      "name_was": "Silver Sands Resources Corp.",
+      "symbol_was": "SAND",
+      "effective_on": "2026-06-02"
+    }
+  ],
+  "QAI": [
+    {
+      "name_was": "Predictmedix AI Inc.",
+      "symbol_was": "PMED",
+      "effective_on": "2026-01-27"
+    }
+  ],
+  "AWCM": [
+    {
+      "name_was": "Ameriwest Lithium Inc.",
+      "symbol_was": "AWLI",
+      "effective_on": "2025-08-28"
+    }
+  ],
+  "ENBI.X": [
+    {
+      "name_was": "",
+      "symbol_was": "ENBI",
+      "effective_on": "2026-05-28"
+    }
+  ],
+  "ATC": [
+    {
+      "name_was": "Cascada Silver Corp.",
+      "symbol_was": "CSS",
+      "effective_on": "2025-12-16"
+    }
+  ],
+  "AIDR": [
+    {
+      "name_was": "Treatment.com AI Inc.",
+      "symbol_was": "TRUE",
+      "effective_on": "2025-08-21"
+    }
+  ],
+  "FFF": [
+    {
+      "name_was": "55 North Mining Inc.",
+      "symbol_was": "",
+      "effective_on": "2026-07-16"
+    }
+  ],
+  "NIOX": [
+    {
+      "name_was": "Arctic Fox Lithium Corp.",
+      "symbol_was": "AFX",
+      "effective_on": "2026-07-17"
+    }
+  ],
+  "FRDM": [
+    {
+      "name_was": "Spod Lithium Corp.",
+      "symbol_was": "SPOD",
+      "effective_on": "2026-05-08"
+    }
+  ],
+  "FNX": [
+    {
+      "name_was": "S2 Minerals Inc.",
+      "symbol_was": "STWO",
+      "effective_on": "2025-12-05"
+    }
+  ],
+  "AURR": [
+    {
+      "name_was": "Quebec Nickel Corp",
+      "symbol_was": "QNI",
+      "effective_on": "2026-04-28"
+    }
+  ],
+  "ZOG.X": [
+    {
+      "name_was": "",
+      "symbol_was": "ZOG",
+      "effective_on": "2025-09-17"
+    }
+  ],
+  "DIGI": [
+    {
+      "name_was": "Digital Commodities Capital Corp.",
+      "symbol_was": "",
+      "effective_on": "2025-10-01"
+    }
+  ],
+  "WGM": [
+    {
+      "name_was": "Nordique Resources Inc.",
+      "symbol_was": "NORD",
+      "effective_on": "2026-04-02"
+    }
+  ],
+  "LGHT": [
+    {
+      "name_was": "Alerio Gold Corp.",
+      "symbol_was": "ALE",
+      "effective_on": "2025-12-17"
+    }
+  ],
+  "NATO": [
+    {
+      "name_was": "Muzhu Mining Ltd.",
+      "symbol_was": "MUZU",
+      "effective_on": "2026-01-05"
+    }
+  ],
+  "MJEM.X": [
+    {
+      "name_was": "",
+      "symbol_was": "MJEM",
+      "effective_on": "2026-01-14"
+    }
+  ],
+  "GFT": [
+    {
+      "name_was": "Prisma Exploration Inc",
+      "symbol_was": "PMS",
+      "effective_on": "2025-09-25"
+    }
+  ],
+  "GXLD": [
+    {
+      "name_was": "",
+      "symbol_was": "HVW",
+      "effective_on": "2026-01-12"
+    }
+  ],
+  "NIOB": [
+    {
+      "name_was": "First American Uranium Inc.",
+      "symbol_was": "",
+      "effective_on": "2025-11-20"
+    }
+  ],
+  "AREE": [
+    {
+      "name_was": "Cullinan Metals Corp",
+      "symbol_was": "CMT",
+      "effective_on": "2026-06-10"
+    }
+  ],
+  "UUU": [
+    {
+      "name_was": "Vanguard Mining Corp.",
+      "symbol_was": "",
+      "effective_on": "2026-04-27"
+    }
+  ],
+  "EONE": [
+    {
+      "name_was": "Buscando Resources Corp.",
+      "symbol_was": "BRCO",
+      "effective_on": "2025-10-28"
+    }
+  ],
+  "NIRV.X": [
+    {
+      "name_was": "",
+      "symbol_was": "NIRV",
+      "effective_on": "2026-02-27"
+    }
+  ],
+  "WMC": [
+    {
+      "name_was": "Westmount Minerals Corp",
+      "symbol_was": "",
+      "effective_on": "2026-07-13"
+    }
+  ],
+  "ISP": [
+    {
+      "name_was": "Inspiration Energy Corp.",
+      "symbol_was": "",
+      "effective_on": "2026-02-26"
+    }
+  ],
+  "BY": [
+    {
+      "name_was": "Beyond Lithium Inc.",
+      "symbol_was": "",
+      "effective_on": "2026-02-06"
+    }
+  ],
+  "SKUL": [
+    {
+      "name_was": "Carmanah Minerals Corp.",
+      "symbol_was": "CARM",
+      "effective_on": "2026-04-08"
+    }
+  ],
+  "BPC": [
+    {
+      "name_was": "Pangea Wellness Inc.",
+      "symbol_was": "PNGA",
+      "effective_on": "2026-03-18"
+    }
+  ],
+  "ERKA": [
+    {
+      "name_was": "Eureka Lithium Corp.",
+      "symbol_was": "",
+      "effective_on": "2026-05-15"
+    }
+  ],
+  "URAI": [
+    {
+      "name_was": "P2P Group Ltd.",
+      "symbol_was": "PPB",
+      "effective_on": "2025-11-28"
+    }
+  ],
+  "QSE": [
+    {
+      "name_was": "Scope Technologies Corp.",
+      "symbol_was": "SCPE",
+      "effective_on": "2025-12-08"
+    }
+  ],
+  "MTTA": [
+    {
+      "name_was": "Troy Minerals Inc.",
+      "symbol_was": "TROY",
+      "effective_on": "2026-01-30"
+    }
+  ],
+  "SHOE.X": [
+    {
+      "name_was": "",
+      "symbol_was": "SHOE",
+      "effective_on": "2025-11-26"
+    }
+  ],
+  "UPPR": [
+    {
+      "name_was": "Nuclear Vision Limited",
+      "symbol_was": "NUKV",
+      "effective_on": "2026-05-06"
+    }
+  ],
+  "EATH": [
+    {
+      "name_was": "Oberon Uranium Corp.",
+      "symbol_was": "OBRN",
+      "effective_on": "2025-09-22"
+    }
+  ],
+  "STMN": [
+    {
+      "name_was": "Stearman Resources Inc.",
+      "symbol_was": "",
+      "effective_on": "2025-12-31"
+    }
+  ],
+  "XRI": [
+    {
+      "name_was": "Xcite Resources Inc.",
+      "symbol_was": "",
+      "effective_on": "2026-03-09"
+    }
+  ],
+  "SEAS": [
+    {
+      "name_was": "Copperhead Resources Inc.",
+      "symbol_was": "CUH",
+      "effective_on": "2026-01-26"
+    }
+  ],
+  "CANU": [
+    {
+      "name_was": "Free Battery Metal Limited",
+      "symbol_was": "FREE",
+      "effective_on": "2025-12-05"
+    }
+  ],
+  "NRED": [
+    {
+      "name_was": "Rumble Resources Inc.",
+      "symbol_was": "RB",
+      "effective_on": "2026-02-11"
+    }
+  ],
+  "ROVA": [
+    {
+      "name_was": "Safe Supply Streaming Co Ltd.",
+      "symbol_was": "SPLY",
+      "effective_on": "2026-05-01"
+    }
+  ],
+  "NVRS": [
+    {
+      "name_was": "Mydecine Innovations Group Inc.",
+      "symbol_was": "MYCO",
+      "effective_on": "2026-02-03"
+    }
+  ],
+  "GGR": [
+    {
+      "name_was": "SALi Lithium Corp.",
+      "symbol_was": "SALI",
+      "effective_on": "2025-10-01"
+    }
+  ],
+  "BAD": [
+    {
+      "name_was": "York Harbour Metals Inc.",
+      "symbol_was": "YORK",
+      "effective_on": "2025-10-14"
+    }
+  ],
+  "NUKE": [
+    {
+      "name_was": "Great Northern Energy Metals Inc.",
+      "symbol_was": "GNEM",
+      "effective_on": "2025-07-31"
+    }
+  ],
+  "UCM": [
+    {
+      "name_was": "Trimera Metals Corp.",
+      "symbol_was": "TRM",
+      "effective_on": "2025-12-01"
+    }
+  ],
+  "AIBZ.U": [
+    {
+      "name_was": "",
+      "symbol_was": "BITZ.U",
+      "effective_on": "2026-06-09"
+    }
+  ],
+  "APPT": [
+    {
+      "name_was": "Apptly Health Technolgoies Corp.",
+      "symbol_was": "",
+      "effective_on": "2026-06-24"
+    }
+  ],
+  "NUCA": [
+    {
+      "name_was": "Allied Strategic Resource Corp.",
+      "symbol_was": "ASR",
+      "effective_on": "2026-04-22"
+    }
+  ]
+}

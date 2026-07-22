@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T01:13:37+00:00",
+  "updated_at": "2026-07-22T01:36:37+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -1585,6 +1585,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001907223&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "WESTKAM GOLD CORP.",
+      "old_ticker": "WKG",
+      "new_name": "BIG BEAR GOLD CORP.",
+      "new_ticker": "BEAR",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-03-10",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=314066&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "Horizon Quantum Holdings Pte. Ltd.",
       "old_ticker": "HQWWW",
@@ -2576,16 +2586,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "iRhythm Technologies, Inc.",
-      "old_ticker": "",
-      "new_name": "iRhythm Holdings, Inc.",
-      "new_ticker": "IRTC",
-      "change_type": "Name Change",
-      "date": "2026-01-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Ondas Holdings Inc.",
       "old_ticker": "",
       "new_name": "Ondas Inc.",
@@ -2593,6 +2593,16 @@
       "change_type": "Name Change",
       "date": "2026-01-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001646188&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "iRhythm Technologies, Inc.",
+      "old_ticker": "",
+      "new_name": "iRhythm Holdings, Inc.",
+      "new_ticker": "IRTC",
+      "change_type": "Name Change",
+      "date": "2026-01-12",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
     },
     {
       "exchange": "NASDAQ",
