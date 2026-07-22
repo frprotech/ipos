@@ -134,15 +134,19 @@ def fetch_asx_rtos() -> list[dict]:
 # listed-companies webapi carries a per-company recent_change field (name_was
 # / symbol_was) for whichever change was most recent for that company. It
 # only ever holds the single latest change (not full history), so it's used
-# here purely as an enrichment layer on top of the sitemap-derived records:
-# applied only when the current ticker matches AND the dates line up,
-# otherwise left alone (e.g. a company with two changes would otherwise get
-# its older bulletin wrongly enriched with the newer change's old name).
+# here purely as an enrichment layer on top of the sitemap-derived records --
+# and CSE companies turn out to rename/re-ticker again within days of a prior
+# change often enough (observed directly: FFF, WMC and APPT all had a further
+# change 2-7 days after the bulletin we'd already captured for them) that a
+# same-ticker match alone isn't enough to trust it's the SAME event. So this
+# only fires when the bulletin's own date exactly equals recent_change's
+# effective_on -- anything looser (even a 1-2 day tolerance) risks pinning a
+# later, unrelated rename's old name onto an earlier bulletin, which is worse
+# than just leaving the row unenriched.
 # ---------------------------------------------------------------------------
 
 CSE_BULLETINS_SITEMAP = "https://thecse.com/sitemaps/bulletins.xml"
 CSE_LISTED_COMPANIES_URL = "https://thecse.com/api/webapi/listed-companies/"
-CSE_ENRICH_MAX_DAY_GAP = 3  # tolerance between a bulletin's date and recent_change.effective_on
 
 CSE_CHANGE_TYPE_RE = re.compile(
     r"^(?P<type>name-and-symbol-change|name-symbol-change(?:-and-consolidation)?|"
@@ -256,14 +260,9 @@ def fetch_cse_rtos() -> list[dict]:
         company, ticker = parsed
         old_name, old_ticker = "", ""
         rc = recent_changes.get(ticker.upper())
-        if rc and rc["effective_on"]:
-            try:
-                gap = abs((dt.date.fromisoformat(listing_date) - dt.date.fromisoformat(rc["effective_on"])).days)
-            except ValueError:
-                gap = None
-            if gap is not None and gap <= CSE_ENRICH_MAX_DAY_GAP:
-                old_name = rc["name_was"]
-                old_ticker = rc["symbol_was"]
+        if rc and rc["effective_on"] == listing_date:
+            old_name = rc["name_was"]
+            old_ticker = rc["symbol_was"]
         rec = rto_record(
             exchange="CSE",
             old_name=old_name, old_ticker=old_ticker,
