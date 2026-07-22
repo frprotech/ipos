@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T00:55:14+00:00",
+  "updated_at": "2026-07-22T01:13:37+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -26,56 +26,6 @@
     },
     {
       "exchange": "NYSE",
-      "old_name": "JPMORGAN CHASE & CO",
-      "old_ticker": "JPM-PC",
-      "new_name": "JPMORGAN CHASE & CO",
-      "new_ticker": "JPM",
-      "change_type": "Symbol Change",
-      "date": "2026-07-20",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000019617&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "MORGAN STANLEY",
-      "old_ticker": "MS-PK",
-      "new_name": "MORGAN STANLEY",
-      "new_ticker": "MS",
-      "change_type": "Symbol Change",
-      "date": "2026-07-20",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000895421&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "ROYAL BANK OF CANADA",
-      "old_ticker": "RYLBF",
-      "new_name": "ROYAL BANK OF CANADA",
-      "new_ticker": "RY",
-      "change_type": "Symbol Change",
-      "date": "2026-07-20",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001000275&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "CITIGROUP INC",
-      "old_ticker": "C-PN",
-      "new_name": "CITIGROUP INC",
-      "new_ticker": "C",
-      "change_type": "Symbol Change",
-      "date": "2026-07-20",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000831001&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "BANK OF MONTREAL /CAN/",
-      "old_ticker": "FNGD",
-      "new_name": "BANK OF MONTREAL /CAN/",
-      "new_ticker": "BMO",
-      "change_type": "Symbol Change",
-      "date": "2026-07-20",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000927971&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
       "old_name": "Gates Industrial Corp plc",
       "old_ticker": "",
       "new_name": "Gates Industrial Corp Ltd.",
@@ -83,86 +33,6 @@
       "change_type": "Name Change",
       "date": "2026-07-20",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001718512&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Life360, Inc.",
-      "old_ticker": "LIFX",
-      "new_name": "Life360, Inc.",
-      "new_ticker": "LIF",
-      "change_type": "Symbol Change",
-      "date": "2026-07-20",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001581760&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Trinity Capital Inc.",
-      "old_ticker": "TRINI",
-      "new_name": "Trinity Capital Inc.",
-      "new_ticker": "TRIN",
-      "change_type": "Symbol Change",
-      "date": "2026-07-20",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001786108&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Strive, Inc.",
-      "old_ticker": "SATA",
-      "new_name": "Strive, Inc.",
-      "new_ticker": "ASST",
-      "change_type": "Symbol Change",
-      "date": "2026-07-20",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001920406&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "REZOLVE AI PLC",
-      "old_ticker": "RZLVW",
-      "new_name": "REZOLVE AI PLC",
-      "new_ticker": "RZLV",
-      "change_type": "Symbol Change",
-      "date": "2026-07-20",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001920294&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "SES AI Corp",
-      "old_ticker": "SES-WT",
-      "new_name": "SES AI Corp",
-      "new_ticker": "SES",
-      "change_type": "Symbol Change",
-      "date": "2026-07-20",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819142&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "DeFi Development Corp.",
-      "old_ticker": "DFDVW",
-      "new_name": "DeFi Development Corp.",
-      "new_ticker": "DFDV",
-      "change_type": "Symbol Change",
-      "date": "2026-07-20",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001805526&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Cingulate Inc.",
-      "old_ticker": "CINGW",
-      "new_name": "Cingulate Inc.",
-      "new_ticker": "CING",
-      "change_type": "Symbol Change",
-      "date": "2026-07-20",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001862150&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "BARCLAYS BANK PLC",
-      "old_ticker": "BWVTF",
-      "new_name": "BARCLAYS BANK PLC",
-      "new_ticker": "ATMP",
-      "change_type": "Symbol Change",
-      "date": "2026-07-20",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000312070&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -185,36 +55,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "BANK BRADESCO",
-      "old_ticker": "BBDO",
-      "new_name": "BANK BRADESCO",
-      "new_ticker": "BBD",
-      "change_type": "Symbol Change",
-      "date": "2026-07-17",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001160330&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "WESTERN ALLIANCE BANCORPORATION",
-      "old_ticker": "WAL-PA",
-      "new_name": "WESTERN ALLIANCE BANCORPORATION",
-      "new_ticker": "WAL",
-      "change_type": "Symbol Change",
-      "date": "2026-07-17",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001212545&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Shift4 Payments, Inc.",
-      "old_ticker": "FOUR-PA",
-      "new_name": "Shift4 Payments, Inc.",
-      "new_ticker": "FOUR",
-      "change_type": "Symbol Change",
-      "date": "2026-07-17",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001794669&type=8-K"
-    },
-    {
       "exchange": "ASX",
       "old_name": "Alicanto Minerals Limited",
       "old_ticker": "AQI",
@@ -235,46 +75,6 @@
       "source": "https://thecse.com/bulletin/2026-0716-name-and-symbol-change-arctic-fox-lithium-corp-afx"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "STATE STREET Corp",
-      "old_ticker": "STT-PG",
-      "new_name": "STATE STREET CORP",
-      "new_ticker": "STT",
-      "change_type": "Symbol Change",
-      "date": "2026-07-16",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000093751&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "HYCROFT MINING HOLDING CORP",
-      "old_ticker": "HYMCW",
-      "new_name": "HYCROFT MINING HOLDING CORP",
-      "new_ticker": "HYMC",
-      "change_type": "Symbol Change",
-      "date": "2026-07-16",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001718405&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "GRAY MEDIA, INC",
-      "old_ticker": "GTN-A",
-      "new_name": "GRAY MEDIA, INC",
-      "new_ticker": "GTN",
-      "change_type": "Symbol Change",
-      "date": "2026-07-16",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000043196&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Calidi Biotherapeutics, Inc.",
-      "old_ticker": "CLDWW",
-      "new_name": "Calidi Biotherapeutics, Inc.",
-      "new_ticker": "CLDI",
-      "change_type": "Symbol Change",
-      "date": "2026-07-16",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001855485&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "MONOLITHIC POWER SYSTEMS INC",
       "old_ticker": "",
@@ -283,26 +83,6 @@
       "change_type": "Name Change",
       "date": "2026-07-15",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001280452&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "HARTFORD INSURANCE GROUP, INC.",
-      "old_ticker": "HIG-PG",
-      "new_name": "HARTFORD INSURANCE GROUP, INC.",
-      "new_ticker": "HIG",
-      "change_type": "Symbol Change",
-      "date": "2026-07-15",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874766&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "MCCORMICK & CO INC",
-      "old_ticker": "MKC-V",
-      "new_name": "MCCORMICK & CO INC",
-      "new_ticker": "MKC",
-      "change_type": "Symbol Change",
-      "date": "2026-07-15",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000063754&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -325,36 +105,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002017526&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "Figure Technology Solutions, Inc.",
-      "old_ticker": "FGRS",
-      "new_name": "Figure Technology Solutions, Inc.",
-      "new_ticker": "FIGR",
-      "change_type": "Symbol Change",
-      "date": "2026-07-14",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002064124&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "FINANCIAL INSTITUTIONS INC",
-      "old_ticker": "FIISO",
-      "new_name": "FINANCIAL INSTITUTIONS INC",
-      "new_ticker": "FISI",
-      "change_type": "Symbol Change",
-      "date": "2026-07-14",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000862831&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Blaize Holdings, Inc.",
-      "old_ticker": "BZAIW",
-      "new_name": "Blaize Holdings, Inc.",
-      "new_ticker": "BZAI",
-      "change_type": "Symbol Change",
-      "date": "2026-07-13",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001871638&type=8-K"
-    },
-    {
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
@@ -373,16 +123,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-07-10",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002074850&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Ainos, Inc.",
-      "old_ticker": "AIMDW",
-      "new_name": "Ainos, Inc.",
-      "new_ticker": "AIMD",
-      "change_type": "Symbol Change",
-      "date": "2026-07-10",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001014763&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -415,16 +155,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001844971&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "NEXGEL, INC.",
-      "old_ticker": "NXGLW",
-      "new_name": "NEXGEL, INC.",
-      "new_ticker": "NXGL",
-      "change_type": "Symbol Change",
-      "date": "2026-07-09",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001468929&type=8-K"
-    },
-    {
       "exchange": "ASX",
       "old_name": "Bioxyne Limited",
       "old_ticker": "BXN",
@@ -455,16 +185,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001563568&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "bioAffinity Technologies, Inc.",
-      "old_ticker": "BIAFW",
-      "new_name": "bioAffinity Technologies, Inc.",
-      "new_ticker": "BIAF",
-      "change_type": "Symbol Change",
-      "date": "2026-07-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001712762&type=8-K"
-    },
-    {
       "exchange": "ASX",
       "old_name": "Abacus Storage King",
       "old_ticker": "ASK",
@@ -486,56 +206,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "HUNTINGTON BANCSHARES INC /MD/",
-      "old_ticker": "HBANL",
-      "new_name": "HUNTINGTON BANCSHARES INC /MD/",
-      "new_ticker": "HBAN",
-      "change_type": "Symbol Change",
-      "date": "2026-07-06",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000049196&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "SOUTHERN CO",
-      "old_ticker": "SOJC",
-      "new_name": "SOUTHERN CO",
-      "new_ticker": "SO",
-      "change_type": "Symbol Change",
-      "date": "2026-07-02",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000092122&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Synchrony Financial",
-      "old_ticker": "SYF-PA",
-      "new_name": "Synchrony Financial",
-      "new_ticker": "SYF",
-      "change_type": "Symbol Change",
-      "date": "2026-07-02",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001601712&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Ramaco Resources, Inc.",
-      "old_ticker": "METCB",
-      "new_name": "Ramaco Resources, Inc.",
-      "new_ticker": "METC",
-      "change_type": "Symbol Change",
-      "date": "2026-07-02",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001687187&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "BRC Group Holdings, Inc.",
-      "old_ticker": "RILYG",
-      "new_name": "BRC Group Holdings, Inc.",
-      "new_ticker": "RILY",
-      "change_type": "Symbol Change",
-      "date": "2026-07-02",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001464790&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "LIXTE BIOTECHNOLOGY HOLDINGS, INC.",
       "old_ticker": "LIXT",
       "new_name": "NOMAD POWER SOLUTIONS, INC.",
@@ -543,26 +213,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-07-02",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001335105&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Stardust Power Inc.",
-      "old_ticker": "SDSTW",
-      "new_name": "Stardust Power Inc.",
-      "new_ticker": "SDST",
-      "change_type": "Symbol Change",
-      "date": "2026-07-02",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001831979&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "PG&E Corp",
-      "old_ticker": "PCG-PE",
-      "new_name": "PG&E Corp",
-      "new_ticker": "PCG",
-      "change_type": "Symbol Change",
-      "date": "2026-07-01",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001004980&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -595,22 +245,12 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002094496&type=8-K"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "CTO Realty Growth, Inc.",
-      "old_ticker": "CTO-PA",
-      "new_name": "CTO Realty Growth, Inc.",
-      "new_ticker": "CTO",
-      "change_type": "Symbol Change",
-      "date": "2026-07-01",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000023795&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "ATLANTIC INTERNATIONAL CORP.",
-      "old_ticker": "SQLLW",
+      "old_ticker": "",
       "new_name": "CIRCLE8 GROUP INC",
       "new_ticker": "CIRC",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-07-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001605888&type=8-K"
     },
@@ -675,16 +315,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002070542&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "Fortress Biotech, Inc.",
-      "old_ticker": "FBIOP",
-      "new_name": "Fortress Biotech, Inc.",
-      "new_ticker": "FBIO",
-      "change_type": "Symbol Change",
-      "date": "2026-06-24",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001429260&type=8-K"
-    },
-    {
       "exchange": "ASX",
       "old_name": "Corella Resources Ltd",
       "old_ticker": "CR9",
@@ -697,10 +327,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Live Oak Acquisition Corp. V",
-      "old_ticker": "LOKV",
+      "old_ticker": "",
       "new_name": "Teamshares Inc",
       "new_ticker": "TMS",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-06-23",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002048951&type=8-K"
     },
@@ -805,34 +435,14 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001829802&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "First Internet Bancorp",
-      "old_ticker": "INBKZ",
-      "new_name": "First Internet Bancorp",
-      "new_ticker": "INBK",
-      "change_type": "Symbol Change",
-      "date": "2026-06-16",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001562463&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "Nova Minerals Ltd",
-      "old_ticker": "NVA-WT",
+      "old_ticker": "",
       "new_name": "Nova Minerals Corp",
       "new_ticker": "NVA",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-06-16",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001852551&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Dermata Therapeutics, Inc.",
-      "old_ticker": "DRMAW",
-      "new_name": "Dermata Therapeutics, Inc.",
-      "new_ticker": "DRMA",
-      "change_type": "Symbol Change",
-      "date": "2026-06-16",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001853816&type=8-K"
     },
     {
       "exchange": "CSE",
@@ -853,16 +463,6 @@
       "change_type": "Name Change",
       "date": "2026-06-15",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001653909&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Lument Finance Trust, Inc.",
-      "old_ticker": "LFT-PA",
-      "new_name": "Lument Finance Trust, Inc.",
-      "new_ticker": "LFT",
-      "change_type": "Symbol Change",
-      "date": "2026-06-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001547546&type=8-K"
     },
     {
       "exchange": "CSE",
@@ -1045,16 +645,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001495932&type=8-K"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "Soulpower Acquisition Corp.",
-      "old_ticker": "SOUL-RI",
-      "new_name": "Soulpower Acquisition Corp.",
-      "new_ticker": "SOUL",
-      "change_type": "Symbol Change",
-      "date": "2026-06-01",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002025608&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Classover Holdings, Inc.",
       "old_ticker": "KIDZW",
@@ -1167,10 +757,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "GCI Liberty, Inc.",
-      "old_ticker": "GLIBB",
+      "old_ticker": "",
       "new_name": "Liberty Capital Corp/NV",
       "new_ticker": "GLIBA",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-05-21",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002057463&type=8-K"
     },
@@ -1267,10 +857,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "US ENERGY CORP",
-      "old_ticker": "USEG",
+      "old_ticker": "",
       "new_name": "BIG SKY INDUSTRIAL INC.",
       "new_ticker": "BSIN",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-05-15",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000101594&type=8-K"
     },
@@ -1283,16 +873,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-05-15",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001737995&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "KKR Real Estate Finance Trust Inc.",
-      "old_ticker": "KREF-PA",
-      "new_name": "KKR Real Estate Finance Trust Inc.",
-      "new_ticker": "KREF",
-      "change_type": "Symbol Change",
-      "date": "2026-05-14",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001631596&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -1407,10 +987,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "GALAPAGOS NV",
-      "old_ticker": "GLPGF",
+      "old_ticker": "",
       "new_name": "Lakefront Biotherapeutics NV",
       "new_ticker": "LKFT",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-05-06",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001421876&type=8-K"
     },
@@ -1647,10 +1227,10 @@
     {
       "exchange": "NYSE",
       "old_name": "BRAZILIAN ELECTRIC POWER CO",
-      "old_ticker": "AXIA-PC",
+      "old_ticker": "",
       "new_name": "AXIA Energia S.A.",
       "new_ticker": "AXIA",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-04-16",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001439124&type=8-K"
     },
@@ -1987,10 +1567,10 @@
     {
       "exchange": "NYSE",
       "old_name": "Climate Transition Special Opportunities SPAC I",
-      "old_ticker": "ETSS-UN",
+      "old_ticker": "",
       "new_name": "Energy Transition Special Opportunities",
       "new_ticker": "ETSS",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-03-10",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002085932&type=8-K"
     },
@@ -2087,10 +1667,10 @@
     {
       "exchange": "NYSE",
       "old_name": "PRESIDIO PUBCO INC.",
-      "old_ticker": "FTW-WT",
+      "old_ticker": "",
       "new_name": "PRESIDIO PRODUCTION Co",
       "new_ticker": "FTW",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-03-04",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002083125&type=8-K"
     },
@@ -2115,6 +1695,36 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001437925&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "GLACIER LAKE RESOURCES INC.",
+      "old_ticker": "GLI",
+      "new_name": "SKELETON COAST URANIUM CORP.",
+      "new_ticker": "SKEL",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-03-03",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=313366&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "NexOptic Technology Corp.",
+      "old_ticker": "NXO",
+      "new_name": "NEXOPTIC TECHNOLOGY CORP.",
+      "new_ticker": "NXO.H",
+      "change_type": "Symbol Change",
+      "date": "2026-03-02",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=313151&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "V Ten Capital Corp.",
+      "old_ticker": "VTEN.P",
+      "new_name": "V TEN METALS CORP.",
+      "new_ticker": "VTEN",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-03-02",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=313153&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
@@ -2127,10 +1737,10 @@
     {
       "exchange": "NYSE",
       "old_name": "Armada Hoffler Properties, Inc.",
-      "old_ticker": "AHRT-PA",
+      "old_ticker": "",
       "new_name": "AH Realty Trust, Inc.",
       "new_ticker": "AHRT",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-02-27",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001569187&type=8-K"
     },
@@ -2195,6 +1805,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819989&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "Happy Creek Minerals Ltd.",
+      "old_ticker": "HPY",
+      "new_name": "FOX TUNGSTEN LTD.",
+      "new_ticker": "FOXT",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-23",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=312845&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
@@ -2215,6 +1835,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001690080&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "POCML 7 INC.",
+      "old_ticker": "POC.P",
+      "new_name": "VERDERA ENERGY CORP.",
+      "new_ticker": "V",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-20",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=312825&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "CASSAVA SCIENCES INC",
       "old_ticker": "",
@@ -2225,12 +1855,62 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001069530&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "DEEPMARKIT CORP.",
+      "old_ticker": "MKT",
+      "new_name": "PROSPECT PREDICTION MARKETS INC.",
+      "new_ticker": "MKT",
+      "change_type": "Name Change",
+      "date": "2026-02-19",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=312606&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Marvel Discovery Corp.",
+      "old_ticker": "MARV",
+      "new_name": "MARVEL DISCOVERY CORP.",
+      "new_ticker": "MARV.H",
+      "change_type": "Symbol Change",
+      "date": "2026-02-19",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=312609&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Newtopia Inc.",
+      "old_ticker": "NEWU",
+      "new_name": "NEWTOPIA INC.",
+      "new_ticker": "NEWU.H",
+      "change_type": "Symbol Change",
+      "date": "2026-02-19",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=312611&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Samurai Capital Corp.",
+      "old_ticker": "SSS.P",
+      "new_name": "A.C.L CONSTRUCTION LTD.",
+      "new_ticker": "ACL",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-19",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=312612&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "VIP Entertainment Technologies Inc.",
+      "old_ticker": "VIP",
+      "new_name": "VIP ENTERTAINMENT TECHNOLOGIES INC.",
+      "new_ticker": "VIP.H",
+      "change_type": "Symbol Change",
+      "date": "2026-02-19",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=312614&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NYSE",
       "old_name": "Churchill Capital Corp X/Cayman",
-      "old_ticker": "INFQ-WT",
+      "old_ticker": "",
       "new_name": "Infleqtion, Inc.",
       "new_ticker": "INFQ",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-02-18",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002007825&type=8-K"
     },
@@ -2283,6 +1963,46 @@
       "change_type": "Name Change",
       "date": "2026-02-17",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002034012&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "International Zeolite Corp.",
+      "old_ticker": "IZ",
+      "new_name": "INTERNATIONAL ZEOLITE CORP.",
+      "new_ticker": "IZ.H",
+      "change_type": "Symbol Change",
+      "date": "2026-02-17",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=312167&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "LOMBARD STREET CAPITAL CORP.",
+      "old_ticker": "LSC.P",
+      "new_name": "LITHIUM AFRICA CORP.",
+      "new_ticker": "LAF",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-17",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=312169&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Thesis Gold Inc.",
+      "old_ticker": "TAU",
+      "new_name": "THESIS GOLD &amp; SILVER INC.",
+      "new_ticker": "TAU",
+      "change_type": "Name Change",
+      "date": "2026-02-17",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=312171&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "VENZEE TECHNOLOGIES INC.",
+      "old_ticker": "VENZ",
+      "new_name": "JASPERX TECHNOLOGIES INC.",
+      "new_ticker": "JSPX",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-17",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=312172&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "ASX",
@@ -2355,6 +2075,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001861657&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "Ascot Resources Ltd.",
+      "old_ticker": "AOT.H",
+      "new_name": "CAMBRIA GOLD MINES INC.",
+      "new_ticker": "CAMB",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-11",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=311906&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
@@ -2383,6 +2113,26 @@
       "change_type": "Name Change",
       "date": "2026-02-10",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001603993&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Great Quest Gold Ltd.",
+      "old_ticker": "GQ",
+      "new_name": "ONGWE MINERALS INC.",
+      "new_ticker": "OGW",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-10",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=311885&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Red Pine Exploration Inc.",
+      "old_ticker": "RPX",
+      "new_name": "RPX GOLD INC.",
+      "new_ticker": "RPX",
+      "change_type": "Name Change",
+      "date": "2026-02-10",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=311887&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "ASX",
@@ -2423,6 +2173,16 @@
       "change_type": "Name Change",
       "date": "2026-02-05",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001841968&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "SPROCK-IT ACQUISITIONS LTD.",
+      "old_ticker": "SPRO.P",
+      "new_name": "U92 ENERGY CORP.",
+      "new_ticker": "UTWO",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-02-04",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=311407&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "ASX",
@@ -2487,10 +2247,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "SharonAI Holdings, Inc.",
-      "old_ticker": "SHAZW",
+      "old_ticker": "",
       "new_name": "SharonAI Holdings Inc.",
       "new_ticker": "SHAZ",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-02-02",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002068385&type=8-K"
     },
@@ -2543,6 +2303,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-01-29",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001673481&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Romios Gold Resources Inc.",
+      "old_ticker": "RG",
+      "new_name": "ORETERRA METALS CORP.",
+      "new_ticker": "OTMC",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-01-29",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=310926&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NASDAQ",
@@ -2607,10 +2377,10 @@
     {
       "exchange": "NYSE",
       "old_name": "Global Medical REIT Inc.",
-      "old_ticker": "XRN-PA",
+      "old_ticker": "",
       "new_name": "Chiron Real Estate Inc.",
       "new_ticker": "XRN",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-01-26",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001533615&type=8-K"
     },
@@ -2697,10 +2467,10 @@
     {
       "exchange": "NYSE",
       "old_name": "Bakkt Holdings, Inc.",
-      "old_ticker": "BKKT-WT",
+      "old_ticker": "",
       "new_name": "Bakkt, Inc.",
       "new_ticker": "BKKT",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-01-20",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001820302&type=8-K"
     },
@@ -2763,6 +2533,16 @@
       "change_type": "Name Change",
       "date": "2026-01-15",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001716338&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Stuhini Exploration Ltd.",
+      "old_ticker": "STU",
+      "new_name": "ERANOVA METALS INC.",
+      "new_ticker": "NOVA",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-01-15",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=310126&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NASDAQ",
@@ -2997,10 +2777,10 @@
     {
       "exchange": "NYSE",
       "old_name": "Steel Newco Inc.",
-      "old_ticker": "PNFP-PA",
+      "old_ticker": "",
       "new_name": "Pinnacle Financial Partners, Inc.",
       "new_ticker": "PNFP",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2025-12-31",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002082866&type=8-K"
     },
@@ -3867,10 +3647,10 @@
     {
       "exchange": "NYSE",
       "old_name": "Paceline Solutions Corp",
-      "old_ticker": "KPET-UN",
+      "old_ticker": "",
       "new_name": "KPET Ultra Paceline Corp",
       "new_ticker": "KPET",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2025-11-26",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002095297&type=8-K"
     },
@@ -4117,10 +3897,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Roth CH Holdings, Inc.",
-      "old_ticker": "SHAZW",
+      "old_ticker": "",
       "new_name": "SharonAI Holdings Inc.",
       "new_ticker": "SHAZ",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2025-11-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002068385&type=8-K"
     },
@@ -4307,10 +4087,10 @@
     {
       "exchange": "NYSE",
       "old_name": "AG Mortgage Investment Trust, Inc.",
-      "old_ticker": "MITT-PA",
+      "old_ticker": "",
       "new_name": "TPG Mortgage Investment Trust, Inc.",
       "new_ticker": "MITT",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2025-11-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514281&type=8-K"
     },
@@ -4387,10 +4167,10 @@
     {
       "exchange": "NYSE",
       "old_name": "SIMON PROPERTY GROUP INC /DE/",
-      "old_ticker": "SPG-PJ",
+      "old_ticker": "",
       "new_name": "SIMON PROPERTY GROUP INC.",
       "new_ticker": "SPG",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2025-11-03",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001063761&type=8-K"
     },
@@ -4617,10 +4397,10 @@
     {
       "exchange": "NYSE",
       "old_name": "FLAGSTAR FINANCIAL, INC.",
-      "old_ticker": "FLG-PA",
+      "old_ticker": "",
       "new_name": "FLAGSTAR BANK, NATIONAL ASSOCIATION",
       "new_ticker": "FLG",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2025-10-17",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000910073&type=8-K"
     },
@@ -4907,10 +4687,10 @@
     {
       "exchange": "NYSE",
       "old_name": "Prometheus PubCo Inc.",
-      "old_ticker": "FTW-WT",
+      "old_ticker": "",
       "new_name": "PRESIDIO PRODUCTION Co",
       "new_ticker": "FTW",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2025-09-29",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002083125&type=8-K"
     },
@@ -5237,10 +5017,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Sayona Mining Ltd",
-      "old_ticker": "SYAXF",
+      "old_ticker": "",
       "new_name": "Elevra Lithium Ltd",
       "new_ticker": "ELVR",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2025-09-16",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001739016&type=8-K"
     },
@@ -5617,10 +5397,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "FT Intermediate, Inc.",
-      "old_ticker": "FGRS",
+      "old_ticker": "",
       "new_name": "Figure Technology Solutions, Inc.",
       "new_ticker": "FIGR",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2025-09-02",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002064124&type=8-K"
     },
@@ -5817,10 +5597,10 @@
     {
       "exchange": "NYSE",
       "old_name": "BEYOND, INC.",
-      "old_ticker": "BBBY-WT",
+      "old_ticker": "",
       "new_name": "BED BATH & BEYOND, INC.",
       "new_ticker": "BBBY",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2025-08-22",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001130713&type=8-K"
     },
