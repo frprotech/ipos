@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T23:54:00+00:00",
+  "updated_at": "2026-07-22T00:35:08+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -446,16 +446,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Envirotech Vehicles, Inc.",
-      "old_ticker": "EVTV",
-      "new_name": "AZIO AI HOLDINGS, INC.",
-      "new_ticker": "AZIO",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-07-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001563568&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "bioAffinity Technologies, Inc.",
       "old_ticker": "BIAFW",
       "new_name": "bioAffinity Technologies, Inc.",
@@ -463,6 +453,16 @@
       "change_type": "Symbol Change",
       "date": "2026-07-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001712762&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Envirotech Vehicles, Inc.",
+      "old_ticker": "EVTV",
+      "new_name": "AZIO AI HOLDINGS, INC.",
+      "new_ticker": "AZIO",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-07",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001563568&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -706,7 +706,7 @@
     },
     {
       "exchange": "CSE",
-      "old_name": "",
+      "old_name": "Apptly Health Technolgoies Corp.",
       "old_ticker": "",
       "new_name": "UBERDOC Health Technologies Corp",
       "new_ticker": "APPT",
@@ -2176,7 +2176,7 @@
     },
     {
       "exchange": "CSE",
-      "old_name": "",
+      "old_name": "Inspiration Energy Corp.",
       "old_ticker": "",
       "new_name": "Inspiration Energy Corp",
       "new_ticker": "ISP",
@@ -2796,16 +2796,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "iRhythm Technologies, Inc.",
-      "old_ticker": "",
-      "new_name": "iRhythm Holdings, Inc.",
-      "new_ticker": "IRTC",
-      "change_type": "Name Change",
-      "date": "2026-01-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Ondas Holdings Inc.",
       "old_ticker": "",
       "new_name": "Ondas Inc.",
@@ -2813,6 +2803,16 @@
       "change_type": "Name Change",
       "date": "2026-01-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001646188&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "iRhythm Technologies, Inc.",
+      "old_ticker": "",
+      "new_name": "iRhythm Holdings, Inc.",
+      "new_ticker": "IRTC",
+      "change_type": "Name Change",
+      "date": "2026-01-12",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -4105,6 +4105,56 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002055510&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "Commerce Resources Corp.",
+      "old_ticker": "CCE",
+      "new_name": "MONT ROYAL RESOURCES LIMITED.",
+      "new_ticker": "MRZL",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-11-03",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=305245&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Logica Ventures Corp.",
+      "old_ticker": "LOG.P",
+      "new_name": "GALACTIC GOLD CORP.",
+      "new_ticker": "GGAU",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-11-03",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=305247&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Mongolia Growth Group Ltd.",
+      "old_ticker": "YAK",
+      "new_name": "MONGOLIA GROWTH GROUP LTD.",
+      "new_ticker": "YAK.H",
+      "change_type": "Symbol Change",
+      "date": "2025-11-03",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=305248&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "QUETZAL COPPER CORP.",
+      "old_ticker": "SICO",
+      "new_name": "SILVERCO MINING LTD.",
+      "new_ticker": "SICO",
+      "change_type": "Name Change",
+      "date": "2025-10-31",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=305226&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "VENERABLE VENTURES LTD.",
+      "old_ticker": "VLV.H",
+      "new_name": "VENERABLE VENTURES LTD.",
+      "new_ticker": "SCMI",
+      "change_type": "Symbol Change",
+      "date": "2025-10-31",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=305229&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "Nextracker Inc.",
       "old_ticker": "",
@@ -4133,6 +4183,16 @@
       "change_type": "Name Change",
       "date": "2025-10-30",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001783036&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "PLATA LATINA MINERALS CORPORATION",
+      "old_ticker": "PLA",
+      "new_name": "EDGE COPPER CORPORATION",
+      "new_ticker": "EDCU",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-30",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=305205&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NASDAQ",
@@ -4185,6 +4245,26 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001896677&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "REEXPLORATION INC. (\"REE\") [formerly E-Tech Resources Inc.",
+      "new_ticker": "REE",
+      "change_type": "Name Change",
+      "date": "2025-10-24",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=305125&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "MIZA III VENTURES INC.",
+      "old_ticker": "MIZA.P",
+      "new_name": "NEUROTHERA LABS INC.",
+      "new_ticker": "NTLX",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-23",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=304907&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
@@ -4223,6 +4303,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-10-20",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "BAROYECA GOLD &amp; SILVER INC.",
+      "old_ticker": "BGS",
+      "new_name": "0749116 B.C. LTD.",
+      "new_ticker": "TRR",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-20",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=304445&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NYSE",
@@ -4335,6 +4425,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001760903&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "TENTH AVENUE PETROLEUM CORP.",
+      "old_ticker": "TPC",
+      "new_name": "DECIMUS OIL CORP.",
+      "new_ticker": "WCSB",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-08",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303705&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NYSE",
       "old_name": "ACUREN CORP",
       "old_ticker": "",
@@ -4363,6 +4463,16 @@
       "change_type": "Name Change",
       "date": "2025-10-06",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001674440&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Sanatana Resources Inc.",
+      "old_ticker": "STA",
+      "new_name": "GOLD STRIKE RESOURCES CORP.",
+      "new_ticker": "GSR",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-06",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303465&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "ASX",
@@ -4395,6 +4505,26 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067627&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "EAST WEST PETROLEUM CORP.",
+      "old_ticker": "EW",
+      "new_name": "EAST WEST MINERALS LTD.",
+      "new_ticker": "EW",
+      "change_type": "Name Change",
+      "date": "2025-10-02",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303246&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Carcetti Capital Corp.",
+      "old_ticker": "CART.H",
+      "new_name": "CARCETTI CAPITAL CORP.",
+      "new_ticker": "CART",
+      "change_type": "Symbol Change",
+      "date": "2025-10-02",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303248&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "Fermi LLC",
       "old_ticker": "",
@@ -4403,6 +4533,36 @@
       "change_type": "Name Change",
       "date": "2025-10-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002071778&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Identillect Technologies Corp.",
+      "old_ticker": "ID",
+      "new_name": "SECURE BLOCKCHAIN DEVELOPMENT CORP.",
+      "new_ticker": "ID",
+      "change_type": "Name Change",
+      "date": "2025-10-01",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303207&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Personas Social Incorporated",
+      "old_ticker": "KEEK",
+      "new_name": "KEEK SOCIAL INC.",
+      "new_ticker": "KEEK",
+      "change_type": "Name Change",
+      "date": "2025-10-01",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303209&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Three Valley Copper Corp.",
+      "old_ticker": "TVC",
+      "new_name": "WINCHESTER EQUITY CORPORATION",
+      "new_ticker": "WEC",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-01",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303210&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NYSE",
@@ -4475,6 +4635,36 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001897532&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "LITE ACCESS TECHNOLOGIES INC.",
+      "old_ticker": "LTE",
+      "new_name": "IRONMAN INTERNATIONAL LTD.",
+      "new_ticker": "IMI",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-29",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302997&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "The Mint Corporation",
+      "old_ticker": "MIT",
+      "new_name": "THE MINT CORPORATION",
+      "new_ticker": "MIT.H",
+      "change_type": "Symbol Change",
+      "date": "2025-09-29",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302998&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Transforma Resources Corporation",
+      "old_ticker": "TFM",
+      "new_name": "TRANSFORMA RESOURCES CORPORATION",
+      "new_ticker": "TFM.H",
+      "change_type": "Symbol Change",
+      "date": "2025-09-29",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303001&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
@@ -4523,6 +4713,16 @@
       "change_type": "Name Change",
       "date": "2025-09-26",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002045872&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Farstarcap Investment Corp.",
+      "old_ticker": "FRS.P",
+      "new_name": "BP SILVER CORP.",
+      "new_ticker": "BPAG",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-25",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302725&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "ASX",
@@ -4625,6 +4825,26 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "HUNTSMAN EXPLORATION INC.",
+      "old_ticker": "HMAN",
+      "new_name": "LUX METALS CORP.",
+      "new_ticker": "LXM",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-23",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302685&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "GREEN MINING INNOVATION INC. (\"GMI.H\") [formerly Green Mining Innovation Inc.",
+      "new_ticker": "GMI",
+      "change_type": "Name Change",
+      "date": "2025-09-22",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302666&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "ASX",
       "old_name": "Patriot Battery Metals Inc.",
       "old_ticker": "PMT",
@@ -4643,6 +4863,16 @@
       "change_type": "Name Change",
       "date": "2025-09-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001592560&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Seasif Exploration Inc.",
+      "old_ticker": "SAF",
+      "new_name": "SEASIF EXPLORATION INC.",
+      "new_ticker": "SAF.H",
+      "change_type": "Symbol Change",
+      "date": "2025-09-19",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302646&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NASDAQ",
@@ -4685,6 +4915,16 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "Manitex Capital Inc.",
+      "old_ticker": "MNX",
+      "new_name": "MANITEX CAPITAL INC.",
+      "new_ticker": "MNX.H",
+      "change_type": "Symbol Change",
+      "date": "2025-09-17",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302605&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
@@ -4713,6 +4953,46 @@
       "change_type": "Name Change",
       "date": "2025-09-16",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001932072&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "01 Communique Laboratory Inc.",
+      "old_ticker": "ONE",
+      "new_name": "01 QUANTUM INC.",
+      "new_ticker": "ONE",
+      "change_type": "Name Change",
+      "date": "2025-09-15",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302365&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "BLUE SKY GLOBAL ENERGY CORP.",
+      "old_ticker": "BGE",
+      "new_name": "SABA ENERGY LTD.",
+      "new_ticker": "SABA",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-15",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302366&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Champion Gaming Group Inc.",
+      "old_ticker": "WAGR",
+      "new_name": "CHAMPION GAMING GROUP INC.",
+      "new_ticker": "WAGR.H",
+      "change_type": "Symbol Change",
+      "date": "2025-09-15",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302367&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "CO2 GRO Inc.",
+      "old_ticker": "GROW",
+      "new_name": "CO2 GRO INC.",
+      "new_ticker": "GROW.H",
+      "change_type": "Symbol Change",
+      "date": "2025-09-15",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302368&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "CSE",
@@ -4773,6 +5053,36 @@
       "change_type": "Name Change",
       "date": "2025-09-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001130166&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "ALLEGIANT GOLD LTD.",
+      "old_ticker": "AUAU",
+      "new_name": "A2 GOLD CORP.",
+      "new_ticker": "AUAU",
+      "change_type": "Name Change",
+      "date": "2025-09-12",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302345&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Sirona Biochem Corp.",
+      "old_ticker": "SBM",
+      "new_name": "SIRONA BIOCHEM CORP.",
+      "new_ticker": "SBM.H",
+      "change_type": "Symbol Change",
+      "date": "2025-09-12",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302349&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Spot Coffee (Canada) Ltd.",
+      "old_ticker": "SPP",
+      "new_name": "SPOT COFFEE (CANADA) LTD.",
+      "new_ticker": "SPP.H",
+      "change_type": "Symbol Change",
+      "date": "2025-09-12",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302350&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "ASX",
@@ -5763,26 +6073,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-07-22",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Inca Minerals Limited",
-      "old_ticker": "ICG",
-      "new_name": "Rokeby Resources Limited",
-      "new_ticker": "RKB",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-07-21",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "XBP Europe Holdings, Inc.",
-      "old_ticker": "XBPEW",
-      "new_name": "XBP Global Holdings, Inc.",
-      "new_ticker": "XBP",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-07-21",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001839530&type=8-K"
     }
   ]
 }
