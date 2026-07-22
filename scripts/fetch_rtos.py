@@ -130,23 +130,31 @@ def fetch_asx_rtos() -> list[dict]:
 # we fetch each one's actual page title for the correctly-cased name/ticker.
 #
 # Neither the sitemap nor the bulletin page itself says what the company was
-# CALLED/TICKED before the change, though -- but thecse.com's own
-# listed-companies webapi carries a per-company recent_change field (name_was
-# / symbol_was) for whichever change was most recent for that company. It
-# only ever holds the single latest change (not full history), so it's used
-# here purely as an enrichment layer on top of the sitemap-derived records --
-# and CSE companies turn out to rename/re-ticker again within days of a prior
-# change often enough (observed directly: FFF, WMC and APPT all had a further
-# change 2-7 days after the bulletin we'd already captured for them) that a
-# same-ticker match alone isn't enough to trust it's the SAME event. So this
-# only fires when the bulletin's own date exactly equals recent_change's
-# effective_on -- anything looser (even a 1-2 day tolerance) risks pinning a
-# later, unrelated rename's old name onto an earlier bulletin, which is worse
-# than just leaving the row unenriched.
+# CALLED/TICKED before the change (confirmed directly: a bulletin page's raw
+# HTML is just a client-rendered-JS stub with generic site boilerplate, no
+# former-name text anywhere; there's no per-company history endpoint either)
+# -- but thecse.com's own listed-companies webapi carries a per-company
+# recent_change field (name_was/symbol_was) for whichever change was most
+# recent for that company AT THE MOMENT WE CHECK. It only ever holds that one
+# latest hop, and CSE companies turn out to rename/re-ticker again within
+# days of a prior change often enough (observed directly: FFF, WMC and APPT
+# all had a further, undisclosed-by-bulletin change days after the one we'd
+# already captured for them) that the live snapshot alone usually doesn't
+# line up with whichever of our own bulletins it's compared against.
+#
+# So instead of relying on a single live snapshot, every run appends any
+# not-yet-seen (ticker, effective_on) pairs to a persisted history file
+# (CSE_RECENT_CHANGES_STATE_FILE) -- since thecse.com only ever exposes the
+# CURRENT hop, checking every 6 hours and remembering what we saw is the only
+# way to accumulate genuine multi-hop history for free. A bulletin only gets
+# enriched when some hop in that accumulated history has an effective_on
+# exactly equal to the bulletin's own date -- anything looser risks pinning
+# an unrelated rename's old name onto the wrong bulletin.
 # ---------------------------------------------------------------------------
 
 CSE_BULLETINS_SITEMAP = "https://thecse.com/sitemaps/bulletins.xml"
 CSE_LISTED_COMPANIES_URL = "https://thecse.com/api/webapi/listed-companies/"
+CSE_RECENT_CHANGES_STATE_FILE = ROOT / "data" / "snapshots" / "cse_recent_changes.json"
 
 CSE_CHANGE_TYPE_RE = re.compile(
     r"^(?P<type>name-and-symbol-change|name-symbol-change(?:-and-consolidation)?|"
@@ -220,6 +228,20 @@ def _cse_recent_changes() -> dict[str, dict]:
     return out
 
 
+def _load_cse_recent_change_history() -> dict[str, list[dict]]:
+    if CSE_RECENT_CHANGES_STATE_FILE.exists():
+        try:
+            return json.loads(CSE_RECENT_CHANGES_STATE_FILE.read_text())
+        except json.JSONDecodeError:
+            return {}
+    return {}
+
+
+def _save_cse_recent_change_history(history: dict[str, list[dict]]) -> None:
+    CSE_RECENT_CHANGES_STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    CSE_RECENT_CHANGES_STATE_FILE.write_text(json.dumps(history, indent=2) + "\n")
+
+
 def fetch_cse_rtos() -> list[dict]:
     body = http_get(CSE_BULLETINS_SITEMAP).text
     locs = re.findall(r"<loc>(https://thecse\.com/bulletin/([^<]+?))/?</loc>", body)
@@ -241,7 +263,12 @@ def fetch_cse_rtos() -> list[dict]:
         change_type = CSE_CHANGE_LABELS.get(type_m.group("type"), "Name/Symbol Change")
         candidates.append((full_url, listing_date, change_type))
 
-    recent_changes = _cse_recent_changes()
+    history = _load_cse_recent_change_history()
+    for ticker, rc in _cse_recent_changes().items():
+        seen = history.setdefault(ticker, [])
+        if not any(e.get("effective_on") == rc["effective_on"] for e in seen):
+            seen.append(rc)
+    _save_cse_recent_change_history(history)
 
     out: list[dict] = []
     session = requests.Session()
@@ -259,10 +286,11 @@ def fetch_cse_rtos() -> list[dict]:
             continue
         company, ticker = parsed
         old_name, old_ticker = "", ""
-        rc = recent_changes.get(ticker.upper())
-        if rc and rc["effective_on"] == listing_date:
-            old_name = rc["name_was"]
-            old_ticker = rc["symbol_was"]
+        for rc in history.get(ticker.upper(), []):
+            if rc.get("effective_on") == listing_date:
+                old_name = rc.get("name_was", "")
+                old_ticker = rc.get("symbol_was", "")
+                break
         rec = rto_record(
             exchange="CSE",
             old_name=old_name, old_ticker=old_ticker,

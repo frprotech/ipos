@@ -37,8 +37,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- data/rtos.json data/snapshots/tsxv_last_notice_id.json; then
-            git add data/rtos.json data/snapshots/tsxv_last_notice_id.json
+          if ! git diff --quiet -- data/rtos.json data/snapshots/tsxv_last_notice_id.json data/snapshots/cse_recent_changes.json; then
+            git add data/rtos.json data/snapshots/tsxv_last_notice_id.json data/snapshots/cse_recent_changes.json
             git commit -m "chore: refresh RTO data"
             git push
           else
