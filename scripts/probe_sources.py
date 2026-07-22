@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Diagnostic round 17: thecse.com's listed-companies webapi has a
-"recent_change" field per company -- dump it for a company we know recently
-changed name/symbol (Arctic Fox Lithium Corp, AFX) to see if it holds the
-old name/ticker. Temporary tool -- not part of the site."""
+"""Diagnostic round 18: survey ALL companies' recent_change field on CSE's
+listed-companies webapi to see every "type" value and field name used (is
+there a symbol_was for ticker changes? name_symbol for both?). Temporary
+tool -- not part of the site."""
 
 import json
 import re
@@ -35,18 +35,22 @@ def largest_list(obj, depth=0):
 items = largest_list(data)
 print("total items:", len(items))
 
-targets = ["AFX", "TMED", "CMT", "APPT"]
-for it in items:
-    sym = str(it.get("symbol", "")).upper()
-    if sym in targets:
-        print("=" * 100, "\n", sym, "-", it.get("security_name"))
-        print("  recent_change:", json.dumps(it.get("recent_change"), indent=2))
-        print("  sedar_filings (truncated):", json.dumps(it.get("sedar_filings"), indent=2)[:800])
-        print("  status:", it.get("status"))
+with_change = [it for it in items if it.get("recent_change")]
+print("items with a recent_change field:", len(with_change))
 
-# Also print a couple of full records raw, in case recent_change is buried
-# under a differently-named key we haven't spotted
-print("=" * 100, "\nFull raw record for AFX")
-for it in items:
-    if str(it.get("symbol", "")).upper() == "AFX":
-        print(json.dumps(it, indent=2)[:3000])
+types_seen = {}
+for it in with_change:
+    rc = it["recent_change"]
+    t = rc.get("type")
+    types_seen.setdefault(t, []).append((it.get("symbol"), it.get("security_name"), rc))
+
+for t, examples in types_seen.items():
+    print("=" * 100, f"\ntype = {t!r} ({len(examples)} examples)")
+    for sym, name, rc in examples[:5]:
+        print(f"  {sym} | {name} | {json.dumps(rc)}")
+
+print("=" * 100, "\nAll distinct keys seen across every recent_change object")
+all_keys = set()
+for it in with_change:
+    all_keys.update(it["recent_change"].keys())
+print("  keys:", sorted(all_keys))
