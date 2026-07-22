@@ -4,7 +4,9 @@ write data/rtos.json.
 
 Covered exchanges:
   - ASX   via the official asx.com.au code-changes page (full history table)
-  - CSE   via thecse.com's bulletins sitemap (bulletin type is in the slug)
+  - CSE   via thecse.com's bulletins sitemap (bulletin type is in the slug),
+    enriched with old name/ticker from the listed-companies webapi's
+    per-company recent_change field where it's available
   - NASDAQ + NYSE (+ NYSE American) via SEC EDGAR's bulk submissions.zip:
     every US-listed CIK's filing history includes formerNames (old name +
     the date the change took effect) and its ticker history -- the CIK is a
@@ -37,7 +39,7 @@ import zipfile
 import requests
 from bs4 import BeautifulSoup
 
-from fetch_ipos import ROOT, TIMEOUT, TODAY, KEEP_AFTER, HEADERS, http_get, parse_date
+from fetch_ipos import ROOT, TIMEOUT, TODAY, KEEP_AFTER, HEADERS, http_get, parse_date, _largest_dict_list
 
 RTO_DATA_FILE = ROOT / "data" / "rtos.json"
 
@@ -126,9 +128,21 @@ def fetch_asx_rtos() -> list[dict]:
 # "egf-theramed-health-corp" in the URL, indistinguishable from a name that
 # was never capitalized that way) -- so once we know which bulletins matter,
 # we fetch each one's actual page title for the correctly-cased name/ticker.
+#
+# Neither the sitemap nor the bulletin page itself says what the company was
+# CALLED/TICKED before the change, though -- but thecse.com's own
+# listed-companies webapi carries a per-company recent_change field (name_was
+# / symbol_was) for whichever change was most recent for that company. It
+# only ever holds the single latest change (not full history), so it's used
+# here purely as an enrichment layer on top of the sitemap-derived records:
+# applied only when the current ticker matches AND the dates line up,
+# otherwise left alone (e.g. a company with two changes would otherwise get
+# its older bulletin wrongly enriched with the newer change's old name).
 # ---------------------------------------------------------------------------
 
 CSE_BULLETINS_SITEMAP = "https://thecse.com/sitemaps/bulletins.xml"
+CSE_LISTED_COMPANIES_URL = "https://thecse.com/api/webapi/listed-companies/"
+CSE_ENRICH_MAX_DAY_GAP = 3  # tolerance between a bulletin's date and recent_change.effective_on
 
 CSE_CHANGE_TYPE_RE = re.compile(
     r"^(?P<type>name-and-symbol-change|name-symbol-change(?:-and-consolidation)?|"
@@ -174,6 +188,34 @@ def _parse_cse_bulletin_title(title: str) -> tuple[str, str] | None:
     return (company, ticker) if company and ticker else None
 
 
+def _cse_recent_changes() -> dict[str, dict]:
+    """Current ticker -> {name_was, symbol_was, effective_on} sourced from
+    thecse.com's listed-companies webapi, for companies whose most recent
+    bulletin was a name/symbol (or CUSIP-only) change. Best-effort: returns
+    {} if the endpoint is unreachable, since this is only an enrichment on
+    top of the sitemap-derived records, not their sole source."""
+    try:
+        payload = http_get(CSE_LISTED_COMPANIES_URL).json()
+    except Exception:
+        return {}
+    out: dict[str, dict] = {}
+    for item in _largest_dict_list(payload):
+        rc = item.get("recent_change")
+        ticker = str(item.get("symbol") or "").strip().upper()
+        if not rc or not ticker:
+            continue
+        name_was = re.sub(r"\s+", " ", str(rc.get("name_was") or "")).strip()
+        symbol_was = str(rc.get("symbol_was") or "").strip().upper()
+        if not name_was and not symbol_was:
+            continue  # e.g. a CUSIP-only change -- nothing we can show
+        out[ticker] = {
+            "name_was": name_was,
+            "symbol_was": symbol_was,
+            "effective_on": str(rc.get("effective_on") or "")[:10],
+        }
+    return out
+
+
 def fetch_cse_rtos() -> list[dict]:
     body = http_get(CSE_BULLETINS_SITEMAP).text
     locs = re.findall(r"<loc>(https://thecse\.com/bulletin/([^<]+?))/?</loc>", body)
@@ -195,6 +237,8 @@ def fetch_cse_rtos() -> list[dict]:
         change_type = CSE_CHANGE_LABELS.get(type_m.group("type"), "Name/Symbol Change")
         candidates.append((full_url, listing_date, change_type))
 
+    recent_changes = _cse_recent_changes()
+
     out: list[dict] = []
     session = requests.Session()
     session.headers.update(HEADERS)
@@ -210,8 +254,19 @@ def fetch_cse_rtos() -> list[dict]:
         if not parsed:
             continue
         company, ticker = parsed
+        old_name, old_ticker = "", ""
+        rc = recent_changes.get(ticker.upper())
+        if rc and rc["effective_on"]:
+            try:
+                gap = abs((dt.date.fromisoformat(listing_date) - dt.date.fromisoformat(rc["effective_on"])).days)
+            except ValueError:
+                gap = None
+            if gap is not None and gap <= CSE_ENRICH_MAX_DAY_GAP:
+                old_name = rc["name_was"]
+                old_ticker = rc["symbol_was"]
         rec = rto_record(
             exchange="CSE",
+            old_name=old_name, old_ticker=old_ticker,
             new_name=company, new_ticker=ticker,
             change_type=change_type,
             date=listing_date,
