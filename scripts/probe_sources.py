@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Diagnostic round 18: survey ALL companies' recent_change field on CSE's
-listed-companies webapi to see every "type" value and field name used (is
-there a symbol_was for ticker changes? name_symbol for both?). Temporary
-tool -- not part of the site."""
+"""Diagnostic round 19: check why the recent_change enrichment matched only
+1 of 7 known CSE bulletins (AFX, FFF, WMC, MJRX, APPT, TMED, CMT), and why
+the one match (APPT) looks wrong. Dump the raw listed-companies entry for
+each of these tickers verbatim. Temporary tool -- not part of the site."""
 
 import json
 import re
@@ -35,22 +35,22 @@ def largest_list(obj, depth=0):
 items = largest_list(data)
 print("total items:", len(items))
 
-with_change = [it for it in items if it.get("recent_change")]
-print("items with a recent_change field:", len(with_change))
+targets = {"AFX", "FFF", "WMC", "MJRX", "APPT", "TMED", "CMT"}
+by_symbol = {}
+for it in items:
+    sym = str(it.get("symbol") or "").strip().upper()
+    by_symbol.setdefault(sym, []).append(it)
 
-types_seen = {}
-for it in with_change:
-    rc = it["recent_change"]
-    t = rc.get("type")
-    types_seen.setdefault(t, []).append((it.get("symbol"), it.get("security_name"), rc))
+for t in sorted(targets):
+    matches = by_symbol.get(t, [])
+    print("=" * 100)
+    print(f"ticker {t!r}: {len(matches)} listed-companies entries with this exact symbol field")
+    for it in matches:
+        # print full item so we can see ALL fields, not just the ones we guessed matter
+        print(json.dumps(it, indent=2, default=str))
 
-for t, examples in types_seen.items():
-    print("=" * 100, f"\ntype = {t!r} ({len(examples)} examples)")
-    for sym, name, rc in examples[:5]:
-        print(f"  {sym} | {name} | {json.dumps(rc)}")
-
-print("=" * 100, "\nAll distinct keys seen across every recent_change object")
-all_keys = set()
-for it in with_change:
-    all_keys.update(it["recent_change"].keys())
-print("  keys:", sorted(all_keys))
+# Also: is "symbol" sometimes not the bare ticker? dump a handful of raw
+# symbol values to check for suffixes/prefixes.
+print("=" * 100, "\nSample of 20 raw symbol fields (to check formatting)")
+for it in items[:20]:
+    print(repr(it.get("symbol")), "|", it.get("security_name"))
