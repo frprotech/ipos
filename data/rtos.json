@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T01:36:37+00:00",
+  "updated_at": "2026-07-22T09:24:32+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -105,6 +105,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002017526&type=8-K"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "Avalon GloboCare Corp.",
+      "old_ticker": "",
+      "new_name": "Change Agents Corporation.",
+      "new_ticker": "ALBT",
+      "change_type": "Name Change",
+      "date": "2026-07-13",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001630212&type=8-K"
+    },
+    {
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
@@ -153,6 +163,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-07-09",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001844971&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "M3-Brigade Acquisition V Corp.",
+      "old_ticker": "MBAVU",
+      "new_name": "Velos Acquisition I Corp.",
+      "new_ticker": "MBAV",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-08",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002016072&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -277,7 +297,7 @@
     {
       "exchange": "NASDAQ",
       "old_name": "SURO CAPITAL CORP.",
-      "old_ticker": "SSSS",
+      "old_ticker": "NSLRL",
       "new_name": "Neostellar Capital Corp.",
       "new_ticker": "NSLR",
       "change_type": "Name & Symbol Change",
@@ -535,6 +555,36 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001921603&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "Northfield Capital Corporation",
+      "old_ticker": "NFD.A",
+      "new_name": "JUNO INTERNATIONAL CORPORATION",
+      "new_ticker": "JUN.A",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-06-09",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318626&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "TINCORP METALS INC.",
+      "old_ticker": "TIN",
+      "new_name": "AURO METALS INC.",
+      "new_ticker": "AURO",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-06-09",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318627&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Tearlach Resources Limited",
+      "old_ticker": "TEA",
+      "new_name": "TEARLACH RESOURCES LIMITED",
+      "new_ticker": "TEA.H",
+      "change_type": "Symbol Change",
+      "date": "2026-06-08",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318607&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
@@ -577,10 +627,10 @@
     {
       "exchange": "NYSE",
       "old_name": "FRESH DEL MONTE PRODUCE INC",
-      "old_ticker": "FDP",
+      "old_ticker": "",
       "new_name": "DEL MONTE CORP",
       "new_ticker": "DMC",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-06-04",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001047340&type=8-K"
     },
@@ -597,12 +647,42 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Brag House Holdings, Inc.",
-      "old_ticker": "TBH",
+      "old_ticker": "",
       "new_name": "House of Doge Inc.",
       "new_ticker": "HODO",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-06-04",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001903595&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Charbone Hydrogen Corporation",
+      "old_ticker": "CH",
+      "new_name": "CHARBONE CORPORATION",
+      "new_ticker": "CH",
+      "change_type": "Name Change",
+      "date": "2026-06-04",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318566&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "FUERTE METALS CORPORATION",
+      "old_ticker": "FMT",
+      "new_name": "TALAMORE MINING CORP.",
+      "new_ticker": "TALA",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-06-04",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318567&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Odd Burger Corporation",
+      "old_ticker": "ODD",
+      "new_name": "ODD BURGER CORPORATION",
+      "new_ticker": "ODD.H",
+      "change_type": "Symbol Change",
+      "date": "2026-06-04",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318569&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "ASX",
@@ -613,6 +693,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-06-03",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "CLEAN SEED CAPITAL GROUP LTD. (\"CSX\") [formerly, Clean Seed Capital Group Ltd.",
+      "new_ticker": "CSX.H",
+      "change_type": "Name Change",
+      "date": "2026-06-03",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318546&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NASDAQ",
@@ -655,6 +745,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002022308&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "APPLIED GRAPHITE TECHNOLOGIES CORPORATION",
+      "old_ticker": "AGT",
+      "new_name": "BULLFROG GOLD CORPORATION",
+      "new_ticker": "FROG",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-29",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318485&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "Cartesian Growth Corp III",
       "old_ticker": "FACWW",
@@ -673,6 +773,16 @@
       "change_type": "Name Change",
       "date": "2026-05-28",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000801961&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "CYTOPHAGE TECHNOLOGIES LTD.",
+      "old_ticker": "CYTO",
+      "new_name": "CYTOPHAGE TECHNOLOGIES LTD.",
+      "new_ticker": "CYTO.H",
+      "change_type": "Symbol Change",
+      "date": "2026-05-28",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318265&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NYSE",
@@ -705,6 +815,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001888525&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "URBANIMMERSIVE INC. (\"UI.H\") [formerly Urbanimmersive Inc.",
+      "new_ticker": "UI",
+      "change_type": "Name Change",
+      "date": "2026-05-27",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318047&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "ASX",
       "old_name": "Ardiden Ltd",
       "old_ticker": "ADV",
@@ -713,6 +833,26 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-05-26",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Ecolomondo Corporation",
+      "old_ticker": "ECM",
+      "new_name": "ECOLOMONDO CORPORATION",
+      "new_ticker": "ECM.H",
+      "change_type": "Symbol Change",
+      "date": "2026-05-26",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318026&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "ENVIROGOLD GLOBAL LIMITED",
+      "old_ticker": "NVRO",
+      "new_name": "NVRO METALS LIMITED",
+      "new_ticker": "NVRO",
+      "change_type": "Name Change",
+      "date": "2026-05-26",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318027&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "CSE",
@@ -773,6 +913,16 @@
       "change_type": "Name Change",
       "date": "2026-05-21",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002119322&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Multi-Metal Development Ltd.",
+      "old_ticker": "MLY",
+      "new_name": "MULTI-METAL DEVELOPMENT LTD.",
+      "new_ticker": "MLY.H",
+      "change_type": "Symbol Change",
+      "date": "2026-05-21",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=317965&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "CSE",
@@ -885,6 +1035,26 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001419275&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "HEMPALTA CORP.",
+      "old_ticker": "HEMP",
+      "new_name": "NEXT PHASE VENTURES LTD.",
+      "new_ticker": "NPV",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-14",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=317865&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Waseco Resources Inc.",
+      "old_ticker": "WRI",
+      "new_name": "WASECO RESOURCES INC.",
+      "new_ticker": "WRI.H",
+      "change_type": "Symbol Change",
+      "date": "2026-05-13",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=317845&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "AIR Holdings Ltd",
       "old_ticker": "",
@@ -893,6 +1063,16 @@
       "change_type": "Name Change",
       "date": "2026-05-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002097725&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Discovery Harbour Resources Corp.",
+      "old_ticker": "DHR",
+      "new_name": "DISCOVERY HARBOUR RESOURCES CORP.",
+      "new_ticker": "DHR.H",
+      "change_type": "Symbol Change",
+      "date": "2026-05-12",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=317825&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NYSE",
@@ -913,6 +1093,16 @@
       "change_type": "Name Change",
       "date": "2026-05-11",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001708341&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "KGL Resources Ltd.",
+      "old_ticker": "KGL.H",
+      "new_name": "KGL RESOURCES LTD.",
+      "new_ticker": "KLT.H",
+      "change_type": "Symbol Change",
+      "date": "2026-05-11",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=317806&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "CSE",
@@ -1005,6 +1195,26 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001549084&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "AERO ENERGY LIMITED",
+      "old_ticker": "AERO",
+      "new_name": "MANHATTAN URANIUM DISCOVERY CORP.",
+      "new_ticker": "MANU",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-05",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=317305&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "AFR NuVenture Resources Inc.",
+      "old_ticker": "AFR",
+      "new_name": "ABSOLUTELY CRITICAL RESOURCES CORP.",
+      "new_ticker": "ABC",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-05",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=317306&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "Middleby Food Processing, Inc.",
       "old_ticker": "MFPVV",
@@ -1023,6 +1233,16 @@
       "change_type": "Name Change",
       "date": "2026-05-04",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001956439&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "St. Davids Capital Inc.",
+      "old_ticker": "SDCI.P",
+      "new_name": "THISTLE RESOURCES INC.",
+      "new_ticker": "TRCG",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-01",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=317267&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NASDAQ",
@@ -1065,6 +1285,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000815097&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "Axo Copper Corp.",
+      "old_ticker": "AXO",
+      "new_name": "AXO METALS CORP.",
+      "new_ticker": "AXO",
+      "change_type": "Name Change",
+      "date": "2026-04-29",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=317027&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
@@ -1105,6 +1335,26 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086745&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "PORTOFINO RESOURCES INC.",
+      "old_ticker": "POR",
+      "new_name": "LATAM LITHIUM CORP.",
+      "new_ticker": "LALI",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-04-28",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=316807&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "(\"First Atlantic Nickel Corp.\")",
+      "old_ticker": "FAN",
+      "new_name": "FIRST ATLANTIC NICKEL &amp; COBALT CORP.",
+      "new_ticker": "FAN",
+      "change_type": "Name Change",
+      "date": "2026-04-27",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=316785&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
@@ -1113,6 +1363,26 @@
       "change_type": "Name Change",
       "date": "2026-04-25",
       "source": "https://thecse.com/bulletin/2026-0425-name-change-and-consolidation-giant-mining-corp-bfg"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "OPENSESAME ACQUISITION CORP.",
+      "old_ticker": "OPEN.P",
+      "new_name": "VECTOR SCIENCE AND THERAPEUTICS CORP.",
+      "new_ticker": "PAIN",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-04-24",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=316765&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "TRIGON METALS INC.",
+      "old_ticker": "TM",
+      "new_name": "SAFI SILVER CORP.",
+      "new_ticker": "SF",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-04-24",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=316766&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NYSE",
@@ -1143,6 +1413,16 @@
       "change_type": "Name Change",
       "date": "2026-04-23",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001787740&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Lithium ION Energy Ltd.",
+      "old_ticker": "ION",
+      "new_name": "OSIRIS ONE METALS LTD.",
+      "new_ticker": "OSM",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-04-23",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=316547&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "ASX",
@@ -1183,6 +1463,16 @@
       "change_type": "Name Change",
       "date": "2026-04-21",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001643615&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "GSTAAD CAPITAL CORP.",
+      "old_ticker": "GTD.H",
+      "new_name": "ILLUMISOFT LIGHTING CORP.",
+      "new_ticker": "UVC",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-04-21",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=316469&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "CSE",
@@ -1315,6 +1605,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514991&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "BLUERUSH INC.",
+      "old_ticker": "BTV",
+      "new_name": "BLUERUSH INC.",
+      "new_ticker": "BTV.H",
+      "change_type": "Symbol Change",
+      "date": "2026-04-01",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=315726&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "Bitfarms Ltd",
       "old_ticker": "",
@@ -1383,6 +1683,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-03-26",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001885408&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Norse Gold Corp.",
+      "old_ticker": "VKG.H",
+      "new_name": "NORSE GOLD CORP.",
+      "new_ticker": "VKG",
+      "change_type": "Symbol Change",
+      "date": "2026-03-26",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=315449&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "ASX",
@@ -1485,6 +1795,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001654795&type=8-K"
     },
     {
+      "exchange": "TSXV",
+      "old_name": "WINSHEAR GOLD CORP.",
+      "old_ticker": "WINS",
+      "new_name": "WINSHEAR METALS CORP.",
+      "new_ticker": "WINS",
+      "change_type": "Name Change",
+      "date": "2026-03-18",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=314929&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "INFLECTION POINT ACQUISITION CORP. IV",
       "old_ticker": "",
@@ -1493,6 +1813,26 @@
       "change_type": "Name Change",
       "date": "2026-03-16",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002028707&type=8-K"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "AZUCAR MINERALS LTD.",
+      "old_ticker": "AMZ",
+      "new_name": "MUSTANG MINERALS LIMITED",
+      "new_ticker": "MMX",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-03-16",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=314685&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "TSXV",
+      "old_name": "Oronova Energy Inc.",
+      "old_ticker": "ONV.H",
+      "new_name": "SEVA MINING CORP.",
+      "new_ticker": "SEVA",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-03-16",
+      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=314686&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
       "exchange": "NASDAQ",
@@ -2586,16 +2926,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Ondas Holdings Inc.",
-      "old_ticker": "",
-      "new_name": "Ondas Inc.",
-      "new_ticker": "ONDS",
-      "change_type": "Name Change",
-      "date": "2026-01-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001646188&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "iRhythm Technologies, Inc.",
       "old_ticker": "",
       "new_name": "iRhythm Holdings, Inc.",
@@ -2603,6 +2933,16 @@
       "change_type": "Name Change",
       "date": "2026-01-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Ondas Holdings Inc.",
+      "old_ticker": "",
+      "new_name": "Ondas Inc.",
+      "new_ticker": "ONDS",
+      "change_type": "Name Change",
+      "date": "2026-01-12",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001646188&type=8-K"
     },
     {
       "exchange": "NASDAQ",
