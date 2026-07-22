@@ -162,10 +162,11 @@
     <span>Official sources:
       <a href="https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes" target="_blank" rel="noopener">ASX</a><span class="dot">&bull;</span>
       <a href="https://thecse.com/news/bulletins/" target="_blank" rel="noopener">CSE</a><span class="dot">&bull;</span>
-      <a href="https://www.nasdaqtrader.com/Trader.aspx?id=symboldirdefs" target="_blank" rel="noopener">NASDAQ/NYSE</a>
+      <a href="https://www.nasdaqtrader.com/Trader.aspx?id=symboldirdefs" target="_blank" rel="noopener">NASDAQ/NYSE</a><span class="dot">&bull;</span>
+      <a href="http://infoventure.tsx.com/" target="_blank" rel="noopener">TSX Venture</a>
     </span>
   </div>
-  <p class="sub note">TSX name/symbol changes aren't automated yet &mdash; TMX's official corporate-actions feed is a paid product. Check <a href="https://www.tsx.com/" target="_blank" rel="noopener">tsx.com</a> directly in the meantime.</p>
+  <p class="sub note">Senior-board TSX (non-Venture) name/symbol changes aren't automated yet &mdash; TMX's official corporate-actions feed covering it is a paid product. Check <a href="https://www.tsx.com/" target="_blank" rel="noopener">tsx.com</a> directly in the meantime. TSX Venture (TSXV) changes shown under the "TSX" tab are automated and update every 6 hours.</p>
 </div>
 
 <script>
@@ -238,6 +239,7 @@
   function matchesFilter(r) {
     if (filter === "All") return true;
     if (filter === "NYSE") return r.exchange === "NYSE" || r.exchange === "NYSE American";
+    if (filter === "TSX") return r.exchange === "TSX" || r.exchange === "TSXV";
     return r.exchange === filter;
   }
 
