@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T01:03:50+00:00",
+  "updated_at": "2026-07-22T03:44:54+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -130,16 +130,6 @@
       "sector": "Healthcare",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-07-22"
-    },
-    {
-      "company": "B&R Technology Merger Corp.",
-      "ticker": "BRTMU",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-07-21",
-      "sector": "Technology",
-      "status": "Expected",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-07-22"
     },
     {
