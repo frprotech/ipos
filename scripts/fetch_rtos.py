@@ -361,16 +361,31 @@ def fetch_us_rtos() -> list[dict]:
                 tickers = data.get("tickers") or []
                 if not tickers:
                     continue
+                exchanges_arr = data.get("exchanges") or []
                 new_name = data.get("name", "")
                 new_ticker = tickers[0]
-                old_ticker = tickers[1] if len(tickers) > 1 else ""
+                # tickers[1:] are NOT a rename history -- they're the CIK's
+                # other securities (preferred share series, OTC/foreign
+                # cross-listings, ETNs the company sponsors, ...), which just
+                # happen to share the same CIK. Only trust a candidate old
+                # ticker if it looks like plain common stock (no class/series
+                # suffix) and its own listed exchange is one we actually
+                # track (guards against e.g. an OTC cross-listing like
+                # RYLBF being read as "the old ticker before a rename").
+                old_ticker = ""
+                if len(tickers) > 1 and "-" not in tickers[1] and "." not in tickers[1]:
+                    cand_exchange = exchanges_arr[1] if len(exchanges_arr) > 1 else ""
+                    if _map_us_exchange(cand_exchange):
+                        old_ticker = tickers[1]
 
                 for former in data.get("formerNames") or []:
                     to_date = (former.get("to") or "")[:10]
                     if not to_date or to_date < start_date:
                         continue
                     former_name = re.sub(r"\s+", " ", former.get("name", "")).strip()
-                    name_changed = former_name.lower() != new_name.lower()
+                    if former_name.lower() == new_name.lower():
+                        continue  # this is the CURRENT identity's own row (SEC keeps its "to" rolling to today), not a real change
+                    name_changed = True
                     ticker_changed = bool(old_ticker) and old_ticker != new_ticker
                     if name_changed and ticker_changed:
                         change_type = "Name & Symbol Change"
