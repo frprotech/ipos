@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Diagnostic round 14: does the CSE bulletin page BODY (not just the title)
-contain the old name/ticker for name/symbol-change bulletins? Temporary tool
--- not part of the site."""
+"""Diagnostic round 15: CSE bulletin page body has no old-name/ticker text at
+all (confirmed round 14) -- check for a linked PDF notice document, or a
+hidden API backing the page, that might carry the full details. Temporary
+tool -- not part of the site."""
 
 import re
 import requests
@@ -14,26 +15,28 @@ HEADERS = {
 def get(url, **kw):
     return requests.get(url, headers=HEADERS, timeout=30, **kw)
 
-def clean(html):
-    body = re.sub(r"<script.*?</script>", " ", html, flags=re.S | re.I)
-    body = re.sub(r"<style.*?</style>", " ", body, flags=re.S | re.I)
-    body = re.sub(r"<[^>]+>", " ", body)
-    return re.sub(r"\s+", " ", body).strip()
+url = "https://thecse.com/bulletin/2026-0716-name-and-symbol-change-arctic-fox-lithium-corp-afx/"
+r = get(url)
+body = r.text
 
-urls = [
-    "https://thecse.com/bulletin/2026-0716-name-and-symbol-change-arctic-fox-lithium-corp-afx/",
-    "https://thecse.com/bulletin/2026-0615-symbol-change-inactive-designation-egf-theramed-health-corp-tmed/",
-    "https://thecse.com/bulletin/2026-0523-symbol-change-copper-one-resources-corp-bfg/",
-]
+print("=" * 100, "\nPDF / document links on the bulletin page")
+pdfs = sorted(set(re.findall(r'href="([^"]+\.pdf[^"]*)"', body, re.I)))
+print("  pdf links:", pdfs)
 
-for u in urls:
-    print("=" * 100, "\n", u)
+print("=" * 100, "\nAny data-* / API / json hints in the raw HTML")
+apis = sorted(set(re.findall(r'"(/wp-json/[^"]+|/api/[^"]+)"', body)))
+print("  api-ish paths:", apis[:20])
+
+print("=" * 100, "\nWordPress REST API guess (thecse.com looks WP-based)")
+for path in [
+    "wp-json/wp/v2/bulletin?slug=2026-0716-name-and-symbol-change-arctic-fox-lithium-corp-afx",
+    "wp-json/wp/v2/posts?slug=2026-0716-name-and-symbol-change-arctic-fox-lithium-corp-afx",
+    "wp-json/",
+]:
     try:
-        r = get(u)
-        text = clean(r.text)
-        # print a big chunk starting right after "Bulletin" heading area, to see
-        # the actual body paragraph text (not nav)
-        idx = text.find("Bulletin")
-        print("  FULL AREA:", text[idx:idx+2500])
+        rr = get(f"https://thecse.com/{path}")
+        print(f"  {path} -> {rr.status_code} type={rr.headers.get('content-type')} len={len(rr.content)}")
+        if rr.status_code == 200 and "json" in (rr.headers.get("content-type") or ""):
+            print("  SAMPLE:", rr.text[:1500])
     except Exception as exc:
-        print("  ERROR:", exc)
+        print(f"  {path} ERROR:", exc)
