@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T14:52:21+00:00",
+  "updated_at": "2026-07-22T20:01:28+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -136,16 +136,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Osisko Development Corp.",
-      "old_ticker": "ODVWZ",
-      "new_name": "Osisko Gold Group Inc.",
-      "new_ticker": "ODV",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-07-15",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001431852&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Perceptive Capital Solutions Corp",
       "old_ticker": "",
       "new_name": "Freenome, Inc.",
@@ -153,6 +143,16 @@
       "change_type": "Name Change",
       "date": "2026-07-15",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002017526&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Osisko Development Corp.",
+      "old_ticker": "ODVWZ",
+      "new_name": "Osisko Gold Group Inc.",
+      "new_ticker": "ODV",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-15",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001431852&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -3116,16 +3116,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "iRhythm Technologies, Inc.",
-      "old_ticker": "",
-      "new_name": "iRhythm Holdings, Inc.",
-      "new_ticker": "IRTC",
-      "change_type": "Name Change",
-      "date": "2026-01-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Ondas Holdings Inc.",
       "old_ticker": "",
       "new_name": "Ondas Inc.",
@@ -3133,6 +3123,16 @@
       "change_type": "Name Change",
       "date": "2026-01-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001646188&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "iRhythm Technologies, Inc.",
+      "old_ticker": "",
+      "new_name": "iRhythm Holdings, Inc.",
+      "new_ticker": "IRTC",
+      "change_type": "Name Change",
+      "date": "2026-01-12",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -4593,16 +4593,6 @@
       "change_type": "Name Change",
       "date": "2025-11-10",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001932770&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "APPLIED DNA SCIENCES INC",
-      "old_ticker": "",
-      "new_name": "BNB PLUS CORP.",
-      "new_ticker": "BNBX",
-      "change_type": "Name Change",
-      "date": "2025-11-10",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000744452&type=8-K"
     },
     {
       "exchange": "TSXV",
