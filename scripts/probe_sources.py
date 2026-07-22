@@ -1,56 +1,52 @@
 #!/usr/bin/env python3
-"""Diagnostic round 19: check why the recent_change enrichment matched only
-1 of 7 known CSE bulletins (AFX, FFF, WMC, MJRX, APPT, TMED, CMT), and why
-the one match (APPT) looks wrong. Dump the raw listed-companies entry for
-each of these tickers verbatim. Temporary tool -- not part of the site."""
+"""Diagnostic round 20: figure out why the US (NASDAQ/NYSE) RTO fetcher is
+producing false "Symbol Change" entries for companies like JPMorgan, Morgan
+Stanley, Royal Bank of Canada, Citigroup, Barclays -- their preferred-stock
+suffixes (JPM-PC, MS-PK) and OTC/foreign-listing symbols (RYLBF, BWVTF) are
+NOT a prior ticker that was renamed, they're just OTHER securities of the
+same CIK (different share class or different market). Dump the raw
+submissions.json for a handful of these CIKs to see the full tickers[] /
+exchanges[] / formerNames[] shape, so we can find a reliable way to exclude
+these. Temporary tool -- not part of the site."""
 
 import json
-import re
 import requests
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126.0",
-    "Accept": "application/json, text/html;q=0.9, */*;q=0.8",
+    "User-Agent": "ipos.com RTO tracker (contact: admin@ipos.com)",
+    "Accept": "application/json",
 }
 
-def get(url, **kw):
-    return requests.get(url, headers=HEADERS, timeout=30, **kw)
+def get(cik_padded):
+    url = f"https://data.sec.gov/submissions/CIK{cik_padded}.json"
+    r = requests.get(url, headers=HEADERS, timeout=30)
+    r.raise_for_status()
+    return r.json()
 
-r = get("https://thecse.com/api/webapi/listed-companies/")
-data = r.json()
+# CIKs for the companies the user flagged as wrong, plus one genuine
+# small-cap RTO shell (if we still remember one) for contrast.
+targets = {
+    "JPMorgan Chase": "0000019617",
+    "Morgan Stanley": "0000895421",
+    "Royal Bank of Canada": "0001000275",
+    "Citigroup": "0000831001",
+    "Barclays": "0000312069",
+}
 
-def largest_list(obj, depth=0):
-    best = []
-    if isinstance(obj, list):
-        dicts = [x for x in obj if isinstance(x, dict)]
-        if dicts and any(re.search(r"symbol|ticker", str(k), re.I) for k in dicts[0]):
-            best = dicts
-    elif isinstance(obj, dict) and depth < 6:
-        for v in obj.values():
-            cand = largest_list(v, depth + 1)
-            if len(cand) > len(best):
-                best = cand
-    return best
-
-items = largest_list(data)
-print("total items:", len(items))
-
-targets = {"AFX", "FFF", "WMC", "MJRX", "APPT", "TMED", "CMT"}
-by_symbol = {}
-for it in items:
-    sym = str(it.get("symbol") or "").strip().upper()
-    by_symbol.setdefault(sym, []).append(it)
-
-for t in sorted(targets):
-    matches = by_symbol.get(t, [])
+for name, cik in targets.items():
     print("=" * 100)
-    print(f"ticker {t!r}: {len(matches)} listed-companies entries with this exact symbol field")
-    for it in matches:
-        # print full item so we can see ALL fields, not just the ones we guessed matter
-        print(json.dumps(it, indent=2, default=str))
-
-# Also: is "symbol" sometimes not the bare ticker? dump a handful of raw
-# symbol values to check for suffixes/prefixes.
-print("=" * 100, "\nSample of 20 raw symbol fields (to check formatting)")
-for it in items[:20]:
-    print(repr(it.get("symbol")), "|", it.get("security_name"))
+    print(name, cik)
+    try:
+        data = get(cik)
+    except Exception as exc:
+        print("FETCH FAILED:", exc)
+        continue
+    print("name:", data.get("name"))
+    print("tickers:", data.get("tickers"))
+    print("exchanges:", data.get("exchanges"))
+    print("category:", data.get("category"))
+    print("sicDescription:", data.get("sicDescription"))
+    fn = data.get("formerNames") or []
+    print(f"formerNames ({len(fn)}):")
+    for f in fn[-5:]:
+        print(" ", f)
