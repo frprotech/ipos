@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T20:01:28+00:00",
+  "updated_at": "2026-07-23T04:00:16+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -336,16 +336,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Marex Group plc",
-      "old_ticker": "",
-      "new_name": "Marex Group Ltd",
-      "new_ticker": "MRX",
-      "change_type": "Name Change",
-      "date": "2026-07-01",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001997464&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "ChronoScale Corp",
       "old_ticker": "",
       "new_name": "ChronoScale Holdings Corp",
@@ -375,6 +365,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001605888&type=8-K"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "Marex Group plc",
+      "old_ticker": "",
+      "new_name": "Marex Group Ltd",
+      "new_ticker": "MRX",
+      "change_type": "Name Change",
+      "date": "2026-07-01",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001997464&type=8-K"
+    },
+    {
       "exchange": "TSXV",
       "old_name": "Amex Exploration Inc.",
       "old_ticker": "AMX",
@@ -386,16 +386,6 @@
     },
     {
       "exchange": "NYSE",
-      "old_name": "MFS INTERMEDIATE INCOME TRUST",
-      "old_ticker": "",
-      "new_name": "ABERDEEN INTERMEDIATE INCOME FUND",
-      "new_ticker": "MIN",
-      "change_type": "Name Change",
-      "date": "2026-06-29",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000826735&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
       "old_name": "MFS GOVERNMENT MARKETS INCOME TRUST",
       "old_ticker": "",
       "new_name": "ABERDEEN GOVERNMENT MARKETS INCOME FUND",
@@ -403,6 +393,16 @@
       "change_type": "Name Change",
       "date": "2026-06-29",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000811922&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "MFS INTERMEDIATE INCOME TRUST",
+      "old_ticker": "",
+      "new_name": "ABERDEEN INTERMEDIATE INCOME FUND",
+      "new_ticker": "MIN",
+      "change_type": "Name Change",
+      "date": "2026-06-29",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000826735&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -1055,16 +1055,6 @@
       "source": "https://thecse.com/bulletin/2026-0523-symbol-change-copper-one-resources-corp-bfg"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "Eagle Point Credit Co Inc.",
-      "old_ticker": "ECCC",
-      "new_name": "Eagle Point Credit Co",
-      "new_ticker": "ECC",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-05-22",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604174&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "GigCapital7 Corp.",
       "old_ticker": "HDRNW",
@@ -1073,6 +1063,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-05-22",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002023730&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Eagle Point Credit Co Inc.",
+      "old_ticker": "ECCC",
+      "new_name": "Eagle Point Credit Co",
+      "new_ticker": "ECC",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-22",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604174&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -3165,16 +3165,6 @@
       "source": "https://thecse.com/bulletin/2026-0109-resumption-and-symbol-change-inactive-designation-mijem-newcomm-tech-inc-mjem"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "Pure Storage, Inc.",
-      "old_ticker": "",
-      "new_name": "Everpure, Inc.",
-      "new_ticker": "P",
-      "change_type": "Name Change",
-      "date": "2026-01-09",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001474432&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Salarius Pharmaceuticals, Inc.",
       "old_ticker": "",
@@ -3183,6 +3173,16 @@
       "change_type": "Name Change",
       "date": "2026-01-09",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001615219&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Pure Storage, Inc.",
+      "old_ticker": "",
+      "new_name": "Everpure, Inc.",
+      "new_ticker": "P",
+      "change_type": "Name Change",
+      "date": "2026-01-09",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001474432&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -3535,16 +3535,6 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=308593&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "Neuberger Berman High Yield Strategies Fund Inc.",
-      "old_ticker": "",
-      "new_name": "Neuberger High Yield Strategies Fund Inc.",
-      "new_ticker": "NHS",
-      "change_type": "Name Change",
-      "date": "2025-12-18",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001487610&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Kindly MD, Inc.",
       "old_ticker": "",
@@ -3553,6 +3543,16 @@
       "change_type": "Name Change",
       "date": "2025-12-18",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001946573&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Neuberger Berman High Yield Strategies Fund Inc.",
+      "old_ticker": "",
+      "new_name": "Neuberger High Yield Strategies Fund Inc.",
+      "new_ticker": "NHS",
+      "change_type": "Name Change",
+      "date": "2025-12-18",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001487610&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -5186,6 +5186,16 @@
     },
     {
       "exchange": "NASDAQ",
+      "old_name": "Global Health Solutions, Inc",
+      "old_ticker": "",
+      "new_name": "Turn Therapeutics Inc.",
+      "new_ticker": "TTRX",
+      "change_type": "Name Change",
+      "date": "2025-09-30",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002023016&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
       "old_name": "American Dynamism Acquisition Co",
       "old_ticker": "ADACU",
       "new_name": "American Drive Acquisition Co",
@@ -5206,26 +5216,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Global Health Solutions, Inc",
-      "old_ticker": "",
-      "new_name": "Turn Therapeutics Inc.",
-      "new_ticker": "TTRX",
-      "change_type": "Name Change",
-      "date": "2025-09-30",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002023016&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Prometheus PubCo Inc.",
-      "old_ticker": "",
-      "new_name": "PRESIDIO PRODUCTION Co",
-      "new_ticker": "FTW",
-      "change_type": "Name Change",
-      "date": "2025-09-29",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002083125&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "HELIUS MEDICAL TECHNOLOGIES, INC.",
       "old_ticker": "",
       "new_name": "Solana Co",
@@ -5243,6 +5233,16 @@
       "change_type": "Name Change",
       "date": "2025-09-29",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001897532&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Prometheus PubCo Inc.",
+      "old_ticker": "",
+      "new_name": "PRESIDIO PRODUCTION Co",
+      "new_ticker": "FTW",
+      "change_type": "Name Change",
+      "date": "2025-09-29",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002083125&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -5376,16 +5376,6 @@
     },
     {
       "exchange": "NYSE",
-      "old_name": "NEUBERGER BERMAN MUNICIPAL FUND INC.",
-      "old_ticker": "",
-      "new_name": "NEUBERGER MUNICIPAL FUND INC.",
-      "new_ticker": "NBH",
-      "change_type": "Name Change",
-      "date": "2025-09-24",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001178839&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
       "old_name": "NEUBERGER BERMAN REAL ESTATE SECURITIES INCOME FUND INC",
       "old_ticker": "",
       "new_name": "NEUBERGER REAL ESTATE SECURITIES INCOME FUND INC",
@@ -5413,6 +5403,16 @@
       "change_type": "Name Change",
       "date": "2025-09-24",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001826376&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "NEUBERGER BERMAN MUNICIPAL FUND INC.",
+      "old_ticker": "",
+      "new_name": "NEUBERGER MUNICIPAL FUND INC.",
+      "new_ticker": "NBH",
+      "change_type": "Name Change",
+      "date": "2025-09-24",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001178839&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -5885,16 +5885,6 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301660&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "Neptune Insurance Holdings, Inc.",
-      "old_ticker": "",
-      "new_name": "Neptune Insurance Holdings Inc.",
-      "new_ticker": "NP",
-      "change_type": "Name Change",
-      "date": "2025-09-03",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067129&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Gryphon Digital Mining, Inc.",
       "old_ticker": "",
@@ -5923,6 +5913,16 @@
       "change_type": "Name Change",
       "date": "2025-09-03",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001095435&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Neptune Insurance Holdings, Inc.",
+      "old_ticker": "",
+      "new_name": "Neptune Insurance Holdings Inc.",
+      "new_ticker": "NP",
+      "change_type": "Name Change",
+      "date": "2025-09-03",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067129&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -6673,16 +6673,6 @@
       "change_type": "Name Change",
       "date": "2025-07-24",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002011053&type=8-K"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "MTM Critical Metals Limited",
-      "old_ticker": "MTM",
-      "new_name": "Metallium Limited",
-      "new_ticker": "MTM",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-07-22",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     }
   ]
 }
