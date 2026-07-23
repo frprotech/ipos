@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T04:00:16+00:00",
+  "updated_at": "2026-07-23T09:15:06+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -203,6 +203,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-07-10",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002074850&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "PUTNAM MUNICIPAL OPPORTUNITIES TRUST",
+      "old_ticker": "",
+      "new_name": "FRANKLIN MUNICIPAL OPPORTUNITIES TRUST",
+      "new_ticker": "PMO",
+      "change_type": "Name Change",
+      "date": "2026-07-10",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000900422&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -625,16 +635,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001852551&type=8-K"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "EGF Theramed Health Corp",
-      "new_ticker": "TMED",
-      "change_type": "Symbol Change",
-      "date": "2026-06-15",
-      "source": "https://thecse.com/bulletin/2026-0615-symbol-change-inactive-designation-egf-theramed-health-corp-tmed"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Allbirds, Inc.",
       "old_ticker": "",
@@ -923,6 +923,16 @@
       "change_type": "Name Change",
       "date": "2026-06-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001495932&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Gambling.com Group Ltd",
+      "old_ticker": "",
+      "new_name": "GRANDSTAND Ltd",
+      "new_ticker": "GAMB",
+      "change_type": "Name Change",
+      "date": "2026-06-01",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001839799&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -1353,16 +1363,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-05-06",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Nuclear Vision Limited",
-      "new_ticker": "NUKV",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-05-06",
-      "source": "https://thecse.com/bulletin/2026-0506-name-and-symbol-change-nuclear-vision-limited-nukv"
     },
     {
       "exchange": "NASDAQ",

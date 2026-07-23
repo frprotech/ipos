@@ -530,5 +530,12 @@
       "symbol_was": "ASR",
       "effective_on": "2026-04-22"
     }
+  ],
+  "SPFY.X": [
+    {
+      "name_was": "",
+      "symbol_was": "SPFY",
+      "effective_on": "2026-07-23"
+    }
   ]
 }
