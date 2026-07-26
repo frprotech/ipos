@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T19:59:36+00:00",
+  "updated_at": "2026-07-26T04:20:00+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6653,56 +6653,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-07-28",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Great Northern Energy Metals Inc",
-      "new_ticker": "GNEM",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-07-25",
-      "source": "https://thecse.com/bulletin/2025-0725-name-and-symbol-change-great-northern-energy-metals-inc-gnem"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "UNITED STATES CELLULAR CORP",
-      "old_ticker": "UZD",
-      "new_name": "ARRAY DIGITAL INFRASTRUCTURE, INC.",
-      "new_ticker": "AD",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-07-25",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000821130&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "BigCommerce Holdings, Inc.",
-      "old_ticker": "",
-      "new_name": "Commerce.com, Inc.",
-      "new_ticker": "CMRC",
-      "change_type": "Name Change",
-      "date": "2025-07-25",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001626450&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Ikena Oncology, Inc.",
-      "old_ticker": "",
-      "new_name": "ImageneBio, Inc.",
-      "new_ticker": "IMA",
-      "change_type": "Name Change",
-      "date": "2025-07-25",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001835579&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "CoinShares Valkyrie Bitcoin Fund",
-      "old_ticker": "",
-      "new_name": "CoinShares Bitcoin ETF",
-      "new_ticker": "BRRR",
-      "change_type": "Name Change",
-      "date": "2025-07-25",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001841175&type=8-K"
     }
   ]
 }
