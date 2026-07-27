@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-07-26T19:56:25+00:00",
+  "updated_at": "2026-07-27T04:27:52+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "Elanor Investors Group",
+      "old_ticker": "ENN",
+      "new_name": "Kyron Capital Group",
+      "new_ticker": "KYN",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-29",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
     {
       "exchange": "ASX",
       "old_name": "Zinc of Ireland NL",
