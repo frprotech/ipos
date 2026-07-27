@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T10:08:36+00:00",
+  "updated_at": "2026-07-27T15:12:42+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -99,6 +99,36 @@
       "listing_date": "2026-07-30",
       "sector": "",
       "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-27"
+    },
+    {
+      "company": "Scribe Therapeutics, Inc.",
+      "ticker": "SCTX",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-24",
+      "sector": "Healthcare",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-27"
+    },
+    {
+      "company": "Pelican Acquisition II Corp",
+      "ticker": "PLCIU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-24",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-27"
+    },
+    {
+      "company": "Market Technology Acquisition Corp",
+      "ticker": "MTAKU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-24",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-07-27"
     },
@@ -293,8 +323,8 @@
       "fetched_at": "2026-07-27"
     },
     {
-      "company": "Neutron Holdings, Inc.",
-      "ticker": "LIME",
+      "company": "Bending Spoons S.p.A.",
+      "ticker": "BSP",
       "exchange": "NASDAQ",
       "listing_date": "2026-07-01",
       "sector": "",
@@ -303,8 +333,8 @@
       "fetched_at": "2026-07-27"
     },
     {
-      "company": "Bending Spoons S.p.A.",
-      "ticker": "BSP",
+      "company": "Neutron Holdings, Inc.",
+      "ticker": "LIME",
       "exchange": "NASDAQ",
       "listing_date": "2026-07-01",
       "sector": "",
