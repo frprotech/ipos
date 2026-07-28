@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-28T03:34:09+00:00",
+  "updated_at": "2026-07-28T08:51:05+00:00",
   "sources_failed": [],
   "ipos": [
     {
-      "company": "Energy Fuels Inc.",
+      "company": "Energy Fuels Inc. - TBA",
       "ticker": "EF2",
       "exchange": "ASX",
-      "listing_date": "2026-08-31",
+      "listing_date": null,
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
