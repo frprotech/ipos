@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T15:07:17+00:00",
+  "updated_at": "2026-07-28T20:08:09+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -186,16 +186,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Osisko Development Corp.",
-      "old_ticker": "ODV",
-      "new_name": "Osisko Gold Group Inc.",
-      "new_ticker": "OGG",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-07-15",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001431852&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Perceptive Capital Solutions Corp",
       "old_ticker": "FRNM",
       "new_name": "Freenome, Inc.",
@@ -203,6 +193,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-07-15",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002017526&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Osisko Development Corp.",
+      "old_ticker": "ODV",
+      "new_name": "Osisko Gold Group Inc.",
+      "new_ticker": "OGG",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-15",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001431852&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -1225,16 +1225,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "Inspira Technologies OXY B.H.N. Ltd",
-      "old_ticker": "QTEXW",
-      "new_name": "QTREX Quantum Ltd.",
-      "new_ticker": "QTEX",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-05-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001837493&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "OFF THE HOOK YS INC.",
       "old_ticker": "",
@@ -1243,6 +1233,16 @@
       "change_type": "Name Change",
       "date": "2026-05-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067767&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Inspira Technologies OXY B.H.N. Ltd",
+      "old_ticker": "QTEXW",
+      "new_name": "QTREX Quantum Ltd.",
+      "new_ticker": "QTEX",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001837493&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -3186,16 +3186,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "iRhythm Technologies, Inc.",
-      "old_ticker": "",
-      "new_name": "iRhythm Holdings, Inc.",
-      "new_ticker": "IRTC",
-      "change_type": "Name Change",
-      "date": "2026-01-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Ondas Holdings Inc.",
       "old_ticker": "",
       "new_name": "Ondas Inc.",
@@ -3203,6 +3193,16 @@
       "change_type": "Name Change",
       "date": "2026-01-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001646188&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "iRhythm Technologies, Inc.",
+      "old_ticker": "",
+      "new_name": "iRhythm Holdings, Inc.",
+      "new_ticker": "IRTC",
+      "change_type": "Name Change",
+      "date": "2026-01-12",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -4665,16 +4665,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001932770&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "APPLIED DNA SCIENCES INC",
-      "old_ticker": "",
-      "new_name": "BNB PLUS CORP.",
-      "new_ticker": "BNBX",
-      "change_type": "Name Change",
-      "date": "2025-11-10",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000744452&type=8-K"
-    },
-    {
       "exchange": "TSXV",
       "old_name": "TORCHLIGHT INNOVATIONS INC.",
       "old_ticker": "RZL",
@@ -5266,6 +5256,16 @@
     },
     {
       "exchange": "NASDAQ",
+      "old_name": "Global Health Solutions, Inc",
+      "old_ticker": "",
+      "new_name": "Turn Therapeutics Inc.",
+      "new_ticker": "TTRX",
+      "change_type": "Name Change",
+      "date": "2025-09-30",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002023016&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
       "old_name": "American Dynamism Acquisition Co",
       "old_ticker": "ADACU",
       "new_name": "American Drive Acquisition Co",
@@ -5283,16 +5283,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-09-30",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001901203&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Global Health Solutions, Inc",
-      "old_ticker": "",
-      "new_name": "Turn Therapeutics Inc.",
-      "new_ticker": "TTRX",
-      "change_type": "Name Change",
-      "date": "2025-09-30",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002023016&type=8-K"
     },
     {
       "exchange": "NYSE",
