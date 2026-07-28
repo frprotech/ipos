@@ -537,5 +537,12 @@
       "symbol_was": "SPFY",
       "effective_on": "2026-07-23"
     }
+  ],
+  "WBG.X": [
+    {
+      "name_was": "",
+      "symbol_was": "WBG",
+      "effective_on": "2026-07-28"
+    }
   ]
 }
