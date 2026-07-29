@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T03:37:41+00:00",
+  "updated_at": "2026-07-29T09:07:27+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -38,6 +38,16 @@
       "exchange": "ASX",
       "listing_date": "2026-08-14",
       "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-07-29"
+    },
+    {
+      "company": "SCX.ai Holdings Limited",
+      "ticker": "SCX",
+      "exchange": "ASX",
+      "listing_date": "2026-08-11",
+      "sector": "Technology",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
       "fetched_at": "2026-07-29"
