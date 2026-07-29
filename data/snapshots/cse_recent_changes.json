@@ -544,5 +544,12 @@
       "symbol_was": "WBG",
       "effective_on": "2026-07-28"
     }
+  ],
+  "LOAN.X": [
+    {
+      "name_was": "",
+      "symbol_was": "LOAN",
+      "effective_on": "2026-07-29"
+    }
   ]
 }
