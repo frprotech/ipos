@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T09:07:27+00:00",
+  "updated_at": "2026-07-29T14:30:49+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -113,12 +113,62 @@
       "fetched_at": "2026-07-29"
     },
     {
+      "company": "Game Your Game Inc.",
+      "ticker": "GYGY",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-30",
+      "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-29"
+    },
+    {
+      "company": "East West Ave Acquisition Corp.",
+      "ticker": "EWAVU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-30",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-29"
+    },
+    {
       "company": "Reformation Inc.",
       "ticker": "REF",
       "exchange": "NYSE",
       "listing_date": "2026-07-30",
       "sector": "",
       "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-29"
+    },
+    {
+      "company": "Ionic Digital Inc.",
+      "ticker": "IOND",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-28",
+      "sector": "Technology",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-29"
+    },
+    {
+      "company": "Catalyst Acquisition Corp.",
+      "ticker": "CATLU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-28",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-29"
+    },
+    {
+      "company": "Market Technology Acquisition Corp",
+      "ticker": "MTAKU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-24",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-07-29"
     },
@@ -135,16 +185,6 @@
     {
       "company": "Pelican Acquisition II Corp",
       "ticker": "PLCIU",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-07-24",
-      "sector": "SPAC / Blank Check",
-      "status": "Priced",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-07-29"
-    },
-    {
-      "company": "Market Technology Acquisition Corp",
-      "ticker": "MTAKU",
       "exchange": "NASDAQ",
       "listing_date": "2026-07-24",
       "sector": "SPAC / Blank Check",
@@ -313,16 +353,6 @@
       "fetched_at": "2026-07-29"
     },
     {
-      "company": "Viking Acquisition Corp. II",
-      "ticker": "VIIU",
-      "exchange": "NYSE",
-      "listing_date": "2026-07-02",
-      "sector": "SPAC / Blank Check",
-      "status": "Priced",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-07-29"
-    },
-    {
       "company": "Meridian3 Industrials Acquisition Corp",
       "ticker": "MIACU",
       "exchange": "NASDAQ",
@@ -333,18 +363,28 @@
       "fetched_at": "2026-07-29"
     },
     {
-      "company": "ITG, Inc./DE/",
-      "ticker": "ITG",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-07-01",
-      "sector": "",
+      "company": "Viking Acquisition Corp. II",
+      "ticker": "VIIU",
+      "exchange": "NYSE",
+      "listing_date": "2026-07-02",
+      "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-07-29"
     },
     {
-      "company": "Bending Spoons S.p.A.",
-      "ticker": "BSP",
+      "company": "Osprey Acquisition Corp. III",
+      "ticker": "OSPRU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-01",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-29"
+    },
+    {
+      "company": "ITG, Inc./DE/",
+      "ticker": "ITG",
       "exchange": "NASDAQ",
       "listing_date": "2026-07-01",
       "sector": "",
@@ -363,11 +403,11 @@
       "fetched_at": "2026-07-29"
     },
     {
-      "company": "Osprey Acquisition Corp. III",
-      "ticker": "OSPRU",
+      "company": "Bending Spoons S.p.A.",
+      "ticker": "BSP",
       "exchange": "NASDAQ",
       "listing_date": "2026-07-01",
-      "sector": "SPAC / Blank Check",
+      "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-07-29"
