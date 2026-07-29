@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T20:08:09+00:00",
+  "updated_at": "2026-07-29T03:58:44+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6663,16 +6663,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-07-29",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002028336&type=8-K"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Mighty Kingdom Limited",
-      "old_ticker": "MKL",
-      "new_name": "Fortifai Ltd",
-      "new_ticker": "FTI",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-07-28",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     }
   ]
 }
