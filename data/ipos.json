@@ -1,12 +1,22 @@
 {
-  "updated_at": "2026-07-30T03:27:04+00:00",
+  "updated_at": "2026-07-30T08:49:06+00:00",
   "sources_failed": [],
   "ipos": [
     {
-      "company": "Energy Fuels Inc. - TBA",
+      "company": "Axiant Resources Limited",
+      "ticker": "AXR",
+      "exchange": "ASX",
+      "listing_date": "2026-08-28",
+      "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "Energy Fuels Inc.",
       "ticker": "EF2",
       "exchange": "ASX",
-      "listing_date": null,
+      "listing_date": "2026-08-20",
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
@@ -190,26 +200,6 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-07-30"
-    },
-    {
-      "company": "Monvia Limited",
-      "ticker": "MNV",
-      "exchange": "ASX",
-      "listing_date": "2026-07-24",
-      "sector": "Technology",
-      "status": "Upcoming",
-      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-07-30"
-    },
-    {
-      "company": "Ceretas Limited",
-      "ticker": "CTS",
-      "exchange": "ASX",
-      "listing_date": "2026-07-23",
-      "sector": "Healthcare",
-      "status": "Upcoming",
-      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
       "fetched_at": "2026-07-30"
     },
     {
