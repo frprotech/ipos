@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T20:03:52+00:00",
+  "updated_at": "2026-07-30T03:48:00+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -55,6 +55,16 @@
       "source": "https://thecse.com/bulletin/2026-0726-symbol-change-inactive-designation-spacefy-inc-spfy"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "VYNE Therapeutics Inc.",
+      "old_ticker": "",
+      "new_name": "Yarrow Bioscience, Inc.",
+      "new_ticker": "VYNE",
+      "change_type": "Name Change",
+      "date": "2026-07-24",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001566044&type=8-K"
+    },
+    {
       "exchange": "ASX",
       "old_name": "Variscan Mines Limited",
       "old_ticker": "VAR",
@@ -67,12 +77,22 @@
     {
       "exchange": "NASDAQ",
       "old_name": "FG Merger II Corp.",
-      "old_ticker": "FGMCR",
+      "old_ticker": "BXBL",
       "new_name": "BOXABL Inc.",
-      "new_ticker": "BXBL",
+      "new_ticker": "FGMC",
       "change_type": "Name & Symbol Change",
       "date": "2026-07-21",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001906364&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Wellgistics Health, Inc.",
+      "old_ticker": "",
+      "new_name": "DataMeds AI, Inc.",
+      "new_ticker": "WGRX",
+      "change_type": "Name Change",
+      "date": "2026-07-21",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002030763&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -93,6 +113,16 @@
       "change_type": "Name Change",
       "date": "2026-07-20",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001711570&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "LM FUNDING AMERICA, INC.",
+      "old_ticker": "",
+      "new_name": "POWERCOMPUTE, INC.",
+      "new_ticker": "LMFA",
+      "change_type": "Name Change",
+      "date": "2026-07-20",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001640384&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -187,10 +217,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Perceptive Capital Solutions Corp",
-      "old_ticker": "FRNM",
+      "old_ticker": "",
       "new_name": "Freenome, Inc.",
       "new_ticker": "PCSC",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-07-15",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002017526&type=8-K"
     },
@@ -525,6 +555,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002070542&type=8-K"
     },
     {
+      "exchange": "NYSE",
+      "old_name": "PUTNAM PREMIER INCOME TRUST",
+      "old_ticker": "",
+      "new_name": "FRANKLIN PREMIER INCOME TRUST",
+      "new_ticker": "PPT",
+      "change_type": "Name Change",
+      "date": "2026-06-24",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000827773&type=8-K"
+    },
+    {
       "exchange": "TSXV",
       "old_name": "Inceptus Capital Ltd.",
       "old_ticker": "ICI.P",
@@ -545,12 +585,22 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
+      "exchange": "NYSE",
+      "old_name": "FOREIGN TRADE BANK OF LATIN AMERICA, INC.",
+      "old_ticker": "",
+      "new_name": "BLADEX, INC.",
+      "new_ticker": "BLX",
+      "change_type": "Name Change",
+      "date": "2026-06-23",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000890541&type=8-K"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "Live Oak Acquisition Corp. V",
-      "old_ticker": "",
+      "old_ticker": "TMSWW",
       "new_name": "Teamshares Inc",
       "new_ticker": "TMS",
-      "change_type": "Name Change",
+      "change_type": "Name & Symbol Change",
       "date": "2026-06-23",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002048951&type=8-K"
     },
@@ -577,9 +627,9 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Aptorum Group Ltd",
-      "old_ticker": "APM",
+      "old_ticker": "NIKI",
       "new_name": "Niki BioSolutions, Inc.",
-      "new_ticker": "NIKI",
+      "new_ticker": "APM",
       "change_type": "Name & Symbol Change",
       "date": "2026-06-22",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001734005&type=8-K"
@@ -1067,10 +1117,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "U-BX Technology Ltd.",
-      "old_ticker": "UBXG",
+      "old_ticker": "",
       "new_name": "MindForge Inc.",
-      "new_ticker": "MF",
-      "change_type": "Name & Symbol Change",
+      "new_ticker": "UBXG",
+      "change_type": "Name Change",
       "date": "2026-05-27",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001888525&type=8-K"
     },
@@ -6653,16 +6703,6 @@
       "change_type": "Name Change",
       "date": "2025-07-30",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001829794&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "NEW ERA HELIUM INC.",
-      "old_ticker": "NUAIW",
-      "new_name": "New ERA Energy & Digital, Inc.",
-      "new_ticker": "NUAI",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-07-29",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002028336&type=8-K"
     }
   ]
 }
