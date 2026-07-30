@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T08:49:06+00:00",
+  "updated_at": "2026-07-30T14:30:58+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -83,6 +83,26 @@
       "fetched_at": "2026-07-30"
     },
     {
+      "company": "Churchill Capital Corp XIII",
+      "ticker": "XIIIU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-31",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "BOA Acquisition Corp. II",
+      "ticker": "THEOU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-31",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-30"
+    },
+    {
       "company": "Apnimed, Inc.",
       "ticker": "APMD",
       "exchange": "NASDAQ",
@@ -133,6 +153,16 @@
       "fetched_at": "2026-07-30"
     },
     {
+      "company": "MetaOptics Ltd",
+      "ticker": "MOT",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-30",
+      "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-30"
+    },
+    {
       "company": "East West Ave Acquisition Corp.",
       "ticker": "EWAVU",
       "exchange": "NASDAQ",
@@ -153,11 +183,11 @@
       "fetched_at": "2026-07-30"
     },
     {
-      "company": "Ionic Digital Inc.",
-      "ticker": "IOND",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-07-28",
-      "sector": "Technology",
+      "company": "IMC Rare Earths Ltd",
+      "ticker": "IMC",
+      "exchange": "NYSE",
+      "listing_date": "2026-07-29",
+      "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-07-30"
@@ -173,11 +203,11 @@
       "fetched_at": "2026-07-30"
     },
     {
-      "company": "Market Technology Acquisition Corp",
-      "ticker": "MTAKU",
+      "company": "Ionic Digital Inc.",
+      "ticker": "IOND",
       "exchange": "NASDAQ",
-      "listing_date": "2026-07-24",
-      "sector": "SPAC / Blank Check",
+      "listing_date": "2026-07-28",
+      "sector": "Technology",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-07-30"
@@ -203,10 +233,10 @@
       "fetched_at": "2026-07-30"
     },
     {
-      "company": "Southern Cross Acquisition I Corp.",
-      "ticker": "NCOOU",
+      "company": "Market Technology Acquisition Corp",
+      "ticker": "MTAKU",
       "exchange": "NASDAQ",
-      "listing_date": "2026-07-21",
+      "listing_date": "2026-07-24",
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
@@ -218,6 +248,16 @@
       "exchange": "NASDAQ",
       "listing_date": "2026-07-21",
       "sector": "Technology",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "Southern Cross Acquisition I Corp.",
+      "ticker": "NCOOU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-21",
+      "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-07-30"
