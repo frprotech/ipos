@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T14:30:58+00:00",
+  "updated_at": "2026-07-30T19:50:54+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -850,6 +850,166 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "Meritage Tactical ETF Balanced Portfolio",
+      "ticker": "NMBL",
+      "exchange": "TSX",
+      "listing_date": "2026-05-11",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "Meritage Tactical ETF Equity Portfolio",
+      "ticker": "NMEQ",
+      "exchange": "TSX",
+      "listing_date": "2026-05-11",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "Meritage Tactical ETF Growth Portfolio",
+      "ticker": "NMGR",
+      "exchange": "TSX",
+      "listing_date": "2026-05-11",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "Meritage Tactical ETF Moderate Portfolio",
+      "ticker": "NMMO",
+      "exchange": "TSX",
+      "listing_date": "2026-05-11",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "NBI Canadian Bond Index Fund",
+      "ticker": "NBBX",
+      "exchange": "TSX",
+      "listing_date": "2026-05-11",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "NBI Canadian Equity Growth Fund",
+      "ticker": "NBCG",
+      "exchange": "TSX",
+      "listing_date": "2026-05-11",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "NBI Canadian Equity Index Fund",
+      "ticker": "NBCX",
+      "exchange": "TSX",
+      "listing_date": "2026-05-11",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "NBI Diversified Emerging Markets Equity Fund",
+      "ticker": "NBEM",
+      "exchange": "TSX",
+      "listing_date": "2026-05-11",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "NBI International Equity Index Fund",
+      "ticker": "NBIX",
+      "exchange": "TSX",
+      "listing_date": "2026-05-11",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "NBI International Value Fund",
+      "ticker": "NBIV",
+      "exchange": "TSX",
+      "listing_date": "2026-05-11",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "NBI SmartData Global Equity Fund",
+      "ticker": "NSDG",
+      "exchange": "TSX",
+      "listing_date": "2026-05-11",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "NBI U.S. Equity Index Fund",
+      "ticker": "NBUX",
+      "exchange": "TSX",
+      "listing_date": "2026-05-11",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "TD Alternative Commodities Pool",
+      "ticker": "TCOM",
+      "exchange": "TSX",
+      "listing_date": "2026-05-11",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "TD Canadian Corporate Bond Fund",
+      "ticker": "TCCB",
+      "exchange": "TSX",
+      "listing_date": "2026-05-11",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "TD Short Term Bond Fund",
+      "ticker": "TSTB",
+      "exchange": "TSX",
+      "listing_date": "2026-05-11",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-07-30"
+    },
+    {
+      "company": "TD Ultra Short Term Bond Fund",
+      "ticker": "TUST",
+      "exchange": "TSX",
+      "listing_date": "2026-05-11",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
       "fetched_at": "2026-07-30"
     },
     {
