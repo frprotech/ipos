@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T09:16:10+00:00",
+  "updated_at": "2026-07-31T14:33:26+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -83,8 +83,58 @@
       "fetched_at": "2026-07-31"
     },
     {
+      "company": "Braveheart Bio, Inc.",
+      "ticker": "BRVE",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-06",
+      "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-31"
+    },
+    {
+      "company": "OceanLight Acquisition Corp",
+      "ticker": "OCLT",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-06",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-31"
+    },
+    {
+      "company": "Attovia Therapeutics, Inc.",
+      "ticker": "ATTO",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-05",
+      "sector": "Healthcare",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-31"
+    },
+    {
       "company": "Churchill Capital Corp XIII",
       "ticker": "XIIIU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-31",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-31"
+    },
+    {
+      "company": "MetaOptics Ltd",
+      "ticker": "MOT",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-31",
+      "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-31"
+    },
+    {
+      "company": "East West Ave Acquisition Corp.",
+      "ticker": "EWAVU",
       "exchange": "NASDAQ",
       "listing_date": "2026-07-31",
       "sector": "SPAC / Blank Check",
@@ -133,22 +183,32 @@
       "fetched_at": "2026-07-31"
     },
     {
-      "company": "MetaOptics Ltd",
-      "ticker": "MOT",
-      "exchange": "NASDAQ",
+      "company": "Reformation Inc.",
+      "ticker": "REF",
+      "exchange": "NYSE",
       "listing_date": "2026-07-30",
       "sector": "",
-      "status": "Expected",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-07-31"
     },
     {
-      "company": "East West Ave Acquisition Corp.",
-      "ticker": "EWAVU",
+      "company": "Game Your Game Inc.",
+      "ticker": "GYGY",
       "exchange": "NASDAQ",
       "listing_date": "2026-07-30",
-      "sector": "SPAC / Blank Check",
-      "status": "Expected",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-31"
+    },
+    {
+      "company": "Jersey Mike's Subs Inc.",
+      "ticker": "JMKE",
+      "exchange": "NYSE",
+      "listing_date": "2026-07-30",
+      "sector": "",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-07-31"
     },
@@ -213,21 +273,21 @@
       "fetched_at": "2026-07-31"
     },
     {
-      "company": "B&R Technology Merger Corp.",
-      "ticker": "BRTMU",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-07-21",
-      "sector": "Technology",
-      "status": "Priced",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-07-31"
-    },
-    {
       "company": "Southern Cross Acquisition I Corp.",
       "ticker": "NCOOU",
       "exchange": "NASDAQ",
       "listing_date": "2026-07-21",
       "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-07-31"
+    },
+    {
+      "company": "B&R Technology Merger Corp.",
+      "ticker": "BRTMU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-21",
+      "sector": "Technology",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-07-31"
