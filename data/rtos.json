@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T20:11:01+00:00",
+  "updated_at": "2026-08-01T04:06:33+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6643,46 +6643,6 @@
       "change_type": "Name Change",
       "date": "2025-08-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002041610&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "AIFEEX NEXUS ACQUISITION CORP.",
-      "old_ticker": "PGACR",
-      "new_name": "PANTAGES CAPITAL ACQUISITION Corp",
-      "new_ticker": "PGAC",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-07-31",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002030829&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "ROVER CRITICAL MINERALS CORP.",
-      "old_ticker": "ROVR",
-      "new_name": "STOCKWORKS GOLD INC.",
-      "new_ticker": "STW",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-07-31",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=299986&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "SONORAN DESERT COPPER CORPORATION",
-      "old_ticker": "SDCU",
-      "new_name": "BRASNOVA ENERGY MATERIALS INC.",
-      "new_ticker": "BEM",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-07-31",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=299987&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "MIDASCO CAPITAL CORP.",
-      "old_ticker": "MGC.H",
-      "new_name": "SPARTAN METALS CORP.",
-      "new_ticker": "W",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-07-31",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=299988&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
