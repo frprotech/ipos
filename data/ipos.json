@@ -1,6 +1,8 @@
 {
-  "updated_at": "2026-08-02T19:33:27+00:00",
-  "sources_failed": [],
+  "updated_at": "2026-08-03T03:53:09+00:00",
+  "sources_failed": [
+    "TSX"
+  ],
   "ipos": [
     {
       "company": "Elk Range Mining Limited - TBA",
@@ -10,7 +12,7 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Axiant Resources Limited",
@@ -20,7 +22,7 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Energy Fuels Inc.",
@@ -30,7 +32,7 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Whiterock Lithium Corp.",
@@ -40,7 +42,7 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Powerhaus Uranium Limited",
@@ -50,7 +52,7 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Almasar Minerals Limited",
@@ -60,7 +62,7 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "SCX.ai Holdings Limited",
@@ -70,7 +72,7 @@
       "sector": "Technology",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Aventine Resources Ltd",
@@ -80,7 +82,7 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Braveheart Bio, Inc.",
@@ -90,7 +92,7 @@
       "sector": "",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "OceanLight Acquisition Corp",
@@ -100,7 +102,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Attovia Therapeutics, Inc.",
@@ -110,7 +112,7 @@
       "sector": "Healthcare",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "MetaOptics Ltd",
@@ -120,7 +122,7 @@
       "sector": "",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "BOA Acquisition Corp. II",
@@ -130,7 +132,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Alurion Resources Limited",
@@ -140,7 +142,7 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Gwardar Resources Limited",
@@ -150,7 +152,7 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Reformation Inc.",
@@ -160,7 +162,7 @@
       "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Game Your Game Inc.",
@@ -170,7 +172,7 @@
       "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Jersey Mike's Subs Inc.",
@@ -180,7 +182,7 @@
       "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "IMC Rare Earths Ltd",
@@ -190,7 +192,7 @@
       "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Catalyst Acquisition Corp.",
@@ -200,7 +202,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Ionic Digital Inc.",
@@ -210,7 +212,7 @@
       "sector": "Technology",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Scribe Therapeutics, Inc.",
@@ -220,7 +222,7 @@
       "sector": "Healthcare",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Pelican Acquisition II Corp",
@@ -230,7 +232,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Market Technology Acquisition Corp",
@@ -240,7 +242,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Southern Cross Acquisition I Corp.",
@@ -250,7 +252,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "B&R Technology Merger Corp.",
@@ -260,7 +262,7 @@
       "sector": "Technology",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "AMR Resources Acquisition Corp.",
@@ -270,7 +272,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Csquare, Inc.",
@@ -280,7 +282,7 @@
       "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "QumulusAI, Inc.",
@@ -290,7 +292,7 @@
       "sector": "Technology",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Standard Nuclear, Inc.",
@@ -300,7 +302,7 @@
       "sector": "Energy",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Jones Ventures INTL Acquisition1 Corp",
@@ -310,7 +312,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Research Alliance Corp IV",
@@ -320,7 +322,7 @@
       "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Samos Energy Acquisition Corp",
@@ -330,7 +332,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "SK hynix Inc.",
@@ -340,7 +342,7 @@
       "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Columbus Circle Capital Corp III",
@@ -350,7 +352,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Mercator Acquisition Corp.",
@@ -360,7 +362,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Freedom Metals Acquisition Corp.",
@@ -370,7 +372,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Bleichroeder Acquisition Corp. III",
@@ -380,7 +382,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Meridian3 Industrials Acquisition Corp",
@@ -390,7 +392,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Viking Acquisition Corp. II",
@@ -400,7 +402,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Osprey Acquisition Corp. III",
@@ -410,7 +412,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "ITG, Inc./DE/",
@@ -420,7 +422,7 @@
       "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Neutron Holdings, Inc.",
@@ -430,7 +432,7 @@
       "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Bending Spoons S.p.A.",
@@ -440,7 +442,7 @@
       "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Atlantico Energy Metals Corp.",
@@ -450,7 +452,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Flow Capital Corp",
@@ -460,7 +462,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Avila Energy Corporation 22MAY2031 Warrants",
@@ -470,7 +472,7 @@
       "sector": "Energy",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Purecore Metals Inc.",
@@ -480,7 +482,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "North America Home Finance Inc. Series 1 Non-Voting Preferred Shares",
@@ -490,7 +492,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Meritage Tactical ETF Balanced Portfolio",
@@ -680,7 +682,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Amphenol CDR (CAD Hedged)",
@@ -940,7 +942,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Great Red Lake Gold Corp.",
@@ -950,7 +952,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Predictive Discovery Limited",
@@ -970,7 +972,7 @@
       "sector": "Healthcare",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "First Trust Nasdaq\u00ae Clean Edge\u00ae Smart Grid Infrastructure ETF",
@@ -1040,7 +1042,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Contango Silver & Gold Inc.",
@@ -1190,7 +1192,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Americas Uranium Corp.",
@@ -1200,7 +1202,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Avantis CIBC Emerging Markets Equity ETF",
@@ -1270,7 +1272,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Xanadu Quantum Technologies Limited",
@@ -1290,7 +1292,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Bunker Hill Mining Corp.",
@@ -1440,7 +1442,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Evolve All-in-One UltraYield ETF",
@@ -1560,7 +1562,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "North America Home Finance Inc. Warrants",
@@ -1570,7 +1572,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Beaumont Exploration Corp.",
@@ -1580,7 +1582,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Avantis CIBC Canadian Equity ETF",
@@ -1630,7 +1632,7 @@
       "sector": "Clean Energy",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "NetraMark Holdings Inc.",
@@ -1760,7 +1762,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Redwood AI Corp.",
@@ -1770,7 +1772,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Maximus Metals Inc.",
@@ -1780,7 +1782,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "BMO MSCI Canada IMI High Dividend Yield Index ETF",
@@ -1940,7 +1942,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Titan Technology Corp.",
@@ -1950,7 +1952,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "PIMCO Managed Balanced Portfolio",
@@ -2140,7 +2142,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Predictiv AI Inc.",
@@ -2150,7 +2152,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Encore Technologies Corp.",
@@ -2160,7 +2162,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Bitzero Holdings Inc.",
@@ -2170,7 +2172,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "CAT Strategic Metals Corporation 21NOV2030 Warrants",
@@ -2180,7 +2182,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Stinger Resources Inc.",
@@ -2190,7 +2192,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "TempraMed Technologies Ltd.",
@@ -2200,7 +2202,7 @@
       "sector": "Healthcare",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Commodore Metals Corp.",
@@ -2210,7 +2212,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Kleen HY-DRO-GEN Inc.",
@@ -2220,7 +2222,7 @@
       "sector": "",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Super Lithium Corp.",
@@ -2230,7 +2232,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Avventura Resources Ltd.",
@@ -2240,7 +2242,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Goldcana Resources Inc.",
@@ -2250,7 +2252,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     }
   ]
 }
