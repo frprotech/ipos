@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T10:05:02+00:00",
+  "updated_at": "2026-08-03T15:14:29+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -113,11 +113,11 @@
       "fetched_at": "2026-08-03"
     },
     {
-      "company": "MetaOptics Ltd",
-      "ticker": "MOT",
+      "company": "Phalanx Acquisition Corp I",
+      "ticker": "PHAXU",
       "exchange": "NASDAQ",
-      "listing_date": "2026-07-31",
-      "sector": "",
+      "listing_date": "2026-08-04",
+      "sector": "SPAC / Blank Check",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-03"
@@ -126,9 +126,39 @@
       "company": "BOA Acquisition Corp. II",
       "ticker": "THEOU",
       "exchange": "NASDAQ",
-      "listing_date": "2026-07-31",
+      "listing_date": "2026-08-04",
       "sector": "SPAC / Blank Check",
       "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-03"
+    },
+    {
+      "company": "Apnimed, Inc.",
+      "ticker": "APMD",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-31",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-03"
+    },
+    {
+      "company": "East West Ave Acquisition Corp.",
+      "ticker": "EWAVU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-31",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-03"
+    },
+    {
+      "company": "Churchill Capital Corp XIII",
+      "ticker": "XIIIU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-07-31",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-03"
     },
@@ -153,8 +183,8 @@
       "fetched_at": "2026-08-03"
     },
     {
-      "company": "Reformation Inc.",
-      "ticker": "REF",
+      "company": "Jersey Mike's Subs Inc.",
+      "ticker": "JMKE",
       "exchange": "NYSE",
       "listing_date": "2026-07-30",
       "sector": "",
@@ -173,8 +203,8 @@
       "fetched_at": "2026-08-03"
     },
     {
-      "company": "Jersey Mike's Subs Inc.",
-      "ticker": "JMKE",
+      "company": "Reformation Inc.",
+      "ticker": "REF",
       "exchange": "NYSE",
       "listing_date": "2026-07-30",
       "sector": "",
@@ -403,11 +433,11 @@
       "fetched_at": "2026-08-03"
     },
     {
-      "company": "Osprey Acquisition Corp. III",
-      "ticker": "OSPRU",
+      "company": "Neutron Holdings, Inc.",
+      "ticker": "LIME",
       "exchange": "NASDAQ",
       "listing_date": "2026-07-01",
-      "sector": "SPAC / Blank Check",
+      "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-03"
@@ -423,8 +453,8 @@
       "fetched_at": "2026-08-03"
     },
     {
-      "company": "Neutron Holdings, Inc.",
-      "ticker": "LIME",
+      "company": "Bending Spoons S.p.A.",
+      "ticker": "BSP",
       "exchange": "NASDAQ",
       "listing_date": "2026-07-01",
       "sector": "",
@@ -433,11 +463,11 @@
       "fetched_at": "2026-08-03"
     },
     {
-      "company": "Bending Spoons S.p.A.",
-      "ticker": "BSP",
+      "company": "Osprey Acquisition Corp. III",
+      "ticker": "OSPRU",
       "exchange": "NASDAQ",
       "listing_date": "2026-07-01",
-      "sector": "",
+      "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-03"
