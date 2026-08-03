@@ -1,8 +1,6 @@
 {
-  "updated_at": "2026-08-03T03:53:09+00:00",
-  "sources_failed": [
-    "TSX"
-  ],
+  "updated_at": "2026-08-03T10:05:02+00:00",
+  "sources_failed": [],
   "ipos": [
     {
       "company": "Elk Range Mining Limited - TBA",
@@ -475,6 +473,16 @@
       "fetched_at": "2026-08-03"
     },
     {
+      "company": "Desjardins US Investment Grade Corporate Bond Index ETF",
+      "ticker": "DUIG",
+      "exchange": "TSX",
+      "listing_date": "2026-05-15",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-03"
+    },
+    {
       "company": "Purecore Metals Inc.",
       "ticker": "PURE",
       "exchange": "CSE",
@@ -482,6 +490,86 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-03"
+    },
+    {
+      "company": "Global X Enhanced All-In-One Commodity Producers Equity Covered Call ETF",
+      "ticker": "CMCL",
+      "exchange": "TSX",
+      "listing_date": "2026-05-13",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-03"
+    },
+    {
+      "company": "Global X Enhanced Silver Miners Covered Call ETF",
+      "ticker": "SVCL",
+      "exchange": "TSX",
+      "listing_date": "2026-05-13",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-03"
+    },
+    {
+      "company": "Global X All-In-One Commodity Producers Equity Covered Call ETF",
+      "ticker": "CMCC",
+      "exchange": "TSX",
+      "listing_date": "2026-05-12",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-03"
+    },
+    {
+      "company": "Global X All-In-One Commodity Producers Equity ETF",
+      "ticker": "COMX",
+      "exchange": "TSX",
+      "listing_date": "2026-05-12",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-03"
+    },
+    {
+      "company": "Global X Silver Miners Covered Call ETF",
+      "ticker": "SVCC",
+      "exchange": "TSX",
+      "listing_date": "2026-05-12",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-03"
+    },
+    {
+      "company": "Global X Silver Miners Index ETF",
+      "ticker": "SLVX",
+      "exchange": "TSX",
+      "listing_date": "2026-05-12",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-03"
+    },
+    {
+      "company": "Global X Uranium Covered Call ETF",
+      "ticker": "URCC",
+      "exchange": "TSX",
+      "listing_date": "2026-05-12",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-03"
+    },
+    {
+      "company": "HIVE Digital Technologies Ltd.",
+      "ticker": "HIVE",
+      "exchange": "TSX",
+      "listing_date": "2026-05-12",
+      "sector": "Technology",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
       "fetched_at": "2026-08-03"
     },
     {
@@ -502,7 +590,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Meritage Tactical ETF Equity Portfolio",
@@ -512,7 +600,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Meritage Tactical ETF Growth Portfolio",
@@ -522,7 +610,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Meritage Tactical ETF Moderate Portfolio",
@@ -532,7 +620,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "NBI Canadian Bond Index Fund",
@@ -542,7 +630,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "NBI Canadian Equity Growth Fund",
@@ -552,7 +640,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "NBI Canadian Equity Index Fund",
@@ -562,7 +650,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "NBI Diversified Emerging Markets Equity Fund",
@@ -572,7 +660,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "NBI International Equity Index Fund",
@@ -582,7 +670,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "NBI International Value Fund",
@@ -592,7 +680,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "NBI SmartData Global Equity Fund",
@@ -602,7 +690,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "NBI U.S. Equity Index Fund",
@@ -612,7 +700,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "TD Alternative Commodities Pool",
@@ -622,7 +710,7 @@
       "sector": "",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "TD Canadian Corporate Bond Fund",
@@ -632,7 +720,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "TD Short Term Bond Fund",
@@ -642,7 +730,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "TD Ultra Short Term Bond Fund",
@@ -652,7 +740,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Hamilton Canadian Equity YIELD MAXIMIZER\u2122 ETF",
@@ -662,7 +750,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Hamilton International Equity YIELD MAXIMIZER\u2122 ETF",
@@ -672,7 +760,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Yocale.ai Inc.",
@@ -692,7 +780,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "CoreWeave CDR (CAD Hedged)",
@@ -702,7 +790,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "D.R. Horton CDR (CAD Hedged)",
@@ -712,7 +800,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Freeport-McMoRan CDR (CAD Hedged)",
@@ -722,7 +810,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Intuit CDR (CAD Hedged)",
@@ -732,7 +820,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "KLA CDR (CAD Hedged)",
@@ -742,7 +830,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Lam Research CDR (CAD Hedged)",
@@ -752,7 +840,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Marvell Technology CDR (CAD Hedged)",
@@ -762,7 +850,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Northrop Grumman CDR (CAD Hedged)",
@@ -772,7 +860,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Quanta Services CDR (CAD Hedged)",
@@ -782,7 +870,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Sandisk CDR (CAD Hedged)",
@@ -792,7 +880,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Stryker CDR (CAD Hedged)",
@@ -802,7 +890,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "T-Mobile CDR (CAD Hedged)",
@@ -812,7 +900,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Vertiv CDR (CAD Hedged)",
@@ -822,7 +910,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Western Digital CDR (CAD Hedged)",
@@ -832,7 +920,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "JPMorgan Nasdaq Equity Premium Income Active ETF - CAD Hedged",
@@ -842,7 +930,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "JPMorgan US Equity Premium Income Active ETF - CAD Hedged",
@@ -852,7 +940,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "NG Energy International Corp. (GASX, GASX.WT.A, GAS)",
@@ -862,7 +950,7 @@
       "sector": "Energy",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Global X U.S. Infrastructure Development Index ETF",
@@ -872,7 +960,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Lumina Metals Corp.",
@@ -882,7 +970,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Global X Space Tech Index ETF",
@@ -892,7 +980,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "ATEX Resources Inc.",
@@ -902,7 +990,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Manulife Balanced ETF Portfolio",
@@ -912,7 +1000,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Manulife Conservative ETF Portfolio",
@@ -922,7 +1010,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Manulife Growth ETF Portfolio",
@@ -932,7 +1020,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Walhalla Gold Corp.",
@@ -962,7 +1050,7 @@
       "sector": "",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Trulieve Cannabis Corp. 17DEC2030 10.5% Senior Secured Notes",
@@ -982,7 +1070,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Ninepoint Alphabet HighShares ETF",
@@ -992,7 +1080,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Ninepoint Intel HighShares ETF",
@@ -1002,7 +1090,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Ninepoint NVIDIA HighShares ETF",
@@ -1012,7 +1100,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Ninepoint Palantir HighShares ETF",
@@ -1022,7 +1110,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Ninepoint Tesla HighShares ETF",
@@ -1032,7 +1120,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "QuantumCore Ltd.",
@@ -1052,7 +1140,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "IA Clarington Global Multifactor Equity Fund",
@@ -1062,7 +1150,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "IA Clarington Thematic Innovation Class",
@@ -1072,7 +1160,7 @@
       "sector": "",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Ninepoint Celestica HighShares ETF",
@@ -1082,7 +1170,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Ninepoint Constellation Software CoreShares ETF",
@@ -1092,7 +1180,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Ninepoint Constellation Software HighShares ETF",
@@ -1102,7 +1190,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Ninepoint Kinross Gold HighShares ETF",
@@ -1112,7 +1200,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Elemental Royalty Corporation",
@@ -1122,7 +1210,7 @@
       "sector": "",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "TelyRx Holdings Inc.",
@@ -1132,7 +1220,7 @@
       "sector": "",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "RBC Canadian Equity ETF",
@@ -1142,7 +1230,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "RBC Target 2032 Canadian Corporate Bond ETF",
@@ -1152,7 +1240,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "RBC Target 2032 Canadian Government Bond ETF",
@@ -1162,7 +1250,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "RBC Target 2032 U.S. Corporate Bond ETF",
@@ -1172,7 +1260,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "RBC U.S. Large-Cap Equity ETF",
@@ -1182,7 +1270,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Elysian Mineral Exploration Corp.",
@@ -1212,7 +1300,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Brompton Global Cash Flow Kings ETF",
@@ -1222,7 +1310,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Brompton Global Equity HighPay ETF",
@@ -1232,7 +1320,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Humilis Fundamental Opportunities ETF",
@@ -1242,7 +1330,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Humilis North American Dividend Growth ETF",
@@ -1252,7 +1340,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Humilis North American Tactical Equity Fund",
@@ -1262,7 +1350,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "ICG Silver Gold Ltd.",
@@ -1282,7 +1370,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Rockbridge Resources Inc.",
@@ -1302,7 +1390,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Global X NYSE 100 Index ETF",
@@ -1312,7 +1400,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Metatek-Group Ltd.",
@@ -1322,7 +1410,7 @@
       "sector": "",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Vanguard U.S. High Dividend Yield Index ETF",
@@ -1332,7 +1420,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "All-Canadian Oil & Gas ETF",
@@ -1342,7 +1430,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Clinch Resources Ltd.",
@@ -1352,7 +1440,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Volatus Aerospace Inc.",
@@ -1362,7 +1450,7 @@
       "sector": "Industrials",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Avantis CIBC All-Equity Asset Allocation ETF",
@@ -1372,7 +1460,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Middlefield ActivEnergy Dividend Class",
@@ -1382,7 +1470,7 @@
       "sector": "",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Middlefield Income Plus Class",
@@ -1392,7 +1480,7 @@
       "sector": "",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Coeur Mining, Inc.",
@@ -1402,7 +1490,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Manulife CQS Multi Asset Credit Fund",
@@ -1412,7 +1500,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Avantis CIBC Global Small Cap Value ETF",
@@ -1422,7 +1510,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Avantis CIBC International Equity ETF",
@@ -1432,7 +1520,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Rise Nano Optics Ltd.",
@@ -1452,7 +1540,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Trading Central Quant Canada 50 Equity Index ETF",
@@ -1462,7 +1550,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Trading Central Quant Europe 50 Equity Index ETF",
@@ -1472,7 +1560,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Trading Central Quant Global 50 Equity Index ETF",
@@ -1482,7 +1570,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Trading Central Quant U.S. 50 Equity Index ETF",
@@ -1492,7 +1580,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Guardian Canadian Equity Income Fund",
@@ -1502,7 +1590,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Guardian Fundamental Global Equity Fund",
@@ -1512,7 +1600,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Guardian Short Duration Bond Fund",
@@ -1522,7 +1610,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "AGT Food and Ingredients Inc.",
@@ -1532,7 +1620,7 @@
       "sector": "Consumer Defensive",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Cannara Biotech Inc.",
@@ -1542,7 +1630,7 @@
       "sector": "Healthcare",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Silver Mountain Resources Inc. (AGMR, AGMR.WT.B)",
@@ -1552,7 +1640,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "North America Home Finance Inc.",
@@ -1592,7 +1680,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Avantis CIBC U.S. All-Cap Equity ETF",
@@ -1602,7 +1690,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Avantis CIBC U.S. Large Cap Value ETF",
@@ -1612,7 +1700,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Avantis CIBC U.S. Small Cap Value ETF",
@@ -1622,7 +1710,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "ReVolve Renewable Power Corp.",
@@ -1642,7 +1730,7 @@
       "sector": "",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Rua Gold Inc.",
@@ -1652,7 +1740,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Russell Investments Core Plus Fixed Income ETF",
@@ -1662,7 +1750,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Russell Investments Fallen Angels ETF",
@@ -1672,7 +1760,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Russell Investments Multi-Factor Canadian Equity Pool",
@@ -1682,7 +1770,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Russell Investments Multi-Factor International Equity Pool",
@@ -1692,7 +1780,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Russell Investments Multi-Factor US Equity Pool",
@@ -1702,7 +1790,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Mackenzie Global Value ETF",
@@ -1712,7 +1800,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Mackenzie GQE Global Balanced ETF",
@@ -1722,7 +1810,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Mackenzie US All Cap Growth ETF",
@@ -1732,7 +1820,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Mackenzie US Value ETF",
@@ -1742,7 +1830,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Purpose Credit Opportunities Class",
@@ -1752,7 +1840,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Bahia Metals Corp.",
@@ -1792,7 +1880,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "BMO MSCI EAFE Small-Mid Cap Index ETF",
@@ -1802,7 +1890,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "BMO MSCI USA Equal Weight Index ETF (ZEQL, ZEQL.F, ZEQL.U)",
@@ -1812,7 +1900,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Roxmore Resources Inc.",
@@ -1822,7 +1910,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "SavvyShort (-2X) COIN ETF",
@@ -1832,7 +1920,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "SavvyShort (-2X) MSTR ETF",
@@ -1842,7 +1930,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Blossom Gold Inc.",
@@ -1852,7 +1940,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Middlefield Short Duration Bond Plus ETF",
@@ -1862,7 +1950,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "SLGI MFS Blended Research Low Vol Global Fund",
@@ -1872,7 +1960,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "SLGI MFS Blended Research Low Vol International Fund",
@@ -1882,7 +1970,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Fidelity American Equity Fund",
@@ -1892,7 +1980,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Fidelity Global Opportunities Long/Short Fund",
@@ -1902,7 +1990,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "JPMorgan International Developed Equity Active ETF",
@@ -1912,7 +2000,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "CI Balanced+ Asset Allocation ETF Fund",
@@ -1922,7 +2010,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "CI Equity+ Asset Allocation ETF Fund",
@@ -1932,7 +2020,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Alaros Exploration Inc.",
@@ -1962,7 +2050,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Global X Tokenization Ecosystem Index ETF",
@@ -1972,7 +2060,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "HAMILTON CHAMPIONS\u2122 U.S. Technology Index ETF",
@@ -1982,7 +2070,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "HAMILTON CHAMPIONS\u2122 Utilities Index ETF",
@@ -1992,7 +2080,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Harvest Premium Yield Canadian Bank ETF",
@@ -2002,7 +2090,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Harvest Premium Yield Enhanced ETF",
@@ -2012,7 +2100,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "First Trust Bloomberg Nuclear Power ETF",
@@ -2022,7 +2110,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Evolve International Equity UltraYield ETF",
@@ -2032,7 +2120,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Harvest Block Enhanced High Income Shares ETF",
@@ -2042,7 +2130,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Harvest CrowdStrike Enhanced High Income Shares ETF",
@@ -2052,7 +2140,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Harvest JnJ Enhanced High Income Shares ETF",
@@ -2062,7 +2150,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Harvest JPHE Enhanced High Income Shares ETF",
@@ -2072,7 +2160,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Harvest Novo Enhanced High Income Shares ETF",
@@ -2082,7 +2170,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Harvest Oracle Enhanced High Income Shares ETF",
@@ -2092,7 +2180,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Moat Active Premium Yield ETF",
@@ -2102,7 +2190,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Lysander-Canso U.S. Corporate Value Bond Fund",
@@ -2112,7 +2200,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "AGF American Growth Fund",
@@ -2122,7 +2210,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "AGF Global Select Fund",
@@ -2132,7 +2220,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://www.tsx.com/en/news/new-company-listings",
-      "fetched_at": "2026-08-02"
+      "fetched_at": "2026-08-03"
     },
     {
       "company": "Upside Gold Corp.",
