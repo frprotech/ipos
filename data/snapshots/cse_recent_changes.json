@@ -551,5 +551,26 @@
       "symbol_was": "LOAN",
       "effective_on": "2026-07-29"
     }
+  ],
+  "DUNE": [
+    {
+      "name_was": "Trillion Energy International Inc.",
+      "symbol_was": "TCF",
+      "effective_on": "2026-08-04"
+    }
+  ],
+  "RELH": [
+    {
+      "name_was": "Red Light Holland Corp.",
+      "symbol_was": "TRIP",
+      "effective_on": "2026-08-04"
+    }
+  ],
+  "JOLT.X": [
+    {
+      "name_was": "",
+      "symbol_was": "JOLT",
+      "effective_on": "2026-08-04"
+    }
   ]
 }
