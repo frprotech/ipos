@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T08:51:43+00:00",
+  "updated_at": "2026-08-05T14:31:34+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -124,9 +124,19 @@
     },
     {
       "company": "OceanLight Acquisition Corp",
-      "ticker": "OCLT",
+      "ticker": "OCLTU",
       "exchange": "NASDAQ",
       "listing_date": "2026-08-06",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-05"
+    },
+    {
+      "company": "TCGX Acquisition Corp.",
+      "ticker": "TCGX",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-05",
       "sector": "SPAC / Blank Check",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
@@ -139,6 +149,26 @@
       "listing_date": "2026-08-05",
       "sector": "Healthcare",
       "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-05"
+    },
+    {
+      "company": "BOA Acquisition Corp. II",
+      "ticker": "THEOU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-04",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-05"
+    },
+    {
+      "company": "ARC Group Securities Acquisition I",
+      "ticker": "FJDIU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-04",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-05"
     },
