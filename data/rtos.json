@@ -1,10 +1,19 @@
 {
-  "updated_at": "2026-08-05T15:02:23+00:00",
+  "updated_at": "2026-08-05T20:17:08+00:00",
   "sources_failed": [
-    "US",
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Slave Lake Zinc Corp",
+      "new_ticker": "SLZ",
+      "change_type": "Name Change",
+      "date": "2026-08-03",
+      "source": "https://thecse.com/bulletin/2026-0803-name-change-slave-lake-zinc-corp-slz"
+    },
     {
       "exchange": "CSE",
       "old_name": "",
