@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T20:14:21+00:00",
+  "updated_at": "2026-08-05T03:50:31+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6603,36 +6603,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-08-05",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=300028&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Windstream Parent, Inc.",
-      "old_ticker": "",
-      "new_name": "Uniti Group Inc.",
-      "new_ticker": "UNIT",
-      "change_type": "Name Change",
-      "date": "2025-08-04",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002020795&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "HARMONIC INC",
-      "old_ticker": "",
-      "new_name": "HARMONIC INC.",
-      "new_ticker": "HLIT",
-      "change_type": "Name Change",
-      "date": "2025-08-04",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000851310&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Empery Digital, Inc.",
-      "old_ticker": "",
-      "new_name": "Empery Digital Inc.",
-      "new_ticker": "EMPD",
-      "change_type": "Name Change",
-      "date": "2025-08-04",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001829794&type=8-K"
     }
   ]
 }
