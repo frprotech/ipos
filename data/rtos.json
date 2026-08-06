@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T03:55:55+00:00",
+  "updated_at": "2026-08-06T09:32:01+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -43,6 +43,16 @@
       "change_type": "Name Change",
       "date": "2026-07-31",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819974&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "ARCBEST CORP /DE/",
+      "old_ticker": "",
+      "new_name": "ARCBEST CORP /TX/",
+      "new_ticker": "ARCB",
+      "change_type": "Name Change",
+      "date": "2026-07-30",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000894405&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -126,6 +136,16 @@
     },
     {
       "exchange": "NASDAQ",
+      "old_name": "Relativity Holdings Inc.",
+      "old_ticker": "BIOTW",
+      "new_name": "INSTINCT BIO TECHNICAL CO HOLDINGS INC.",
+      "new_ticker": "BIOT",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-07-23",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002072188&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
       "old_name": "FG Merger II Corp.",
       "old_ticker": "FGMCR",
       "new_name": "BOXABL Inc.",
@@ -137,10 +157,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Wellgistics Health, Inc.",
-      "old_ticker": "",
+      "old_ticker": "WGRX",
       "new_name": "DataMeds AI, Inc.",
-      "new_ticker": "WGRX",
-      "change_type": "Name Change",
+      "new_ticker": "MEDS",
+      "change_type": "Name & Symbol Change",
       "date": "2026-07-21",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002030763&type=8-K"
     },
@@ -157,10 +177,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "LM FUNDING AMERICA, INC.",
-      "old_ticker": "",
+      "old_ticker": "LMFA",
       "new_name": "POWERCOMPUTE, INC.",
-      "new_ticker": "LMFA",
-      "change_type": "Name Change",
+      "new_ticker": "PWCM",
+      "change_type": "Name & Symbol Change",
       "date": "2026-07-20",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001640384&type=8-K"
     },
@@ -297,10 +317,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Avalon GloboCare Corp.",
-      "old_ticker": "",
+      "old_ticker": "ALBT",
       "new_name": "Change Agents Corporation.",
-      "new_ticker": "ALBT",
-      "change_type": "Name Change",
+      "new_ticker": "CHGA",
+      "change_type": "Name & Symbol Change",
       "date": "2026-07-13",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001630212&type=8-K"
     },
@@ -323,6 +343,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-07-10",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002074850&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Lakeside Holding Ltd",
+      "old_ticker": "",
+      "new_name": "Quanome Technologies, Inc.",
+      "new_ticker": "LSH",
+      "change_type": "Name Change",
+      "date": "2026-07-10",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001996192&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -377,9 +407,9 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Greenidge Generation Holdings Inc.",
-      "old_ticker": "GREEL",
+      "old_ticker": "GREE",
       "new_name": "Vulcan Infrastructure & Power Inc.",
-      "new_ticker": "GREE",
+      "new_ticker": "VIP",
       "change_type": "Name & Symbol Change",
       "date": "2026-07-09",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001844971&type=8-K"
@@ -387,9 +417,9 @@
     {
       "exchange": "NASDAQ",
       "old_name": "M3-Brigade Acquisition V Corp.",
-      "old_ticker": "MBAVU",
+      "old_ticker": "MBAV",
       "new_name": "Velos Acquisition I Corp.",
-      "new_ticker": "MBAV",
+      "new_ticker": "VLOS",
       "change_type": "Name & Symbol Change",
       "date": "2026-07-08",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002016072&type=8-K"
@@ -493,6 +523,16 @@
       "change_type": "Name Change",
       "date": "2026-07-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001605888&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "PLUS THERAPEUTICS, INC.",
+      "old_ticker": "",
+      "new_name": "CERENOME, INC.",
+      "new_ticker": "PSTV",
+      "change_type": "Name Change",
+      "date": "2026-07-01",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001095981&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -1077,10 +1117,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Gambling.com Group Ltd",
-      "old_ticker": "",
+      "old_ticker": "GAMB",
       "new_name": "GRANDSTAND Ltd",
-      "new_ticker": "GAMB",
-      "change_type": "Name Change",
+      "new_ticker": "GRSD",
+      "change_type": "Name & Symbol Change",
       "date": "2026-06-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001839799&type=8-K"
     },
@@ -1157,10 +1197,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "U-BX Technology Ltd.",
-      "old_ticker": "",
+      "old_ticker": "UBXG",
       "new_name": "MindForge Inc.",
-      "new_ticker": "UBXG",
-      "change_type": "Name Change",
+      "new_ticker": "MF",
+      "change_type": "Name & Symbol Change",
       "date": "2026-05-27",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001888525&type=8-K"
     },
@@ -1183,6 +1223,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-05-26",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "NL INDUSTRIES INC",
+      "old_ticker": "",
+      "new_name": "NLI HOLDINGS, INC.",
+      "new_ticker": "NL",
+      "change_type": "Name Change",
+      "date": "2026-05-26",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000072162&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -4777,10 +4827,10 @@
     {
       "exchange": "NYSE",
       "old_name": "AG Mortgage Investment Trust, Inc.",
-      "old_ticker": "",
+      "old_ticker": "MITN",
       "new_name": "TPG Mortgage Investment Trust, Inc.",
       "new_ticker": "MITT",
-      "change_type": "Name Change",
+      "change_type": "Name & Symbol Change",
       "date": "2025-11-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514281&type=8-K"
     },
