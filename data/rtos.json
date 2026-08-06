@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-08-05T20:17:08+00:00",
+  "updated_at": "2026-08-06T03:55:55+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Rhelion Life Sciences Corp",
+      "new_ticker": "RELH",
+      "change_type": "Symbol Change",
+      "date": "2026-08-06",
+      "source": "https://thecse.com/bulletin/2026-0806-symbol-change-rhelion-life-sciences-corp-relh"
+    },
     {
       "exchange": "CSE",
       "old_name": "",
@@ -6583,36 +6593,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-08-06",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001648960&type=8-K"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "KWG Resources Inc",
-      "new_ticker": "CACR, CACR.A",
-      "change_type": "Name Change",
-      "date": "2025-08-05",
-      "source": "https://thecse.com/bulletin/2025-0805-name-change-kwg-resources-inc-cacr-cacr-a"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Versamet Royalties Corporation",
-      "old_ticker": "",
-      "new_name": "Versamet Royalties Corp",
-      "new_ticker": "VMET",
-      "change_type": "Name Change",
-      "date": "2025-08-05",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002080073&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "Empire Metals Corp.",
-      "old_ticker": "EP",
-      "new_name": "ROLAND MINERAL ENTERPRISES CORP.",
-      "new_ticker": "RME",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-05",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=300028&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
