@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T09:04:49+00:00",
+  "updated_at": "2026-08-06T14:34:02+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -103,16 +103,6 @@
       "fetched_at": "2026-08-06"
     },
     {
-      "company": "Phalanx Acquisition Corp I",
-      "ticker": "PHAXU",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-08-06",
-      "sector": "SPAC / Blank Check",
-      "status": "Expected",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-06"
-    },
-    {
       "company": "Braveheart Bio, Inc.",
       "ticker": "BRVE",
       "exchange": "NASDAQ",
@@ -129,6 +119,26 @@
       "listing_date": "2026-08-06",
       "sector": "SPAC / Blank Check",
       "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-06"
+    },
+    {
+      "company": "Attovia Therapeutics, Inc.",
+      "ticker": "ATTO",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-05",
+      "sector": "Healthcare",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-06"
+    },
+    {
+      "company": "TCGX Acquisition Corp.",
+      "ticker": "TCGX",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-05",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-06"
     },
