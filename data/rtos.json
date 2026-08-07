@@ -1,7 +1,6 @@
 {
-  "updated_at": "2026-08-06T15:00:59+00:00",
+  "updated_at": "2026-08-07T00:33:05+00:00",
   "sources_failed": [
-    "US",
     "TSX"
   ],
   "rtos": [
@@ -6614,36 +6613,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-08-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001896212&type=8-K"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Dynamic Group Holdings Limited",
-      "old_ticker": "DDB",
-      "new_name": "BWE Drilling Ltd",
-      "new_ticker": "BWE",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-06",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Helix Acquisition Corp. II",
-      "old_ticker": "",
-      "new_name": "BridgeBio Oncology Therapeutics, Inc.",
-      "new_ticker": "BBOT",
-      "change_type": "Name Change",
-      "date": "2025-08-06",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001869105&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "DatChat, Inc.",
-      "old_ticker": "MYSEW",
-      "new_name": "Myseum.AI, Inc.",
-      "new_ticker": "MYSE",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-06",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001648960&type=8-K"
     }
   ]
 }
