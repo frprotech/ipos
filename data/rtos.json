@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T03:41:05+00:00",
+  "updated_at": "2026-08-07T08:01:30+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -23,6 +23,16 @@
       "change_type": "Name Change",
       "date": "2026-08-03",
       "source": "https://thecse.com/bulletin/2026-0803-name-change-slave-lake-zinc-corp-slz"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Oncology Institute, Inc.",
+      "old_ticker": "",
+      "new_name": "Starling Oncology, Inc.",
+      "new_ticker": "TOI",
+      "change_type": "Name Change",
+      "date": "2026-08-03",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001799191&type=8-K"
     },
     {
       "exchange": "CSE",
@@ -173,6 +183,16 @@
       "change_type": "Name Change",
       "date": "2026-07-20",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001718512&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "PUTNAM MANAGED MUNICIPAL INCOME TRUST",
+      "old_ticker": "",
+      "new_name": "FRANKLIN MANAGED MUNICIPAL INCOME TRUST",
+      "new_ticker": "PMM",
+      "change_type": "Name Change",
+      "date": "2026-07-20",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000844790&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -5663,6 +5683,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-09-19",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "BDF Holding Corp.",
+      "old_ticker": "",
+      "new_name": "Bob's Discount Furniture, Inc.",
+      "new_ticker": "BOBS",
+      "change_type": "Name Change",
+      "date": "2025-09-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002085187&type=8-K"
     },
     {
       "exchange": "NASDAQ",

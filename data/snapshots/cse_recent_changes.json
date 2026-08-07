@@ -579,5 +579,19 @@
       "symbol_was": "ICS",
       "effective_on": "2026-08-05"
     }
+  ],
+  "SLZ": [
+    {
+      "name_was": "Slave Lake Zinc Corp",
+      "symbol_was": "",
+      "effective_on": "2026-08-07"
+    }
+  ],
+  "RHEL": [
+    {
+      "name_was": "",
+      "symbol_was": "RELH",
+      "effective_on": "2026-08-07"
+    }
   ]
 }
