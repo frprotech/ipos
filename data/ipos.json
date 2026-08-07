@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T00:14:31+00:00",
+  "updated_at": "2026-08-07T03:15:25+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -103,16 +103,6 @@
       "fetched_at": "2026-08-07"
     },
     {
-      "company": "Braveheart Bio, Inc.",
-      "ticker": "BRVE",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-08-06",
-      "sector": "",
-      "status": "Expected",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-07"
-    },
-    {
       "company": "OceanLight Acquisition Corp",
       "ticker": "OCLTU",
       "exchange": "NASDAQ",
@@ -190,26 +180,6 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-07"
-    },
-    {
-      "company": "Alurion Resources Limited",
-      "ticker": "ALU",
-      "exchange": "ASX",
-      "listing_date": "2026-07-31",
-      "sector": "Mining & Materials",
-      "status": "Upcoming",
-      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-08-07"
-    },
-    {
-      "company": "Gwardar Resources Limited",
-      "ticker": "GRS",
-      "exchange": "ASX",
-      "listing_date": "2026-07-31",
-      "sector": "Mining & Materials",
-      "status": "Upcoming",
-      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
       "fetched_at": "2026-08-07"
     },
     {
