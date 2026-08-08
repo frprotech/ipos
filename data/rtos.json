@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T02:45:54+00:00",
+  "updated_at": "2026-08-08T07:36:34+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -66,6 +66,16 @@
     },
     {
       "exchange": "NASDAQ",
+      "old_name": "WAVE Life Sciences Ltd.",
+      "old_ticker": "",
+      "new_name": "Wave Life Sciences, Inc.",
+      "new_ticker": "WVE",
+      "change_type": "Name Change",
+      "date": "2026-07-30",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001631574&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
       "old_name": "Tevogen Bio Holdings Inc.",
       "old_ticker": "TVGNW",
       "new_name": "Tevogen Inc.",
@@ -127,10 +137,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "VYNE Therapeutics Inc.",
-      "old_ticker": "",
+      "old_ticker": "VYNE",
       "new_name": "Yarrow Bioscience, Inc.",
-      "new_ticker": "VYNE",
-      "change_type": "Name Change",
+      "new_ticker": "YARW",
+      "change_type": "Name & Symbol Change",
       "date": "2026-07-24",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001566044&type=8-K"
     },
@@ -167,10 +177,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Wellgistics Health, Inc.",
-      "old_ticker": "WGRX",
+      "old_ticker": "",
       "new_name": "DataMeds AI, Inc.",
       "new_ticker": "MEDS",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-07-21",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002030763&type=8-K"
     },
@@ -337,10 +347,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Avalon GloboCare Corp.",
-      "old_ticker": "ALBT",
+      "old_ticker": "",
       "new_name": "Change Agents Corporation.",
       "new_ticker": "CHGA",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-07-13",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001630212&type=8-K"
     },
@@ -357,7 +367,7 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Spring Valley Acquisition Corp. III",
-      "old_ticker": "SVAC",
+      "old_ticker": "GFUZW",
       "new_name": "General Fusion Group Ltd.",
       "new_ticker": "GFUZ",
       "change_type": "Name & Symbol Change",
@@ -727,10 +737,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Aptorum Group Ltd",
-      "old_ticker": "NIKI",
+      "old_ticker": "",
       "new_name": "Niki BioSolutions, Inc.",
-      "new_ticker": "APM",
-      "change_type": "Name & Symbol Change",
+      "new_ticker": "NIKI",
+      "change_type": "Name Change",
       "date": "2026-06-22",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001734005&type=8-K"
     },
