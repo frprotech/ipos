@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T19:40:55+00:00",
+  "updated_at": "2026-08-08T02:45:54+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6613,36 +6613,6 @@
       "change_type": "Name Change",
       "date": "2025-08-11",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002079999&type=8-K"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Resource Mining Corporation Limited",
-      "old_ticker": "RMI",
-      "new_name": "Resource Minerals International Ltd",
-      "new_ticker": "RMI",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-07",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Iron Horse Acquisitions Corp. II",
-      "old_ticker": "IRHOR",
-      "new_name": "Iron Horse Acquisition II Corp.",
-      "new_ticker": "IRHO",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002051985&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "CONDUIT PHARMACEUTICALS INC.",
-      "old_ticker": "CDTTW",
-      "new_name": "CDT Equity Inc.",
-      "new_ticker": "CDT",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001896212&type=8-K"
     }
   ]
 }
