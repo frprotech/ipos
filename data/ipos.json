@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T08:03:24+00:00",
+  "updated_at": "2026-08-10T13:43:12+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -83,6 +83,16 @@
       "fetched_at": "2026-08-10"
     },
     {
+      "company": "Southern Cross Acquisition II Corp.",
+      "ticker": "SCATU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-12",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-10"
+    },
+    {
       "company": "Elk Range Mining Limited",
       "ticker": "ELK",
       "exchange": "ASX",
@@ -90,6 +100,56 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-08-10"
+    },
+    {
+      "company": "BlossomHill Therapeutics, Inc.",
+      "ticker": "BLSM",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-07",
+      "sector": "Healthcare",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-10"
+    },
+    {
+      "company": "Latigo Biotherapeutics, Inc.",
+      "ticker": "LTGO",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-07",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-10"
+    },
+    {
+      "company": "Ticketplus Ltd.",
+      "ticker": "TP",
+      "exchange": "NYSE",
+      "listing_date": "2026-08-07",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-10"
+    },
+    {
+      "company": "OceanLight Acquisition Corp",
+      "ticker": "OCLTU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-07",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-10"
+    },
+    {
+      "company": "Pinnacle Acquisition Corp",
+      "ticker": "PNAQU",
+      "exchange": "NYSE",
+      "listing_date": "2026-08-07",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-10"
     },
     {
