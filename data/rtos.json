@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T03:01:18+00:00",
+  "updated_at": "2026-08-10T08:17:56+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -33,6 +33,16 @@
       "change_type": "Name Change",
       "date": "2026-08-03",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001799191&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Gazelle Parent, Inc.",
+      "old_ticker": "",
+      "new_name": "Obsidian Therapeutics, Inc.",
+      "new_ticker": "OBX",
+      "change_type": "Name Change",
+      "date": "2026-08-03",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002130606&type=8-K"
     },
     {
       "exchange": "CSE",
@@ -1395,16 +1405,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "OFF THE HOOK YS INC.",
-      "old_ticker": "",
-      "new_name": "NextBoat Inc.",
-      "new_ticker": "NXB",
-      "change_type": "Name Change",
-      "date": "2026-05-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067767&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Inspira Technologies OXY B.H.N. Ltd",
       "old_ticker": "QTEXW",
@@ -1413,6 +1413,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-05-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001837493&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "OFF THE HOOK YS INC.",
+      "old_ticker": "",
+      "new_name": "NextBoat Inc.",
+      "new_ticker": "NXB",
+      "change_type": "Name Change",
+      "date": "2026-05-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067767&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -5445,6 +5455,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002023016&type=8-K"
     },
     {
+      "exchange": "NYSE",
+      "old_name": "Prometheus PubCo Inc.",
+      "old_ticker": "",
+      "new_name": "PRESIDIO PRODUCTION Co",
+      "new_ticker": "FTW",
+      "change_type": "Name Change",
+      "date": "2025-09-29",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002083125&type=8-K"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "HELIUS MEDICAL TECHNOLOGIES, INC.",
       "old_ticker": "",
@@ -5463,16 +5483,6 @@
       "change_type": "Name Change",
       "date": "2025-09-29",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001897532&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Prometheus PubCo Inc.",
-      "old_ticker": "",
-      "new_name": "PRESIDIO PRODUCTION Co",
-      "new_ticker": "FTW",
-      "change_type": "Name Change",
-      "date": "2025-09-29",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002083125&type=8-K"
     },
     {
       "exchange": "TSXV",
