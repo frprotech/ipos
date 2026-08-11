@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T07:35:45+00:00",
+  "updated_at": "2026-08-11T13:41:33+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -73,6 +73,16 @@
       "fetched_at": "2026-08-11"
     },
     {
+      "company": "Lyntris Inc.",
+      "ticker": "LYNX",
+      "exchange": "NYSE",
+      "listing_date": "2026-08-19",
+      "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-11"
+    },
+    {
       "company": "Powerhaus Uranium Limited",
       "ticker": "POW",
       "exchange": "ASX",
@@ -88,6 +98,26 @@
       "exchange": "NASDAQ",
       "listing_date": "2026-08-12",
       "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-11"
+    },
+    {
+      "company": "Leader's Advantage Acquisition Corp.",
+      "ticker": "LEDRU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-11",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-11"
+    },
+    {
+      "company": "MetaOptics Ltd",
+      "ticker": "MOT",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-11",
+      "sector": "",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-11"
