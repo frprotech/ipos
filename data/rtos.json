@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T02:55:18+00:00",
+  "updated_at": "2026-08-11T07:58:02+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -217,10 +217,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "LM FUNDING AMERICA, INC.",
-      "old_ticker": "LMFA",
+      "old_ticker": "",
       "new_name": "POWERCOMPUTE, INC.",
       "new_ticker": "PWCM",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-07-20",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001640384&type=8-K"
     },
