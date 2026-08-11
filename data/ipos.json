@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T02:26:51+00:00",
+  "updated_at": "2026-08-11T07:35:45+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -93,6 +93,16 @@
       "fetched_at": "2026-08-11"
     },
     {
+      "company": "BIOMIND LABS INC.",
+      "ticker": "BMND",
+      "exchange": "CSE",
+      "listing_date": "2026-08-11",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-11"
+    },
+    {
       "company": "Elk Range Mining Limited",
       "ticker": "ELK",
       "exchange": "ASX",
@@ -100,6 +110,26 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-08-11"
+    },
+    {
+      "company": "GoldCoast Resource Corp.",
+      "ticker": "GCR",
+      "exchange": "CSE",
+      "listing_date": "2026-08-10",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-11"
+    },
+    {
+      "company": "Aitenders Technologies Inc.",
+      "ticker": "BIDS",
+      "exchange": "CSE",
+      "listing_date": "2026-08-10",
+      "sector": "Technology",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
       "fetched_at": "2026-08-11"
     },
     {
@@ -163,6 +193,16 @@
       "fetched_at": "2026-08-11"
     },
     {
+      "company": "Radiant Uranium Corp.",
+      "ticker": "RUC",
+      "exchange": "CSE",
+      "listing_date": "2026-08-06",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-11"
+    },
+    {
       "company": "TCGX Acquisition Corp.",
       "ticker": "TCGX",
       "exchange": "NASDAQ",
@@ -183,6 +223,16 @@
       "fetched_at": "2026-08-11"
     },
     {
+      "company": "Lynx Resources Corp.",
+      "ticker": "LYNX",
+      "exchange": "CSE",
+      "listing_date": "2026-08-05",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-11"
+    },
+    {
       "company": "BOA Acquisition Corp. II",
       "ticker": "THEOU",
       "exchange": "NASDAQ",
@@ -200,6 +250,16 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-11"
+    },
+    {
+      "company": "Scotia Metals Corp.",
+      "ticker": "SMET",
+      "exchange": "CSE",
+      "listing_date": "2026-08-04",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
       "fetched_at": "2026-08-11"
     },
     {
@@ -293,6 +353,26 @@
       "fetched_at": "2026-08-11"
     },
     {
+      "company": "Northern Discovery Metals Corp.",
+      "ticker": "NOR",
+      "exchange": "CSE",
+      "listing_date": "2026-07-28",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-11"
+    },
+    {
+      "company": "Centenario Gold Corp.",
+      "ticker": "CTG",
+      "exchange": "CSE",
+      "listing_date": "2026-07-27",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-11"
+    },
+    {
       "company": "Scribe Therapeutics, Inc.",
       "ticker": "SCTX",
       "exchange": "NASDAQ",
@@ -323,6 +403,66 @@
       "fetched_at": "2026-08-11"
     },
     {
+      "company": "Generation Uranium Inc.",
+      "ticker": "GEN",
+      "exchange": "CSE",
+      "listing_date": "2026-07-24",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-11"
+    },
+    {
+      "company": "Abitibi Greenstone Gold Corp.",
+      "ticker": "ABGO",
+      "exchange": "CSE",
+      "listing_date": "2026-07-24",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-11"
+    },
+    {
+      "company": "Axion Minerals Corp",
+      "ticker": "AXN",
+      "exchange": "CSE",
+      "listing_date": "2026-07-24",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-11"
+    },
+    {
+      "company": "Silver Pony Resources Corp.",
+      "ticker": "PONY",
+      "exchange": "CSE",
+      "listing_date": "2026-07-24",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-11"
+    },
+    {
+      "company": "Karus Mining Inc.",
+      "ticker": "KARU",
+      "exchange": "CSE",
+      "listing_date": "2026-07-22",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-11"
+    },
+    {
+      "company": "New Aurora Metals Corp.",
+      "ticker": "NAME",
+      "exchange": "CSE",
+      "listing_date": "2026-07-22",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-11"
+    },
+    {
       "company": "Southern Cross Acquisition I Corp.",
       "ticker": "NCOOU",
       "exchange": "NASDAQ",
@@ -343,6 +483,16 @@
       "fetched_at": "2026-08-11"
     },
     {
+      "company": "Copper One Resources Corp. 24JUNE2027 Warrants",
+      "ticker": "CEXY.WT",
+      "exchange": "CSE",
+      "listing_date": "2026-07-21",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-11"
+    },
+    {
       "company": "AMR Resources Acquisition Corp.",
       "ticker": "AMACU",
       "exchange": "NASDAQ",
@@ -350,6 +500,16 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-11"
+    },
+    {
+      "company": "Secur3D Holdings Inc.",
+      "ticker": "SRD",
+      "exchange": "CSE",
+      "listing_date": "2026-07-17",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
       "fetched_at": "2026-08-11"
     },
     {
@@ -453,6 +613,16 @@
       "fetched_at": "2026-08-11"
     },
     {
+      "company": "Else Nutrition Holdings Inc.",
+      "ticker": "BABY",
+      "exchange": "CSE",
+      "listing_date": "2026-07-08",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-11"
+    },
+    {
       "company": "Bleichroeder Acquisition Corp. III",
       "ticker": "BCCQU",
       "exchange": "NASDAQ",
@@ -520,6 +690,26 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-11"
+    },
+    {
+      "company": "Bighorn Metals Corp.",
+      "ticker": "HRNY",
+      "exchange": "CSE",
+      "listing_date": "2026-06-30",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-11"
+    },
+    {
+      "company": "Aureum Exploration Inc.",
+      "ticker": "AURM",
+      "exchange": "CSE",
+      "listing_date": "2026-06-05",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
       "fetched_at": "2026-08-11"
     },
     {
