@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-08-12T03:13:45+00:00",
+  "updated_at": "2026-08-12T08:06:06+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "Pacgold Limited",
+      "old_ticker": "PGO",
+      "new_name": "Broken Hill Gold Ltd",
+      "new_ticker": "BH6",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-08-14",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
     {
       "exchange": "CSE",
       "old_name": "",
@@ -177,10 +187,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "FG Merger II Corp.",
-      "old_ticker": "FGMCR",
+      "old_ticker": "",
       "new_name": "BOXABL Inc.",
       "new_ticker": "BXBL",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-07-21",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001906364&type=8-K"
     },
@@ -613,6 +623,16 @@
       "change_type": "Name Change",
       "date": "2026-06-29",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000826735&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "DPC Holdings Ltd",
+      "old_ticker": "",
+      "new_name": "DPC Holdings PLC",
+      "new_ticker": "DPC",
+      "change_type": "Name Change",
+      "date": "2026-06-26",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002107018&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -1163,6 +1183,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-06-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001839799&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "CTW Cayman",
+      "old_ticker": "",
+      "new_name": "CTW",
+      "new_ticker": "CTW",
+      "change_type": "Name Change",
+      "date": "2026-05-29",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002047148&type=8-K"
     },
     {
       "exchange": "NASDAQ",
