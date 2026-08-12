@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T19:49:22+00:00",
+  "updated_at": "2026-08-12T03:13:45+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6613,26 +6613,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-08-12",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=300565&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "MICROSTRATEGY Inc",
-      "old_ticker": "STRC",
-      "new_name": "Strategy Inc",
-      "new_ticker": "MSTR",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-11",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001050446&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Civil Infrastructure Group Inc.",
-      "old_ticker": "",
-      "new_name": "Cardinal Infrastructure Group Inc.",
-      "new_ticker": "CDNL",
-      "change_type": "Name Change",
-      "date": "2025-08-11",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002079999&type=8-K"
     }
   ]
 }
