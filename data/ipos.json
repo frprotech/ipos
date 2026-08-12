@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T02:43:17+00:00",
+  "updated_at": "2026-08-12T07:51:03+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -23,8 +23,8 @@
       "fetched_at": "2026-08-12"
     },
     {
-      "company": "Axiant Resources Limited",
-      "ticker": "AXR",
+      "company": "Almasar Minerals Limited",
+      "ticker": "AMK",
       "exchange": "ASX",
       "listing_date": "2026-08-28",
       "sector": "Mining & Materials",
@@ -33,10 +33,10 @@
       "fetched_at": "2026-08-12"
     },
     {
-      "company": "Almasar Minerals Limited",
-      "ticker": "AMK",
+      "company": "Axiant Resources Limited",
+      "ticker": "AXR",
       "exchange": "ASX",
-      "listing_date": "2026-08-21",
+      "listing_date": "2026-08-28",
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
@@ -103,6 +103,16 @@
       "fetched_at": "2026-08-12"
     },
     {
+      "company": "Fields of Gold Corp.",
+      "ticker": "FOG",
+      "exchange": "CSE",
+      "listing_date": "2026-08-12",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-12"
+    },
+    {
       "company": "Leader's Advantage Acquisition Corp.",
       "ticker": "LEDRU",
       "exchange": "NASDAQ",
@@ -127,7 +137,7 @@
       "ticker": "BMND",
       "exchange": "CSE",
       "listing_date": "2026-08-11",
-      "sector": "",
+      "sector": "Healthcare",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
       "fetched_at": "2026-08-12"
@@ -147,7 +157,7 @@
       "ticker": "GCR",
       "exchange": "CSE",
       "listing_date": "2026-08-10",
-      "sector": "",
+      "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
       "fetched_at": "2026-08-12"
@@ -537,7 +547,7 @@
       "ticker": "SRD",
       "exchange": "CSE",
       "listing_date": "2026-07-17",
-      "sector": "",
+      "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
       "fetched_at": "2026-08-12"
@@ -647,7 +657,7 @@
       "ticker": "BABY",
       "exchange": "CSE",
       "listing_date": "2026-07-08",
-      "sector": "",
+      "sector": "Industrials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
       "fetched_at": "2026-08-12"
