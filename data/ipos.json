@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T02:45:38+00:00",
+  "updated_at": "2026-08-13T07:51:48+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -7,6 +7,16 @@
       "ticker": "ARE",
       "exchange": "ASX",
       "listing_date": "2026-09-21",
+      "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-08-13"
+    },
+    {
+      "company": "Super Minerals Ltd.",
+      "ticker": "S88",
+      "exchange": "ASX",
+      "listing_date": "2026-09-17",
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
@@ -37,6 +47,16 @@
       "ticker": "AXR",
       "exchange": "ASX",
       "listing_date": "2026-08-28",
+      "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-08-13"
+    },
+    {
+      "company": "Powerhaus Uranium Limited",
+      "ticker": "POW",
+      "exchange": "ASX",
+      "listing_date": "2026-08-24",
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
@@ -80,16 +100,6 @@
       "sector": "",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-13"
-    },
-    {
-      "company": "Powerhaus Uranium Limited",
-      "ticker": "POW",
-      "exchange": "ASX",
-      "listing_date": "2026-08-17",
-      "sector": "Mining & Materials",
-      "status": "Upcoming",
-      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
       "fetched_at": "2026-08-13"
     },
     {
