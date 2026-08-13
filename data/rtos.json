@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T03:16:34+00:00",
+  "updated_at": "2026-08-13T08:06:48+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -327,10 +327,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Perceptive Capital Solutions Corp",
-      "old_ticker": "PCSC",
+      "old_ticker": "",
       "new_name": "Freenome, Inc.",
       "new_ticker": "FRNM",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-07-15",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002017526&type=8-K"
     },
