@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-08-13T14:09:44+00:00",
+  "updated_at": "2026-08-13T19:46:55+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Bolt Metals Corp",
+      "new_ticker": "BOLT",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-08-18",
+      "source": "https://thecse.com/bulletin/2026-0818-name-and-symbol-change-bolt-metals-corp-bolt"
+    },
     {
       "exchange": "ASX",
       "old_name": "Pacgold Limited",
