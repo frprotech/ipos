@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T07:51:48+00:00",
+  "updated_at": "2026-08-13T13:46:13+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -103,6 +103,26 @@
       "fetched_at": "2026-08-13"
     },
     {
+      "company": "Advasa Holdings, Inc.",
+      "ticker": "ADBT",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-17",
+      "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-13"
+    },
+    {
+      "company": "NorthStrive Acquisition Corp I.",
+      "ticker": "NSAIU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-14",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-13"
+    },
+    {
       "company": "Thunder Bridge Capital Partners V, Ltd.",
       "ticker": "TBCVU",
       "exchange": "NASDAQ",
@@ -113,22 +133,42 @@
       "fetched_at": "2026-08-13"
     },
     {
-      "company": "Southern Cross Acquisition II Corp.",
-      "ticker": "SCATU",
+      "company": "MetaOptics Ltd",
+      "ticker": "MOT",
       "exchange": "NASDAQ",
-      "listing_date": "2026-08-12",
-      "sector": "SPAC / Blank Check",
+      "listing_date": "2026-08-13",
+      "sector": "",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-13"
     },
     {
-      "company": "MetaOptics Ltd",
-      "ticker": "MOT",
+      "company": "Vogenx, Inc.",
+      "ticker": "VOGX",
       "exchange": "NASDAQ",
       "listing_date": "2026-08-12",
       "sector": "",
-      "status": "Expected",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-13"
+    },
+    {
+      "company": "SunScout Holding Ltd",
+      "ticker": "SNSC",
+      "exchange": "NYSE",
+      "listing_date": "2026-08-12",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-13"
+    },
+    {
+      "company": "Londian Wason New Energy Tech Inc.",
+      "ticker": "FOIL",
+      "exchange": "NYSE",
+      "listing_date": "2026-08-12",
+      "sector": "Energy",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-13"
     },
@@ -183,21 +223,11 @@
       "fetched_at": "2026-08-13"
     },
     {
-      "company": "BlossomHill Therapeutics, Inc.",
-      "ticker": "BLSM",
-      "exchange": "NASDAQ",
+      "company": "Pinnacle Acquisition Corp",
+      "ticker": "PNAQU",
+      "exchange": "NYSE",
       "listing_date": "2026-08-07",
-      "sector": "Healthcare",
-      "status": "Priced",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-13"
-    },
-    {
-      "company": "Latigo Biotherapeutics, Inc.",
-      "ticker": "LTGO",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-08-07",
-      "sector": "",
+      "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-13"
@@ -223,11 +253,21 @@
       "fetched_at": "2026-08-13"
     },
     {
-      "company": "Pinnacle Acquisition Corp",
-      "ticker": "PNAQU",
-      "exchange": "NYSE",
+      "company": "BlossomHill Therapeutics, Inc.",
+      "ticker": "BLSM",
+      "exchange": "NASDAQ",
       "listing_date": "2026-08-07",
-      "sector": "SPAC / Blank Check",
+      "sector": "Healthcare",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-13"
+    },
+    {
+      "company": "Latigo Biotherapeutics, Inc.",
+      "ticker": "LTGO",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-07",
+      "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-13"
