@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T19:50:35+00:00",
+  "updated_at": "2026-08-13T03:16:34+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6603,46 +6603,6 @@
       "change_type": "Name Change",
       "date": "2025-08-13",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001074828&type=8-K"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Infinity Lithium Corporation Limited",
-      "old_ticker": "INF",
-      "new_name": "Infinity Metals Limited",
-      "new_ticker": "INF",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-12",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Mayur Resources Limited",
-      "old_ticker": "MRL",
-      "new_name": "Pacific Lime and Cement Limited",
-      "new_ticker": "PLA",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-12",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "RumbleOn, Inc.",
-      "old_ticker": "",
-      "new_name": "RideNow Group, Inc.",
-      "new_ticker": "RDNW",
-      "change_type": "Name Change",
-      "date": "2025-08-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001596961&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "Aranjin Resources Ltd.",
-      "old_ticker": "ARJN",
-      "new_name": "TRINITY ONE METALS LTD.",
-      "new_ticker": "TOM",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-12",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=300565&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
