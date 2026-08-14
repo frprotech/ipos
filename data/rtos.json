@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-08-13T19:46:55+00:00",
+  "updated_at": "2026-08-14T03:14:57+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "NovaRed Mining Inc",
+      "new_ticker": "NRED",
+      "change_type": "Name Change",
+      "date": "2026-08-20",
+      "source": "https://thecse.com/bulletin/2026-0820-name-change-novared-mining-inc-nred"
+    },
     {
       "exchange": "CSE",
       "old_name": "",
@@ -6593,26 +6603,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-08-14",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=300825&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Catapult Group International Ltd",
-      "old_ticker": "CAT",
-      "new_name": "Catapult Sports Ltd",
-      "new_ticker": "CAT",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-13",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "KNOW LABS, INC.",
-      "old_ticker": "",
-      "new_name": "USBC, Inc.",
-      "new_ticker": "USBC",
-      "change_type": "Name Change",
-      "date": "2025-08-13",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001074828&type=8-K"
     }
   ]
 }
