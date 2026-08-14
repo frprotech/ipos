@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T03:14:57+00:00",
+  "updated_at": "2026-08-14T08:04:30+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -13,6 +13,26 @@
       "change_type": "Name Change",
       "date": "2026-08-20",
       "source": "https://thecse.com/bulletin/2026-0820-name-change-novared-mining-inc-nred"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Godolphin Resources Limited",
+      "old_ticker": "GRL",
+      "new_name": "Orbit Resources Limited",
+      "new_ticker": "OBT",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-08-19",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Iris Metals Limited",
+      "old_ticker": "IR1",
+      "new_name": "Palisade Metals Ltd",
+      "new_ticker": "PM1",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-08-18",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
       "exchange": "CSE",
@@ -33,6 +53,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-08-14",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Brenmiller Energy Ltd.",
+      "old_ticker": "",
+      "new_name": "BRENX LTD.",
+      "new_ticker": "BNRG",
+      "change_type": "Name Change",
+      "date": "2026-08-07",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001901215&type=8-K"
     },
     {
       "exchange": "CSE",
@@ -487,7 +517,7 @@
     {
       "exchange": "NASDAQ",
       "old_name": "M3-Brigade Acquisition V Corp.",
-      "old_ticker": "MBAV",
+      "old_ticker": "VLOSU",
       "new_name": "Velos Acquisition I Corp.",
       "new_ticker": "VLOS",
       "change_type": "Name & Symbol Change",
@@ -1197,10 +1227,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Gambling.com Group Ltd",
-      "old_ticker": "GAMB",
+      "old_ticker": "",
       "new_name": "GRANDSTAND Ltd",
       "new_ticker": "GRSD",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-06-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001839799&type=8-K"
     },
