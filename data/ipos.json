@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T07:49:13+00:00",
+  "updated_at": "2026-08-14T13:41:01+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -136,9 +136,19 @@
       "company": "MetaOptics Ltd",
       "ticker": "MOT",
       "exchange": "NASDAQ",
-      "listing_date": "2026-08-13",
+      "listing_date": "2026-08-14",
       "sector": "",
       "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-14"
+    },
+    {
+      "company": "Thunder Bridge Capital Partners V, Ltd.",
+      "ticker": "TBCVU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-13",
+      "sector": "Financial Services",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-14"
     },
