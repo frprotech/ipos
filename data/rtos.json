@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T19:39:45+00:00",
+  "updated_at": "2026-08-15T02:05:22+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6583,56 +6583,6 @@
       "change_type": "Name Change",
       "date": "2025-08-15",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001497186&type=8-K"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Firetail Resources Limited",
-      "old_ticker": "FTL",
-      "new_name": "Mammoth Minerals Limited",
-      "new_ticker": "M79",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-14",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "180 Life Sciences Corp.",
-      "old_ticker": "",
-      "new_name": "FORUM MARKETS Inc",
-      "new_ticker": "FRMM",
-      "change_type": "Name Change",
-      "date": "2025-08-14",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001690080&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "ReShape Lifesciences Inc.",
-      "old_ticker": "",
-      "new_name": "Vyome Holdings, Inc",
-      "new_ticker": "HIND",
-      "change_type": "Name Change",
-      "date": "2025-08-14",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001427570&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Color Star Technology Co., Ltd.",
-      "old_ticker": "",
-      "new_name": "Zeta Network Group",
-      "new_ticker": "ZNB",
-      "change_type": "Name Change",
-      "date": "2025-08-14",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001747661&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "PACE METALS LTD.",
-      "old_ticker": "PACE",
-      "new_name": "TOTAL METALS CORP.",
-      "new_ticker": "TT",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-14",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=300825&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
