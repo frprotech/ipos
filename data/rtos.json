@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T07:17:38+00:00",
+  "updated_at": "2026-08-15T13:19:05+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -53,6 +53,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-08-14",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "BED BATH & BEYOND, INC.",
+      "old_ticker": "",
+      "new_name": "NEIGHBORHOOD INTELLIGENCE, INC.",
+      "new_ticker": "BBBY",
+      "change_type": "Name Change",
+      "date": "2026-08-13",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001130713&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -387,7 +397,7 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Osisko Development Corp.",
-      "old_ticker": "ODV",
+      "old_ticker": "OGGWZ",
       "new_name": "Osisko Gold Group Inc.",
       "new_ticker": "OGG",
       "change_type": "Name & Symbol Change",
@@ -507,7 +517,7 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Greenidge Generation Holdings Inc.",
-      "old_ticker": "GREE",
+      "old_ticker": "GREEL",
       "new_name": "Vulcan Infrastructure & Power Inc.",
       "new_ticker": "VIP",
       "change_type": "Name & Symbol Change",
@@ -547,10 +557,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Envirotech Vehicles, Inc.",
-      "old_ticker": "EVTV",
+      "old_ticker": "",
       "new_name": "AZIO AI HOLDINGS, INC.",
       "new_ticker": "AZIO",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-07-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001563568&type=8-K"
     },
@@ -6458,7 +6468,7 @@
       "exchange": "NYSE",
       "old_name": "BEYOND, INC.",
       "old_ticker": "",
-      "new_name": "BED BATH & BEYOND, INC.",
+      "new_name": "NEIGHBORHOOD INTELLIGENCE, INC.",
       "new_ticker": "BBBY",
       "change_type": "Name Change",
       "date": "2025-08-22",
