@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T01:54:17+00:00",
+  "updated_at": "2026-08-17T07:15:15+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -18,6 +18,16 @@
       "exchange": "ASX",
       "listing_date": "2026-09-21",
       "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-08-17"
+    },
+    {
+      "company": "Innovaero Technologies Limited",
+      "ticker": "INN",
+      "exchange": "ASX",
+      "listing_date": "2026-09-18",
+      "sector": "Technology",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
       "fetched_at": "2026-08-17"
@@ -120,6 +130,16 @@
       "sector": "",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-17"
+    },
+    {
+      "company": "Caldwell Lazard CorePlus Infrastructure Fund",
+      "ticker": "CPIF",
+      "exchange": "CSE",
+      "listing_date": "2026-08-17",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
       "fetched_at": "2026-08-17"
     },
     {
