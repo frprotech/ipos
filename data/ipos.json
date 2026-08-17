@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T07:15:15+00:00",
+  "updated_at": "2026-08-17T13:04:18+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -123,6 +123,16 @@
       "fetched_at": "2026-08-17"
     },
     {
+      "company": "NorthStrive Acquisition Corp I.",
+      "ticker": "NSAIU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-18",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-17"
+    },
+    {
       "company": "Advasa Holdings, Inc.",
       "ticker": "ADBT",
       "exchange": "NASDAQ",
@@ -140,26 +150,6 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-17"
-    },
-    {
-      "company": "NorthStrive Acquisition Corp I.",
-      "ticker": "NSAIU",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-08-14",
-      "sector": "SPAC / Blank Check",
-      "status": "Expected",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-17"
-    },
-    {
-      "company": "MetaOptics Ltd",
-      "ticker": "MOT",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-08-14",
-      "sector": "",
-      "status": "Expected",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-17"
     },
     {
