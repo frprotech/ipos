@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-08-18T02:06:58+00:00",
+  "updated_at": "2026-08-18T07:26:03+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "Hillgrove Resources Limited",
+      "old_ticker": "HGO",
+      "new_name": "Kantra Copper Ltd",
+      "new_ticker": "KAN",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-09-01",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
     {
       "exchange": "CSE",
       "old_name": "",
@@ -63,6 +73,16 @@
       "change_type": "Name Change",
       "date": "2026-08-13",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001130713&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "EQUITY RESIDENTIAL",
+      "old_ticker": "",
+      "new_name": "VIVMARK RESIDENTIAL",
+      "new_ticker": "EQR",
+      "change_type": "Name Change",
+      "date": "2026-08-12",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000906107&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -805,16 +825,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000890541&type=8-K"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "UBERDOC Health Technologies Corp",
-      "new_ticker": "APPT",
-      "change_type": "Name Change",
-      "date": "2026-06-22",
-      "source": "https://thecse.com/bulletin/2026-0622-name-change-uberdoc-health-technologies-corp-appt"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "IQM Finland Oy",
       "old_ticker": "IQMXW",
@@ -963,16 +973,6 @@
       "change_type": "Name Change",
       "date": "2026-06-12",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318886&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Cullinan Metals Corp",
-      "new_ticker": "CMT",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-06-11",
-      "source": "https://thecse.com/bulletin/2026-0611-name-and-symbol-change-cullinan-metals-corp-cmt"
     },
     {
       "exchange": "NASDAQ",
@@ -1385,16 +1385,6 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318027&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Copper One Resources Corp",
-      "new_ticker": "BFG",
-      "change_type": "Symbol Change",
-      "date": "2026-05-23",
-      "source": "https://thecse.com/bulletin/2026-0523-symbol-change-copper-one-resources-corp-bfg"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "GigCapital7 Corp.",
       "old_ticker": "HDRNW",
@@ -1453,16 +1443,6 @@
       "change_type": "Symbol Change",
       "date": "2026-05-21",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=317965&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "United Lithium Corp",
-      "new_ticker": "ULTH",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-05-20",
-      "source": "https://thecse.com/bulletin/2026-0520-name-symbol-change-and-consolidation-united-lithium-corp-ulth"
     },
     {
       "exchange": "NYSE",
@@ -1633,16 +1613,6 @@
       "change_type": "Symbol Change",
       "date": "2026-05-11",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=317806&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Scryb Inc",
-      "new_ticker": "SCYB",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-05-09",
-      "source": "https://thecse.com/bulletin/2026-0509-name-and-symbol-change-scryb-inc-scyb"
     },
     {
       "exchange": "NASDAQ",
@@ -1825,16 +1795,6 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=317027&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Safe Supply Streaming Co Ltd",
-      "new_ticker": "SPLY",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-04-28",
-      "source": "https://thecse.com/bulletin/2026-0428-name-and-symbol-change-safe-supply-streaming-co-ltd-sply"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Coeptis Therapeutics Holdings, Inc.",
       "old_ticker": "",
@@ -1883,16 +1843,6 @@
       "change_type": "Name Change",
       "date": "2026-04-27",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=316785&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Giant Mining Corp",
-      "new_ticker": "BFG",
-      "change_type": "Name Change",
-      "date": "2026-04-25",
-      "source": "https://thecse.com/bulletin/2026-0425-name-change-and-consolidation-giant-mining-corp-bfg"
     },
     {
       "exchange": "TSXV",
@@ -2005,16 +1955,6 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=316469&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Quebec Nickel Corp",
-      "new_ticker": "QNI",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-04-20",
-      "source": "https://thecse.com/bulletin/2026-0420-name-and-symbol-change-quebec-nickel-corp-qni"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Beauty Health Co",
       "old_ticker": "",
@@ -2073,46 +2013,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-04-13",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Allied Strategic Resource Corp",
-      "new_ticker": "ASR",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-04-13",
-      "source": "https://thecse.com/bulletin/2026-0413-name-and-symbol-change-allied-strategic-resource-corp-asr"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Algernon Health Inc",
-      "new_ticker": "AGN",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-04-12",
-      "source": "https://thecse.com/bulletin/2026-0412-name-symbol-change-and-consolidation-algernon-health-inc-agn"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Supreme Critical Metals Inc",
-      "new_ticker": "CRIT",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-04-10",
-      "source": "https://thecse.com/bulletin/2026-0410-name-and-symbol-change-supreme-critical-metals-inc-crit"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Carmanah Minerals Corp",
-      "new_ticker": "CARM",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-04-07",
-      "source": "https://thecse.com/bulletin/2026-0407-name-and-symbol-change-carmanah-minerals-corp-carm"
     },
     {
       "exchange": "NASDAQ",
@@ -2275,16 +2175,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001389545&type=8-K"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "SBD Capital Corp",
-      "new_ticker": "SBD",
-      "change_type": "Symbol Change",
-      "date": "2026-03-21",
-      "source": "https://thecse.com/bulletin/2026-0321-symbol-change-inactive-designation-sbd-capital-corp-sbd"
-    },
-    {
       "exchange": "ASX",
       "old_name": "South Harz Potash Ltd",
       "old_ticker": "SHP",
@@ -2393,16 +2283,6 @@
       "change_type": "Name Change",
       "date": "2026-03-13",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001928581&type=8-K"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Pangea Wellness Inc",
-      "new_ticker": "PNGA",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-03-12",
-      "source": "https://thecse.com/bulletin/2026-0312-name-and-symbol-change-pangea-wellness-inc-pnga"
     },
     {
       "exchange": "NASDAQ",
@@ -2535,16 +2415,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Xcite Resources Inc",
-      "new_ticker": "XRI",
-      "change_type": "Name Change",
-      "date": "2026-03-04",
-      "source": "https://thecse.com/bulletin/2026-0304-name-change-xcite-resources-inc-xri"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "PRESIDIO PUBCO INC.",
       "old_ticker": "",
@@ -2605,16 +2475,6 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=313153&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Nirvana Life Sciences Inc",
-      "new_ticker": "NIRV",
-      "change_type": "Symbol Change",
-      "date": "2026-02-28",
-      "source": "https://thecse.com/bulletin/2026-0228-symbol-change-inactive-designation-nirvana-life-sciences-inc-nirv"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "Armada Hoffler Properties, Inc.",
       "old_ticker": "",
@@ -2635,16 +2495,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000917100&type=8-K"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Global UAV Technologies Ltd",
-      "new_ticker": "UAV",
-      "change_type": "Symbol Change",
-      "date": "2026-02-25",
-      "source": "https://thecse.com/bulletin/2026-0225-symbol-change-inactive-designation-global-uav-technologies-ltd-uav"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "BLACKBOXSTOCKS INC.",
       "old_ticker": "",
@@ -2663,16 +2513,6 @@
       "change_type": "Name Change",
       "date": "2026-02-25",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001789192&type=8-K"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Inspiration Energy Corp",
-      "new_ticker": "ISP",
-      "change_type": "Name Change",
-      "date": "2026-02-23",
-      "source": "https://thecse.com/bulletin/2026-0223-name-change-inspiration-energy-corp-isp"
     },
     {
       "exchange": "NASDAQ",
@@ -2965,16 +2805,6 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=311906&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Beyond Lithium Inc",
-      "new_ticker": "BY",
-      "change_type": "Name Change",
-      "date": "2026-02-10",
-      "source": "https://thecse.com/bulletin/2026-0210-name-change-beyond-lithium-inc-by"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Nisun International Enterprise Development Group Co., Ltd",
       "old_ticker": "",
@@ -3265,26 +3095,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001533615&type=8-K"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Troy Minerals Inc",
-      "new_ticker": "TROY",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-01-25",
-      "source": "https://thecse.com/bulletin/2026-0125-name-and-symbol-change-troy-minerals-inc-troy"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Stock Trend Capital Inc",
-      "new_ticker": "PUMP",
-      "change_type": "Symbol Change",
-      "date": "2026-01-24",
-      "source": "https://thecse.com/bulletin/2026-0124-symbol-change-stock-trend-capital-inc-pump"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "SONIM TECHNOLOGIES INC",
       "old_ticker": "",
@@ -3333,16 +3143,6 @@
       "change_type": "Name Change",
       "date": "2026-01-21",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001867090&type=8-K"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Predictmedix AI Inc",
-      "new_ticker": "PMED",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-01-20",
-      "source": "https://thecse.com/bulletin/2026-0120-name-and-symbol-change-predictmedix-ai-inc-pmed"
     },
     {
       "exchange": "NYSE",
@@ -3615,16 +3415,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001985840&type=8-K"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Forte Group Holdings Inc",
-      "new_ticker": "FGH",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-01-06",
-      "source": "https://thecse.com/bulletin/2026-0106-name-symbol-change-and-consolidation-forte-group-holdings-inc-fgh"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "Buda Juice LLC",
       "old_ticker": "",
@@ -3633,16 +3423,6 @@
       "change_type": "Name Change",
       "date": "2026-01-06",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002079720&type=8-K"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Hi-View Resources Inc",
-      "new_ticker": "HVW",
-      "change_type": "Symbol Change",
-      "date": "2026-01-05",
-      "source": "https://thecse.com/bulletin/2026-0105-symbol-change-hi-view-resources-inc-hvw"
     },
     {
       "exchange": "NASDAQ",
@@ -3713,16 +3493,6 @@
       "change_type": "Name Change",
       "date": "2025-12-29",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001959023&type=8-K"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Prudent Minerals Corp",
-      "new_ticker": "PRUD",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-12-27",
-      "source": "https://thecse.com/bulletin/2025-1227-name-and-symbol-change-prudent-minerals-corp-prud"
     },
     {
       "exchange": "TSXV",
@@ -3835,16 +3605,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Alerio Gold Corp",
-      "new_ticker": "ALE",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-12-19",
-      "source": "https://thecse.com/bulletin/2025-1219-name-and-symbol-change-alerio-gold-corp-ale"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "Janus Parent, LLC",
       "old_ticker": "",
@@ -3923,16 +3683,6 @@
       "change_type": "Name Change",
       "date": "2025-12-18",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=308370&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Cascada Silver Corp",
-      "new_ticker": "CSS",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-12-17",
-      "source": "https://thecse.com/bulletin/2025-1217-name-and-symbol-change-cascada-silver-corp-css"
     },
     {
       "exchange": "NASDAQ",
@@ -4145,16 +3895,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Scope Technologies Corp",
-      "new_ticker": "SCPE",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-12-10",
-      "source": "https://thecse.com/bulletin/2025-1210-name-and-symbol-change-scope-technologies-corp-scpe"
-    },
-    {
       "exchange": "ASX",
       "old_name": "Thunderbird Resources Limited",
       "old_ticker": "THB",
@@ -4225,16 +3965,6 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=307766&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Free Battery Metal Limited",
-      "new_ticker": "FREE",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-12-06",
-      "source": "https://thecse.com/bulletin/2025-1206-name-and-symbol-change-free-battery-metal-limited-free"
-    },
-    {
       "exchange": "ASX",
       "old_name": "Mount Gibson Iron Limited",
       "old_ticker": "MGX",
@@ -4283,16 +4013,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-12-04",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "S2 Minerals Inc",
-      "new_ticker": "STWO",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-12-04",
-      "source": "https://thecse.com/bulletin/2025-1204-name-and-symbol-change-and-reclassification-s2-minerals-inc-stwo"
     },
     {
       "exchange": "ASX",
@@ -4373,16 +4093,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-12-02",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Bettermoo(d) Food Corporation",
-      "new_ticker": "MOOO",
-      "change_type": "Symbol Change",
-      "date": "2025-12-02",
-      "source": "https://thecse.com/bulletin/2025-1202-symbol-change-inactive-designation-bettermoo-d-food-corporation-mooo"
     },
     {
       "exchange": "ASX",
@@ -4475,16 +4185,6 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=307465&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "First American Uranium Inc",
-      "new_ticker": "NIOB",
-      "change_type": "Name Change",
-      "date": "2025-11-29",
-      "source": "https://thecse.com/bulletin/2025-1129-name-change-first-american-uranium-inc-niob"
-    },
-    {
       "exchange": "ASX",
       "old_name": "Evergreen Lithium Limited",
       "old_ticker": "EG1",
@@ -4555,16 +4255,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Pangea Natural Foods Inc",
-      "new_ticker": "PNGA",
-      "change_type": "Name Change",
-      "date": "2025-11-25",
-      "source": "https://thecse.com/bulletin/2025-1125-name-change-pangea-natural-foods-inc-pnga"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Elemental Altus Royalties Corp.",
       "old_ticker": "",
@@ -4605,16 +4295,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Energy Plug Technologies Corp",
-      "new_ticker": "PLUG",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-24",
-      "source": "https://thecse.com/bulletin/2025-1124-name-and-symbol-change-energy-plug-technologies-corp-plug"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "MESA AIR GROUP INC",
       "old_ticker": "",
@@ -4643,16 +4323,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-11-21",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "World Blockchain Corp",
-      "new_ticker": "CK",
-      "change_type": "Symbol Change",
-      "date": "2025-11-21",
-      "source": "https://thecse.com/bulletin/2025-1121-symbol-change-world-blockchain-corp-ck"
     },
     {
       "exchange": "NASDAQ",
@@ -5005,16 +4675,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001702780&type=8-K"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "First American Uranium Inc",
-      "new_ticker": "URM",
-      "change_type": "Symbol Change",
-      "date": "2025-11-04",
-      "source": "https://thecse.com/bulletin/2025-1104-symbol-change-first-american-uranium-inc-urm"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "Magnum Ice Cream Co B.V.",
       "old_ticker": "",
@@ -5225,16 +4885,6 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=304907&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Algernon Pharmaceuticals Inc",
-      "new_ticker": "AGN",
-      "change_type": "Name Change",
-      "date": "2025-10-22",
-      "source": "https://thecse.com/bulletin/2025-1022-name-change-algernon-pharmaceuticals-inc-agn"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Harvard Ave Acquistion Corp",
       "old_ticker": "HAVAR",
@@ -5305,16 +4955,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "York Harbour Metals Inc",
-      "new_ticker": "YORK",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-10-15",
-      "source": "https://thecse.com/bulletin/2025-1015-name-and-symbol-change-york-harbour-metals-inc-york"
-    },
-    {
       "exchange": "ASX",
       "old_name": "Traka Resources Limited",
       "old_ticker": "TKL",
@@ -5343,16 +4983,6 @@
       "change_type": "Name Change",
       "date": "2025-10-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002028707&type=8-K"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Crestview Exploration Inc",
-      "new_ticker": "CRS",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-10-08",
-      "source": "https://thecse.com/bulletin/2025-1008-name-symbol-change-and-consolidation-crestview-exploration-inc-crs"
     },
     {
       "exchange": "NYSE",
@@ -5615,16 +5245,6 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303001&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Stearman Resources Inc",
-      "new_ticker": "STMN",
-      "change_type": "Name Change",
-      "date": "2025-09-28",
-      "source": "https://thecse.com/bulletin/2025-0928-name-change-stearman-resources-inc-stmn"
-    },
-    {
       "exchange": "ASX",
       "old_name": "Sayona Mining Limited",
       "old_ticker": "SYA",
@@ -5683,16 +5303,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-09-24",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Prisma Exploration Inc",
-      "new_ticker": "PMS",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-24",
-      "source": "https://thecse.com/bulletin/2025-0924-name-and-symbol-change-prisma-exploration-inc-pms"
     },
     {
       "exchange": "NYSE",
@@ -5953,16 +5563,6 @@
       "change_type": "Symbol Change",
       "date": "2025-09-15",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302368&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Zoglo&#x27;s Food Corp",
-      "new_ticker": "ZOG",
-      "change_type": "Symbol Change",
-      "date": "2025-09-12",
-      "source": "https://thecse.com/bulletin/2025-0912-symbol-change-inactive-designation-zoglo-s-food-corp-zog"
     },
     {
       "exchange": "NYSE",
@@ -6445,16 +6045,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001425355&type=8-K"
     },
     {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Ameriwest Lithium Inc",
-      "new_ticker": "AWLI",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-23",
-      "source": "https://thecse.com/bulletin/2025-0823-name-and-symbol-change-ameriwest-lithium-inc-awli"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "HomeStreet, Inc.",
       "old_ticker": "",
@@ -6553,16 +6143,6 @@
       "change_type": "Name Change",
       "date": "2025-08-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086745&type=8-K"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Treatment.com AI Inc",
-      "new_ticker": "TRUE",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-18",
-      "source": "https://thecse.com/bulletin/2025-0818-name-and-symbol-change-treatment-com-ai-inc-true"
     },
     {
       "exchange": "NASDAQ",
