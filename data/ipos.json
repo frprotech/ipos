@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T07:04:28+00:00",
+  "updated_at": "2026-08-19T13:07:24+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -123,12 +123,22 @@
       "fetched_at": "2026-08-19"
     },
     {
-      "company": "Advasa Holdings, Inc.",
-      "ticker": "ADBT",
+      "company": "NorthStrive Acquisition Corp I.",
+      "ticker": "NSAIU",
       "exchange": "NASDAQ",
       "listing_date": "2026-08-18",
-      "sector": "",
-      "status": "Expected",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-19"
+    },
+    {
+      "company": "Karman Line Acquisition Corp.",
+      "ticker": "XTERU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-18",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-19"
     },
