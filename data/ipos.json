@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T01:52:04+00:00",
+  "updated_at": "2026-08-19T07:04:28+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -118,26 +118,6 @@
       "exchange": "NYSE",
       "listing_date": "2026-08-19",
       "sector": "",
-      "status": "Expected",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-19"
-    },
-    {
-      "company": "Karman Line Acquisition Corp.",
-      "ticker": "XTERU",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-08-18",
-      "sector": "SPAC / Blank Check",
-      "status": "Expected",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-19"
-    },
-    {
-      "company": "NorthStrive Acquisition Corp I.",
-      "ticker": "NSAIU",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-08-18",
-      "sector": "SPAC / Blank Check",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-19"
