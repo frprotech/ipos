@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T19:17:44+00:00",
+  "updated_at": "2026-08-19T02:08:28+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6573,26 +6573,6 @@
       "change_type": "Name Change",
       "date": "2025-08-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086745&type=8-K"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Treatment.com AI Inc",
-      "new_ticker": "TRUE",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-18",
-      "source": "https://thecse.com/bulletin/2025-0818-name-and-symbol-change-treatment-com-ai-inc-true"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Blade Air Mobility, Inc.",
-      "old_ticker": "",
-      "new_name": "Strata Critical Medical, Inc.",
-      "new_ticker": "SRTA",
-      "change_type": "Name Change",
-      "date": "2025-08-18",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001779128&type=8-K"
     }
   ]
 }
