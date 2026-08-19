@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T02:08:28+00:00",
+  "updated_at": "2026-08-19T07:26:08+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -2333,16 +2333,6 @@
       "change_type": "Name Change",
       "date": "2026-03-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001734750&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Brookfield Business Partners L.P.",
-      "old_ticker": "",
-      "new_name": "Brookfield Business Corp",
-      "new_ticker": "BBUC",
-      "change_type": "Name Change",
-      "date": "2026-03-18",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001654795&type=8-K"
     },
     {
       "exchange": "TSXV",

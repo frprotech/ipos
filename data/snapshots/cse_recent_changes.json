@@ -598,5 +598,12 @@
       "symbol_was": "RELH",
       "effective_on": "2026-08-07"
     }
+  ],
+  "IRON": [
+    {
+      "name_was": "Bolt Metals Corp.",
+      "symbol_was": "BOLT",
+      "effective_on": "2026-08-19"
+    }
   ]
 }
