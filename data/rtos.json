@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T02:08:23+00:00",
+  "updated_at": "2026-08-20T07:29:09+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -77,10 +77,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "BED BATH & BEYOND, INC.",
-      "old_ticker": "",
+      "old_ticker": "BBBY",
       "new_name": "NEIGHBORHOOD INTELLIGENCE, INC.",
-      "new_ticker": "BBBY",
-      "change_type": "Name Change",
+      "new_ticker": "NXH",
+      "change_type": "Name & Symbol Change",
       "date": "2026-08-13",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001130713&type=8-K"
     },
@@ -89,7 +89,7 @@
       "old_name": "EQUITY RESIDENTIAL",
       "old_ticker": "",
       "new_name": "VIVMARK RESIDENTIAL",
-      "new_ticker": "EQR",
+      "new_ticker": "VMRK",
       "change_type": "Name Change",
       "date": "2026-08-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000906107&type=8-K"
@@ -119,7 +119,7 @@
       "old_name": "QVC INC",
       "old_ticker": "",
       "new_name": "QVC Group, Inc.",
-      "new_ticker": "QVCCQ",
+      "new_ticker": "QVCG",
       "change_type": "Name Change",
       "date": "2026-08-04",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001254699&type=8-K"
@@ -1527,10 +1527,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Inspira Technologies OXY B.H.N. Ltd",
-      "old_ticker": "QTEXW",
+      "old_ticker": "",
       "new_name": "QTREX Quantum Ltd.",
       "new_ticker": "QTEX",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-05-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001837493&type=8-K"
     },
@@ -6497,10 +6497,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "BEYOND, INC.",
-      "old_ticker": "",
+      "old_ticker": "BBBY",
       "new_name": "NEIGHBORHOOD INTELLIGENCE, INC.",
-      "new_ticker": "BBBY",
-      "change_type": "Name Change",
+      "new_ticker": "NXH",
+      "change_type": "Name & Symbol Change",
       "date": "2025-08-22",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001130713&type=8-K"
     },
