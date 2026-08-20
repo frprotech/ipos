@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T19:12:41+00:00",
+  "updated_at": "2026-08-20T02:08:23+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6553,16 +6553,6 @@
       "change_type": "Name Change",
       "date": "2025-08-20",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001061353&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "AYRO, Inc.",
-      "old_ticker": "",
-      "new_name": "Fabric.AI, Inc.",
-      "new_ticker": "FABC",
-      "change_type": "Name Change",
-      "date": "2025-08-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086745&type=8-K"
     }
   ]
 }
