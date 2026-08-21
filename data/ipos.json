@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T13:09:47+00:00",
+  "updated_at": "2026-08-21T18:55:22+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -843,6 +843,46 @@
       "fetched_at": "2026-08-21"
     },
     {
+      "company": "Harvest SpaceX Enhanced High Income Shares ETF",
+      "ticker": "SPXE",
+      "exchange": "TSX",
+      "listing_date": "2026-06-12",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-21"
+    },
+    {
+      "company": "SpaceX CDR (CAD Hedged)",
+      "ticker": "SPCX",
+      "exchange": "TSX",
+      "listing_date": "2026-06-11",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-21"
+    },
+    {
+      "company": "LunR Royalties Corp.",
+      "ticker": "LUNR",
+      "exchange": "TSX",
+      "listing_date": "2026-06-08",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-21"
+    },
+    {
+      "company": "Valor Gold Corp.",
+      "ticker": "VGC",
+      "exchange": "TSX",
+      "listing_date": "2026-06-05",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-21"
+    },
+    {
       "company": "Aureum Exploration Inc.",
       "ticker": "AURM",
       "exchange": "CSE",
@@ -863,6 +903,16 @@
       "fetched_at": "2026-08-21"
     },
     {
+      "company": "Desjardins Global Government Bond Index ETF",
+      "ticker": "DGGB",
+      "exchange": "TSX",
+      "listing_date": "2026-06-01",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-21"
+    },
+    {
       "company": "Flow Capital Corp",
       "ticker": "FW",
       "exchange": "CSE",
@@ -870,6 +920,36 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-21"
+    },
+    {
+      "company": "Global Real Assets Trust",
+      "ticker": "GLRA.PR.A",
+      "exchange": "TSX",
+      "listing_date": "2026-05-29",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-21"
+    },
+    {
+      "company": "Vanguard Developed ex-North America Dividend Appreciation Index ETF",
+      "ticker": "VIGG",
+      "exchange": "TSX",
+      "listing_date": "2026-05-29",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-21"
+    },
+    {
+      "company": "Vanguard U.S. High Dividend Yield Index ETF (CAD-hedged)",
+      "ticker": "VUDH",
+      "exchange": "TSX",
+      "listing_date": "2026-05-29",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
       "fetched_at": "2026-08-21"
     },
     {
