@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T02:14:07+00:00",
+  "updated_at": "2026-08-21T07:31:24+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -12,6 +12,16 @@
       "new_ticker": "KAN",
       "change_type": "Name & Symbol Change",
       "date": "2026-09-01",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Metalstech Ltd",
+      "old_ticker": "MTC",
+      "new_name": "Global Gold Mining Limited",
+      "new_ticker": "GGM",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-08-25",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
@@ -73,6 +83,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-08-14",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Veraxa Biotech Holding AG",
+      "old_ticker": "VRXAW",
+      "new_name": "Veraxa Biotech AG - Post de-SPAC",
+      "new_ticker": "VRXA",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-08-13",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002079109&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -149,7 +169,7 @@
       "old_name": "Oncology Institute, Inc.",
       "old_ticker": "",
       "new_name": "Starling Oncology, Inc.",
-      "new_ticker": "TOI",
+      "new_ticker": "STLN",
       "change_type": "Name Change",
       "date": "2026-08-03",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001799191&type=8-K"
@@ -247,10 +267,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "VYNE Therapeutics Inc.",
-      "old_ticker": "VYNE",
+      "old_ticker": "",
       "new_name": "Yarrow Bioscience, Inc.",
       "new_ticker": "YARW",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-07-24",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001566044&type=8-K"
     },
@@ -499,7 +519,7 @@
       "old_name": "Lakeside Holding Ltd",
       "old_ticker": "",
       "new_name": "Quanome Technologies, Inc.",
-      "new_ticker": "LSH",
+      "new_ticker": "QNME",
       "change_type": "Name Change",
       "date": "2026-07-10",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001996192&type=8-K"
@@ -2098,6 +2118,16 @@
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
+      "new_name": "Allied Strategic Resource Corp",
+      "new_ticker": "ASR",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-04-13",
+      "source": "https://thecse.com/bulletin/2026-0413-name-and-symbol-change-allied-strategic-resource-corp-asr"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
       "new_name": "Algernon Health Inc",
       "new_ticker": "AGN",
       "change_type": "Name & Symbol Change",
@@ -2603,6 +2633,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-03-02",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=313153&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Nirvana Life Sciences Inc",
+      "new_ticker": "NIRV",
+      "change_type": "Symbol Change",
+      "date": "2026-02-28",
+      "source": "https://thecse.com/bulletin/2026-0228-symbol-change-inactive-designation-nirvana-life-sciences-inc-nirv"
     },
     {
       "exchange": "NYSE",
@@ -3485,6 +3525,16 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Mijem Newcomm Tech Inc",
+      "new_ticker": "MJEM",
+      "change_type": "Symbol Change",
+      "date": "2026-01-09",
+      "source": "https://thecse.com/bulletin/2026-0109-resumption-and-symbol-change-inactive-designation-mijem-newcomm-tech-inc-mjem"
+    },
+    {
       "exchange": "NYSE",
       "old_name": "Pure Storage, Inc.",
       "old_ticker": "",
@@ -3593,6 +3643,16 @@
       "change_type": "Name Change",
       "date": "2026-01-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001985840&type=8-K"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Forte Group Holdings Inc",
+      "new_ticker": "FGH",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-01-06",
+      "source": "https://thecse.com/bulletin/2026-0106-name-symbol-change-and-consolidation-forte-group-holdings-inc-fgh"
     },
     {
       "exchange": "NYSE",
@@ -4255,6 +4315,16 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "S2 Minerals Inc",
+      "new_ticker": "STWO",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-12-04",
+      "source": "https://thecse.com/bulletin/2025-1204-name-and-symbol-change-and-reclassification-s2-minerals-inc-stwo"
+    },
+    {
       "exchange": "ASX",
       "old_name": "PMC Capital Limited",
       "old_ticker": "PMC",
@@ -4333,6 +4403,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-12-02",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Bettermoo(d) Food Corporation",
+      "new_ticker": "MOOO",
+      "change_type": "Symbol Change",
+      "date": "2025-12-02",
+      "source": "https://thecse.com/bulletin/2025-1202-symbol-change-inactive-designation-bettermoo-d-food-corporation-mooo"
     },
     {
       "exchange": "ASX",
@@ -4423,6 +4503,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-12-01",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=307465&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "First American Uranium Inc",
+      "new_ticker": "NIOB",
+      "change_type": "Name Change",
+      "date": "2025-11-29",
+      "source": "https://thecse.com/bulletin/2025-1129-name-change-first-american-uranium-inc-niob"
     },
     {
       "exchange": "ASX",
@@ -4693,6 +4783,16 @@
       "change_type": "Symbol Change",
       "date": "2025-11-18",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306666&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Digicann Ventures Inc",
+      "new_ticker": "DCNN",
+      "change_type": "Symbol Change",
+      "date": "2025-11-16",
+      "source": "https://thecse.com/bulletin/2025-1116-resumption-and-symbol-change-inactive-designation-digicann-ventures-inc-dcnn"
     },
     {
       "exchange": "NYSE",
@@ -5235,6 +5335,16 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "York Harbour Metals Inc",
+      "new_ticker": "YORK",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-15",
+      "source": "https://thecse.com/bulletin/2025-1015-name-and-symbol-change-york-harbour-metals-inc-york"
+    },
+    {
       "exchange": "ASX",
       "old_name": "Traka Resources Limited",
       "old_ticker": "TKL",
@@ -5263,6 +5373,16 @@
       "change_type": "Name Change",
       "date": "2025-10-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002028707&type=8-K"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Crestview Exploration Inc",
+      "new_ticker": "CRS",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-08",
+      "source": "https://thecse.com/bulletin/2025-1008-name-symbol-change-and-consolidation-crestview-exploration-inc-crs"
     },
     {
       "exchange": "NYSE",
@@ -5863,6 +5983,16 @@
       "change_type": "Symbol Change",
       "date": "2025-09-15",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302368&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Zoglo&#x27;s Food Corp",
+      "new_ticker": "ZOG",
+      "change_type": "Symbol Change",
+      "date": "2025-09-12",
+      "source": "https://thecse.com/bulletin/2025-0912-symbol-change-inactive-designation-zoglo-s-food-corp-zog"
     },
     {
       "exchange": "NYSE",
