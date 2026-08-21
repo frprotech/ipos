@@ -1,7 +1,17 @@
 {
-  "updated_at": "2026-08-21T01:56:25+00:00",
+  "updated_at": "2026-08-21T07:06:54+00:00",
   "sources_failed": [],
   "ipos": [
+    {
+      "company": "Normandy Minerals Ltd",
+      "ticker": "NMD",
+      "exchange": "ASX",
+      "listing_date": "2026-09-29",
+      "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-08-21"
+    },
     {
       "company": "Parbo Resources Limited",
       "ticker": "PRB",
@@ -100,16 +110,6 @@
       "sector": "Technology",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-08-21"
-    },
-    {
-      "company": "First Breach, Inc.",
-      "ticker": "FBDT",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-08-20",
-      "sector": "",
-      "status": "Expected",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-21"
     },
     {
