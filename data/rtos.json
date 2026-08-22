@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T02:08:35+00:00",
+  "updated_at": "2026-08-22T07:20:34+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -1293,6 +1293,16 @@
       "change_type": "Name Change",
       "date": "2026-06-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001495932&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "PUTNAM MASTER INTERMEDIATE INCOME TRUST",
+      "old_ticker": "",
+      "new_name": "FRANKLIN MASTER INTERMEDIATE INCOME TRUST",
+      "new_ticker": "PIM",
+      "change_type": "Name Change",
+      "date": "2026-06-01",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000830622&type=8-K"
     },
     {
       "exchange": "NASDAQ",
