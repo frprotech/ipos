@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T19:05:54+00:00",
+  "updated_at": "2026-08-23T02:15:39+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6503,56 +6503,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-08-23",
       "source": "https://thecse.com/bulletin/2025-0823-name-and-symbol-change-ameriwest-lithium-inc-awli"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "HomeStreet, Inc.",
-      "old_ticker": "",
-      "new_name": "Mechanics Bancorp",
-      "new_ticker": "MCHB",
-      "change_type": "Name Change",
-      "date": "2025-08-22",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001518715&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "BEYOND, INC.",
-      "old_ticker": "BBBY",
-      "new_name": "NEIGHBORHOOD INTELLIGENCE, INC.",
-      "new_ticker": "NXH",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-22",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001130713&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Top Win International Ltd",
-      "old_ticker": "",
-      "new_name": "AsiaStrategy",
-      "new_ticker": "SORA",
-      "change_type": "Name Change",
-      "date": "2025-08-22",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002033515&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Conifer Holdings, Inc.",
-      "old_ticker": "PRHIZ",
-      "new_name": "Presurance Holdings, Inc.",
-      "new_ticker": "PRHI",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-22",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001502292&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "XANDER RESOURCES INC.",
-      "old_ticker": "XND",
-      "new_name": "CORE CRITICAL METALS CORP.",
-      "new_ticker": "CCMC",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-22",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301147&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
