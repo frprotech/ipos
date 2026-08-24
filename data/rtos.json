@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T19:06:08+00:00",
+  "updated_at": "2026-08-24T02:13:48+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6493,16 +6493,6 @@
       "change_type": "Name Change",
       "date": "2025-08-25",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001425355&type=8-K"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Ameriwest Lithium Inc",
-      "new_ticker": "AWLI",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-23",
-      "source": "https://thecse.com/bulletin/2025-0823-name-and-symbol-change-ameriwest-lithium-inc-awli"
     }
   ]
 }
