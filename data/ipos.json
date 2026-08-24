@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T07:19:19+00:00",
+  "updated_at": "2026-08-24T13:12:00+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -80,6 +80,16 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-08-24"
+    },
+    {
+      "company": "Advasa Holdings, Inc.",
+      "ticker": "ADBT",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-25",
+      "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-24"
     },
     {
