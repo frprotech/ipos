@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T07:32:33+00:00",
+  "updated_at": "2026-08-25T13:37:11+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -3436,16 +3436,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "SAFE & GREEN HOLDINGS CORP.",
-      "old_ticker": "",
-      "new_name": "OLENOX INDUSTRIES INC.",
-      "new_ticker": "OLOX",
-      "change_type": "Name Change",
-      "date": "2026-01-20",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001023994&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "PAINREFORM LTD.",
       "old_ticker": "",
       "new_name": "PRF Technologies Ltd.",
@@ -3453,6 +3443,16 @@
       "change_type": "Name Change",
       "date": "2026-01-20",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001801834&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "SAFE & GREEN HOLDINGS CORP.",
+      "old_ticker": "",
+      "new_name": "OLENOX INDUSTRIES INC.",
+      "new_ticker": "OLOX",
+      "change_type": "Name Change",
+      "date": "2026-01-20",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001023994&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -5596,16 +5596,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Global Health Solutions, Inc",
-      "old_ticker": "",
-      "new_name": "Turn Therapeutics Inc.",
-      "new_ticker": "TTRX",
-      "change_type": "Name Change",
-      "date": "2025-09-30",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002023016&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "American Dynamism Acquisition Co",
       "old_ticker": "ADACU",
       "new_name": "American Drive Acquisition Co",
@@ -5613,6 +5603,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-09-30",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002083002&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Global Health Solutions, Inc",
+      "old_ticker": "",
+      "new_name": "Turn Therapeutics Inc.",
+      "new_ticker": "TTRX",
+      "change_type": "Name Change",
+      "date": "2025-09-30",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002023016&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -6255,16 +6255,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001591890&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "American Bitcoin Corp. /DE/",
-      "old_ticker": "",
-      "new_name": "American Bitcoin Corp.",
-      "new_ticker": "ABTC",
-      "change_type": "Name Change",
-      "date": "2025-09-05",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001755953&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "Agi, Inc.",
       "old_ticker": "",
@@ -6273,6 +6263,16 @@
       "change_type": "Name Change",
       "date": "2025-09-05",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002081206&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "American Bitcoin Corp. /DE/",
+      "old_ticker": "",
+      "new_name": "American Bitcoin Corp.",
+      "new_ticker": "ABTC",
+      "change_type": "Name Change",
+      "date": "2025-09-05",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001755953&type=8-K"
     },
     {
       "exchange": "NASDAQ",
