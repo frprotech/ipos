@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T02:09:25+00:00",
+  "updated_at": "2026-08-25T07:32:33+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -43,6 +43,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-08-25",
       "source": "https://thecse.com/bulletin/2026-0825-name-and-symbol-change-mountain-valley-md-holdings-inc-mvmd"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Expion360 Inc.",
+      "old_ticker": "",
+      "new_name": "Expion Energy Inc.",
+      "new_ticker": "XPON",
+      "change_type": "Name Change",
+      "date": "2026-08-24",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001894954&type=8-K"
     },
     {
       "exchange": "CSE",
