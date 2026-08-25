@@ -1,8 +1,6 @@
 {
-  "updated_at": "2026-08-25T13:10:30+00:00",
-  "sources_failed": [
-    "CSE"
-  ],
+  "updated_at": "2026-08-25T18:55:59+00:00",
+  "sources_failed": [],
   "ipos": [
     {
       "company": "Normandy Minerals Ltd",
@@ -405,16 +403,6 @@
       "fetched_at": "2026-08-25"
     },
     {
-      "company": "Lynx Resources Corp.",
-      "ticker": "LYNX",
-      "exchange": "CSE",
-      "listing_date": "2026-08-05",
-      "sector": "Mining & Materials",
-      "status": "Listed",
-      "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-25"
-    },
-    {
       "company": "BOA Acquisition Corp. II",
       "ticker": "THEOU",
       "exchange": "NASDAQ",
@@ -539,16 +527,6 @@
       "ticker": "NOR",
       "exchange": "CSE",
       "listing_date": "2026-07-28",
-      "sector": "Mining & Materials",
-      "status": "Listed",
-      "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-25"
-    },
-    {
-      "company": "Centenario Gold Corp.",
-      "ticker": "CTG",
-      "exchange": "CSE",
-      "listing_date": "2026-07-27",
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
@@ -882,6 +860,56 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-25"
+    },
+    {
+      "company": "Apotex Health Corp.",
+      "ticker": "APTX",
+      "exchange": "TSX",
+      "listing_date": "2026-06-15",
+      "sector": "Healthcare",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-25"
+    },
+    {
+      "company": "Guardian i3 Canadian Dividend Growth Fund",
+      "ticker": "GICD",
+      "exchange": "TSX",
+      "listing_date": "2026-06-15",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-25"
+    },
+    {
+      "company": "Guardian i3 Global Dividend Growth Fund",
+      "ticker": "GIGD",
+      "exchange": "TSX",
+      "listing_date": "2026-06-15",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-25"
+    },
+    {
+      "company": "Hemlo Mining Corp.",
+      "ticker": "HMMC",
+      "exchange": "TSX",
+      "listing_date": "2026-06-15",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-08-25"
+    },
+    {
+      "company": "Ninepoint SpaceX HighShares ETF",
+      "ticker": "SXHI",
+      "exchange": "TSX",
+      "listing_date": "2026-06-15",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
       "fetched_at": "2026-08-25"
     },
     {
@@ -2610,16 +2638,6 @@
       "exchange": "CSE",
       "listing_date": "2026-02-06",
       "sector": "Technology",
-      "status": "Listed",
-      "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-08-25"
-    },
-    {
-      "company": "Maximus Metals Inc.",
-      "ticker": "MM",
-      "exchange": "CSE",
-      "listing_date": "2026-02-06",
-      "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
       "fetched_at": "2026-08-25"
