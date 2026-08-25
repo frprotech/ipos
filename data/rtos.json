@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-08-24T19:19:19+00:00",
+  "updated_at": "2026-08-25T02:09:25+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "Klevo Reward Limited",
+      "old_ticker": "KLV",
+      "new_name": "Klevo Group Limited",
+      "new_ticker": "KLV",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-09-07",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
     {
       "exchange": "ASX",
       "old_name": "Hillgrove Resources Limited",
