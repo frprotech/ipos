@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T07:07:15+00:00",
+  "updated_at": "2026-08-25T13:10:30+00:00",
   "sources_failed": [
     "CSE"
   ],
@@ -82,6 +82,26 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-08-25"
+    },
+    {
+      "company": "JATT III Acquisition Corp",
+      "ticker": "JTTT",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-26",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-25"
+    },
+    {
+      "company": "Southern Cross Acquisition II Corp.",
+      "ticker": "SCATU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-26",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-25"
     },
     {
