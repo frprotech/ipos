@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T07:07:41+00:00",
+  "updated_at": "2026-08-26T13:16:04+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -113,6 +113,16 @@
       "fetched_at": "2026-08-26"
     },
     {
+      "company": "Advasa Holdings, Inc.",
+      "ticker": "ADBT",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-08-25",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-26"
+    },
+    {
       "company": "Powerhaus Uranium Limited",
       "ticker": "POW",
       "exchange": "ASX",
@@ -223,6 +233,16 @@
       "fetched_at": "2026-08-26"
     },
     {
+      "company": "Londian Wason New Energy Tech Inc.",
+      "ticker": "FOIL",
+      "exchange": "NYSE",
+      "listing_date": "2026-08-12",
+      "sector": "Energy",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-08-26"
+    },
+    {
       "company": "Vogenx, Inc.",
       "ticker": "VOGX",
       "exchange": "NASDAQ",
@@ -238,16 +258,6 @@
       "exchange": "NYSE",
       "listing_date": "2026-08-12",
       "sector": "",
-      "status": "Priced",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-26"
-    },
-    {
-      "company": "Londian Wason New Energy Tech Inc.",
-      "ticker": "FOIL",
-      "exchange": "NYSE",
-      "listing_date": "2026-08-12",
-      "sector": "Energy",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-26"
@@ -293,19 +303,19 @@
       "fetched_at": "2026-08-26"
     },
     {
-      "company": "Pinnacle Acquisition Corp",
-      "ticker": "PNAQU",
+      "company": "Ticketplus Ltd.",
+      "ticker": "TP",
       "exchange": "NYSE",
       "listing_date": "2026-08-07",
-      "sector": "SPAC / Blank Check",
+      "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-26"
     },
     {
-      "company": "Ticketplus Ltd.",
-      "ticker": "TP",
-      "exchange": "NYSE",
+      "company": "Latigo Biotherapeutics, Inc.",
+      "ticker": "LTGO",
+      "exchange": "NASDAQ",
       "listing_date": "2026-08-07",
       "sector": "",
       "status": "Priced",
@@ -323,11 +333,11 @@
       "fetched_at": "2026-08-26"
     },
     {
-      "company": "Latigo Biotherapeutics, Inc.",
-      "ticker": "LTGO",
-      "exchange": "NASDAQ",
+      "company": "Pinnacle Acquisition Corp",
+      "ticker": "PNAQU",
+      "exchange": "NYSE",
       "listing_date": "2026-08-07",
-      "sector": "",
+      "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-08-26"
