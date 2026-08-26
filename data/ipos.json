@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T01:57:28+00:00",
+  "updated_at": "2026-08-26T07:07:41+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -66,7 +66,7 @@
       "company": "Axiant Resources Limited",
       "ticker": "AXR",
       "exchange": "ASX",
-      "listing_date": "2026-09-01",
+      "listing_date": "2026-09-02",
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
@@ -103,13 +103,13 @@
       "fetched_at": "2026-08-26"
     },
     {
-      "company": "Advasa Holdings, Inc.",
-      "ticker": "ADBT",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-08-25",
-      "sector": "",
-      "status": "Expected",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "company": "Synergy Metals Corp.",
+      "ticker": "SYN",
+      "exchange": "CSE",
+      "listing_date": "2026-08-26",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
       "fetched_at": "2026-08-26"
     },
     {
@@ -143,16 +143,6 @@
       "fetched_at": "2026-08-26"
     },
     {
-      "company": "SCX.ai Holdings Limited",
-      "ticker": "SCX",
-      "exchange": "ASX",
-      "listing_date": "2026-08-21",
-      "sector": "Technology",
-      "status": "Upcoming",
-      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-08-26"
-    },
-    {
       "company": "First Breach, Inc.",
       "ticker": "FBDT",
       "exchange": "NASDAQ",
@@ -160,16 +150,6 @@
       "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-08-26"
-    },
-    {
-      "company": "Energy Fuels Inc.",
-      "ticker": "EF2",
-      "exchange": "ASX",
-      "listing_date": "2026-08-20",
-      "sector": "Mining & Materials",
-      "status": "Upcoming",
-      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
       "fetched_at": "2026-08-26"
     },
     {
@@ -403,6 +383,16 @@
       "fetched_at": "2026-08-26"
     },
     {
+      "company": "Lynx Resources Corp.",
+      "ticker": "LYNX",
+      "exchange": "CSE",
+      "listing_date": "2026-08-05",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-26"
+    },
+    {
       "company": "BOA Acquisition Corp. II",
       "ticker": "THEOU",
       "exchange": "NASDAQ",
@@ -527,6 +517,16 @@
       "ticker": "NOR",
       "exchange": "CSE",
       "listing_date": "2026-07-28",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-26"
+    },
+    {
+      "company": "Centenario Gold Corp.",
+      "ticker": "CTG",
+      "exchange": "CSE",
+      "listing_date": "2026-07-27",
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
@@ -2788,6 +2788,16 @@
       "exchange": "CSE",
       "listing_date": "2026-02-06",
       "sector": "Technology",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-08-26"
+    },
+    {
+      "company": "Maximus Metals Inc.",
+      "ticker": "MM",
+      "exchange": "CSE",
+      "listing_date": "2026-02-06",
+      "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
       "fetched_at": "2026-08-26"
