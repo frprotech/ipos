@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T21:17:01+00:00",
+  "updated_at": "2026-08-27T10:36:28+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -85,6 +85,16 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "Adlai Nortye Ltd.",
+      "old_ticker": "",
+      "new_name": "Adlai Nortye Group Ltd.",
+      "new_ticker": "ANL",
+      "change_type": "Name Change",
+      "date": "2026-08-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001944552&type=8-K"
+    },
+    {
       "exchange": "ASX",
       "old_name": "Iris Metals Limited",
       "old_ticker": "IR1",
@@ -145,6 +155,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002079109&type=8-K"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "21Shares Sui ETF",
+      "old_ticker": "",
+      "new_name": "21Shares Sui Staking ETF",
+      "new_ticker": "TSUI",
+      "change_type": "Name Change",
+      "date": "2026-08-13",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002061626&type=8-K"
+    },
+    {
       "exchange": "NYSE",
       "old_name": "EQUITY RESIDENTIAL",
       "old_ticker": "",
@@ -157,10 +177,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Brenmiller Energy Ltd.",
-      "old_ticker": "",
+      "old_ticker": "BNRG",
       "new_name": "BRENX LTD.",
-      "new_ticker": "BNRG",
-      "change_type": "Name Change",
+      "new_ticker": "BRNX",
+      "change_type": "Name & Symbol Change",
       "date": "2026-08-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001901215&type=8-K"
     },
@@ -843,6 +863,16 @@
       "change_type": "Name Change",
       "date": "2026-06-25",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002070542&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "21Shares Hyperliquid ETF",
+      "old_ticker": "",
+      "new_name": "21Shares Hyperliquid Staking ETF",
+      "new_ticker": "THYP",
+      "change_type": "Name Change",
+      "date": "2026-06-25",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002090011&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -6473,26 +6503,6 @@
       "change_type": "Name Change",
       "date": "2025-08-27",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001784570&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "RENOVARO INC.",
-      "old_ticker": "",
-      "new_name": "Lunai Bioworks Inc.",
-      "new_ticker": "LNAI",
-      "change_type": "Name Change",
-      "date": "2025-08-26",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001527728&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "CALLINEX MINES INC.",
-      "old_ticker": "CNX",
-      "new_name": "VISIONARY COPPER AND GOLD MINES INC.",
-      "new_ticker": "VCG",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-26",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301221&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
