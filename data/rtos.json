@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T10:36:28+00:00",
+  "updated_at": "2026-08-27T22:38:31+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -5636,16 +5636,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "American Dynamism Acquisition Co",
-      "old_ticker": "ADACU",
-      "new_name": "American Drive Acquisition Co",
-      "new_ticker": "ADAC",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-30",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002083002&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Global Health Solutions, Inc",
       "old_ticker": "",
       "new_name": "Turn Therapeutics Inc.",
@@ -5653,6 +5643,16 @@
       "change_type": "Name Change",
       "date": "2025-09-30",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002023016&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "American Dynamism Acquisition Co",
+      "old_ticker": "ADACU",
+      "new_name": "American Drive Acquisition Co",
+      "new_ticker": "ADAC",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-30",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002083002&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -6295,16 +6295,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001591890&type=8-K"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "Agi, Inc.",
-      "old_ticker": "",
-      "new_name": "AGI Inc",
-      "new_ticker": "AGBK",
-      "change_type": "Name Change",
-      "date": "2025-09-05",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002081206&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "American Bitcoin Corp. /DE/",
       "old_ticker": "",
@@ -6313,6 +6303,16 @@
       "change_type": "Name Change",
       "date": "2025-09-05",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001755953&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Agi, Inc.",
+      "old_ticker": "",
+      "new_name": "AGI Inc",
+      "new_ticker": "AGBK",
+      "change_type": "Name Change",
+      "date": "2025-09-05",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002081206&type=8-K"
     },
     {
       "exchange": "NASDAQ",
