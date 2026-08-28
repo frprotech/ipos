@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T12:16:44+00:00",
+  "updated_at": "2026-08-28T22:43:12+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -2755,6 +2755,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000917100&type=8-K"
     },
     {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Global UAV Technologies Ltd",
+      "new_ticker": "UAV",
+      "change_type": "Symbol Change",
+      "date": "2026-02-25",
+      "source": "https://thecse.com/bulletin/2026-0225-symbol-change-inactive-designation-global-uav-technologies-ltd-uav"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "BLACKBOXSTOCKS INC.",
       "old_ticker": "",
@@ -3603,6 +3613,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-01-09",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Mijem Newcomm Tech Inc",
+      "new_ticker": "MJEM",
+      "change_type": "Symbol Change",
+      "date": "2026-01-09",
+      "source": "https://thecse.com/bulletin/2026-0109-resumption-and-symbol-change-inactive-designation-mijem-newcomm-tech-inc-mjem"
     },
     {
       "exchange": "NASDAQ",
@@ -5445,6 +5465,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002028707&type=8-K"
     },
     {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Crestview Exploration Inc",
+      "new_ticker": "CRS",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-08",
+      "source": "https://thecse.com/bulletin/2025-1008-name-symbol-change-and-consolidation-crestview-exploration-inc-crs"
+    },
+    {
       "exchange": "NYSE",
       "old_name": "New FS Specialty Lending Fund",
       "old_ticker": "",
@@ -5975,6 +6005,16 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302605&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Oberon Uranium Corp",
+      "new_ticker": "OBRN",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-09-16",
+      "source": "https://thecse.com/bulletin/2025-0916-name-symbol-change-and-consolidation-oberon-uranium-corp-obrn"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "Sayona Mining Ltd",
       "old_ticker": "",
@@ -6033,6 +6073,16 @@
       "change_type": "Symbol Change",
       "date": "2025-09-15",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302368&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Zoglo&#x27;s Food Corp",
+      "new_ticker": "ZOG",
+      "change_type": "Symbol Change",
+      "date": "2025-09-12",
+      "source": "https://thecse.com/bulletin/2025-0912-symbol-change-inactive-designation-zoglo-s-food-corp-zog"
     },
     {
       "exchange": "NYSE",
