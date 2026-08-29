@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T22:43:12+00:00",
+  "updated_at": "2026-08-29T07:26:18+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -33,6 +33,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-09-01",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Columbus Circle Capital Corp II",
+      "old_ticker": "CMIIU",
+      "new_name": "Inflection Point Acquisition Corp. VII",
+      "new_ticker": "CMII",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-08-26",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002088805&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -187,10 +197,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Brenmiller Energy Ltd.",
-      "old_ticker": "BNRG",
+      "old_ticker": "",
       "new_name": "BRENX LTD.",
       "new_ticker": "BRNX",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-08-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001901215&type=8-K"
     },
@@ -6483,26 +6493,6 @@
       "change_type": "Name Change",
       "date": "2025-08-29",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001800637&type=8-K"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Opyl Limited",
-      "old_ticker": "OPL",
-      "new_name": "Pathkey.AI Ltd",
-      "new_ticker": "PKY",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-08-28",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "SouthState Corp",
-      "old_ticker": "",
-      "new_name": "SouthState Bank Corp",
-      "new_ticker": "SSB",
-      "change_type": "Name Change",
-      "date": "2025-08-28",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000764038&type=8-K"
     }
   ]
 }
