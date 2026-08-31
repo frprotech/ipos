@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T21:37:11+00:00",
+  "updated_at": "2026-08-31T06:16:42+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -12,6 +12,16 @@
       "new_ticker": "KLV",
       "change_type": "Name & Symbol Change",
       "date": "2026-09-07",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Cosmos Exploration Limited",
+      "old_ticker": "C1X",
+      "new_name": "Eau Lithium Ltd",
+      "new_ticker": "EAU",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-09-02",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
