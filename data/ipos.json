@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T11:38:02+00:00",
+  "updated_at": "2026-09-01T16:38:21+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -73,6 +73,16 @@
       "fetched_at": "2026-09-01"
     },
     {
+      "company": "Three Lions Acquisition Corp.",
+      "ticker": "TLACU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-09-01",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-09-01"
+    },
+    {
       "company": "Pelican AI Corp.",
       "ticker": "PEL",
       "exchange": "CSE",
@@ -80,16 +90,6 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-09-01"
-    },
-    {
-      "company": "Turbogen Ltd.",
-      "ticker": "TRBG",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-08-31",
-      "sector": "",
-      "status": "Expected",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-09-01"
     },
     {
