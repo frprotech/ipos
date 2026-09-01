@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T23:03:58+00:00",
+  "updated_at": "2026-09-01T05:42:59+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -76,6 +76,16 @@
     },
     {
       "exchange": "NASDAQ",
+      "old_name": "Bleichroeder Acquisition France Merger Sub 2",
+      "old_ticker": "",
+      "new_name": "Pasqal Holding SA",
+      "new_ticker": "PSQL",
+      "change_type": "Name Change",
+      "date": "2026-08-25",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002119292&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
       "old_name": "Expion360 Inc.",
       "old_ticker": "",
       "new_name": "Expion Energy, Inc.",
@@ -93,6 +103,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-08-21",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001553788&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Grayscale Zcash Trust (ZEC)",
+      "old_ticker": "",
+      "new_name": "Zcash ETF",
+      "new_ticker": "ZCSH",
+      "change_type": "Name Change",
+      "date": "2026-08-21",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001720265&type=8-K"
     },
     {
       "exchange": "CSE",
@@ -705,6 +725,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001563568&type=8-K"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "D. Boral ARC Merger Corp",
+      "old_ticker": "",
+      "new_name": "Exascale Labs Holdings Inc.",
+      "new_ticker": "XLAB",
+      "change_type": "Name Change",
+      "date": "2026-07-07",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002109869&type=8-K"
+    },
+    {
       "exchange": "ASX",
       "old_name": "Abacus Storage King",
       "old_ticker": "ASK",
@@ -1133,26 +1163,6 @@
       "change_type": "Name Change",
       "date": "2026-06-11",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000895447&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "urban-gro, Inc.",
-      "old_ticker": "",
-      "new_name": "Flash Sports & Media Holdings, Inc.",
-      "new_ticker": "FLZH",
-      "change_type": "Name Change",
-      "date": "2026-06-11",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001706524&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "OSR Holdings, Inc.",
-      "old_ticker": "OSRHW",
-      "new_name": "OSR Health, Inc.",
-      "new_ticker": "OSRH",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-06-11",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001840425&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -1603,6 +1613,16 @@
       "change_type": "Name Change",
       "date": "2026-05-21",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002119322&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Bleichroeder Acquisition 2 France",
+      "old_ticker": "",
+      "new_name": "Pasqal Holding SA",
+      "new_ticker": "PSQL",
+      "change_type": "Name Change",
+      "date": "2026-05-21",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002119292&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -3645,16 +3665,6 @@
       "source": "https://thecse.com/bulletin/2026-0109-resumption-and-symbol-change-inactive-designation-mijem-newcomm-tech-inc-mjem"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "Salarius Pharmaceuticals, Inc.",
-      "old_ticker": "",
-      "new_name": "Decoy Therapeutics Inc.",
-      "new_ticker": "DCOY",
-      "change_type": "Name Change",
-      "date": "2026-01-09",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001615219&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "Pure Storage, Inc.",
       "old_ticker": "",
@@ -3663,6 +3673,16 @@
       "change_type": "Name Change",
       "date": "2026-01-09",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001474432&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Salarius Pharmaceuticals, Inc.",
+      "old_ticker": "",
+      "new_name": "Decoy Therapeutics Inc.",
+      "new_ticker": "DCOY",
+      "change_type": "Name Change",
+      "date": "2026-01-09",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001615219&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -3743,16 +3763,6 @@
       "change_type": "Name Change",
       "date": "2026-01-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001780731&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Tidal Commodities Trust I",
-      "old_ticker": "",
-      "new_name": "Hashdex Commodities Trust",
-      "new_ticker": "DEFI",
-      "change_type": "Name Change",
-      "date": "2026-01-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001985840&type=8-K"
     },
     {
       "exchange": "CSE",
@@ -6325,16 +6335,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001591890&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "American Bitcoin Corp. /DE/",
-      "old_ticker": "",
-      "new_name": "American Bitcoin Corp.",
-      "new_ticker": "ABTC",
-      "change_type": "Name Change",
-      "date": "2025-09-05",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001755953&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "Agi, Inc.",
       "old_ticker": "",
@@ -6343,6 +6343,16 @@
       "change_type": "Name Change",
       "date": "2025-09-05",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002081206&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "American Bitcoin Corp. /DE/",
+      "old_ticker": "",
+      "new_name": "American Bitcoin Corp.",
+      "new_ticker": "ABTC",
+      "change_type": "Name Change",
+      "date": "2025-09-05",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001755953&type=8-K"
     },
     {
       "exchange": "NASDAQ",
