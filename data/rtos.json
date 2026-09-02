@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T16:53:58+00:00",
+  "updated_at": "2026-09-02T21:21:29+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -4545,6 +4545,16 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Bettermoo(d) Food Corporation",
+      "new_ticker": "MOOO",
+      "change_type": "Symbol Change",
+      "date": "2025-12-02",
+      "source": "https://thecse.com/bulletin/2025-1202-symbol-change-inactive-designation-bettermoo-d-food-corporation-mooo"
+    },
+    {
       "exchange": "ASX",
       "old_name": "Gladiator Resources Limited",
       "old_ticker": "GLA",
@@ -4913,6 +4923,16 @@
       "change_type": "Symbol Change",
       "date": "2025-11-18",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306666&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Digicann Ventures Inc",
+      "new_ticker": "DCNN",
+      "change_type": "Symbol Change",
+      "date": "2025-11-16",
+      "source": "https://thecse.com/bulletin/2025-1116-resumption-and-symbol-change-inactive-designation-digicann-ventures-inc-dcnn"
     },
     {
       "exchange": "NYSE",
@@ -5493,6 +5513,16 @@
       "change_type": "Name Change",
       "date": "2025-10-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002028707&type=8-K"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Crestview Exploration Inc",
+      "new_ticker": "CRS",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-10-08",
+      "source": "https://thecse.com/bulletin/2025-1008-name-symbol-change-and-consolidation-crestview-exploration-inc-crs"
     },
     {
       "exchange": "NYSE",
