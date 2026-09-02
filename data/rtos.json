@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T05:08:10+00:00",
+  "updated_at": "2026-09-02T11:45:36+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -43,6 +43,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-09-01",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "HELIX ENERGY SOLUTIONS GROUP INC",
+      "old_ticker": "",
+      "new_name": "HORNBECK OFFSHORE SERVICES, INC.",
+      "new_ticker": "HLX",
+      "change_type": "Name Change",
+      "date": "2026-08-31",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866829&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -183,6 +193,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-08-14",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "HiTek Global Inc.",
+      "old_ticker": "",
+      "new_name": "Biddance AI Systems, Inc.",
+      "new_ticker": "HKIT",
+      "change_type": "Name Change",
+      "date": "2026-08-14",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001742341&type=8-K"
     },
     {
       "exchange": "NASDAQ",
