@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T21:23:21+00:00",
+  "updated_at": "2026-09-02T05:08:10+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6463,16 +6463,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-09-02",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301387&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Magnis Energy Technologies Ltd",
-      "old_ticker": "MNS",
-      "new_name": "Ryzon Materials Limited",
-      "new_ticker": "RYZ",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-01",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     }
   ]
 }
