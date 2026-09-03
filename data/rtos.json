@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T21:21:29+00:00",
+  "updated_at": "2026-09-03T05:09:50+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6443,46 +6443,6 @@
       "change_type": "Name Change",
       "date": "2025-09-03",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001095435&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "FT Intermediate, Inc.",
-      "old_ticker": "",
-      "new_name": "Figure Technology Solutions, Inc.",
-      "new_ticker": "FIGR",
-      "change_type": "Name Change",
-      "date": "2025-09-02",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002064124&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "NEW YORK MORTGAGE TRUST, INC.",
-      "old_ticker": "ADAMG",
-      "new_name": "ADAMAS TRUST, INC.",
-      "new_ticker": "ADAM",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-02",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001273685&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "GOLDSHORE RESOURCES INC.",
-      "old_ticker": "GSHR",
-      "new_name": "GOLD X2 MINING INC.",
-      "new_ticker": "AUXX",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-02",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301385&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "REEM CAPITAL CORP.",
-      "old_ticker": "REEM.P",
-      "new_name": "SEEGNAL INC.",
-      "new_ticker": "SEGN",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-02",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301387&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
