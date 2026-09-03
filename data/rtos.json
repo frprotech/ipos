@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T11:45:21+00:00",
+  "updated_at": "2026-09-03T16:43:06+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -746,16 +746,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Envirotech Vehicles, Inc.",
-      "old_ticker": "",
-      "new_name": "AZIO AI HOLDINGS, INC.",
-      "new_ticker": "AZIO",
-      "change_type": "Name Change",
-      "date": "2026-07-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001563568&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "D. Boral ARC Merger Corp",
       "old_ticker": "XLABW",
       "new_name": "Exascale Labs Holdings Inc.",
@@ -763,6 +753,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-07-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002109869&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Envirotech Vehicles, Inc.",
+      "old_ticker": "",
+      "new_name": "AZIO AI HOLDINGS, INC.",
+      "new_ticker": "AZIO",
+      "change_type": "Name Change",
+      "date": "2026-07-07",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001563568&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -1626,6 +1626,16 @@
     },
     {
       "exchange": "NASDAQ",
+      "old_name": "Bleichroeder Acquisition 2 France",
+      "old_ticker": "PSQLW",
+      "new_name": "Pasqal Holding SA",
+      "new_ticker": "PSQL",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-21",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002119292&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
       "old_name": "GCI Liberty, Inc.",
       "old_ticker": "",
       "new_name": "Liberty Capital Corp/NV",
@@ -1643,16 +1653,6 @@
       "change_type": "Name Change",
       "date": "2026-05-21",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002119322&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Bleichroeder Acquisition 2 France",
-      "old_ticker": "PSQLW",
-      "new_name": "Pasqal Holding SA",
-      "new_ticker": "PSQL",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-05-21",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002119292&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -1705,16 +1705,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "Inspira Technologies OXY B.H.N. Ltd",
-      "old_ticker": "",
-      "new_name": "QTREX Quantum Ltd.",
-      "new_ticker": "QTEX",
-      "change_type": "Name Change",
-      "date": "2026-05-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001837493&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "OFF THE HOOK YS INC.",
       "old_ticker": "",
@@ -1723,6 +1713,16 @@
       "change_type": "Name Change",
       "date": "2026-05-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067767&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Inspira Technologies OXY B.H.N. Ltd",
+      "old_ticker": "",
+      "new_name": "QTREX Quantum Ltd.",
+      "new_ticker": "QTEX",
+      "change_type": "Name Change",
+      "date": "2026-05-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001837493&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -3646,16 +3646,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Ondas Holdings Inc.",
-      "old_ticker": "",
-      "new_name": "Ondas Inc.",
-      "new_ticker": "ONDS",
-      "change_type": "Name Change",
-      "date": "2026-01-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001646188&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "iRhythm Technologies, Inc.",
       "old_ticker": "",
       "new_name": "iRhythm Holdings, Inc.",
@@ -3663,6 +3653,16 @@
       "change_type": "Name Change",
       "date": "2026-01-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Ondas Holdings Inc.",
+      "old_ticker": "",
+      "new_name": "Ondas Inc.",
+      "new_ticker": "ONDS",
+      "change_type": "Name Change",
+      "date": "2026-01-12",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001646188&type=8-K"
     },
     {
       "exchange": "NASDAQ",
