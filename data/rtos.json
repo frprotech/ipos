@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T05:09:50+00:00",
+  "updated_at": "2026-09-03T11:45:21+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -87,10 +87,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Bleichroeder Acquisition France Merger Sub 2",
-      "old_ticker": "",
+      "old_ticker": "PSQLW",
       "new_name": "Pasqal Holding SA",
       "new_ticker": "PSQL",
-      "change_type": "Name Change",
+      "change_type": "Name & Symbol Change",
       "date": "2026-08-25",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002119292&type=8-K"
     },
@@ -193,6 +193,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-08-14",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "FRANKLIN RESOURCES INC",
+      "old_ticker": "",
+      "new_name": "FRANKLIN TEMPLETON INC",
+      "new_ticker": "BEN",
+      "change_type": "Name Change",
+      "date": "2026-08-14",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000038777&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -747,10 +757,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "D. Boral ARC Merger Corp",
-      "old_ticker": "",
+      "old_ticker": "XLABW",
       "new_name": "Exascale Labs Holdings Inc.",
       "new_ticker": "XLAB",
-      "change_type": "Name Change",
+      "change_type": "Name & Symbol Change",
       "date": "2026-07-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002109869&type=8-K"
     },
@@ -1637,10 +1647,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Bleichroeder Acquisition 2 France",
-      "old_ticker": "",
+      "old_ticker": "PSQLW",
       "new_name": "Pasqal Holding SA",
       "new_ticker": "PSQL",
-      "change_type": "Name Change",
+      "change_type": "Name & Symbol Change",
       "date": "2026-05-21",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002119292&type=8-K"
     },
