@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T11:16:11+00:00",
+  "updated_at": "2026-09-04T16:20:27+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -69,6 +69,16 @@
       "listing_date": "2026-09-08",
       "sector": "",
       "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-09-04"
+    },
+    {
+      "company": "Turbogen Ltd.",
+      "ticker": "TRBG",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-09-03",
+      "sector": "",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-09-04"
     },
