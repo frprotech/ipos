@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-09-04T05:09:19+00:00",
+  "updated_at": "2026-09-04T11:46:40+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "Predictive Discovery Limited",
+      "old_ticker": "PDI",
+      "new_name": "PDI Gold Limited",
+      "new_ticker": "PDI",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-09-09",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
     {
       "exchange": "ASX",
       "old_name": "Klevo Rewards Limited",
@@ -57,12 +67,22 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Columbus Circle Capital Corp II",
-      "old_ticker": "CMIIU",
+      "old_ticker": "CMII",
       "new_name": "Inflection Point Acquisition Corp. VII",
-      "new_ticker": "CMII",
+      "new_ticker": "IPXG",
       "change_type": "Name & Symbol Change",
       "date": "2026-08-26",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002088805&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "BIT ORIGIN Ltd",
+      "old_ticker": "",
+      "new_name": "SANGRIX INC.",
+      "new_ticker": "BTOG",
+      "change_type": "Name Change",
+      "date": "2026-08-26",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001735556&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -217,7 +237,7 @@
     {
       "exchange": "NASDAQ",
       "old_name": "BED BATH & BEYOND, INC.",
-      "old_ticker": "BBBY",
+      "old_ticker": "BBBYW",
       "new_name": "NEIGHBORHOOD INTELLIGENCE, INC.",
       "new_ticker": "NXH",
       "change_type": "Name & Symbol Change",
@@ -273,6 +293,16 @@
       "change_type": "Symbol Change",
       "date": "2026-08-06",
       "source": "https://thecse.com/bulletin/2026-0806-symbol-change-rhelion-life-sciences-corp-relh"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Rome Wildlife, Inc.",
+      "old_ticker": "",
+      "new_name": "Real REMAX Group Inc.",
+      "new_ticker": "REAX",
+      "change_type": "Name Change",
+      "date": "2026-08-06",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002136387&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -5193,16 +5223,6 @@
       "change_type": "Symbol Change",
       "date": "2025-11-04",
       "source": "https://thecse.com/bulletin/2025-1104-symbol-change-first-american-uranium-inc-urm"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Magnum Ice Cream Co B.V.",
-      "old_ticker": "",
-      "new_name": "Magnum Ice Cream Co N.V.",
-      "new_ticker": "MICC",
-      "change_type": "Name Change",
-      "date": "2025-11-04",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002071668&type=8-K"
     },
     {
       "exchange": "NASDAQ",
