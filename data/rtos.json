@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T21:04:55+00:00",
+  "updated_at": "2026-09-05T04:59:07+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6403,36 +6403,6 @@
       "change_type": "Name Change",
       "date": "2025-09-05",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001755953&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Hanover Bancorp, Inc. /NY",
-      "old_ticker": "",
-      "new_name": "Hanover Bancorp, Inc. /MD",
-      "new_ticker": "HNVR",
-      "change_type": "Name Change",
-      "date": "2025-09-04",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001828588&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "G.E.T.T. GOLD INC.",
-      "old_ticker": "GETT",
-      "new_name": "G.E.T.T. GOLD INC.",
-      "new_ticker": "GETT.H",
-      "change_type": "Symbol Change",
-      "date": "2025-09-04",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301654&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "Three Valley Copper Corp.",
-      "old_ticker": "TVC.H",
-      "new_name": "THREE VALLEY COPPER CORP.",
-      "new_ticker": "TVC",
-      "change_type": "Symbol Change",
-      "date": "2025-09-04",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301660&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
