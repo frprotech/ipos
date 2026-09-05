@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T15:35:56+00:00",
+  "updated_at": "2026-09-05T20:44:07+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -3676,16 +3676,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "iRhythm Technologies, Inc.",
-      "old_ticker": "",
-      "new_name": "iRhythm Holdings, Inc.",
-      "new_ticker": "IRTC",
-      "change_type": "Name Change",
-      "date": "2026-01-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Ondas Holdings Inc.",
       "old_ticker": "",
       "new_name": "Ondas Inc.",
@@ -3693,6 +3683,16 @@
       "change_type": "Name Change",
       "date": "2026-01-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001646188&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "iRhythm Technologies, Inc.",
+      "old_ticker": "",
+      "new_name": "iRhythm Holdings, Inc.",
+      "new_ticker": "IRTC",
+      "change_type": "Name Change",
+      "date": "2026-01-12",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -6385,16 +6385,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001591890&type=8-K"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "Agi, Inc.",
-      "old_ticker": "",
-      "new_name": "AGI Inc",
-      "new_ticker": "AGBK",
-      "change_type": "Name Change",
-      "date": "2025-09-05",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002081206&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "American Bitcoin Corp. /DE/",
       "old_ticker": "",
@@ -6403,6 +6393,16 @@
       "change_type": "Name Change",
       "date": "2025-09-05",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001755953&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Agi, Inc.",
+      "old_ticker": "",
+      "new_name": "AGI Inc",
+      "new_ticker": "AGBK",
+      "change_type": "Name Change",
+      "date": "2025-09-05",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002081206&type=8-K"
     }
   ]
 }
