@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T11:16:50+00:00",
+  "updated_at": "2026-09-08T16:36:59+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -79,6 +79,16 @@
       "listing_date": "2026-09-08",
       "sector": "",
       "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-09-08"
+    },
+    {
+      "company": "Leader's Advantage Acquisition Corp.",
+      "ticker": "LEDRU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-09-04",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-09-08"
     },
