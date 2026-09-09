@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-09-09T16:55:13+00:00",
+  "updated_at": "2026-09-09T21:15:22+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Spirit Blockchain Capital Inc",
+      "new_ticker": "SPIR",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-09-10",
+      "source": "https://thecse.com/bulletin/2026-0910-name-and-symbol-change-spirit-blockchain-capital-inc-spir"
+    },
     {
       "exchange": "ASX",
       "old_name": "Predictive Discovery Limited",
@@ -13,6 +23,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-09-09",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Lion Copper and Gold Corp",
+      "new_ticker": "LEO",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-09-09",
+      "source": "https://thecse.com/bulletin/2026-0909-name-symbol-change-and-consolidation-lion-copper-and-gold-corp-leo"
     },
     {
       "exchange": "ASX",
