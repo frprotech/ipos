@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T04:39:46+00:00",
+  "updated_at": "2026-09-09T11:21:03+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -15,6 +15,16 @@
     {
       "company": "Identifai Genetics Limited",
       "ticker": "ID1",
+      "exchange": "ASX",
+      "listing_date": "2026-10-16",
+      "sector": "Technology",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-09-09"
+    },
+    {
+      "company": "Overwatch Technologies Limited",
+      "ticker": "OWL",
       "exchange": "ASX",
       "listing_date": "2026-10-16",
       "sector": "Technology",
