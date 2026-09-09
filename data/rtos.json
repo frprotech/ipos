@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T11:55:14+00:00",
+  "updated_at": "2026-09-09T16:55:13+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -1745,16 +1745,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "OFF THE HOOK YS INC.",
-      "old_ticker": "",
-      "new_name": "NextBoat Inc.",
-      "new_ticker": "NXB",
-      "change_type": "Name Change",
-      "date": "2026-05-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067767&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Inspira Technologies OXY B.H.N. Ltd",
       "old_ticker": "",
@@ -1763,6 +1753,16 @@
       "change_type": "Name Change",
       "date": "2026-05-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001837493&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "OFF THE HOOK YS INC.",
+      "old_ticker": "",
+      "new_name": "NextBoat Inc.",
+      "new_ticker": "NXB",
+      "change_type": "Name Change",
+      "date": "2026-05-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067767&type=8-K"
     },
     {
       "exchange": "ASX",
