@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T11:21:03+00:00",
+  "updated_at": "2026-09-09T16:37:04+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -43,6 +43,16 @@
       "fetched_at": "2026-09-09"
     },
     {
+      "company": "SIYATA PTT",
+      "ticker": "PTT",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-09-30",
+      "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-09-09"
+    },
+    {
       "company": "Normandy Minerals Ltd",
       "ticker": "NMD",
       "exchange": "ASX",
@@ -63,6 +73,16 @@
       "fetched_at": "2026-09-09"
     },
     {
+      "company": "Holtec Nuclear Corp",
+      "ticker": "HNUC",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-09-18",
+      "sector": "Energy",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-09-09"
+    },
+    {
       "company": "Innovaero Technologies Limited",
       "ticker": "INN",
       "exchange": "ASX",
@@ -80,26 +100,6 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-09-09"
-    },
-    {
-      "company": "SIYATA PTT",
-      "ticker": "PTT",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-09-08",
-      "sector": "",
-      "status": "Expected",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-09-09"
-    },
-    {
-      "company": "Leader's Advantage Acquisition Corp.",
-      "ticker": "LEDRU",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-09-04",
-      "sector": "SPAC / Blank Check",
-      "status": "Priced",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-09-09"
     },
     {
