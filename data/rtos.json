@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T21:28:13+00:00",
+  "updated_at": "2026-09-09T05:21:14+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -57,10 +57,10 @@
     {
       "exchange": "NYSE",
       "old_name": "HELIX ENERGY SOLUTIONS GROUP INC",
-      "old_ticker": "",
+      "old_ticker": "HOS",
       "new_name": "HORNBECK OFFSHORE SERVICES, INC.",
       "new_ticker": "HLX",
-      "change_type": "Name Change",
+      "change_type": "Name & Symbol Change",
       "date": "2026-08-31",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866829&type=8-K"
     },
@@ -83,6 +83,16 @@
       "change_type": "Name Change",
       "date": "2026-08-26",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001735556&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "YY Group Holding Ltd.",
+      "old_ticker": "YYGH",
+      "new_name": "YYForce Inc.",
+      "new_ticker": "YFOR",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-08-26",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001985337&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -237,10 +247,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "BED BATH & BEYOND, INC.",
-      "old_ticker": "BBBYW",
+      "old_ticker": "",
       "new_name": "NEIGHBORHOOD INTELLIGENCE, INC.",
       "new_ticker": "NXH",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-08-13",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001130713&type=8-K"
     },
@@ -6363,26 +6373,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-09-09",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=301889&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Surfside Acquisition Inc.",
-      "old_ticker": "",
-      "new_name": "DEEP FISSION, INC.",
-      "new_ticker": "FISN",
-      "change_type": "Name Change",
-      "date": "2025-09-08",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001918102&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Fundamental Global Inc.",
-      "old_ticker": "FGNXP",
-      "new_name": "FG Nexus Inc.",
-      "new_ticker": "FGNX",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-08",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001591890&type=8-K"
     }
   ]
 }
