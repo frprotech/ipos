@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T11:17:23+00:00",
+  "updated_at": "2026-09-10T16:23:30+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -70,6 +70,16 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-09-10"
+    },
+    {
+      "company": "Orion180 Insurance Group Inc.",
+      "ticker": "OIG",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-09-18",
+      "sector": "Financial Services",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-09-10"
     },
     {
