@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-09-11T16:47:30+00:00",
+  "updated_at": "2026-09-11T21:21:26+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Aether Global Innovations Corp",
+      "new_ticker": "AETH",
+      "change_type": "Symbol Change",
+      "date": "2026-09-16",
+      "source": "https://thecse.com/bulletin/2026-0916-resumption-and-symbol-change-inactive-designation-aether-global-innovations-corp-aeth"
+    },
     {
       "exchange": "CSE",
       "old_name": "",
