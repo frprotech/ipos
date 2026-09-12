@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T21:21:26+00:00",
+  "updated_at": "2026-09-12T05:08:35+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -107,9 +107,9 @@
     {
       "exchange": "NYSE",
       "old_name": "HELIX ENERGY SOLUTIONS GROUP INC",
-      "old_ticker": "HOS",
+      "old_ticker": "HLX",
       "new_name": "HORNBECK OFFSHORE SERVICES, INC.",
-      "new_ticker": "HLX",
+      "new_ticker": "HOS",
       "change_type": "Name & Symbol Change",
       "date": "2026-08-31",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866829&type=8-K"
@@ -225,6 +225,26 @@
       "source": "https://thecse.com/bulletin/2026-0820-name-change-novared-mining-inc-nred"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "K Wave Media Ltd.",
+      "old_ticker": "KWMWW",
+      "new_name": "Nexus Advanced Technologies Inc.",
+      "new_ticker": "KWM",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-08-20",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002000756&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "CleanCore Solutions, Inc.",
+      "old_ticker": "",
+      "new_name": "Zone Frontier Inc.",
+      "new_ticker": "ZONE",
+      "change_type": "Name Change",
+      "date": "2026-08-20",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001956741&type=8-K"
+    },
+    {
       "exchange": "ASX",
       "old_name": "Godolphin Resources Limited",
       "old_ticker": "GRL",
@@ -243,6 +263,16 @@
       "change_type": "Name Change",
       "date": "2026-08-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001944552&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Glimpse Group, Inc.",
+      "old_ticker": "",
+      "new_name": "Brightline Interactive, Inc./NV",
+      "new_ticker": "BTLN",
+      "change_type": "Name Change",
+      "date": "2026-08-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001854445&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -1815,16 +1845,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "Inspira Technologies OXY B.H.N. Ltd",
-      "old_ticker": "",
-      "new_name": "QTREX Quantum Ltd.",
-      "new_ticker": "QTEX",
-      "change_type": "Name Change",
-      "date": "2026-05-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001837493&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "OFF THE HOOK YS INC.",
       "old_ticker": "",
@@ -1833,6 +1853,16 @@
       "change_type": "Name Change",
       "date": "2026-05-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067767&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Inspira Technologies OXY B.H.N. Ltd",
+      "old_ticker": "",
+      "new_name": "QTREX Quantum Ltd.",
+      "new_ticker": "QTEX",
+      "change_type": "Name Change",
+      "date": "2026-05-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001837493&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -5045,6 +5075,16 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306666&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "Favo Capital, Inc.",
+      "old_ticker": "",
+      "new_name": "Stewards, Inc.",
+      "new_ticker": "SWRD",
+      "change_type": "Name Change",
+      "date": "2025-11-17",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001795851&type=8-K"
+    },
+    {
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
@@ -6333,36 +6373,6 @@
       "change_type": "Symbol Change",
       "date": "2025-09-12",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302350&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Sipa Resources Limited",
-      "old_ticker": "SRI",
-      "new_name": "Auravelle Metals Limited",
-      "new_ticker": "AUV",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-11",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "BioSig Technologies, Inc.",
-      "old_ticker": "",
-      "new_name": "Streamex Corp.",
-      "new_ticker": "STEX",
-      "change_type": "Name Change",
-      "date": "2025-09-11",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001530766&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Hudson Global, Inc.",
-      "old_ticker": "STRRP",
-      "new_name": "Star Equity Holdings, Inc.",
-      "new_ticker": "STRR",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-11",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001210708&type=8-K"
     }
   ]
 }
