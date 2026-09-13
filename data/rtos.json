@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T20:59:49+00:00",
+  "updated_at": "2026-09-13T05:25:31+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6283,96 +6283,6 @@
       "change_type": "Symbol Change",
       "date": "2025-09-15",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302368&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Zoglo&#x27;s Food Corp",
-      "new_ticker": "ZOG",
-      "change_type": "Symbol Change",
-      "date": "2025-09-12",
-      "source": "https://thecse.com/bulletin/2025-0912-symbol-change-inactive-designation-zoglo-s-food-corp-zog"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "SCHLUMBERGER LIMITED/NV",
-      "old_ticker": "",
-      "new_name": "SLB LIMITED/NV",
-      "new_ticker": "SLB",
-      "change_type": "Name Change",
-      "date": "2025-09-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000087347&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "China Automotive Systems Holdings, Inc.",
-      "old_ticker": "",
-      "new_name": "China Automotive Systems, Inc.",
-      "new_ticker": "CAAS",
-      "change_type": "Name Change",
-      "date": "2025-09-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002037400&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Yukon New Parent, Inc.",
-      "old_ticker": "MLCIL",
-      "new_name": "Mount Logan Capital Inc.",
-      "new_ticker": "MLCI",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002051820&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Primega Group Holdings Ltd",
-      "old_ticker": "",
-      "new_name": "DirectBooking Technology Co., Ltd.",
-      "new_ticker": "ZDAI",
-      "change_type": "Name Change",
-      "date": "2025-09-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001966678&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Cyclacel Pharmaceuticals, Inc.",
-      "old_ticker": "",
-      "new_name": "Bio Green Med Solution, Inc.",
-      "new_ticker": "BGMS",
-      "change_type": "Name Change",
-      "date": "2025-09-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001130166&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "ALLEGIANT GOLD LTD.",
-      "old_ticker": "AUAU",
-      "new_name": "A2 GOLD CORP.",
-      "new_ticker": "AUAU",
-      "change_type": "Name Change",
-      "date": "2025-09-12",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302345&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "Sirona Biochem Corp.",
-      "old_ticker": "SBM",
-      "new_name": "SIRONA BIOCHEM CORP.",
-      "new_ticker": "SBM.H",
-      "change_type": "Symbol Change",
-      "date": "2025-09-12",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302349&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "Spot Coffee (Canada) Ltd.",
-      "old_ticker": "SPP",
-      "new_name": "SPOT COFFEE (CANADA) LTD.",
-      "new_ticker": "SPP.H",
-      "change_type": "Symbol Change",
-      "date": "2025-09-12",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302350&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
