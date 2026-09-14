@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T13:23:35+00:00",
+  "updated_at": "2026-09-14T22:06:31+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -1865,16 +1865,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "OFF THE HOOK YS INC.",
-      "old_ticker": "",
-      "new_name": "NextBoat Inc.",
-      "new_ticker": "NXB",
-      "change_type": "Name Change",
-      "date": "2026-05-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067767&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Inspira Technologies OXY B.H.N. Ltd",
       "old_ticker": "",
@@ -1883,6 +1873,16 @@
       "change_type": "Name Change",
       "date": "2026-05-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001837493&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "OFF THE HOOK YS INC.",
+      "old_ticker": "",
+      "new_name": "NextBoat Inc.",
+      "new_ticker": "NXB",
+      "change_type": "Name Change",
+      "date": "2026-05-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067767&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -3665,16 +3665,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001823144&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "MicroTransponder, Inc.",
-      "old_ticker": "",
-      "new_name": "Mobia Medical, Inc.",
-      "new_ticker": "MOBI",
-      "change_type": "Name Change",
-      "date": "2026-01-21",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001489993&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "Fundrise Growth Tech Fund, LLC",
       "old_ticker": "",
@@ -3683,6 +3673,16 @@
       "change_type": "Name Change",
       "date": "2026-01-21",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001867090&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "MicroTransponder, Inc.",
+      "old_ticker": "",
+      "new_name": "Mobia Medical, Inc.",
+      "new_ticker": "MOBI",
+      "change_type": "Name Change",
+      "date": "2026-01-21",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001489993&type=8-K"
     },
     {
       "exchange": "CSE",
@@ -4003,16 +4003,6 @@
       "change_type": "Name Change",
       "date": "2025-12-31",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002082866&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "atai Life Sciences Luxembourg S.A.",
-      "old_ticker": "",
-      "new_name": "AtaiBeckley Inc.",
-      "new_ticker": "ATAI",
-      "change_type": "Name Change",
-      "date": "2025-12-31",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002081043&type=8-K"
     },
     {
       "exchange": "NYSE",
