@@ -619,5 +619,19 @@
       "symbol_was": "SPIR",
       "effective_on": "2026-09-10"
     }
+  ],
+  "AETH.X": [
+    {
+      "name_was": "",
+      "symbol_was": "AETH",
+      "effective_on": "2026-09-14"
+    }
+  ],
+  "LCU": [
+    {
+      "name_was": "Lion Copper and Gold Corp.",
+      "symbol_was": "LEO",
+      "effective_on": "2026-09-14"
+    }
   ]
 }

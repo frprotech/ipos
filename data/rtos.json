@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-09-13T21:09:50+00:00",
+  "updated_at": "2026-09-14T05:29:36+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "BPH Global Ltd",
+      "old_ticker": "BP8",
+      "new_name": "Ocean Sciences Ltd",
+      "new_ticker": "OSS",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-09-29",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
     {
       "exchange": "CSE",
       "old_name": "",
