@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T05:29:36+00:00",
+  "updated_at": "2026-09-14T13:23:35+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -12,6 +12,16 @@
       "new_ticker": "OSS",
       "change_type": "Name & Symbol Change",
       "date": "2026-09-29",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "EV Resources Limited",
+      "old_ticker": "EVR",
+      "new_name": "Antimony Resources Limited",
+      "new_ticker": "ANT",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-09-21",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
