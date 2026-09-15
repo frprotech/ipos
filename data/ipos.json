@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T11:42:33+00:00",
+  "updated_at": "2026-09-15T16:58:01+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -83,6 +83,16 @@
       "fetched_at": "2026-09-15"
     },
     {
+      "company": "Bamboo Insurance Services, Inc.",
+      "ticker": "BMB",
+      "exchange": "NYSE",
+      "listing_date": "2026-09-23",
+      "sector": "Financial Services",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-09-15"
+    },
+    {
       "company": "Innovaero Technologies Limited",
       "ticker": "INN",
       "exchange": "ASX",
@@ -118,6 +128,16 @@
       "exchange": "NASDAQ",
       "listing_date": "2026-09-18",
       "sector": "Energy",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-09-15"
+    },
+    {
+      "company": "Electra Therapeutics, Inc.",
+      "ticker": "ETRA",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-09-18",
+      "sector": "Healthcare",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-09-15"
