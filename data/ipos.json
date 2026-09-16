@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T11:30:14+00:00",
+  "updated_at": "2026-09-16T16:53:10+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -88,6 +88,16 @@
       "exchange": "NYSE",
       "listing_date": "2026-09-23",
       "sector": "Financial Services",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-09-16"
+    },
+    {
+      "company": "Amaero Inc.",
+      "ticker": "AMRO",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-09-23",
+      "sector": "",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-09-16"
