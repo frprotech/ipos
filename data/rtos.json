@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T21:45:28+00:00",
+  "updated_at": "2026-09-17T05:29:03+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -166,6 +166,16 @@
     },
     {
       "exchange": "NASDAQ",
+      "old_name": "Check-Cap Ltd",
+      "old_ticker": "",
+      "new_name": "MBody AI Ltd.",
+      "new_ticker": "MBAI",
+      "change_type": "Name Change",
+      "date": "2026-08-28",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001610590&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
       "old_name": "Cyclerion Therapeutics, Inc.",
       "old_ticker": "CYCN",
       "new_name": "Korsana Biosciences, Inc.",
@@ -233,6 +243,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-08-25",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002119292&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Identiv, Inc.",
+      "old_ticker": "",
+      "new_name": "INVE Technologies, Inc.",
+      "new_ticker": "INVE",
+      "change_type": "Name Change",
+      "date": "2026-08-25",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001036044&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -383,16 +403,6 @@
       "change_type": "Name Change",
       "date": "2026-08-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001742341&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "BED BATH & BEYOND, INC.",
-      "old_ticker": "",
-      "new_name": "NEIGHBORHOOD INTELLIGENCE, INC.",
-      "new_ticker": "NXH",
-      "change_type": "Name Change",
-      "date": "2026-08-13",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001130713&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -6253,36 +6263,6 @@
       "change_type": "Symbol Change",
       "date": "2025-09-17",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302605&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Oberon Uranium Corp",
-      "new_ticker": "OBRN",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-16",
-      "source": "https://thecse.com/bulletin/2025-0916-name-symbol-change-and-consolidation-oberon-uranium-corp-obrn"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Sayona Mining Ltd",
-      "old_ticker": "",
-      "new_name": "Elevra Lithium Ltd",
-      "new_ticker": "ELVR",
-      "change_type": "Name Change",
-      "date": "2025-09-16",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001739016&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "LOBO EV TECHNOLOGIES LTD",
-      "old_ticker": "",
-      "new_name": "LOBO TECHNOLOGIES LTD.",
-      "new_ticker": "LOBO",
-      "change_type": "Name Change",
-      "date": "2025-09-16",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001932072&type=8-K"
     }
   ]
 }
