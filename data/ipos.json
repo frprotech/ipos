@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T11:39:36+00:00",
+  "updated_at": "2026-09-17T16:58:56+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -148,6 +148,16 @@
       "exchange": "NASDAQ",
       "listing_date": "2026-09-18",
       "sector": "Healthcare",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-09-17"
+    },
+    {
+      "company": "Haymaker Acquisition Corp V",
+      "ticker": "HYACU",
+      "exchange": "NYSE",
+      "listing_date": "2026-09-17",
+      "sector": "SPAC / Blank Check",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-09-17"
