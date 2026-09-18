@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T16:22:56+00:00",
+  "updated_at": "2026-09-18T20:53:20+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -183,6 +183,16 @@
       "fetched_at": "2026-09-18"
     },
     {
+      "company": "Ninepoint Enhanced U.S. Equity HighShares ETF",
+      "ticker": "USHI",
+      "exchange": "TSX",
+      "listing_date": "2026-09-11",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-09-18"
+    },
+    {
       "company": "Brutus Mining Inc.",
       "ticker": "BRU",
       "exchange": "CSE",
@@ -200,6 +210,46 @@
       "sector": "Industrials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-09-18"
+    },
+    {
+      "company": "Westcourt Hamilton Yield Portfolio ETF",
+      "ticker": "WHYP, WHYP.U",
+      "exchange": "TSX",
+      "listing_date": "2026-09-09",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-09-18"
+    },
+    {
+      "company": "Corton Rosenberg Global Macro Fund",
+      "ticker": "ROSY, ROSY.U",
+      "exchange": "TSX",
+      "listing_date": "2026-09-08",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-09-18"
+    },
+    {
+      "company": "Corton Theta TM Alpha Fund",
+      "ticker": "TPUT",
+      "exchange": "TSX",
+      "listing_date": "2026-09-08",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-09-18"
+    },
+    {
+      "company": "Vanguard Global Core-Plus Bond ETF",
+      "ticker": "VCOR",
+      "exchange": "TSX",
+      "listing_date": "2026-09-08",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
       "fetched_at": "2026-09-18"
     },
     {
@@ -270,6 +320,66 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-09-18"
+    },
+    {
+      "company": "Avantis CIBC Balanced Asset Allocation ETF",
+      "ticker": "CAKE",
+      "exchange": "TSX",
+      "listing_date": "2026-08-26",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-09-18"
+    },
+    {
+      "company": "Avantis CIBC Growth Asset Allocation ETF",
+      "ticker": "CAGR",
+      "exchange": "TSX",
+      "listing_date": "2026-08-26",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-09-18"
+    },
+    {
+      "company": "Avantis CIBC World Equity ETF",
+      "ticker": "CAGX",
+      "exchange": "TSX",
+      "listing_date": "2026-08-26",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-09-18"
+    },
+    {
+      "company": "BMO Asset-Backed Securities ETF (ZABS, ZABS.F, ZABS.U)",
+      "ticker": "",
+      "exchange": "TSX",
+      "listing_date": "2026-08-26",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-09-18"
+    },
+    {
+      "company": "Brookfield Infrastructure L.P.",
+      "ticker": "BILP.PR.A",
+      "exchange": "TSX",
+      "listing_date": "2026-08-26",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-09-18"
+    },
+    {
+      "company": "New Found Gold Corp.",
+      "ticker": "NFGC",
+      "exchange": "TSX",
+      "listing_date": "2026-08-26",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
       "fetched_at": "2026-09-18"
     },
     {
