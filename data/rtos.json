@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T16:45:21+00:00",
+  "updated_at": "2026-09-18T21:18:19+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -206,16 +206,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "BIT ORIGIN Ltd",
-      "old_ticker": "BTOG",
-      "new_name": "SANGRIX INC.",
-      "new_ticker": "SGRX",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-08-26",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001735556&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "YY Group Holding Ltd.",
       "old_ticker": "YYGH",
       "new_name": "YYForce Inc.",
@@ -223,6 +213,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-08-26",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001985337&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "BIT ORIGIN Ltd",
+      "old_ticker": "BTOG",
+      "new_name": "SANGRIX INC.",
+      "new_ticker": "SGRX",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-08-26",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001735556&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -305,16 +305,6 @@
       "source": "https://thecse.com/bulletin/2026-0820-name-change-novared-mining-inc-nred"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "K Wave Media Ltd.",
-      "old_ticker": "KWM",
-      "new_name": "Nexus Advanced Technologies Inc.",
-      "new_ticker": "NXAT",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-08-20",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002000756&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "CleanCore Solutions, Inc.",
       "old_ticker": "",
@@ -323,6 +313,16 @@
       "change_type": "Name Change",
       "date": "2026-08-20",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001956741&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "K Wave Media Ltd.",
+      "old_ticker": "KWM",
+      "new_name": "Nexus Advanced Technologies Inc.",
+      "new_ticker": "NXAT",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-08-20",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002000756&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -3045,6 +3045,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000917100&type=8-K"
     },
     {
+      "exchange": "NYSE",
+      "old_name": "Haymaker Medici Acquisition Corp.",
+      "old_ticker": "",
+      "new_name": "Haymaker Acquisition Corp V",
+      "new_ticker": "HYAC",
+      "change_type": "Name Change",
+      "date": "2026-02-27",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002111838&type=8-K"
+    },
+    {
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
@@ -5086,16 +5096,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Entero Therapeutics, Inc.",
-      "old_ticker": "",
-      "new_name": "GridAI Technologies Corp.",
-      "new_ticker": "GRDX",
-      "change_type": "Name Change",
-      "date": "2025-11-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604191&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Qualigen Therapeutics, Inc.",
       "old_ticker": "",
       "new_name": "AIxCrypto Holdings, Inc.",
@@ -5103,6 +5103,16 @@
       "change_type": "Name Change",
       "date": "2025-11-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001460702&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Entero Therapeutics, Inc.",
+      "old_ticker": "",
+      "new_name": "GridAI Technologies Corp.",
+      "new_ticker": "GRDX",
+      "change_type": "Name Change",
+      "date": "2025-11-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604191&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -5246,16 +5256,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Mercurity Fintech Holding Inc.",
-      "old_ticker": "",
-      "new_name": "Chaince Digital Holdings Inc.",
-      "new_ticker": "CD",
-      "change_type": "Name Change",
-      "date": "2025-11-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001527762&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "LEAP THERAPEUTICS, INC.",
       "old_ticker": "",
       "new_name": "CYPHERPUNK TECHNOLOGIES INC.",
@@ -5263,6 +5263,16 @@
       "change_type": "Name Change",
       "date": "2025-11-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001509745&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Mercurity Fintech Holding Inc.",
+      "old_ticker": "",
+      "new_name": "Chaince Digital Holdings Inc.",
+      "new_ticker": "CD",
+      "change_type": "Name Change",
+      "date": "2025-11-12",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001527762&type=8-K"
     },
     {
       "exchange": "NASDAQ",
