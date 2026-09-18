@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T21:48:25+00:00",
+  "updated_at": "2026-09-18T05:17:09+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -33,6 +33,16 @@
       "change_type": "Symbol Change",
       "date": "2026-09-16",
       "source": "https://thecse.com/bulletin/2026-0916-resumption-and-symbol-change-inactive-designation-aether-global-innovations-corp-aeth"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Sphere 3D Corp.",
+      "old_ticker": "",
+      "new_name": "DarkHorse Technologies Inc.",
+      "new_ticker": "ANY",
+      "change_type": "Name Change",
+      "date": "2026-09-14",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001591956&type=8-K"
     },
     {
       "exchange": "CSE",
@@ -393,6 +403,16 @@
       "change_type": "Name Change",
       "date": "2026-08-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000038777&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "BED BATH & BEYOND, INC.",
+      "old_ticker": "BBBYW",
+      "new_name": "NEIGHBORHOOD INTELLIGENCE, INC.",
+      "new_ticker": "NXH",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-08-14",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001130713&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -2517,10 +2537,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Myseum, Inc.",
-      "old_ticker": "MYSEW",
+      "old_ticker": "",
       "new_name": "Myseum.AI, Inc.",
       "new_ticker": "MYSE",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-04-06",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001648960&type=8-K"
     },
@@ -6233,36 +6253,6 @@
       "change_type": "Name Change",
       "date": "2025-09-18",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001729997&type=8-K"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "MPower Group Limited",
-      "old_ticker": "MPR",
-      "new_name": "MPR Australia Limited",
-      "new_ticker": "MPR",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-17",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Asra Minerals Limited",
-      "old_ticker": "ASR",
-      "new_name": "Goldarc Resources Limited",
-      "new_ticker": "GA8",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-17",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "Manitex Capital Inc.",
-      "old_ticker": "MNX",
-      "new_name": "MANITEX CAPITAL INC.",
-      "new_ticker": "MNX.H",
-      "change_type": "Symbol Change",
-      "date": "2025-09-17",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302605&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
