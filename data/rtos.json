@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T21:18:19+00:00",
+  "updated_at": "2026-09-19T05:10:16+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -197,7 +197,7 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Columbus Circle Capital Corp II",
-      "old_ticker": "CMII",
+      "old_ticker": "IPXGU",
       "new_name": "Inflection Point Acquisition Corp. VII",
       "new_ticker": "IPXG",
       "change_type": "Name & Symbol Change",
@@ -277,10 +277,10 @@
     {
       "exchange": "NYSE",
       "old_name": "SPLASH BEVERAGE GROUP, INC.",
-      "old_ticker": "SBEV",
+      "old_ticker": "",
       "new_name": "Endovia Health Sciences, Inc.",
       "new_ticker": "EDVA",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-08-21",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001553788&type=8-K"
     },
@@ -6243,26 +6243,6 @@
       "change_type": "Symbol Change",
       "date": "2025-09-19",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302646&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "AIRNET TECHNOLOGY INC.",
-      "old_ticker": "",
-      "new_name": "Yueda Digital Holding",
-      "new_ticker": "YDKG",
-      "change_type": "Name Change",
-      "date": "2025-09-18",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001413745&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Grayscale Digital Large Cap Fund LLC",
-      "old_ticker": "",
-      "new_name": "Grayscale CoinDesk Crypto 5 ETF",
-      "new_ticker": "GDLC",
-      "change_type": "Name Change",
-      "date": "2025-09-18",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001729997&type=8-K"
     }
   ]
 }
