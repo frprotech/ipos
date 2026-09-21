@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T04:53:27+00:00",
+  "updated_at": "2026-09-21T12:45:39+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -123,12 +123,32 @@
       "fetched_at": "2026-09-21"
     },
     {
-      "company": "Holtec Nuclear Corp",
-      "ticker": "HNUC",
+      "company": "Electra Therapeutics, Inc.",
+      "ticker": "ETRA",
       "exchange": "NASDAQ",
       "listing_date": "2026-09-18",
-      "sector": "Energy",
-      "status": "Expected",
+      "sector": "Healthcare",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-09-21"
+    },
+    {
+      "company": "Leader's Advantage Acquisition Corp.",
+      "ticker": "LEDRU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-09-18",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-09-21"
+    },
+    {
+      "company": "Orion180 Insurance Group Inc.",
+      "ticker": "OIG",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-09-18",
+      "sector": "Financial Services",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-09-21"
     },
