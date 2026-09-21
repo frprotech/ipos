@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T13:24:04+00:00",
+  "updated_at": "2026-09-21T22:17:57+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -13,6 +13,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-09-29",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Pegmatite One Lithium and Gold Corp",
+      "new_ticker": "PGA",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-09-26",
+      "source": "https://thecse.com/bulletin/2026-0926-name-and-symbol-change-pegmatite-one-lithium-and-gold-corp-pga"
     },
     {
       "exchange": "ASX",
@@ -4465,16 +4475,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "NanoVibronix, Inc.",
-      "old_ticker": "",
-      "new_name": "ENvue Medical, Inc.",
-      "new_ticker": "FEED",
-      "change_type": "Name Change",
-      "date": "2025-12-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326706&type=8-K"
-    },
-    {
       "exchange": "TSXV",
       "old_name": "MINAEAN SP CONSTRUCTION CORP.",
       "old_ticker": "MSP",
@@ -4483,16 +4483,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-12-12",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=307886&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Chijet Motor Company, Inc.",
-      "old_ticker": "",
-      "new_name": "Digital Currency X Technology Inc.",
-      "new_ticker": "DCX",
-      "change_type": "Name Change",
-      "date": "2025-12-11",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001957413&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -4513,6 +4503,16 @@
       "change_type": "Name Change",
       "date": "2025-12-11",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001937891&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Chijet Motor Company, Inc.",
+      "old_ticker": "",
+      "new_name": "Digital Currency X Technology Inc.",
+      "new_ticker": "DCX",
+      "change_type": "Name Change",
+      "date": "2025-12-11",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001957413&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -5256,16 +5256,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "LEAP THERAPEUTICS, INC.",
-      "old_ticker": "",
-      "new_name": "CYPHERPUNK TECHNOLOGIES INC.",
-      "new_ticker": "CYPH",
-      "change_type": "Name Change",
-      "date": "2025-11-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001509745&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Mercurity Fintech Holding Inc.",
       "old_ticker": "",
       "new_name": "Chaince Digital Holdings Inc.",
@@ -5273,6 +5263,16 @@
       "change_type": "Name Change",
       "date": "2025-11-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001527762&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "LEAP THERAPEUTICS, INC.",
+      "old_ticker": "",
+      "new_name": "CYPHERPUNK TECHNOLOGIES INC.",
+      "new_ticker": "CYPH",
+      "change_type": "Name Change",
+      "date": "2025-11-12",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001509745&type=8-K"
     },
     {
       "exchange": "NASDAQ",
