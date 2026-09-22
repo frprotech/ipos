@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T22:17:57+00:00",
+  "updated_at": "2026-09-22T05:27:25+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -33,6 +33,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-09-21",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "HEALTHY CHOICE WELLNESS CORP.",
+      "old_ticker": "",
+      "new_name": "Host Digital Inc.",
+      "new_ticker": "HCWC",
+      "change_type": "Name Change",
+      "date": "2026-09-17",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001948864&type=8-K"
     },
     {
       "exchange": "CSE",
