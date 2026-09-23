@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-09-23T12:16:29+00:00",
+  "updated_at": "2026-09-23T17:30:26+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Mary Agrotechnologies Inc",
+      "new_ticker": "MARY",
+      "change_type": "Symbol Change",
+      "date": "2026-09-30",
+      "source": "https://thecse.com/bulletin/2026-0930-symbol-change-inactive-designation-mary-agrotechnologies-inc-mary"
+    },
     {
       "exchange": "ASX",
       "old_name": "BPH Global Ltd",
@@ -13,6 +23,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-09-29",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Greenhawk Resources Inc",
+      "new_ticker": "GRHK",
+      "change_type": "Symbol Change",
+      "date": "2026-09-29",
+      "source": "https://thecse.com/bulletin/2026-0929-symbol-change-inactive-designation-greenhawk-resources-inc-grhk"
     },
     {
       "exchange": "CSE",
@@ -113,6 +133,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-09-07",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "newcleo Ltd.",
+      "old_ticker": "",
+      "new_name": "newcleo plc",
+      "new_ticker": "NWCL",
+      "change_type": "Name Change",
+      "date": "2026-09-04",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002131813&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -5406,16 +5436,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "James River Group Holdings, Ltd.",
-      "old_ticker": "",
-      "new_name": "James River Group Holdings, Inc.",
-      "new_ticker": "JRVR",
-      "change_type": "Name Change",
-      "date": "2025-11-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001620459&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "CTRL GROUP Ltd",
       "old_ticker": "",
       "new_name": "TJGC GROUP Ltd",
@@ -5423,6 +5443,16 @@
       "change_type": "Name Change",
       "date": "2025-11-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001969928&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "James River Group Holdings, Ltd.",
+      "old_ticker": "",
+      "new_name": "James River Group Holdings, Inc.",
+      "new_ticker": "JRVR",
+      "change_type": "Name Change",
+      "date": "2025-11-07",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001620459&type=8-K"
     },
     {
       "exchange": "NASDAQ",
