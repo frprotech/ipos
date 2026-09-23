@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T21:41:41+00:00",
+  "updated_at": "2026-09-23T05:14:47+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -37,10 +37,10 @@
     {
       "exchange": "NYSE",
       "old_name": "HEALTHY CHOICE WELLNESS CORP.",
-      "old_ticker": "",
+      "old_ticker": "HCWC",
       "new_name": "Host Digital Inc.",
-      "new_ticker": "HCWC",
-      "change_type": "Name Change",
+      "new_ticker": "HOST",
+      "change_type": "Name & Symbol Change",
       "date": "2026-09-17",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001948864&type=8-K"
     },
@@ -125,6 +125,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001956166&type=8-K"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "DOMO, INC.",
+      "old_ticker": "",
+      "new_name": "Huckleberry.ai, Inc.",
+      "new_ticker": "DOMO",
+      "change_type": "Name Change",
+      "date": "2026-09-03",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001505952&type=8-K"
+    },
+    {
       "exchange": "ASX",
       "old_name": "Cosmos Exploration Limited",
       "old_ticker": "C1X",
@@ -207,10 +217,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Cyclerion Therapeutics, Inc.",
-      "old_ticker": "CYCN",
+      "old_ticker": "",
       "new_name": "Korsana Biosciences, Inc.",
       "new_ticker": "KRSA",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-08-27",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001755237&type=8-K"
     },
@@ -227,10 +237,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "YY Group Holding Ltd.",
-      "old_ticker": "YYGH",
+      "old_ticker": "",
       "new_name": "YYForce Inc.",
       "new_ticker": "YFOR",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-08-26",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001985337&type=8-K"
     },
@@ -593,6 +603,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-07-30",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001860871&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Bitech Technologies Corp",
+      "old_ticker": "",
+      "new_name": "Bimergen Energy Corp",
+      "new_ticker": "BESS",
+      "change_type": "Name Change",
+      "date": "2026-07-30",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001066764&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -6203,16 +6223,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-09-23",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302685&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "GREEN MINING INNOVATION INC. (\"GMI.H\") [formerly Green Mining Innovation Inc.",
-      "new_ticker": "GMI",
-      "change_type": "Name Change",
-      "date": "2025-09-22",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302666&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
