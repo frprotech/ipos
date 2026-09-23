@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T11:33:33+00:00",
+  "updated_at": "2026-09-23T16:56:15+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -93,6 +93,16 @@
       "fetched_at": "2026-09-23"
     },
     {
+      "company": "Accelevation Holdings Corp.",
+      "ticker": "ACCV",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-09-30",
+      "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-09-23"
+    },
+    {
       "company": "SIYATA PTT",
       "ticker": "PTT",
       "exchange": "NASDAQ",
@@ -113,21 +123,21 @@
       "fetched_at": "2026-09-23"
     },
     {
-      "company": "Bamboo Insurance Services, Inc.",
-      "ticker": "BMB",
-      "exchange": "NYSE",
-      "listing_date": "2026-09-23",
-      "sector": "Financial Services",
-      "status": "Expected",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-09-23"
-    },
-    {
       "company": "Amaero Inc.",
       "ticker": "AMRO",
       "exchange": "NASDAQ",
       "listing_date": "2026-09-23",
       "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-09-23"
+    },
+    {
+      "company": "Live Oak Acquisition Corp. VI",
+      "ticker": "LOVIU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-09-23",
+      "sector": "SPAC / Blank Check",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-09-23"
