@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T11:43:45+00:00",
+  "updated_at": "2026-09-24T17:09:10+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -123,12 +123,12 @@
       "fetched_at": "2026-09-24"
     },
     {
-      "company": "Amaero Inc.",
-      "ticker": "AMRO",
+      "company": "Live Oak Acquisition Corp. VI",
+      "ticker": "LOVIU",
       "exchange": "NASDAQ",
       "listing_date": "2026-09-23",
-      "sector": "",
-      "status": "Expected",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-09-24"
     },
@@ -233,6 +233,16 @@
       "fetched_at": "2026-09-24"
     },
     {
+      "company": "Orion180 Insurance Group Inc.",
+      "ticker": "OIG",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-09-18",
+      "sector": "Financial Services",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-09-24"
+    },
+    {
       "company": "Electra Therapeutics, Inc.",
       "ticker": "ETRA",
       "exchange": "NASDAQ",
@@ -248,16 +258,6 @@
       "exchange": "NASDAQ",
       "listing_date": "2026-09-18",
       "sector": "SPAC / Blank Check",
-      "status": "Priced",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-09-24"
-    },
-    {
-      "company": "Orion180 Insurance Group Inc.",
-      "ticker": "OIG",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-09-18",
-      "sector": "Financial Services",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-09-24"
