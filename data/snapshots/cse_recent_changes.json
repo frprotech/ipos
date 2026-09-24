@@ -633,5 +633,26 @@
       "symbol_was": "LEO",
       "effective_on": "2026-09-14"
     }
+  ],
+  "MARY.X": [
+    {
+      "name_was": "",
+      "symbol_was": "MARY",
+      "effective_on": "2026-09-24"
+    }
+  ],
+  "GRHK.X": [
+    {
+      "name_was": "",
+      "symbol_was": "GRHK",
+      "effective_on": "2026-09-24"
+    }
+  ],
+  "ALLG": [
+    {
+      "name_was": "Pegmatite One Lithium and Gold Corp.",
+      "symbol_was": "PGA",
+      "effective_on": "2026-09-24"
+    }
   ]
 }

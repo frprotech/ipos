@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T21:49:13+00:00",
+  "updated_at": "2026-09-24T05:29:30+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -46,6 +46,26 @@
     },
     {
       "exchange": "ASX",
+      "old_name": "Kantra Copper Ltd",
+      "old_ticker": "KAN",
+      "new_name": "Kantra Copper Limited",
+      "new_ticker": "KAN",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-09-25",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Hennessy Capital Investment Corp. VII",
+      "old_ticker": "HVIIR",
+      "new_name": "ONE Nuclear Energy Inc.",
+      "new_ticker": "HVII",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-09-22",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001846416&type=8-K"
+    },
+    {
+      "exchange": "ASX",
       "old_name": "EV Resources Limited",
       "old_ticker": "EVR",
       "new_name": "Antimony Resources Limited",
@@ -77,10 +97,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Sphere 3D Corp.",
-      "old_ticker": "",
+      "old_ticker": "ANY",
       "new_name": "DarkHorse Technologies Inc.",
-      "new_ticker": "ANY",
-      "change_type": "Name Change",
+      "new_ticker": "DRK",
+      "change_type": "Name & Symbol Change",
       "date": "2026-09-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001591956&type=8-K"
     },
@@ -277,10 +297,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "BIT ORIGIN Ltd",
-      "old_ticker": "BTOG",
+      "old_ticker": "",
       "new_name": "SANGRIX INC.",
       "new_ticker": "SGRX",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-08-26",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001735556&type=8-K"
     },
@@ -6223,36 +6243,6 @@
       "change_type": "Name Change",
       "date": "2025-09-24",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001178839&type=8-K"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Cardiex Limited",
-      "old_ticker": "CDX",
-      "new_name": "Conneqt Health Limited",
-      "new_ticker": "CQT",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-23",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Trinex Minerals Limited",
-      "old_ticker": "TX3",
-      "new_name": "Xenora Minerals Limited",
-      "new_ticker": "XRA",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-23",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "HUNTSMAN EXPLORATION INC.",
-      "old_ticker": "HMAN",
-      "new_name": "LUX METALS CORP.",
-      "new_ticker": "LXM",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-23",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302685&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
