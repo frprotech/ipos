@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T21:51:37+00:00",
+  "updated_at": "2026-09-25T05:27:04+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6163,86 +6163,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-09-25",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302725&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Terra Uranium Limited",
-      "old_ticker": "T92",
-      "new_name": "Terra Critical Minerals Limited",
-      "new_ticker": "T92",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-24",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Prisma Exploration Inc",
-      "new_ticker": "PMS",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-24",
-      "source": "https://thecse.com/bulletin/2025-0924-name-and-symbol-change-prisma-exploration-inc-pms"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Neuberger Berman Next Generation Connectivity Fund Inc.",
-      "old_ticker": "",
-      "new_name": "Neuberger Next Generation Connectivity Fund Inc.",
-      "new_ticker": "NBXG",
-      "change_type": "Name Change",
-      "date": "2025-09-24",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001843181&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Ares Acquisition Corp II",
-      "old_ticker": "KDKRW",
-      "new_name": "Kodiak AI, Inc.",
-      "new_ticker": "KDK",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-24",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001853138&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "NEUBERGER BERMAN REAL ESTATE SECURITIES INCOME FUND INC",
-      "old_ticker": "",
-      "new_name": "NEUBERGER REAL ESTATE SECURITIES INCOME FUND INC",
-      "new_ticker": "NRO",
-      "change_type": "Name Change",
-      "date": "2025-09-24",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001261166&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Siyata Mobile Inc.",
-      "old_ticker": "",
-      "new_name": "Core AI Holdings, Inc.",
-      "new_ticker": "CHAI",
-      "change_type": "Name Change",
-      "date": "2025-09-24",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001649009&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Golden Sun Health Technology Group Ltd",
-      "old_ticker": "",
-      "new_name": "Golden Sun Technology Group Ltd.",
-      "new_ticker": "GSUN",
-      "change_type": "Name Change",
-      "date": "2025-09-24",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001826376&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "NEUBERGER BERMAN MUNICIPAL FUND INC.",
-      "old_ticker": "",
-      "new_name": "NEUBERGER MUNICIPAL FUND INC.",
-      "new_ticker": "NBH",
-      "change_type": "Name Change",
-      "date": "2025-09-24",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001178839&type=8-K"
     }
   ]
 }

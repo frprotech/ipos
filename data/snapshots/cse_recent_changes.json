@@ -654,5 +654,26 @@
       "symbol_was": "PGA",
       "effective_on": "2026-09-24"
     }
+  ],
+  "PLAY.X": [
+    {
+      "name_was": "",
+      "symbol_was": "PLAY",
+      "effective_on": "2026-09-25"
+    }
+  ],
+  "NSHS.X": [
+    {
+      "name_was": "",
+      "symbol_was": "NSHS",
+      "effective_on": "2026-09-25"
+    }
+  ],
+  "ULTA.X": [
+    {
+      "name_was": "",
+      "symbol_was": "ULTA",
+      "effective_on": "2026-09-25"
+    }
   ]
 }
