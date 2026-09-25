@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T05:27:04+00:00",
+  "updated_at": "2026-09-25T12:19:35+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -13,6 +13,16 @@
       "change_type": "Symbol Change",
       "date": "2026-09-30",
       "source": "https://thecse.com/bulletin/2026-0930-symbol-change-inactive-designation-mary-agrotechnologies-inc-mary"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Straker Limited",
+      "old_ticker": "STG",
+      "new_name": "Arbitr Group Limited",
+      "new_ticker": "AGT",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-09-29",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
       "exchange": "ASX",
