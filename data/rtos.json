@@ -1,7 +1,6 @@
 {
-  "updated_at": "2026-09-25T21:50:56+00:00",
+  "updated_at": "2026-09-26T05:34:08+00:00",
   "sources_failed": [
-    "US",
     "TSX"
   ],
   "rtos": [
@@ -148,10 +147,10 @@
     {
       "exchange": "NYSE",
       "old_name": "BiomX Inc.",
-      "old_ticker": "PHGE",
+      "old_ticker": "",
       "new_name": "Tessera Defense & Homeland Security Inc.",
       "new_ticker": "HLSQ",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-09-09",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001739174&type=8-K"
     },
@@ -297,6 +296,16 @@
     },
     {
       "exchange": "NASDAQ",
+      "old_name": "Senmiao Technology Ltd",
+      "old_ticker": "",
+      "new_name": "Valor Energy Inc",
+      "new_ticker": "VAI",
+      "change_type": "Name Change",
+      "date": "2026-08-26",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001711012&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
       "old_name": "YY Group Holding Ltd.",
       "old_ticker": "",
       "new_name": "YYForce Inc.",
@@ -374,6 +383,16 @@
       "change_type": "Name Change",
       "date": "2026-08-21",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001553788&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "CREDIT SUISSE HIGH YIELD CREDIT FUND",
+      "old_ticker": "",
+      "new_name": "UBS ASSET MANAGEMENT HIGH YIELD CREDIT FUND",
+      "new_ticker": "DHY",
+      "change_type": "Name Change",
+      "date": "2026-08-21",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001061353&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -6164,16 +6183,6 @@
       "change_type": "Name Change",
       "date": "2025-09-26",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002045872&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "Farstarcap Investment Corp.",
-      "old_ticker": "FRS.P",
-      "new_name": "BP SILVER CORP.",
-      "new_ticker": "BPAG",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-25",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302725&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
