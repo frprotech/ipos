@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T11:50:25+00:00",
+  "updated_at": "2026-09-26T17:03:05+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -2045,16 +2045,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "Inspira Technologies OXY B.H.N. Ltd",
-      "old_ticker": "",
-      "new_name": "QTREX Quantum Ltd.",
-      "new_ticker": "QTEX",
-      "change_type": "Name Change",
-      "date": "2026-05-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001837493&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "OFF THE HOOK YS INC.",
       "old_ticker": "",
@@ -2063,6 +2053,16 @@
       "change_type": "Name Change",
       "date": "2026-05-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067767&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Inspira Technologies OXY B.H.N. Ltd",
+      "old_ticker": "",
+      "new_name": "QTREX Quantum Ltd.",
+      "new_ticker": "QTEX",
+      "change_type": "Name Change",
+      "date": "2026-05-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001837493&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -4725,6 +4725,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001314102&type=8-K"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "Bluerock Crunch Investment Corp.",
+      "old_ticker": "",
+      "new_name": "Bluerock Acquisition Corp. II",
+      "new_ticker": "BRRK",
+      "change_type": "Name Change",
+      "date": "2025-12-08",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002098410&type=8-K"
+    },
+    {
       "exchange": "TSXV",
       "old_name": "IOCASTE VENTURES INC.",
       "old_ticker": "ICY.P",
@@ -5475,16 +5485,6 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306148&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "AG Mortgage Investment Trust, Inc.",
-      "old_ticker": "MITN",
-      "new_name": "TPG Mortgage Investment Trust, Inc.",
-      "new_ticker": "MITT",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514281&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "CTRL GROUP Ltd",
       "old_ticker": "",
@@ -5493,6 +5493,16 @@
       "change_type": "Name Change",
       "date": "2025-11-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001969928&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "AG Mortgage Investment Trust, Inc.",
+      "old_ticker": "MITN",
+      "new_name": "TPG Mortgage Investment Trust, Inc.",
+      "new_ticker": "MITT",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-11-07",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514281&type=8-K"
     },
     {
       "exchange": "NASDAQ",
