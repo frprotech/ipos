@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T05:21:30+00:00",
+  "updated_at": "2026-09-28T13:51:31+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -123,12 +123,22 @@
       "fetched_at": "2026-09-28"
     },
     {
-      "company": "New Iceland Arctic Acquisition Corp.",
-      "ticker": "NIAAU",
+      "company": "ADARx Pharmaceuticals, Inc.",
+      "ticker": "ADRX",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-09-25",
+      "sector": "Healthcare",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-09-28"
+    },
+    {
+      "company": "Bluerock Acquisition Corp. II",
+      "ticker": "BRRKU",
       "exchange": "NASDAQ",
       "listing_date": "2026-09-25",
       "sector": "SPAC / Blank Check",
-      "status": "Expected",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-09-28"
     },
