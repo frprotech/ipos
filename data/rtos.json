@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T13:22:06+00:00",
+  "updated_at": "2026-09-29T22:40:56+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -167,10 +167,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "newcleo Ltd.",
-      "old_ticker": "",
+      "old_ticker": "NWCLW",
       "new_name": "newcleo plc",
       "new_ticker": "NWCL",
-      "change_type": "Name Change",
+      "change_type": "Name & Symbol Change",
       "date": "2026-09-04",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002131813&type=8-K"
     },
@@ -2086,16 +2086,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "US ENERGY CORP",
-      "old_ticker": "",
-      "new_name": "BIG SKY INDUSTRIAL INC.",
-      "new_ticker": "BSIN",
-      "change_type": "Name Change",
-      "date": "2026-05-15",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000101594&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Sharps Technology Inc.",
       "old_ticker": "SKYAW",
       "new_name": "SkyAI, Inc.",
@@ -2103,6 +2093,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-05-15",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001737995&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "US ENERGY CORP",
+      "old_ticker": "",
+      "new_name": "BIG SKY INDUSTRIAL INC.",
+      "new_ticker": "BSIN",
+      "change_type": "Name Change",
+      "date": "2026-05-15",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000101594&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -4076,16 +4076,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Athira Pharma, Inc.",
-      "old_ticker": "",
-      "new_name": "LeonaBio, Inc.",
-      "new_ticker": "LONA",
-      "change_type": "Name Change",
-      "date": "2026-01-08",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001620463&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Earlyworks Co., Ltd.",
       "old_ticker": "",
       "new_name": "Perpetuals.com Ltd",
@@ -4093,6 +4083,16 @@
       "change_type": "Name Change",
       "date": "2026-01-08",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001944399&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Athira Pharma, Inc.",
+      "old_ticker": "",
+      "new_name": "LeonaBio, Inc.",
+      "new_ticker": "LONA",
+      "change_type": "Name Change",
+      "date": "2026-01-08",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001620463&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -5335,16 +5335,6 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306426&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "Maywood Acquisition Corp.",
-      "old_ticker": "IPEXR",
-      "new_name": "Inflection Point Acquisition Corp. V",
-      "new_ticker": "IPEX",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-13",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002028355&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "Bitwise 10 Crypto Index Fund",
       "old_ticker": "",
@@ -5353,6 +5343,16 @@
       "change_type": "Name Change",
       "date": "2025-11-13",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001723788&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Maywood Acquisition Corp.",
+      "old_ticker": "IPEXR",
+      "new_name": "Inflection Point Acquisition Corp. V",
+      "new_ticker": "IPEX",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-11-13",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002028355&type=8-K"
     },
     {
       "exchange": "TSXV",
