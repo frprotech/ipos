@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T05:30:33+00:00",
+  "updated_at": "2026-09-30T12:32:16+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -17,6 +17,16 @@
       "ticker": "S88",
       "exchange": "ASX",
       "listing_date": null,
+      "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-09-30"
+    },
+    {
+      "company": "Matrix Critical Minerals Limited",
+      "ticker": "MTX",
+      "exchange": "ASX",
+      "listing_date": "2026-11-23",
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
@@ -83,16 +93,6 @@
       "fetched_at": "2026-09-30"
     },
     {
-      "company": "Oura Inc.",
-      "ticker": "OURA",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-09-30",
-      "sector": "",
-      "status": "Expected",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-09-30"
-    },
-    {
       "company": "Accelevation Holdings Corp.",
       "ticker": "ACCV",
       "exchange": "NASDAQ",
@@ -113,6 +113,16 @@
       "fetched_at": "2026-09-30"
     },
     {
+      "company": "AfterNext Acquisition I Corp.",
+      "ticker": "AFNXU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-09-30",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-09-30"
+    },
+    {
       "company": "Tungsten Eagle Development Corp.",
       "ticker": "MAGA",
       "exchange": "CSE",
@@ -128,7 +138,7 @@
       "exchange": "NASDAQ",
       "listing_date": "2026-09-29",
       "sector": "Technology",
-      "status": "Expected",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-09-30"
     },
