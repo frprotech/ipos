@@ -682,5 +682,19 @@
       "symbol_was": "",
       "effective_on": "2026-09-28"
     }
+  ],
+  "GORD": [
+    {
+      "name_was": "Golden Spike Resources Corp",
+      "symbol_was": "GLDS",
+      "effective_on": "2026-09-30"
+    }
+  ],
+  "UBTX": [
+    {
+      "name_was": "Cannibble Food-Tech Ltd",
+      "symbol_was": "PLCN",
+      "effective_on": "2026-09-30"
+    }
   ]
 }

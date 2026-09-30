@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T22:40:56+00:00",
+  "updated_at": "2026-09-30T06:01:40+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6083,66 +6083,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-09-30",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001901203&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Prometheus PubCo Inc.",
-      "old_ticker": "",
-      "new_name": "PRESIDIO PRODUCTION Co",
-      "new_ticker": "FTW",
-      "change_type": "Name Change",
-      "date": "2025-09-29",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002083125&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "HELIUS MEDICAL TECHNOLOGIES, INC.",
-      "old_ticker": "",
-      "new_name": "Solana Co",
-      "new_ticker": "HSDT",
-      "change_type": "Name Change",
-      "date": "2025-09-29",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001610853&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Majestic Ideal Holdings Ltd",
-      "old_ticker": "",
-      "new_name": "Ping An Biomedical Co., Ltd.",
-      "new_ticker": "PASW",
-      "change_type": "Name Change",
-      "date": "2025-09-29",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001897532&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "LITE ACCESS TECHNOLOGIES INC.",
-      "old_ticker": "LTE",
-      "new_name": "IRONMAN INTERNATIONAL LTD.",
-      "new_ticker": "IMI",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-09-29",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302997&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "The Mint Corporation",
-      "old_ticker": "MIT",
-      "new_name": "THE MINT CORPORATION",
-      "new_ticker": "MIT.H",
-      "change_type": "Symbol Change",
-      "date": "2025-09-29",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=302998&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "Transforma Resources Corporation",
-      "old_ticker": "TFM",
-      "new_name": "TRANSFORMA RESOURCES CORPORATION",
-      "new_ticker": "TFM.H",
-      "change_type": "Symbol Change",
-      "date": "2025-09-29",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303001&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
