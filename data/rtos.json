@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T06:01:40+00:00",
+  "updated_at": "2026-09-30T13:02:56+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -45,6 +45,16 @@
       "source": "https://thecse.com/bulletin/2026-0929-symbol-change-inactive-designation-greenhawk-resources-inc-grhk"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "AIxCrypto Holdings, Inc.",
+      "old_ticker": "",
+      "new_name": "FF EAI Robotics Ecosystem Inc.",
+      "new_ticker": "AIXC",
+      "change_type": "Name Change",
+      "date": "2026-09-29",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001460702&type=8-K"
+    },
+    {
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
@@ -67,9 +77,9 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Hennessy Capital Investment Corp. VII",
-      "old_ticker": "HVIIR",
+      "old_ticker": "HVII",
       "new_name": "ONE Nuclear Energy Inc.",
-      "new_ticker": "HVII",
+      "new_ticker": "ONEN",
       "change_type": "Name & Symbol Change",
       "date": "2026-09-22",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001846416&type=8-K"
@@ -143,6 +153,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-09-09",
       "source": "https://thecse.com/bulletin/2026-0909-name-symbol-change-and-consolidation-lion-copper-and-gold-corp-leo"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Aspire Biopharma Holdings, Inc.",
+      "old_ticker": "ASBPW",
+      "new_name": "Aspire-Lakewood Holdings, Inc.",
+      "new_ticker": "ASBP",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-09-09",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001847345&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -4727,10 +4747,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Bluerock Crunch Investment Corp.",
-      "old_ticker": "",
+      "old_ticker": "BRRKU",
       "new_name": "Bluerock Acquisition Corp. II",
       "new_ticker": "BRRK",
-      "change_type": "Name Change",
+      "change_type": "Name & Symbol Change",
       "date": "2025-12-08",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002098410&type=8-K"
     },
@@ -5218,7 +5238,7 @@
       "exchange": "NASDAQ",
       "old_name": "Qualigen Therapeutics, Inc.",
       "old_ticker": "",
-      "new_name": "AIxCrypto Holdings, Inc.",
+      "new_name": "FF EAI Robotics Ecosystem Inc.",
       "new_ticker": "AIXC",
       "change_type": "Name Change",
       "date": "2025-11-19",
