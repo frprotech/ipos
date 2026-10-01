@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T05:49:59+00:00",
+  "updated_at": "2026-10-01T13:10:52+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -83,6 +83,16 @@
       "fetched_at": "2026-10-01"
     },
     {
+      "company": "AfterNext Acquisition I Corp.",
+      "ticker": "AFNXU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-07",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-01"
+    },
+    {
       "company": "Normandy Minerals Ltd",
       "ticker": "NMD",
       "exchange": "ASX",
@@ -93,22 +103,22 @@
       "fetched_at": "2026-10-01"
     },
     {
-      "company": "SIYATA PTT",
-      "ticker": "PTT",
+      "company": "Chilwa Minerals Ltd",
+      "ticker": "CHWM",
       "exchange": "NASDAQ",
-      "listing_date": "2026-09-30",
-      "sector": "",
+      "listing_date": "2026-10-01",
+      "sector": "Mining & Materials",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-10-01"
     },
     {
-      "company": "AfterNext Acquisition I Corp.",
-      "ticker": "AFNXU",
+      "company": "Accelevation Holdings Corp.",
+      "ticker": "ACCV",
       "exchange": "NASDAQ",
       "listing_date": "2026-09-30",
-      "sector": "SPAC / Blank Check",
-      "status": "Expected",
+      "sector": "",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-10-01"
     },
