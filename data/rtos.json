@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T13:57:39+00:00",
+  "updated_at": "2026-10-01T22:56:29+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -4106,16 +4106,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Earlyworks Co., Ltd.",
-      "old_ticker": "",
-      "new_name": "Perpetuals.com Ltd",
-      "new_ticker": "PDC",
-      "change_type": "Name Change",
-      "date": "2026-01-08",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001944399&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Athira Pharma, Inc.",
       "old_ticker": "",
       "new_name": "LeonaBio, Inc.",
@@ -4123,6 +4113,16 @@
       "change_type": "Name Change",
       "date": "2026-01-08",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001620463&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Earlyworks Co., Ltd.",
+      "old_ticker": "",
+      "new_name": "Perpetuals.com Ltd",
+      "new_ticker": "PDC",
+      "change_type": "Name Change",
+      "date": "2026-01-08",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001944399&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -5246,16 +5246,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Qualigen Therapeutics, Inc.",
-      "old_ticker": "",
-      "new_name": "FF EAI Robotics Ecosystem Inc.",
-      "new_ticker": "AIXC",
-      "change_type": "Name Change",
-      "date": "2025-11-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001460702&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Entero Therapeutics, Inc.",
       "old_ticker": "",
       "new_name": "GridAI Technologies Corp.",
@@ -5263,6 +5253,16 @@
       "change_type": "Name Change",
       "date": "2025-11-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604191&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Qualigen Therapeutics, Inc.",
+      "old_ticker": "",
+      "new_name": "FF EAI Robotics Ecosystem Inc.",
+      "new_ticker": "AIXC",
+      "change_type": "Name Change",
+      "date": "2025-11-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001460702&type=8-K"
     },
     {
       "exchange": "NASDAQ",
