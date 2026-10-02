@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T13:13:57+00:00",
+  "updated_at": "2026-10-02T22:35:53+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -13,6 +13,26 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-10-06",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "General Copper Gold Corp",
+      "new_ticker": "GGLD",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-10-04",
+      "source": "https://thecse.com/bulletin/2026-1004-name-and-symbol-change-general-copper-gold-corp-ggld"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "King Global Ventures Inc",
+      "new_ticker": "KING",
+      "change_type": "Name Change",
+      "date": "2026-10-03",
+      "source": "https://thecse.com/bulletin/2026-1003-name-change-king-global-ventures-inc-king"
     },
     {
       "exchange": "CSE",
