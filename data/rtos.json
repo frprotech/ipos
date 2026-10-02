@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-10-01T22:56:29+00:00",
+  "updated_at": "2026-10-02T06:16:41+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "Minrex Resources Limited",
+      "old_ticker": "MRR",
+      "new_name": "Northstone Resources Limited",
+      "new_ticker": "NRL",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-10-06",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
     {
       "exchange": "CSE",
       "old_name": "",
@@ -73,6 +83,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-09-25",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "CYBIN INC.",
+      "old_ticker": "",
+      "new_name": "Helus Pharma Inc.",
+      "new_ticker": "HELP",
+      "change_type": "Name Change",
+      "date": "2026-09-23",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001833141&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -435,6 +455,16 @@
       "source": "https://thecse.com/bulletin/2026-0820-name-change-novared-mining-inc-nred"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "Plum Acquisition Corp, IV",
+      "old_ticker": "PLMKU",
+      "new_name": "Plum Acquisition Corp. IV",
+      "new_ticker": "PLMK",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-08-20",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002030482&type=8-K"
+    },
+    {
       "exchange": "NYSE",
       "old_name": "CleanCore Solutions, Inc.",
       "old_ticker": "",
@@ -447,7 +477,7 @@
     {
       "exchange": "NASDAQ",
       "old_name": "K Wave Media Ltd.",
-      "old_ticker": "KWM",
+      "old_ticker": "NXATW",
       "new_name": "Nexus Advanced Technologies Inc.",
       "new_ticker": "NXAT",
       "change_type": "Name & Symbol Change",
@@ -6033,46 +6063,6 @@
       "change_type": "Symbol Change",
       "date": "2025-10-02",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303248&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Fermi LLC",
-      "old_ticker": "",
-      "new_name": "Fermi Inc.",
-      "new_ticker": "FRMI",
-      "change_type": "Name Change",
-      "date": "2025-10-01",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002071778&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "Identillect Technologies Corp.",
-      "old_ticker": "ID",
-      "new_name": "SECURE BLOCKCHAIN DEVELOPMENT CORP.",
-      "new_ticker": "ID",
-      "change_type": "Name Change",
-      "date": "2025-10-01",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303207&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "Personas Social Incorporated",
-      "old_ticker": "KEEK",
-      "new_name": "KEEK SOCIAL INC.",
-      "new_ticker": "KEEK",
-      "change_type": "Name Change",
-      "date": "2025-10-01",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303209&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "Three Valley Copper Corp.",
-      "old_ticker": "TVC",
-      "new_name": "WINCHESTER EQUITY CORPORATION",
-      "new_ticker": "WEC",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-10-01",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303210&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
