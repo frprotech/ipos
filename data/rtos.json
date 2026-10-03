@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T22:35:53+00:00",
+  "updated_at": "2026-10-03T05:48:50+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -33,6 +33,16 @@
       "change_type": "Name Change",
       "date": "2026-10-03",
       "source": "https://thecse.com/bulletin/2026-1003-name-change-king-global-ventures-inc-king"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "VerifyMe, Inc.",
+      "old_ticker": "",
+      "new_name": "OpenWorld, Inc.",
+      "new_ticker": "VRME",
+      "change_type": "Name Change",
+      "date": "2026-10-01",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001104038&type=8-K"
     },
     {
       "exchange": "CSE",
@@ -133,6 +143,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-09-21",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "CEA Industries Inc.",
+      "old_ticker": "BNCWW",
+      "new_name": "BNB Standard Corp",
+      "new_ticker": "BNC",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-09-21",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001482541&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -253,6 +273,16 @@
       "change_type": "Name Change",
       "date": "2026-09-03",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001505952&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "CREDIT SUISSE ASSET MANAGEMENT INCOME FUND, INC.",
+      "old_ticker": "",
+      "new_name": "UBS ASSET MANAGEMENT INCOME FUND, INC.",
+      "new_ticker": "CIK",
+      "change_type": "Name Change",
+      "date": "2026-09-03",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000810766&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -6053,36 +6083,6 @@
       "change_type": "Name Change",
       "date": "2025-10-03",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001897087&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Terra Innovatum Global S.R.L.",
-      "old_ticker": "",
-      "new_name": "Terra Innovatum Global N.V.",
-      "new_ticker": "NKLR",
-      "change_type": "Name Change",
-      "date": "2025-10-02",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067627&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "EAST WEST PETROLEUM CORP.",
-      "old_ticker": "EW",
-      "new_name": "EAST WEST MINERALS LTD.",
-      "new_ticker": "EW",
-      "change_type": "Name Change",
-      "date": "2025-10-02",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303246&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "Carcetti Capital Corp.",
-      "old_ticker": "CART.H",
-      "new_name": "CARCETTI CAPITAL CORP.",
-      "new_ticker": "CART",
-      "change_type": "Symbol Change",
-      "date": "2025-10-02",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303248&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
