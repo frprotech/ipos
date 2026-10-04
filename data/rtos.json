@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T21:48:55+00:00",
+  "updated_at": "2026-10-04T06:23:59+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6063,26 +6063,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-10-06",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303465&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Platinum Asset Management Limited",
-      "old_ticker": "PTM",
-      "new_name": "L1 Group Limited",
-      "new_ticker": "L1G",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-10-03",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Super X AI Technology Ltd",
-      "old_ticker": "",
-      "new_name": "SuperX AI Technology Ltd",
-      "new_ticker": "SUPX",
-      "change_type": "Name Change",
-      "date": "2025-10-03",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001897087&type=8-K"
     }
   ]
 }
