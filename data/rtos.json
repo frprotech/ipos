@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T06:17:30+00:00",
+  "updated_at": "2026-10-05T15:19:28+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -13,6 +13,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-10-06",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Newfoundland Discovery Corp",
+      "new_ticker": "NEWD",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-10-06",
+      "source": "https://thecse.com/bulletin/2026-1006-name-and-symbol-change-newfoundland-discovery-corp-newd"
     },
     {
       "exchange": "CSE",
@@ -466,16 +476,6 @@
     },
     {
       "exchange": "NYSE",
-      "old_name": "SPLASH BEVERAGE GROUP, INC.",
-      "old_ticker": "",
-      "new_name": "Endovia Health Sciences, Inc.",
-      "new_ticker": "EDVA",
-      "change_type": "Name Change",
-      "date": "2026-08-21",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001553788&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
       "old_name": "CREDIT SUISSE HIGH YIELD CREDIT FUND",
       "old_ticker": "",
       "new_name": "UBS ASSET MANAGEMENT HIGH YIELD CREDIT FUND",
@@ -483,6 +483,16 @@
       "change_type": "Name Change",
       "date": "2026-08-21",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001061353&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "SPLASH BEVERAGE GROUP, INC.",
+      "old_ticker": "",
+      "new_name": "Endovia Health Sciences, Inc.",
+      "new_ticker": "EDVA",
+      "change_type": "Name Change",
+      "date": "2026-08-21",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001553788&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -775,6 +785,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001631574&type=8-K"
     },
     {
+      "exchange": "NYSE",
+      "old_name": "Ultra AI Opportunities Inc.",
+      "old_ticker": "",
+      "new_name": "Ives Ultra AI Opportunities Inc.",
+      "new_ticker": "IVAI",
+      "change_type": "Name Change",
+      "date": "2026-07-30",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002077345&type=8-K"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "Tevogen Bio Holdings Inc.",
       "old_ticker": "TVGNW",
@@ -793,16 +813,6 @@
       "change_type": "Name Change",
       "date": "2026-07-30",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001066764&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Ultra AI Opportunities Inc.",
-      "old_ticker": "",
-      "new_name": "Ives Ultra AI Opportunities Inc.",
-      "new_ticker": "IVAI",
-      "change_type": "Name Change",
-      "date": "2026-07-30",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002077345&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -1575,16 +1585,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "Sensei Biotherapeutics, Inc.",
-      "old_ticker": "",
-      "new_name": "Faeth Therapeutics, Inc.",
-      "new_ticker": "FTH",
-      "change_type": "Name Change",
-      "date": "2026-06-16",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001829802&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "Nova Minerals Ltd",
       "old_ticker": "",
@@ -1593,6 +1593,16 @@
       "change_type": "Name Change",
       "date": "2026-06-16",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001852551&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Sensei Biotherapeutics, Inc.",
+      "old_ticker": "",
+      "new_name": "Faeth Therapeutics, Inc.",
+      "new_ticker": "FTH",
+      "change_type": "Name Change",
+      "date": "2026-06-16",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001829802&type=8-K"
     },
     {
       "exchange": "CSE",
@@ -2155,16 +2165,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "OFF THE HOOK YS INC.",
-      "old_ticker": "",
-      "new_name": "NextBoat Inc.",
-      "new_ticker": "NXB",
-      "change_type": "Name Change",
-      "date": "2026-05-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067767&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Inspira Technologies OXY B.H.N. Ltd",
       "old_ticker": "",
@@ -2173,6 +2173,16 @@
       "change_type": "Name Change",
       "date": "2026-05-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001837493&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "OFF THE HOOK YS INC.",
+      "old_ticker": "",
+      "new_name": "NextBoat Inc.",
+      "new_ticker": "NXB",
+      "change_type": "Name Change",
+      "date": "2026-05-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067767&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -2703,6 +2713,16 @@
       "change_type": "Name Change",
       "date": "2026-04-19",
       "source": "https://thecse.com/bulletin/2026-0419-name-change-and-consolidation-vanguard-mining-corp-uuu"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Seed External Spinco Inc.",
+      "old_ticker": "",
+      "new_name": "Vylor Inc.",
+      "new_ticker": "VYLR",
+      "change_type": "Name Change",
+      "date": "2026-04-17",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002128626&type=8-K"
     },
     {
       "exchange": "NASDAQ",
