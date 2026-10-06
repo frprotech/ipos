@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T06:18:10+00:00",
+  "updated_at": "2026-10-06T18:20:21+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -93,10 +93,40 @@
       "fetched_at": "2026-10-06"
     },
     {
+      "company": "TRex Bio, Inc.",
+      "ticker": "TRXB",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-09",
+      "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-06"
+    },
+    {
+      "company": "Retension Pharmaceuticals, Inc.",
+      "ticker": "RTSN",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-09",
+      "sector": "Healthcare",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-06"
+    },
+    {
       "company": "AfterNext Acquisition I Corp.",
       "ticker": "AFNXU",
       "exchange": "NASDAQ",
       "listing_date": "2026-10-07",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-06"
+    },
+    {
+      "company": "Pine Tree Acquisition Corp.",
+      "ticker": "PAXGU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-06",
       "sector": "SPAC / Blank Check",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
