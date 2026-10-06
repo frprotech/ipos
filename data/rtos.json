@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T00:22:39+00:00",
+  "updated_at": "2026-10-06T06:53:42+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -43,6 +43,16 @@
       "change_type": "Name Change",
       "date": "2026-10-03",
       "source": "https://thecse.com/bulletin/2026-1003-name-change-king-global-ventures-inc-king"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Catheter Precision, Inc.",
+      "old_ticker": "",
+      "new_name": "Flyte Aviation, Inc.",
+      "new_ticker": "VTAK",
+      "change_type": "Name Change",
+      "date": "2026-10-02",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001716621&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -167,10 +177,10 @@
     {
       "exchange": "NYSE",
       "old_name": "HEALTHY CHOICE WELLNESS CORP.",
-      "old_ticker": "HCWC",
+      "old_ticker": "",
       "new_name": "Host Digital Inc.",
       "new_ticker": "HOST",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-09-17",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001948864&type=8-K"
     },
@@ -187,10 +197,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Sphere 3D Corp.",
-      "old_ticker": "ANY",
+      "old_ticker": "",
       "new_name": "DarkHorse Technologies Inc.",
       "new_ticker": "DRK",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-09-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001591956&type=8-K"
     },
@@ -277,10 +287,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "DOMO, INC.",
-      "old_ticker": "",
+      "old_ticker": "DOMO",
       "new_name": "Huckleberry.ai, Inc.",
-      "new_ticker": "DOMO",
-      "change_type": "Name Change",
+      "new_ticker": "HUCK",
+      "change_type": "Name & Symbol Change",
       "date": "2026-09-03",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001505952&type=8-K"
     },
@@ -327,9 +337,9 @@
     {
       "exchange": "NASDAQ",
       "old_name": "ProCap Financial, Inc.",
-      "old_ticker": "BRRWW",
+      "old_ticker": "BRR",
       "new_name": "Silvia, Inc.",
-      "new_ticker": "BRR",
+      "new_ticker": "SVIA",
       "change_type": "Name & Symbol Change",
       "date": "2026-09-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002076163&type=8-K"
@@ -1977,10 +1987,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "U-BX Technology Ltd.",
-      "old_ticker": "UBXG",
+      "old_ticker": "",
       "new_name": "MindForge Inc.",
       "new_ticker": "MF",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-05-27",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001888525&type=8-K"
     },

@@ -696,5 +696,19 @@
       "symbol_was": "PLCN",
       "effective_on": "2026-09-30"
     }
+  ],
+  "GGF": [
+    {
+      "name_was": "Newfoundland Discovery Corp.",
+      "symbol_was": "NEWD",
+      "effective_on": "2026-10-06"
+    }
+  ],
+  "GSMI": [
+    {
+      "name_was": "General Copper Gold Corp.",
+      "symbol_was": "GGLD",
+      "effective_on": "2026-10-06"
+    }
   ]
 }
