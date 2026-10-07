@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T22:49:43+00:00",
+  "updated_at": "2026-10-07T06:32:54+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -25,6 +25,16 @@
       "source": "https://thecse.com/bulletin/2026-1006-name-and-symbol-change-newfoundland-discovery-corp-newd"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "Paramount Skydance Corp",
+      "old_ticker": "",
+      "new_name": "Skydance Corp",
+      "new_ticker": "PSKY",
+      "change_type": "Name Change",
+      "date": "2026-10-06",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002041610&type=8-K"
+    },
+    {
       "exchange": "CSE",
       "old_name": "",
       "old_ticker": "",
@@ -45,6 +55,16 @@
       "source": "https://thecse.com/bulletin/2026-1003-name-change-king-global-ventures-inc-king"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "Wisekey International Holding S.A.",
+      "old_ticker": "",
+      "new_name": "WISeQey Corp.",
+      "new_ticker": "WKEY",
+      "change_type": "Name Change",
+      "date": "2026-10-02",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001738699&type=8-K"
+    },
+    {
       "exchange": "NYSE",
       "old_name": "Catheter Precision, Inc.",
       "old_ticker": "",
@@ -56,11 +76,21 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "VerifyMe, Inc.",
+      "old_name": "Aureus Greenway Holdings Inc",
       "old_ticker": "",
-      "new_name": "OpenWorld, Inc.",
-      "new_ticker": "VRME",
+      "new_name": "Powerus Corp",
+      "new_ticker": "PUSA",
       "change_type": "Name Change",
+      "date": "2026-10-01",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002009312&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "VerifyMe, Inc.",
+      "old_ticker": "VRME",
+      "new_name": "OpenWorld, Inc.",
+      "new_ticker": "OPNW",
+      "change_type": "Name & Symbol Change",
       "date": "2026-10-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001104038&type=8-K"
     },
@@ -287,10 +317,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "DOMO, INC.",
-      "old_ticker": "DOMO",
+      "old_ticker": "",
       "new_name": "Huckleberry.ai, Inc.",
       "new_ticker": "HUCK",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-09-03",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001505952&type=8-K"
     },
@@ -6063,36 +6093,6 @@
       "change_type": "Name Change",
       "date": "2025-10-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002032966&type=8-K"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Raptis Group Limited",
-      "old_ticker": "RPG",
-      "new_name": "Group One Capital Limited",
-      "new_ticker": "G1C",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-10-06",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Connexa Sports Technologies Inc.",
-      "old_ticker": "",
-      "new_name": "AIRWA INC.",
-      "new_ticker": "YYAI",
-      "change_type": "Name Change",
-      "date": "2025-10-06",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001674440&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "Sanatana Resources Inc.",
-      "old_ticker": "STA",
-      "new_name": "GOLD STRIKE RESOURCES CORP.",
-      "new_ticker": "GSR",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-10-06",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303465&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
