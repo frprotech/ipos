@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-10-08T14:05:05+00:00",
+  "updated_at": "2026-10-08T23:34:53+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "Galilee Energy Limited",
+      "old_ticker": "GLL",
+      "new_name": "Gulf Stream Energy Ltd",
+      "new_ticker": "GSE",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-10-12",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Cruz Battery Metals Corp",
+      "new_ticker": "CRUZ",
+      "change_type": "Name Change",
+      "date": "2026-10-12",
+      "source": "https://thecse.com/bulletin/2026-1012-name-change-and-consolidation-cruz-battery-metals-corp-cruz"
+    },
     {
       "exchange": "CSE",
       "old_name": "",
@@ -35,7 +55,7 @@
       "source": "https://thecse.com/bulletin/2026-1006-name-and-symbol-change-newfoundland-discovery-corp-newd"
     },
     {
-      "exchange": "NASDAQ",
+      "exchange": "NYSE",
       "old_name": "Paramount Skydance Corp",
       "old_ticker": "",
       "new_name": "Skydance Corp",
@@ -75,16 +95,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002080023&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "Wisekey International Holding S.A.",
-      "old_ticker": "",
-      "new_name": "WISeQey Corp.",
-      "new_ticker": "WKEY",
-      "change_type": "Name Change",
-      "date": "2026-10-02",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001738699&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "Catheter Precision, Inc.",
       "old_ticker": "",
@@ -93,6 +103,16 @@
       "change_type": "Name Change",
       "date": "2026-10-02",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001716621&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Wisekey International Holding S.A.",
+      "old_ticker": "",
+      "new_name": "WISeQey Corp.",
+      "new_ticker": "WKEY",
+      "change_type": "Name Change",
+      "date": "2026-10-02",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001738699&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -823,6 +843,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-08-02",
       "source": "https://thecse.com/bulletin/2026-0802-name-and-symbol-change-integrated-cyber-solutions-inc-ics"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "WISeKey International Corp.",
+      "old_ticker": "",
+      "new_name": "WISeQey Corp.",
+      "new_ticker": "WQEY",
+      "change_type": "Name Change",
+      "date": "2026-07-31",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002107968&type=8-K"
     },
     {
       "exchange": "NASDAQ",
