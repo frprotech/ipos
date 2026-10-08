@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T23:20:58+00:00",
+  "updated_at": "2026-10-08T06:42:20+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -63,6 +63,16 @@
       "change_type": "Name Change",
       "date": "2026-10-03",
       "source": "https://thecse.com/bulletin/2026-1003-name-change-king-global-ventures-inc-king"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Viking Acquisition Corp I",
+      "old_ticker": "VACI",
+      "new_name": "NorthStar Earth & Space Enterprises, Inc.",
+      "new_ticker": "NSTR",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-10-02",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002080023&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -377,7 +387,7 @@
     {
       "exchange": "NASDAQ",
       "old_name": "ProCap Financial, Inc.",
-      "old_ticker": "BRR",
+      "old_ticker": "SVIAW",
       "new_name": "Silvia, Inc.",
       "new_ticker": "SVIA",
       "change_type": "Name & Symbol Change",
@@ -6093,16 +6103,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-10-08",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303705&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "ACUREN CORP",
-      "old_ticker": "",
-      "new_name": "TIC Solutions, Inc.",
-      "new_ticker": "TIC",
-      "change_type": "Name Change",
-      "date": "2025-10-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002032966&type=8-K"
     }
   ]
 }
