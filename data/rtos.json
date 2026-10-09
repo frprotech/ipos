@@ -1,19 +1,9 @@
 {
-  "updated_at": "2026-10-08T23:34:53+00:00",
+  "updated_at": "2026-10-09T06:48:53+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
-    {
-      "exchange": "ASX",
-      "old_name": "Galilee Energy Limited",
-      "old_ticker": "GLL",
-      "new_name": "Gulf Stream Energy Ltd",
-      "new_ticker": "GSE",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-10-12",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
     {
       "exchange": "CSE",
       "old_name": "",
@@ -97,10 +87,10 @@
     {
       "exchange": "NYSE",
       "old_name": "Catheter Precision, Inc.",
-      "old_ticker": "",
+      "old_ticker": "VTAK",
       "new_name": "Flyte Aviation, Inc.",
-      "new_ticker": "VTAK",
-      "change_type": "Name Change",
+      "new_ticker": "VJET",
+      "change_type": "Name & Symbol Change",
       "date": "2026-10-02",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001716621&type=8-K"
     },
@@ -846,16 +836,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "WISeKey International Corp.",
-      "old_ticker": "",
-      "new_name": "WISeQey Corp.",
-      "new_ticker": "WQEY",
-      "change_type": "Name Change",
-      "date": "2026-07-31",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002107968&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "ARCBEST CORP /DE/",
       "old_ticker": "",
       "new_name": "ARCBEST CORP /TX/",
@@ -903,6 +883,16 @@
       "change_type": "Name Change",
       "date": "2026-07-30",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001066764&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Wah Fu Education Group Ltd",
+      "old_ticker": "",
+      "new_name": "Wah Fu Education & Technology Group Ltd.",
+      "new_ticker": "WAFU",
+      "change_type": "Name Change",
+      "date": "2026-07-30",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001716770&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -6093,46 +6083,6 @@
       "change_type": "Name Change",
       "date": "2025-10-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002028707&type=8-K"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Crestview Exploration Inc",
-      "new_ticker": "CRS",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-10-08",
-      "source": "https://thecse.com/bulletin/2025-1008-name-symbol-change-and-consolidation-crestview-exploration-inc-crs"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "New FS Specialty Lending Fund",
-      "old_ticker": "",
-      "new_name": "FS Specialty Lending Fund",
-      "new_ticker": "FSSL",
-      "change_type": "Name Change",
-      "date": "2025-10-08",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002065812&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Safety Shot, Inc.",
-      "old_ticker": "",
-      "new_name": "BONK, INC.",
-      "new_ticker": "BNKK",
-      "change_type": "Name Change",
-      "date": "2025-10-08",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001760903&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "TENTH AVENUE PETROLEUM CORP.",
-      "old_ticker": "TPC",
-      "new_name": "DECIMUS OIL CORP.",
-      "new_ticker": "WCSB",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-10-08",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=303705&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
