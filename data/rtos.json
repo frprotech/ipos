@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T13:05:50+00:00",
+  "updated_at": "2026-10-10T22:01:32+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -45,7 +45,7 @@
       "source": "https://thecse.com/bulletin/2026-1006-name-and-symbol-change-newfoundland-discovery-corp-newd"
     },
     {
-      "exchange": "NYSE",
+      "exchange": "NASDAQ",
       "old_name": "Paramount Skydance Corp",
       "old_ticker": "",
       "new_name": "Skydance Corp",
@@ -1436,16 +1436,6 @@
     },
     {
       "exchange": "NYSE",
-      "old_name": "MFS GOVERNMENT MARKETS INCOME TRUST",
-      "old_ticker": "",
-      "new_name": "ABERDEEN GOVERNMENT MARKETS INCOME FUND",
-      "new_ticker": "MGF",
-      "change_type": "Name Change",
-      "date": "2026-06-29",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000811922&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
       "old_name": "MFS INTERMEDIATE INCOME TRUST",
       "old_ticker": "",
       "new_name": "ABERDEEN INTERMEDIATE INCOME FUND",
@@ -1453,6 +1443,16 @@
       "change_type": "Name Change",
       "date": "2026-06-29",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000826735&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "MFS GOVERNMENT MARKETS INCOME TRUST",
+      "old_ticker": "",
+      "new_name": "ABERDEEN GOVERNMENT MARKETS INCOME FUND",
+      "new_ticker": "MGF",
+      "change_type": "Name Change",
+      "date": "2026-06-29",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000811922&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -2316,16 +2316,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Sharps Technology Inc.",
-      "old_ticker": "SKYAW",
-      "new_name": "SkyAI, Inc.",
-      "new_ticker": "SKYA",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-05-15",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001737995&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "US ENERGY CORP",
       "old_ticker": "",
       "new_name": "BIG SKY INDUSTRIAL INC.",
@@ -2333,6 +2323,16 @@
       "change_type": "Name Change",
       "date": "2026-05-15",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000101594&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Sharps Technology Inc.",
+      "old_ticker": "SKYAW",
+      "new_name": "SkyAI, Inc.",
+      "new_ticker": "SKYA",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-15",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001737995&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -5456,16 +5456,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Entero Therapeutics, Inc.",
-      "old_ticker": "",
-      "new_name": "GridAI Technologies Corp.",
-      "new_ticker": "GRDX",
-      "change_type": "Name Change",
-      "date": "2025-11-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604191&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Qualigen Therapeutics, Inc.",
       "old_ticker": "",
       "new_name": "FF EAI Robotics Ecosystem Inc.",
@@ -5473,6 +5463,16 @@
       "change_type": "Name Change",
       "date": "2025-11-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001460702&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Entero Therapeutics, Inc.",
+      "old_ticker": "",
+      "new_name": "GridAI Technologies Corp.",
+      "new_ticker": "GRDX",
+      "change_type": "Name Change",
+      "date": "2025-11-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604191&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -5583,16 +5583,6 @@
       "change_type": "Name Change",
       "date": "2025-11-13",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001723788&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Maywood Acquisition Corp.",
-      "old_ticker": "IPEXR",
-      "new_name": "Inflection Point Acquisition Corp. V",
-      "new_ticker": "IPEX",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-13",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002028355&type=8-K"
     },
     {
       "exchange": "TSXV",
