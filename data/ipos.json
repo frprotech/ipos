@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T05:54:45+00:00",
+  "updated_at": "2026-10-12T15:20:40+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -73,6 +73,16 @@
       "fetched_at": "2026-10-12"
     },
     {
+      "company": "CITY THERAPEUTICS, INC.",
+      "ticker": "CTY",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-16",
+      "sector": "Healthcare",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-12"
+    },
+    {
       "company": "Overwatch Technologies Limited",
       "ticker": "OWL",
       "exchange": "ASX",
@@ -110,6 +120,26 @@
       "sector": "Technology",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-10-12"
+    },
+    {
+      "company": "Retension Pharmaceuticals, Inc.",
+      "ticker": "RTSN",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-09",
+      "sector": "Healthcare",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-12"
+    },
+    {
+      "company": "TRex Bio, Inc.",
+      "ticker": "TRXB",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-09",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-10-12"
     },
     {
