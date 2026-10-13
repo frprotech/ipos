@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T00:37:54+00:00",
+  "updated_at": "2026-10-13T14:09:06+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -120,6 +120,36 @@
       "sector": "Technology",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-10-13"
+    },
+    {
+      "company": "St. James Gold Corp.",
+      "ticker": "LORD",
+      "exchange": "CSE",
+      "listing_date": "2026-10-13",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-10-13"
+    },
+    {
+      "company": "Corus Entertainment Holdings Inc. 8OCT2031 Warrants",
+      "ticker": "CORS.WT",
+      "exchange": "CSE",
+      "listing_date": "2026-10-13",
+      "sector": "Industrials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-10-13"
+    },
+    {
+      "company": "Algo8 AI Inc.",
+      "ticker": "AIOS",
+      "exchange": "CSE",
+      "listing_date": "2026-10-13",
+      "sector": "Technology",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
       "fetched_at": "2026-10-13"
     },
     {
