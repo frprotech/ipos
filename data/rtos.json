@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T05:27:47+00:00",
+  "updated_at": "2026-10-14T12:26:15+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -2336,16 +2336,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "US ENERGY CORP",
-      "old_ticker": "",
-      "new_name": "BIG SKY INDUSTRIAL INC.",
-      "new_ticker": "BSIN",
-      "change_type": "Name Change",
-      "date": "2026-05-15",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000101594&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Sharps Technology Inc.",
       "old_ticker": "SKYAW",
       "new_name": "SkyAI, Inc.",
@@ -2353,6 +2343,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-05-15",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001737995&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "US ENERGY CORP",
+      "old_ticker": "",
+      "new_name": "BIG SKY INDUSTRIAL INC.",
+      "new_ticker": "BSIN",
+      "change_type": "Name Change",
+      "date": "2026-05-15",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000101594&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -5476,16 +5476,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Qualigen Therapeutics, Inc.",
-      "old_ticker": "AIXC",
-      "new_name": "FF EAI Robotics Ecosystem Inc.",
-      "new_ticker": "FFR",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001460702&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Entero Therapeutics, Inc.",
       "old_ticker": "",
       "new_name": "GridAI Technologies Corp.",
@@ -5493,6 +5483,16 @@
       "change_type": "Name Change",
       "date": "2025-11-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604191&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Qualigen Therapeutics, Inc.",
+      "old_ticker": "AIXC",
+      "new_name": "FF EAI Robotics Ecosystem Inc.",
+      "new_ticker": "FFR",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-11-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001460702&type=8-K"
     },
     {
       "exchange": "NASDAQ",
