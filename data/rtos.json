@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T17:38:46+00:00",
+  "updated_at": "2026-10-14T21:58:10+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -55,7 +55,7 @@
       "source": "https://thecse.com/bulletin/2026-1006-name-and-symbol-change-newfoundland-discovery-corp-newd"
     },
     {
-      "exchange": "NASDAQ",
+      "exchange": "NYSE",
       "old_name": "Paramount Skydance Corp",
       "old_ticker": "",
       "new_name": "Skydance Corp",
@@ -1715,16 +1715,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "Nova Minerals Ltd",
-      "old_ticker": "",
-      "new_name": "Nova Minerals Corp",
-      "new_ticker": "NVA",
-      "change_type": "Name Change",
-      "date": "2026-06-16",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001852551&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Sensei Biotherapeutics, Inc.",
       "old_ticker": "",
@@ -1733,6 +1723,16 @@
       "change_type": "Name Change",
       "date": "2026-06-16",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001829802&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Nova Minerals Ltd",
+      "old_ticker": "",
+      "new_name": "Nova Minerals Corp",
+      "new_ticker": "NVA",
+      "change_type": "Name Change",
+      "date": "2026-06-16",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001852551&type=8-K"
     },
     {
       "exchange": "CSE",
@@ -5476,16 +5476,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Entero Therapeutics, Inc.",
-      "old_ticker": "",
-      "new_name": "GridAI Technologies Corp.",
-      "new_ticker": "GRDX",
-      "change_type": "Name Change",
-      "date": "2025-11-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604191&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Qualigen Therapeutics, Inc.",
       "old_ticker": "AIXC",
       "new_name": "FF EAI Robotics Ecosystem Inc.",
@@ -5493,6 +5483,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-11-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001460702&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Entero Therapeutics, Inc.",
+      "old_ticker": "",
+      "new_name": "GridAI Technologies Corp.",
+      "new_ticker": "GRDX",
+      "change_type": "Name Change",
+      "date": "2025-11-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604191&type=8-K"
     },
     {
       "exchange": "NASDAQ",
