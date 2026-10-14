@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T23:08:28+00:00",
+  "updated_at": "2026-10-14T05:27:47+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -115,6 +115,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001738699&type=8-K"
     },
     {
+      "exchange": "NYSE",
+      "old_name": "LandBridge Co LLC",
+      "old_ticker": "",
+      "new_name": "LandBridge Corp",
+      "new_ticker": "LB",
+      "change_type": "Name Change",
+      "date": "2026-10-01",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001995807&type=8-K"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "Aureus Greenway Holdings Inc",
       "old_ticker": "",
@@ -177,10 +187,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "AIxCrypto Holdings, Inc.",
-      "old_ticker": "",
+      "old_ticker": "AIXC",
       "new_name": "FF EAI Robotics Ecosystem Inc.",
-      "new_ticker": "AIXC",
-      "change_type": "Name Change",
+      "new_ticker": "FFR",
+      "change_type": "Name & Symbol Change",
       "date": "2026-09-29",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001460702&type=8-K"
     },
@@ -227,10 +237,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Hennessy Capital Investment Corp. VII",
-      "old_ticker": "HVII",
+      "old_ticker": "",
       "new_name": "ONE Nuclear Energy Inc.",
       "new_ticker": "ONEN",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-09-22",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001846416&type=8-K"
     },
@@ -5467,10 +5477,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Qualigen Therapeutics, Inc.",
-      "old_ticker": "",
+      "old_ticker": "AIXC",
       "new_name": "FF EAI Robotics Ecosystem Inc.",
-      "new_ticker": "AIXC",
-      "change_type": "Name Change",
+      "new_ticker": "FFR",
+      "change_type": "Name & Symbol Change",
       "date": "2025-11-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001460702&type=8-K"
     },
