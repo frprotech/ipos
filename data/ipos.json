@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T04:35:52+00:00",
+  "updated_at": "2026-10-15T11:26:07+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -16,7 +16,7 @@
       "company": "M Battery Materials Limited",
       "ticker": "MBM",
       "exchange": "ASX",
-      "listing_date": "2026-12-03",
+      "listing_date": "2026-12-02",
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
