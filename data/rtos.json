@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T12:10:31+00:00",
+  "updated_at": "2026-10-15T17:24:03+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -5496,16 +5496,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Qualigen Therapeutics, Inc.",
-      "old_ticker": "",
-      "new_name": "FF EAI Robotics Ecosystem Inc.",
-      "new_ticker": "FFR",
-      "change_type": "Name Change",
-      "date": "2025-11-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001460702&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Entero Therapeutics, Inc.",
       "old_ticker": "",
       "new_name": "GridAI Technologies Corp.",
@@ -5513,6 +5503,16 @@
       "change_type": "Name Change",
       "date": "2025-11-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604191&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Qualigen Therapeutics, Inc.",
+      "old_ticker": "",
+      "new_name": "FF EAI Robotics Ecosystem Inc.",
+      "new_ticker": "FFR",
+      "change_type": "Name Change",
+      "date": "2025-11-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001460702&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -5765,16 +5765,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001969928&type=8-K"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "AG Mortgage Investment Trust, Inc.",
-      "old_ticker": "MITN",
-      "new_name": "TPG Mortgage Investment Trust, Inc.",
-      "new_ticker": "MITT",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514281&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "James River Group Holdings, Ltd.",
       "old_ticker": "",
@@ -5783,6 +5773,16 @@
       "change_type": "Name Change",
       "date": "2025-11-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001620459&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "AG Mortgage Investment Trust, Inc.",
+      "old_ticker": "MITN",
+      "new_name": "TPG Mortgage Investment Trust, Inc.",
+      "new_ticker": "MITT",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-11-07",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514281&type=8-K"
     },
     {
       "exchange": "NASDAQ",
