@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T11:26:07+00:00",
+  "updated_at": "2026-10-15T16:58:46+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -93,11 +93,11 @@
       "fetched_at": "2026-10-15"
     },
     {
-      "company": "SPACCircle Acquisition Corp.",
-      "ticker": "SCQCU",
+      "company": "Amaero Inc.",
+      "ticker": "AMRO",
       "exchange": "NASDAQ",
       "listing_date": "2026-10-15",
-      "sector": "SPAC / Blank Check",
+      "sector": "",
       "status": "Expected",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-10-15"
@@ -109,6 +109,16 @@
       "listing_date": "2026-10-15",
       "sector": "Healthcare",
       "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-15"
+    },
+    {
+      "company": "Frazier Life Sciences Acquisition Corp. II",
+      "ticker": "FLSC",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-14",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-10-15"
     },
@@ -163,21 +173,21 @@
       "fetched_at": "2026-10-15"
     },
     {
-      "company": "Retension Pharmaceuticals, Inc.",
-      "ticker": "RTSN",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-10-09",
-      "sector": "Healthcare",
-      "status": "Priced",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-15"
-    },
-    {
       "company": "TRex Bio, Inc.",
       "ticker": "TRXB",
       "exchange": "NASDAQ",
       "listing_date": "2026-10-09",
       "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-15"
+    },
+    {
+      "company": "Retension Pharmaceuticals, Inc.",
+      "ticker": "RTSN",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-09",
+      "sector": "Healthcare",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-10-15"
