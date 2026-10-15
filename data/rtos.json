@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T21:58:10+00:00",
+  "updated_at": "2026-10-15T05:18:29+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -35,6 +35,16 @@
       "source": "https://thecse.com/bulletin/2026-1011-name-and-symbol-change-cloud3-ventures-inc-cldv"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "Quince Therapeutics, Inc.",
+      "old_ticker": "IRLA",
+      "new_name": "IRulya Therapeutics Inc.",
+      "new_ticker": "QNCX",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-10-09",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001662774&type=8-K"
+    },
+    {
       "exchange": "ASX",
       "old_name": "Minrex Resources Limited",
       "old_ticker": "MRR",
@@ -57,10 +67,10 @@
     {
       "exchange": "NYSE",
       "old_name": "Paramount Skydance Corp",
-      "old_ticker": "",
+      "old_ticker": "PSKY",
       "new_name": "Skydance Corp",
       "new_ticker": "SKYD",
-      "change_type": "Name Change",
+      "change_type": "Name & Symbol Change",
       "date": "2026-10-06",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002041610&type=8-K"
     },
@@ -137,10 +147,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "VerifyMe, Inc.",
-      "old_ticker": "VRME",
+      "old_ticker": "",
       "new_name": "OpenWorld, Inc.",
       "new_ticker": "OPNW",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-10-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001104038&type=8-K"
     },
@@ -187,10 +197,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "AIxCrypto Holdings, Inc.",
-      "old_ticker": "AIXC",
+      "old_ticker": "",
       "new_name": "FF EAI Robotics Ecosystem Inc.",
       "new_ticker": "FFR",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-09-29",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001460702&type=8-K"
     },
@@ -693,6 +703,16 @@
       "change_type": "Name Change",
       "date": "2026-08-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001854445&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "NYLI MacKay DefinedTerm Muni Opportunities Fund",
+      "old_ticker": "",
+      "new_name": "NYLIM MacKay DefinedTerm Muni Opportunities Fund",
+      "new_ticker": "MMD",
+      "change_type": "Name Change",
+      "date": "2026-08-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001518557&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -3245,6 +3265,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001907223&type=8-K"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "Grayscale Avalanche Trust (AVAX)",
+      "old_ticker": "",
+      "new_name": "Grayscale Avalanche Staking ETF",
+      "new_ticker": "GAVA",
+      "change_type": "Name Change",
+      "date": "2026-03-10",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002035053&type=8-K"
+    },
+    {
       "exchange": "TSXV",
       "old_name": "WESTKAM GOLD CORP.",
       "old_ticker": "WKG",
@@ -3293,16 +3323,6 @@
       "change_type": "Name Change",
       "date": "2026-03-06",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002024258&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Grayscale Avalanche Trust (AVAX)",
-      "old_ticker": "",
-      "new_name": "Grayscale Avalanche Staking ETF",
-      "new_ticker": "GAVA",
-      "change_type": "Name Change",
-      "date": "2026-03-06",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002035053&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -5477,10 +5497,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Qualigen Therapeutics, Inc.",
-      "old_ticker": "AIXC",
+      "old_ticker": "",
       "new_name": "FF EAI Robotics Ecosystem Inc.",
       "new_ticker": "FFR",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2025-11-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001460702&type=8-K"
     },
@@ -6093,36 +6113,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-10-15",
       "source": "https://thecse.com/bulletin/2025-1015-name-and-symbol-change-york-harbour-metals-inc-york"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Traka Resources Limited",
-      "old_ticker": "TKL",
-      "new_name": "Liberty Metals Ltd",
-      "new_ticker": "LIB",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-10-14",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Astute Metals NL",
-      "old_ticker": "ASE",
-      "new_name": "Venari Minerals NL",
-      "new_ticker": "VMS",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-10-14",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Bleichroeder Acquisition Corp. I",
-      "old_ticker": "",
-      "new_name": "Merlin, Inc.",
-      "new_ticker": "MRLN",
-      "change_type": "Name Change",
-      "date": "2025-10-14",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002028707&type=8-K"
     }
   ]
 }
