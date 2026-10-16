@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T11:20:59+00:00",
+  "updated_at": "2026-10-16T16:37:17+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -63,6 +63,16 @@
       "fetched_at": "2026-10-16"
     },
     {
+      "company": "TCGX Acquisition Corp. II",
+      "ticker": "TCXB",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-16",
+      "sector": "SPAC / Blank Check",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-16"
+    },
+    {
       "company": "CITY THERAPEUTICS, INC.",
       "ticker": "CTY",
       "exchange": "NASDAQ",
@@ -90,6 +100,26 @@
       "sector": "Technology",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-10-16"
+    },
+    {
+      "company": "Iambic Therapeutics, Inc.",
+      "ticker": "IAM",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-15",
+      "sector": "Healthcare",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-16"
+    },
+    {
+      "company": "Amaero Inc.",
+      "ticker": "AMRO",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-15",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-10-16"
     },
     {
