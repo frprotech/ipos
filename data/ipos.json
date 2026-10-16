@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T04:29:35+00:00",
+  "updated_at": "2026-10-16T11:20:59+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -43,21 +43,21 @@
       "fetched_at": "2026-10-16"
     },
     {
-      "company": "Wiluna Mining Corporation Limited",
-      "ticker": "WMC",
-      "exchange": "ASX",
-      "listing_date": "2026-10-26",
-      "sector": "Mining & Materials",
-      "status": "Upcoming",
-      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-10-16"
-    },
-    {
       "company": "Jacaranda Natural Resources Limited",
       "ticker": "JRL",
       "exchange": "ASX",
       "listing_date": "2026-10-22",
       "sector": "SPAC / Blank Check",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-10-16"
+    },
+    {
+      "company": "Wiluna Mining Corporation Limited",
+      "ticker": "WMC",
+      "exchange": "ASX",
+      "listing_date": "2026-10-22",
+      "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
       "fetched_at": "2026-10-16"
@@ -108,16 +108,6 @@
       "exchange": "ASX",
       "listing_date": "2026-10-14",
       "sector": "",
-      "status": "Upcoming",
-      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-10-16"
-    },
-    {
-      "company": "Identifai Genetics Limited",
-      "ticker": "ID1",
-      "exchange": "ASX",
-      "listing_date": "2026-10-13",
-      "sector": "Technology",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
       "fetched_at": "2026-10-16"
