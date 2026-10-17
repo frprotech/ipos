@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-10-16T21:45:21+00:00",
+  "updated_at": "2026-10-17T05:03:15+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "NASDAQ",
+      "old_name": "WESTPORT FUEL SYSTEMS INC.",
+      "old_ticker": "",
+      "new_name": "AETHERION TECHNOLOGIES INC.",
+      "new_ticker": "WPRT",
+      "change_type": "Name Change",
+      "date": "2026-10-16",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001370416&type=8-K"
+    },
     {
       "exchange": "ASX",
       "old_name": "Galilee Energy Limited",
@@ -6113,16 +6123,6 @@
       "change_type": "Name Change",
       "date": "2025-10-17",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000910073&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "ZOOZ Power Ltd.",
-      "old_ticker": "ZOOZW",
-      "new_name": "ZOOZ Strategy Ltd.",
-      "new_ticker": "ZOOZ",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-10-16",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001992818&type=8-K"
     }
   ]
 }
