@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T12:16:19+00:00",
+  "updated_at": "2026-10-20T17:35:41+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -143,16 +143,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-10-02",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001716621&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Wisekey International Holding S.A.",
-      "old_ticker": "",
-      "new_name": "WISeQey Corp.",
-      "new_ticker": "WKEY",
-      "change_type": "Name Change",
-      "date": "2026-10-02",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001738699&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -5805,16 +5795,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001969928&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "James River Group Holdings, Ltd.",
-      "old_ticker": "",
-      "new_name": "James River Group Holdings, Inc.",
-      "new_ticker": "JRVR",
-      "change_type": "Name Change",
-      "date": "2025-11-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001620459&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "AG Mortgage Investment Trust, Inc.",
       "old_ticker": "MITN",
@@ -5823,6 +5803,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-11-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514281&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "James River Group Holdings, Ltd.",
+      "old_ticker": "",
+      "new_name": "James River Group Holdings, Inc.",
+      "new_ticker": "JRVR",
+      "change_type": "Name Change",
+      "date": "2025-11-07",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001620459&type=8-K"
     },
     {
       "exchange": "NASDAQ",
