@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T22:39:42+00:00",
+  "updated_at": "2026-10-20T05:23:08+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -67,9 +67,9 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Quince Therapeutics, Inc.",
-      "old_ticker": "IRLA",
+      "old_ticker": "QNCX",
       "new_name": "IRulya Therapeutics Inc.",
-      "new_ticker": "QNCX",
+      "new_ticker": "IRLA",
       "change_type": "Name & Symbol Change",
       "date": "2026-10-09",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001662774&type=8-K"
@@ -127,10 +127,10 @@
     {
       "exchange": "NYSE",
       "old_name": "Viking Acquisition Corp I",
-      "old_ticker": "VACI",
+      "old_ticker": "",
       "new_name": "NorthStar Earth & Space Enterprises, Inc.",
       "new_ticker": "NSTR",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-10-02",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002080023&type=8-K"
     },
