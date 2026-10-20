@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T17:01:19+00:00",
+  "updated_at": "2026-10-20T21:35:37+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -270,6 +270,66 @@
       "sector": "Technology",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-20"
+    },
+    {
+      "company": "Manulife All-Equity ETF Portfolio",
+      "ticker": "MEQP",
+      "exchange": "TSX",
+      "listing_date": "2026-09-28",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-10-20"
+    },
+    {
+      "company": "Manulife All-Fixed Income ETF Portfolio",
+      "ticker": "MBND",
+      "exchange": "TSX",
+      "listing_date": "2026-09-28",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-10-20"
+    },
+    {
+      "company": "Manulife Corporate Bond Fund",
+      "ticker": "CORB",
+      "exchange": "TSX",
+      "listing_date": "2026-09-28",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-10-20"
+    },
+    {
+      "company": "Manulife Smart International Dividend ETF - USD",
+      "ticker": "IDUV.U",
+      "exchange": "TSX",
+      "listing_date": "2026-09-28",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-10-20"
+    },
+    {
+      "company": "Middlefield Alternative Global Fixed Income Fund",
+      "ticker": "MAGF",
+      "exchange": "TSX",
+      "listing_date": "2026-09-28",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-10-20"
+    },
+    {
+      "company": "Middlefield Global Multi-Sector Fixed Income Fund",
+      "ticker": "MGFI",
+      "exchange": "TSX",
+      "listing_date": "2026-09-28",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
       "fetched_at": "2026-10-20"
     },
     {
