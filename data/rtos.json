@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T21:55:47+00:00",
+  "updated_at": "2026-10-21T05:21:56+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -23,6 +23,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-10-15",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "UNIVERSAL SAFETY PRODUCTS, INC.",
+      "old_ticker": "",
+      "new_name": "DeFi Capital Markets, Inc.",
+      "new_ticker": "UUU",
+      "change_type": "Name Change",
+      "date": "2026-10-15",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000102109&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -163,6 +173,16 @@
       "change_type": "Name Change",
       "date": "2026-10-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002009312&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Karman Line Acquisition Corp.",
+      "old_ticker": "XTERU",
+      "new_name": "Xterax Corp II",
+      "new_ticker": "XTER",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-10-01",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134856&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -723,6 +743,16 @@
       "change_type": "Name Change",
       "date": "2026-08-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001944552&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "NYLI CBRE Global Infrastructure Megatrends Term Fund",
+      "old_ticker": "",
+      "new_name": "NYLIM CBRE Global Infrastructure Megatrends Term Fund",
+      "new_ticker": "MEGI",
+      "change_type": "Name Change",
+      "date": "2026-08-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001855066&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -6083,26 +6113,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-10-22",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002033383&type=8-K"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "My Foodie Box Limited",
-      "old_ticker": "MBX",
-      "new_name": "Tarrina Resources Limited",
-      "new_ticker": "TR8",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-10-20",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "BAROYECA GOLD &amp; SILVER INC.",
-      "old_ticker": "BGS",
-      "new_name": "0749116 B.C. LTD.",
-      "new_ticker": "TRR",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-10-20",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=304445&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
