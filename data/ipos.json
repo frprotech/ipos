@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T11:45:56+00:00",
+  "updated_at": "2026-10-21T17:10:11+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -50,6 +50,26 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-10-21"
+    },
+    {
+      "company": "Lycia Therapeutics, Inc.",
+      "ticker": "LYCA",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-23",
+      "sector": "Healthcare",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-21"
+    },
+    {
+      "company": "DAVION HEALTHCARE PLC",
+      "ticker": "DAVI",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-22",
+      "sector": "Healthcare",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-10-21"
     },
     {
@@ -113,6 +133,26 @@
       "fetched_at": "2026-10-21"
     },
     {
+      "company": "Brompton Financials HighPay ETF",
+      "ticker": "PAYB",
+      "exchange": "TSX",
+      "listing_date": "2026-10-16",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-10-21"
+    },
+    {
+      "company": "Brompton Technology HighPay ETF",
+      "ticker": "PAYT",
+      "exchange": "TSX",
+      "listing_date": "2026-10-16",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-10-21"
+    },
+    {
       "company": "Overwatch Technologies Limited",
       "ticker": "OWL",
       "exchange": "ASX",
@@ -143,6 +183,16 @@
       "fetched_at": "2026-10-21"
     },
     {
+      "company": "Blackrock Silver Corp.",
+      "ticker": "BRC",
+      "exchange": "TSX",
+      "listing_date": "2026-10-15",
+      "sector": "",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-10-21"
+    },
+    {
       "company": "Frazier Life Sciences Acquisition Corp. II",
       "ticker": "FLSC",
       "exchange": "NASDAQ",
@@ -153,6 +203,26 @@
       "fetched_at": "2026-10-21"
     },
     {
+      "company": "CI Forge First Conservative Alternative Fund",
+      "ticker": "CCAF, CCAF.U",
+      "exchange": "TSX",
+      "listing_date": "2026-10-14",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-10-21"
+    },
+    {
+      "company": "CI Forge First Long Short Alternative Fund",
+      "ticker": "CLSF, CLSF.U",
+      "exchange": "TSX",
+      "listing_date": "2026-10-14",
+      "sector": "Financial Services",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-10-21"
+    },
+    {
       "company": "Glencore plc",
       "ticker": "GLC",
       "exchange": "ASX",
@@ -160,6 +230,76 @@
       "sector": "",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-10-21"
+    },
+    {
+      "company": "Global X Alphabet PowerStock ETF",
+      "ticker": "GOOP",
+      "exchange": "TSX",
+      "listing_date": "2026-10-13",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-10-21"
+    },
+    {
+      "company": "Global X Amazon PowerStock ETF",
+      "ticker": "AMZP",
+      "exchange": "TSX",
+      "listing_date": "2026-10-13",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-10-21"
+    },
+    {
+      "company": "Global X Apple PowerStock ETF",
+      "ticker": "AAPP",
+      "exchange": "TSX",
+      "listing_date": "2026-10-13",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-10-21"
+    },
+    {
+      "company": "Global X NVIDIA PowerStock ETF",
+      "ticker": "NVDP",
+      "exchange": "TSX",
+      "listing_date": "2026-10-13",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-10-21"
+    },
+    {
+      "company": "Global X SpaceX PowerStock ETF",
+      "ticker": "SPCP",
+      "exchange": "TSX",
+      "listing_date": "2026-10-13",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-10-21"
+    },
+    {
+      "company": "Global X Tesla PowerStock ETF",
+      "ticker": "TSLP",
+      "exchange": "TSX",
+      "listing_date": "2026-10-13",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
+      "fetched_at": "2026-10-21"
+    },
+    {
+      "company": "Next Edge CIA Disciplined Growth Portfolio",
+      "ticker": "PCD.UN",
+      "exchange": "TSX",
+      "listing_date": "2026-10-13",
+      "sector": "ETF / Fund",
+      "status": "Listed",
+      "source": "https://www.tsx.com/en/news/new-company-listings",
       "fetched_at": "2026-10-21"
     },
     {
