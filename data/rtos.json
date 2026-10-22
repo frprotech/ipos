@@ -1,7 +1,6 @@
 {
-  "updated_at": "2026-10-22T05:25:43+00:00",
+  "updated_at": "2026-10-22T12:30:25+00:00",
   "sources_failed": [
-    "US",
     "TSX"
   ],
   "rtos": [
@@ -64,6 +63,26 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-10-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001991261&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "VS MEDIA Holdings Ltd",
+      "old_ticker": "",
+      "new_name": "Forcendra Holding Ltd",
+      "new_ticker": "VSME",
+      "change_type": "Name Change",
+      "date": "2026-10-14",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001951294&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Volato Group, Inc.",
+      "old_ticker": "",
+      "new_name": "SOAR AI, Inc.",
+      "new_ticker": "SOAR",
+      "change_type": "Name Change",
+      "date": "2026-10-13",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001853070&type=8-K"
     },
     {
       "exchange": "NASDAQ",
