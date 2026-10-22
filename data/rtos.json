@@ -1,9 +1,30 @@
 {
-  "updated_at": "2026-10-21T22:00:38+00:00",
+  "updated_at": "2026-10-22T05:25:43+00:00",
   "sources_failed": [
+    "US",
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "Castle Minerals Limited",
+      "old_ticker": "CDT",
+      "new_name": "Terranova Metals Ltd",
+      "new_ticker": "TNM",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-10-26",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Liberty Metals Limited",
+      "old_ticker": "LIB",
+      "new_name": "El Dorado Goldfields Limited",
+      "new_ticker": "EDO",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-10-23",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
     {
       "exchange": "NASDAQ",
       "old_name": "WESTPORT FUEL SYSTEMS INC.",
