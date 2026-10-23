@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T05:26:23+00:00",
+  "updated_at": "2026-10-23T12:11:56+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -23,16 +23,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-10-23",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "ATII Holdings Inc.",
-      "old_ticker": "",
-      "new_name": "Forge Nano Holdings, Inc.",
-      "new_ticker": "NANO",
-      "change_type": "Name Change",
-      "date": "2026-10-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002101833&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -393,16 +383,6 @@
       "change_type": "Symbol Change",
       "date": "2026-09-16",
       "source": "https://thecse.com/bulletin/2026-0916-resumption-and-symbol-change-inactive-designation-aether-global-innovations-corp-aeth"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "LION COPPER & GOLD CORP.",
-      "old_ticker": "",
-      "new_name": "Lion Copper Corp.",
-      "new_ticker": "LCU",
-      "change_type": "Name Change",
-      "date": "2026-09-15",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001339688&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -795,16 +775,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "NYLI CBRE Global Infrastructure Megatrends Term Fund",
-      "old_ticker": "",
-      "new_name": "NYLIM CBRE Global Infrastructure Megatrends Term Fund",
-      "new_ticker": "MEGI",
-      "change_type": "Name Change",
-      "date": "2026-08-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001855066&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Adlai Nortye Ltd.",
       "old_ticker": "",
@@ -813,6 +783,16 @@
       "change_type": "Name Change",
       "date": "2026-08-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001944552&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "NYLI CBRE Global Infrastructure Megatrends Term Fund",
+      "old_ticker": "",
+      "new_name": "NYLIM CBRE Global Infrastructure Megatrends Term Fund",
+      "new_ticker": "MEGI",
+      "change_type": "Name Change",
+      "date": "2026-08-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001855066&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -4406,16 +4386,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "iRhythm Technologies, Inc.",
-      "old_ticker": "",
-      "new_name": "iRhythm Holdings, Inc.",
-      "new_ticker": "IRTC",
-      "change_type": "Name Change",
-      "date": "2026-01-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Ondas Holdings Inc.",
       "old_ticker": "",
       "new_name": "Ondas Inc.",
@@ -4423,6 +4393,16 @@
       "change_type": "Name Change",
       "date": "2026-01-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001646188&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "iRhythm Technologies, Inc.",
+      "old_ticker": "",
+      "new_name": "iRhythm Holdings, Inc.",
+      "new_ticker": "IRTC",
+      "change_type": "Name Change",
+      "date": "2026-01-12",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -4945,16 +4925,6 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "Bluerock Total Income (plus) Real Estate Fund",
-      "old_ticker": "",
-      "new_name": "Bluerock Private Real Estate Fund",
-      "new_ticker": "BPRE",
-      "change_type": "Name Change",
-      "date": "2025-12-15",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551047&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "B. Riley Financial, Inc.",
       "old_ticker": "RILYG",
@@ -4973,6 +4943,16 @@
       "change_type": "Name Change",
       "date": "2025-12-15",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001853825&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Bluerock Total Income (plus) Real Estate Fund",
+      "old_ticker": "",
+      "new_name": "Bluerock Private Real Estate Fund",
+      "new_ticker": "BPRE",
+      "change_type": "Name Change",
+      "date": "2025-12-15",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551047&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -5715,16 +5695,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002078008&type=8-K"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "Gannett Co., Inc.",
-      "old_ticker": "",
-      "new_name": "USA TODAY Co., Inc.",
-      "new_ticker": "TDAY",
-      "change_type": "Name Change",
-      "date": "2025-11-14",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579684&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Roth CH Holdings, Inc.",
       "old_ticker": "",
@@ -5733,6 +5703,16 @@
       "change_type": "Name Change",
       "date": "2025-11-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002068385&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Gannett Co., Inc.",
+      "old_ticker": "",
+      "new_name": "USA TODAY Co., Inc.",
+      "new_ticker": "TDAY",
+      "change_type": "Name Change",
+      "date": "2025-11-14",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579684&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -5895,16 +5875,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001969928&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "James River Group Holdings, Ltd.",
-      "old_ticker": "",
-      "new_name": "James River Group Holdings, Inc.",
-      "new_ticker": "JRVR",
-      "change_type": "Name Change",
-      "date": "2025-11-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001620459&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "AG Mortgage Investment Trust, Inc.",
       "old_ticker": "MITN",
@@ -5913,6 +5883,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-11-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514281&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "James River Group Holdings, Ltd.",
+      "old_ticker": "",
+      "new_name": "James River Group Holdings, Inc.",
+      "new_ticker": "JRVR",
+      "change_type": "Name Change",
+      "date": "2025-11-07",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001620459&type=8-K"
     },
     {
       "exchange": "NASDAQ",
