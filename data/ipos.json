@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T11:36:02+00:00",
+  "updated_at": "2026-10-23T17:04:33+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -83,6 +83,16 @@
       "fetched_at": "2026-10-23"
     },
     {
+      "company": "DAVION HEALTHCARE PLC",
+      "ticker": "DAVI",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-22",
+      "sector": "Healthcare",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-23"
+    },
+    {
       "company": "Wiluna Mining Corporation Limited",
       "ticker": "WMC",
       "exchange": "ASX",
@@ -153,21 +163,21 @@
       "fetched_at": "2026-10-23"
     },
     {
-      "company": "Amaero Inc.",
-      "ticker": "AMRO",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-10-15",
-      "sector": "",
-      "status": "Priced",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-23"
-    },
-    {
       "company": "Iambic Therapeutics, Inc.",
       "ticker": "IAM",
       "exchange": "NASDAQ",
       "listing_date": "2026-10-15",
       "sector": "Healthcare",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-23"
+    },
+    {
+      "company": "Amaero Inc.",
+      "ticker": "AMRO",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-15",
+      "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-10-23"
@@ -323,21 +333,21 @@
       "fetched_at": "2026-10-23"
     },
     {
-      "company": "Retension Pharmaceuticals, Inc.",
-      "ticker": "RTSN",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-10-09",
-      "sector": "Healthcare",
-      "status": "Priced",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-23"
-    },
-    {
       "company": "TRex Bio, Inc.",
       "ticker": "TRXB",
       "exchange": "NASDAQ",
       "listing_date": "2026-10-09",
       "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-23"
+    },
+    {
+      "company": "Retension Pharmaceuticals, Inc.",
+      "ticker": "RTSN",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-09",
+      "sector": "Healthcare",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-10-23"
