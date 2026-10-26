@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-10-25T21:16:21+00:00",
+  "updated_at": "2026-10-26T05:23:37+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "Neuroscientific Biopharmaceuticals Ltd",
+      "old_ticker": "NSB",
+      "new_name": "Miro Sciences Ltd",
+      "new_ticker": "MSX",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-10-28",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
     {
       "exchange": "ASX",
       "old_name": "Castle Minerals Limited",
