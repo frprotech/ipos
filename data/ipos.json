@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T20:49:02+00:00",
+  "updated_at": "2026-10-26T04:44:07+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -12,7 +12,7 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "M Battery Materials Limited",
@@ -22,7 +22,7 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Rio de Oro Corp Ltd",
@@ -32,7 +32,7 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Matrix Critical Minerals Limited",
@@ -42,7 +42,7 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Capability X Limited",
@@ -52,7 +52,7 @@
       "sector": "Technology",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Maverick Uranium Limited",
@@ -62,7 +62,7 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Jacaranda Natural Resources Limited",
@@ -72,7 +72,17 @@
       "sector": "SPAC / Blank Check",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
+    },
+    {
+      "company": "G3 Goldfields Inc.",
+      "ticker": "GTRE",
+      "exchange": "CSE",
+      "listing_date": "2026-10-26",
+      "sector": "Mining & Materials",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "DAVION HEALTHCARE PLC",
@@ -82,7 +92,7 @@
       "sector": "Healthcare",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Wiluna Mining Corporation Limited",
@@ -92,7 +102,7 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "DGEN Technologies Corp.",
@@ -102,7 +112,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "ProAm Explorations Corporation",
@@ -112,7 +122,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "CITY THERAPEUTICS, INC.",
@@ -122,7 +132,7 @@
       "sector": "Healthcare",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "TCGX Acquisition Corp. II",
@@ -132,7 +142,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Brompton Financials HighPay ETF",
@@ -162,7 +172,7 @@
       "sector": "Healthcare",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Amaero Inc.",
@@ -172,7 +182,7 @@
       "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Blackrock Silver Corp.",
@@ -192,7 +202,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "CI Forge First Conservative Alternative Fund",
@@ -302,7 +312,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Corus Entertainment Holdings Inc. 8OCT2031 Warrants",
@@ -312,7 +322,7 @@
       "sector": "Industrials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Algo8 AI Inc.",
@@ -322,7 +332,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "TRex Bio, Inc.",
@@ -332,7 +342,7 @@
       "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Retension Pharmaceuticals, Inc.",
@@ -342,7 +352,7 @@
       "sector": "Healthcare",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "iShares A.I. Innovation and Tech ETF",
@@ -402,7 +412,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Chilwa Minerals Ltd",
@@ -412,7 +422,7 @@
       "sector": "Mining & Materials",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Southport Acquisition Corp. II",
@@ -422,7 +432,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Accelevation Holdings Corp.",
@@ -432,7 +442,7 @@
       "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Fidelity Global Quant Equity ETF",
@@ -542,7 +552,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "ROZE AI INC.",
@@ -552,7 +562,7 @@
       "sector": "Technology",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Manulife All-Equity ETF Portfolio",
@@ -622,7 +632,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "ADARx Pharmaceuticals, Inc.",
@@ -632,7 +642,7 @@
       "sector": "Healthcare",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Bluerock Acquisition Corp. II",
@@ -642,7 +652,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "NBI SmartData Enhanced Yield U.S. Equity Fund",
@@ -702,7 +712,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "BMO Strategic Autocallable Income US Large Cap ETF (ZACU, ZACU.F, ZACU.U)",
@@ -802,7 +812,7 @@
       "sector": "Financial Services",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Electra Therapeutics, Inc.",
@@ -812,7 +822,7 @@
       "sector": "Healthcare",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Leader's Advantage Acquisition Corp.",
@@ -822,7 +832,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Haymaker Acquisition Corp V",
@@ -832,7 +842,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "TD Q International Dividend ETF",
@@ -872,7 +882,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Ninepoint Enhanced U.S. Equity HighShares ETF",
@@ -892,7 +902,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Power Leaves Holdings Corp.",
@@ -902,7 +912,7 @@
       "sector": "Industrials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Westcourt Hamilton Yield Portfolio ETF",
@@ -952,7 +962,7 @@
       "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Three Lions Acquisition Corp.",
@@ -962,7 +972,7 @@
       "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Pelican AI Corp.",
@@ -972,7 +982,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Avantis CIBC Balanced Asset Allocation ETF",
@@ -1042,7 +1052,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Krait Critical Minerals Corp.",
@@ -1052,7 +1062,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Althea Copper Corp.",
@@ -1062,7 +1072,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Evolve Global Defense & Aerospace Index ETF",
@@ -1082,7 +1092,7 @@
       "sector": "ETF / Fund",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "TD Target 2031 Investment Grade Bond Fund",
@@ -1102,7 +1112,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Evolve NASDAQ Technology UltraYield ETF",
@@ -1122,7 +1132,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Talamore Mining Corp.",
@@ -1142,7 +1152,7 @@
       "sector": "Healthcare",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "GoldCoast Resource Corp.",
@@ -1152,7 +1162,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Aitenders Technologies Inc.",
@@ -1162,7 +1172,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "iShares Core MSCI All-International Equity Index ETF",
@@ -1192,7 +1202,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Edge Copper Corporation",
@@ -1222,7 +1232,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Cadillac Mines Corporation",
@@ -1242,7 +1252,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Amap\u00e1 Minerals Holdings Inc.",
@@ -1272,7 +1282,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Guardian i3 AI Technology and Innovation Fund",
@@ -1292,7 +1302,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "IA Clarington International Multifactor Equity Fund",
@@ -1312,7 +1322,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Abitibi Greenstone Gold Corp.",
@@ -1322,7 +1332,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Axion Minerals Corp",
@@ -1332,7 +1342,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Silver Pony Resources Corp.",
@@ -1342,7 +1352,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Capital Group Global Developed Equity Select ETF (Canada)",
@@ -1392,7 +1402,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "New Aurora Metals Corp.",
@@ -1402,7 +1412,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Copper One Resources Corp. 24JUNE2027 Warrants",
@@ -1412,7 +1422,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Brompton U.S. Equity HighPay ETF",
@@ -1442,7 +1452,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Evolve Canadian Financials Yield Fund",
@@ -1492,7 +1502,7 @@
       "sector": "Industrials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Madison US Large Cap ETF",
@@ -1552,7 +1562,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Desjardins Active Canadian Bond Universe ETF",
@@ -1832,7 +1842,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Atlantico Energy Metals Corp.",
@@ -1842,7 +1852,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Desjardins Global Government Bond Index ETF",
@@ -1862,7 +1872,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Global Real Assets Trust",
@@ -2002,7 +2012,7 @@
       "sector": "Energy",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Abaxx Technologies Inc.",
@@ -2142,7 +2152,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Global X Enhanced All-In-One Commodity Producers Equity Covered Call ETF",
@@ -2232,7 +2242,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Meritage Tactical ETF Balanced Portfolio",
@@ -2422,7 +2432,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Amphenol CDR (CAD Hedged)",
@@ -2682,7 +2692,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Great Red Lake Gold Corp.",
@@ -2692,7 +2702,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Predictive Discovery Limited",
@@ -2712,7 +2722,7 @@
       "sector": "Healthcare",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "First Trust Nasdaq\u00ae Clean Edge\u00ae Smart Grid Infrastructure ETF",
@@ -2782,7 +2792,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Contango Silver & Gold Inc.",
@@ -2932,7 +2942,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Americas Uranium Corp.",
@@ -2942,7 +2952,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Avantis CIBC Emerging Markets Equity ETF",
@@ -3012,7 +3022,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Xanadu Quantum Technologies Limited",
@@ -3032,7 +3042,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Bunker Hill Mining Corp.",
@@ -3182,7 +3192,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Evolve All-in-One UltraYield ETF",
@@ -3302,7 +3312,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "North America Home Finance Inc. Warrants",
@@ -3312,7 +3322,7 @@
       "sector": "Financial Services",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Beaumont Exploration Corp.",
@@ -3322,7 +3332,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Avantis CIBC Canadian Equity ETF",
@@ -3372,7 +3382,7 @@
       "sector": "Clean Energy",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "NetraMark Holdings Inc.",
@@ -3502,7 +3512,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Redwood AI Corp.",
@@ -3512,7 +3522,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Maximus Metals Inc.",
@@ -3522,7 +3532,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "BMO MSCI Canada IMI High Dividend Yield Index ETF",
@@ -3682,7 +3692,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Titan Technology Corp.",
@@ -3692,7 +3702,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "PIMCO Managed Balanced Portfolio",
@@ -3882,7 +3892,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Predictiv AI Inc.",
@@ -3892,7 +3902,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Encore Technologies Corp.",
@@ -3902,7 +3912,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Bitzero Holdings Inc.",
@@ -3912,7 +3922,7 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "CAT Strategic Metals Corporation 21NOV2030 Warrants",
@@ -3922,7 +3932,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     },
     {
       "company": "Stinger Resources Inc.",
@@ -3932,7 +3942,7 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-10-25"
+      "fetched_at": "2026-10-26"
     }
   ]
 }
