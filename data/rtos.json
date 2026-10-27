@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T22:54:53+00:00",
+  "updated_at": "2026-10-27T05:39:51+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -36,21 +36,31 @@
     },
     {
       "exchange": "NASDAQ",
+      "old_name": "La Rosa Holdings Corp.",
+      "old_ticker": "LRHC",
+      "new_name": "Stratum Holdings Corp.",
+      "new_ticker": "SRTM",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-10-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001879403&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
       "old_name": "ATII Holdings Inc.",
-      "old_ticker": "",
+      "old_ticker": "NANOW",
       "new_name": "Forge Nano Holdings, Inc.",
       "new_ticker": "NANO",
-      "change_type": "Name Change",
+      "change_type": "Name & Symbol Change",
       "date": "2026-10-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002101833&type=8-K"
     },
     {
       "exchange": "NASDAQ",
       "old_name": "WESTPORT FUEL SYSTEMS INC.",
-      "old_ticker": "",
+      "old_ticker": "WPRT",
       "new_name": "AETHERION TECHNOLOGIES INC.",
-      "new_ticker": "WPRT",
-      "change_type": "Name Change",
+      "new_ticker": "AETR",
+      "change_type": "Name & Symbol Change",
       "date": "2026-10-16",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001370416&type=8-K"
     },
@@ -67,10 +77,10 @@
     {
       "exchange": "NYSE",
       "old_name": "UNIVERSAL SAFETY PRODUCTS, INC.",
-      "old_ticker": "",
+      "old_ticker": "UUU",
       "new_name": "DeFi Capital Markets, Inc.",
-      "new_ticker": "UUU",
-      "change_type": "Name Change",
+      "new_ticker": "DCM",
+      "change_type": "Name & Symbol Change",
       "date": "2026-10-15",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000102109&type=8-K"
     },
@@ -137,10 +147,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Quince Therapeutics, Inc.",
-      "old_ticker": "QNCX",
+      "old_ticker": "",
       "new_name": "IRulya Therapeutics Inc.",
       "new_ticker": "IRLA",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-10-09",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001662774&type=8-K"
     },
@@ -167,10 +177,10 @@
     {
       "exchange": "NYSE",
       "old_name": "Paramount Skydance Corp",
-      "old_ticker": "PSKY",
+      "old_ticker": "",
       "new_name": "Skydance Corp",
       "new_ticker": "SKYD",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-10-06",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002041610&type=8-K"
     },
@@ -897,20 +907,20 @@
     {
       "exchange": "NASDAQ",
       "old_name": "BED BATH & BEYOND, INC.",
-      "old_ticker": "BBBYW",
+      "old_ticker": "",
       "new_name": "NEIGHBORHOOD INTELLIGENCE, INC.",
       "new_ticker": "NXH",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-08-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001130713&type=8-K"
     },
     {
       "exchange": "NASDAQ",
       "old_name": "HiTek Global Inc.",
-      "old_ticker": "HKIT",
+      "old_ticker": "",
       "new_name": "Biddance AI Systems, Inc.",
       "new_ticker": "BDAI",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-08-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001742341&type=8-K"
     },
@@ -1033,6 +1043,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-08-02",
       "source": "https://thecse.com/bulletin/2026-0802-name-and-symbol-change-integrated-cyber-solutions-inc-ics"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "WISeKey International Corp.",
+      "old_ticker": "",
+      "new_name": "WISeQey Corp.",
+      "new_ticker": "WQEY",
+      "change_type": "Name Change",
+      "date": "2026-07-31",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002107968&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -1447,10 +1467,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Greenidge Generation Holdings Inc.",
-      "old_ticker": "GREEL",
+      "old_ticker": "",
       "new_name": "Vulcan Infrastructure & Power Inc.",
       "new_ticker": "VIP",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-07-09",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001844971&type=8-K"
     },
