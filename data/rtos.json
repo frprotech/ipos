@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-10-27T12:42:40+00:00",
+  "updated_at": "2026-10-27T18:21:06+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Clarity Metals Corp",
+      "new_ticker": "CMET",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-10-29",
+      "source": "https://thecse.com/bulletin/2026-1029-name-symbol-change-and-consolidation-clarity-metals-corp-cmet"
+    },
     {
       "exchange": "ASX",
       "old_name": "Neuroscientific Biopharmaceuticals Ltd",
@@ -13,6 +23,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-10-28",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Flow Capital Corp",
+      "new_ticker": "FW",
+      "change_type": "Symbol Change",
+      "date": "2026-10-27",
+      "source": "https://thecse.com/bulletin/2026-1027-symbol-change-flow-capital-corp-fw"
     },
     {
       "exchange": "ASX",
