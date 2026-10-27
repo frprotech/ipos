@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T18:21:06+00:00",
+  "updated_at": "2026-10-27T22:39:08+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -4765,16 +4765,6 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=309025&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "Santech Holdings Ltd",
-      "old_ticker": "",
-      "new_name": "BitVentures Ltd",
-      "new_ticker": "BVC",
-      "change_type": "Name Change",
-      "date": "2025-12-22",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001785680&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "Qudian Inc.",
       "old_ticker": "",
@@ -4783,6 +4773,16 @@
       "change_type": "Name Change",
       "date": "2025-12-22",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001692705&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Santech Holdings Ltd",
+      "old_ticker": "",
+      "new_name": "BitVentures Ltd",
+      "new_ticker": "BVC",
+      "change_type": "Name Change",
+      "date": "2025-12-22",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001785680&type=8-K"
     },
     {
       "exchange": "TSXV",
