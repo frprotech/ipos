@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T12:08:24+00:00",
+  "updated_at": "2026-10-27T17:59:10+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -60,6 +60,46 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-10-27"
+    },
+    {
+      "company": "Aspen Neuroscience, Inc.",
+      "ticker": "ASPE",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-30",
+      "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-27"
+    },
+    {
+      "company": "OPAY Ltd",
+      "ticker": "OPAY",
+      "exchange": "NYSE",
+      "listing_date": "2026-10-30",
+      "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-27"
+    },
+    {
+      "company": "Bambusa Therapeutics, Inc.",
+      "ticker": "BBTX",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-30",
+      "sector": "Healthcare",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-27"
+    },
+    {
+      "company": "GEORGIA BANKING CO INC",
+      "ticker": "GBC",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-29",
+      "sector": "Financial Services",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-10-27"
     },
     {
