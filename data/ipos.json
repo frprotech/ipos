@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T05:39:27+00:00",
+  "updated_at": "2026-10-28T12:51:27+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -110,6 +110,16 @@
       "sector": "SPAC / Blank Check",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-10-28"
+    },
+    {
+      "company": "SPACCircle Acquisition Corp.",
+      "ticker": "SCQCU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-27",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-10-28"
     },
     {
