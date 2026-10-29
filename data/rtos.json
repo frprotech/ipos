@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T22:54:04+00:00",
+  "updated_at": "2026-10-29T06:31:20+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -53,6 +53,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-10-26",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Brera Holdings PLC",
+      "old_ticker": "",
+      "new_name": "Solmate Infrastructure PLC",
+      "new_ticker": "SLMT",
+      "change_type": "Name Change",
+      "date": "2026-10-26",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001939965&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -6173,26 +6183,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-10-29",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002019804&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "I-Mab",
-      "old_ticker": "",
-      "new_name": "NovaBridge Biosciences",
-      "new_ticker": "NBP",
-      "change_type": "Name Change",
-      "date": "2025-10-28",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001778016&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "BIOSTEM TECHNOLOGIES",
-      "old_ticker": "",
-      "new_name": "BioStem Technologies, Inc.",
-      "new_ticker": "BSEM",
-      "change_type": "Name Change",
-      "date": "2025-10-28",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001658678&type=8-K"
     }
   ]
 }
