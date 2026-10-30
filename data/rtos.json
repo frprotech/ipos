@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-10-29T23:00:37+00:00",
+  "updated_at": "2026-10-30T06:30:40+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "Askari Metals Limited",
+      "old_ticker": "AS2",
+      "new_name": "Highland Metals Limited",
+      "new_ticker": "HLM",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-11-03",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
     {
       "exchange": "ASX",
       "old_name": "Magellan Financial Group Limited",
@@ -86,6 +96,16 @@
     },
     {
       "exchange": "NASDAQ",
+      "old_name": "NAVIENT CORP",
+      "old_ticker": "JSM",
+      "new_name": "Navient LLC",
+      "new_ticker": "NAVI",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-10-21",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001593538&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
       "old_name": "La Rosa Holdings Corp.",
       "old_ticker": "LRHC",
       "new_name": "Stratum Holdings Corp.",
@@ -137,10 +157,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "SKK Holdings Ltd",
-      "old_ticker": "SKK",
+      "old_ticker": "",
       "new_name": "Rantizo",
       "new_ticker": "RNTZ",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-10-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001991261&type=8-K"
     },
@@ -6173,16 +6193,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-10-30",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=305205&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "HCM II Acquisition Corp.",
-      "old_ticker": "IMSRW",
-      "new_name": "Terrestrial Energy Inc. /DE/",
-      "new_ticker": "IMSR",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-10-29",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002019804&type=8-K"
     }
   ]
 }
