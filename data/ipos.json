@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T05:44:46+00:00",
+  "updated_at": "2026-10-30T12:51:58+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -89,6 +89,26 @@
       "listing_date": "2026-10-30",
       "sector": "Healthcare",
       "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-30"
+    },
+    {
+      "company": "BHAV Acquisition Corp II",
+      "ticker": "BHAIU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-29",
+      "sector": "SPAC / Blank Check",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-10-30"
+    },
+    {
+      "company": "GEORGIA BANKING CO INC",
+      "ticker": "GBC",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-29",
+      "sector": "Financial Services",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-10-30"
     },
