@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T22:41:11+00:00",
+  "updated_at": "2026-10-31T06:21:28+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -83,6 +83,26 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-10-23",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "JinkoSolar Holding Co., Ltd.",
+      "old_ticker": "",
+      "new_name": "Jinko Holdings Ltd",
+      "new_ticker": "JKS",
+      "change_type": "Name Change",
+      "date": "2026-10-23",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001481513&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Banzai International, Inc.",
+      "old_ticker": "PARAW",
+      "new_name": "Parabolic Technologies, Inc.",
+      "new_ticker": "PARA",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-10-22",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001826011&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -6153,46 +6173,6 @@
       "change_type": "Symbol Change",
       "date": "2025-10-31",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=305229&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Nextracker Inc.",
-      "old_ticker": "",
-      "new_name": "Nextpower Inc.",
-      "new_ticker": "NXT",
-      "change_type": "Name Change",
-      "date": "2025-10-30",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001852131&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "fuboTV Inc. /FL",
-      "old_ticker": "",
-      "new_name": "FuboTV Inc.",
-      "new_ticker": "FUBO",
-      "change_type": "Name Change",
-      "date": "2025-10-30",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001484769&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "NLS Pharmaceutics Ltd.",
-      "old_ticker": "",
-      "new_name": "NewcelX Ltd.",
-      "new_ticker": "NCEL",
-      "change_type": "Name Change",
-      "date": "2025-10-30",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001783036&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "PLATA LATINA MINERALS CORPORATION",
-      "old_ticker": "PLA",
-      "new_name": "EDGE COPPER CORPORATION",
-      "new_ticker": "EDCU",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-10-30",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=305205&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
