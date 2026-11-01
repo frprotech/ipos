@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T06:54:06+00:00",
+  "updated_at": "2026-11-01T18:09:04+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -95,16 +95,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001481513&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "Banzai International, Inc.",
-      "old_ticker": "PARAW",
-      "new_name": "Parabolic Technologies, Inc.",
-      "new_ticker": "PARA",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-10-22",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001826011&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "MSGS Spinco, Inc.",
       "old_ticker": "",
@@ -116,23 +106,13 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "NAVIENT CORP",
-      "old_ticker": "JSM",
-      "new_name": "Navient LLC",
-      "new_ticker": "NAVI",
+      "old_name": "Banzai International, Inc.",
+      "old_ticker": "PARAW",
+      "new_name": "Parabolic Technologies, Inc.",
+      "new_ticker": "PARA",
       "change_type": "Name & Symbol Change",
-      "date": "2026-10-21",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001593538&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "La Rosa Holdings Corp.",
-      "old_ticker": "LRHC",
-      "new_name": "Stratum Holdings Corp.",
-      "new_ticker": "SRTM",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-10-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001879403&type=8-K"
+      "date": "2026-10-22",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001826011&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -143,6 +123,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-10-19",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002101833&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "La Rosa Holdings Corp.",
+      "old_ticker": "LRHC",
+      "new_name": "Stratum Holdings Corp.",
+      "new_ticker": "SRTM",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-10-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001879403&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -776,16 +766,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "YY Group Holding Ltd.",
-      "old_ticker": "",
-      "new_name": "YYForce Inc.",
-      "new_ticker": "YFOR",
-      "change_type": "Name Change",
-      "date": "2026-08-26",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001985337&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "BIT ORIGIN Ltd",
       "old_ticker": "",
       "new_name": "SANGRIX INC.",
@@ -793,6 +773,16 @@
       "change_type": "Name Change",
       "date": "2026-08-26",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001735556&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "YY Group Holding Ltd.",
+      "old_ticker": "",
+      "new_name": "YYForce Inc.",
+      "new_ticker": "YFOR",
+      "change_type": "Name Change",
+      "date": "2026-08-26",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001985337&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -3345,16 +3335,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002087587&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "TETE Technologies Inc",
-      "old_ticker": "BBCIW",
-      "new_name": "Bradbury Capital Inc.",
-      "new_ticker": "BBCI",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-03-23",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001986694&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "NovaBay Pharmaceuticals, Inc.",
       "old_ticker": "",
@@ -3363,6 +3343,16 @@
       "change_type": "Name Change",
       "date": "2026-03-23",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001389545&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "TETE Technologies Inc",
+      "old_ticker": "BBCIW",
+      "new_name": "Bradbury Capital Inc.",
+      "new_ticker": "BBCI",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-03-23",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001986694&type=8-K"
     },
     {
       "exchange": "CSE",
@@ -5855,16 +5845,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002078008&type=8-K"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "Gannett Co., Inc.",
-      "old_ticker": "",
-      "new_name": "USA TODAY Co., Inc.",
-      "new_ticker": "TDAY",
-      "change_type": "Name Change",
-      "date": "2025-11-14",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579684&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Roth CH Holdings, Inc.",
       "old_ticker": "",
@@ -5873,6 +5853,16 @@
       "change_type": "Name Change",
       "date": "2025-11-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002068385&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Gannett Co., Inc.",
+      "old_ticker": "",
+      "new_name": "USA TODAY Co., Inc.",
+      "new_ticker": "TDAY",
+      "change_type": "Name Change",
+      "date": "2025-11-14",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579684&type=8-K"
     },
     {
       "exchange": "TSXV",
