@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T06:54:39+00:00",
+  "updated_at": "2026-11-02T21:58:13+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -2453,6 +2453,16 @@
       "change_type": "Name Change",
       "date": "2026-05-26",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318027&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Eureka Lithium Corp",
+      "new_ticker": "ERKA",
+      "change_type": "Name Change",
+      "date": "2026-05-24",
+      "source": "https://thecse.com/bulletin/2026-0524-name-change-eureka-lithium-corp-erka"
     },
     {
       "exchange": "CSE",
