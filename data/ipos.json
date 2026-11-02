@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T05:58:37+00:00",
+  "updated_at": "2026-11-02T15:46:08+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -73,21 +73,21 @@
       "fetched_at": "2026-11-02"
     },
     {
-      "company": "OPAY Ltd",
-      "ticker": "OPAY",
-      "exchange": "NYSE",
+      "company": "Bambusa Therapeutics, Inc.",
+      "ticker": "BBTX",
+      "exchange": "NASDAQ",
       "listing_date": "2026-10-30",
-      "sector": "",
-      "status": "Expected",
+      "sector": "Healthcare",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-11-02"
     },
     {
-      "company": "BHAV Acquisition Corp II",
-      "ticker": "BHAIU",
+      "company": "Aspen Neuroscience, Inc.",
+      "ticker": "ASPE",
       "exchange": "NASDAQ",
-      "listing_date": "2026-10-29",
-      "sector": "SPAC / Blank Check",
+      "listing_date": "2026-10-30",
+      "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-11-02"
@@ -98,6 +98,16 @@
       "exchange": "NASDAQ",
       "listing_date": "2026-10-29",
       "sector": "Financial Services",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-11-02"
+    },
+    {
+      "company": "BHAV Acquisition Corp II",
+      "ticker": "BHAIU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-29",
+      "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-11-02"
