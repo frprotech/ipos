@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-11-01T22:28:09+00:00",
+  "updated_at": "2026-11-02T06:54:39+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "Hiremii Limited",
+      "old_ticker": "HMI",
+      "new_name": "AQYR LTD",
+      "new_ticker": "AQ1",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-11-04",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
     {
       "exchange": "ASX",
       "old_name": "Askari Metals Limited",
