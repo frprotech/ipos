@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T00:56:24+00:00",
+  "updated_at": "2026-11-03T14:10:03+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -70,6 +70,16 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-11-03"
+    },
+    {
+      "company": "Narragansett Bancorp, Inc.",
+      "ticker": "NARA",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-11-02",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-11-03"
     },
     {
