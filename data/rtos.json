@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T21:58:13+00:00",
+  "updated_at": "2026-11-03T07:17:43+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -5158,7 +5158,7 @@
       "exchange": "NASDAQ",
       "old_name": "Predictive Oncology Inc.",
       "old_ticker": "",
-      "new_name": "Axe Compute Inc.",
+      "new_name": "AXE COMPUTE INC.",
       "new_ticker": "AGPU",
       "change_type": "Name Change",
       "date": "2025-12-11",
@@ -5865,16 +5865,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002078008&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "Roth CH Holdings, Inc.",
-      "old_ticker": "",
-      "new_name": "SharonAI Holdings Inc.",
-      "new_ticker": "SHAZ",
-      "change_type": "Name Change",
-      "date": "2025-11-14",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002068385&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "Gannett Co., Inc.",
       "old_ticker": "",
@@ -5883,6 +5873,16 @@
       "change_type": "Name Change",
       "date": "2025-11-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579684&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Roth CH Holdings, Inc.",
+      "old_ticker": "",
+      "new_name": "SharonAI Holdings Inc.",
+      "new_ticker": "SHAZ",
+      "change_type": "Name Change",
+      "date": "2025-11-14",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002068385&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -6045,16 +6045,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001969928&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "James River Group Holdings, Ltd.",
-      "old_ticker": "",
-      "new_name": "James River Group Holdings, Inc.",
-      "new_ticker": "JRVR",
-      "change_type": "Name Change",
-      "date": "2025-11-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001620459&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "AG Mortgage Investment Trust, Inc.",
       "old_ticker": "MITN",
@@ -6063,6 +6053,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-11-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514281&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "James River Group Holdings, Ltd.",
+      "old_ticker": "",
+      "new_name": "James River Group Holdings, Inc.",
+      "new_ticker": "JRVR",
+      "change_type": "Name Change",
+      "date": "2025-11-07",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001620459&type=8-K"
     },
     {
       "exchange": "NASDAQ",
