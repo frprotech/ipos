@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T14:10:03+00:00",
+  "updated_at": "2026-11-03T23:20:38+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -8,6 +8,16 @@
       "exchange": "ASX",
       "listing_date": null,
       "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-11-03"
+    },
+    {
+      "company": "Stonepeak-Plus INFRA2 Trust",
+      "ticker": "SP2",
+      "exchange": "ASX",
+      "listing_date": "2026-12-11",
+      "sector": "Financial Services",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
       "fetched_at": "2026-11-03"
