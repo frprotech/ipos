@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T19:52:30+00:00",
+  "updated_at": "2026-11-04T07:00:43+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -33,6 +33,26 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-11-02",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Indivior Pharmaceuticals, Inc.",
+      "old_ticker": "",
+      "new_name": "Supernus, Inc.",
+      "new_ticker": "INDV",
+      "change_type": "Name Change",
+      "date": "2026-11-02",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001625297&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "ADIAL PHARMACEUTICALS, INC.",
+      "old_ticker": "ADIL",
+      "new_name": "Azora Therapeutics, Inc. (DE)",
+      "new_ticker": "AZR",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-10-30",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513525&type=8-K"
     },
     {
       "exchange": "CSE",
@@ -4207,10 +4227,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Heritage Distilling Holding Company, Inc.",
-      "old_ticker": "",
+      "old_ticker": "CASK",
       "new_name": "IP STRATEGY HOLDINGS, INC.",
       "new_ticker": "IPST",
-      "change_type": "Name Change",
+      "change_type": "Name & Symbol Change",
       "date": "2026-02-03",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001788230&type=8-K"
     },
@@ -4628,7 +4648,7 @@
       "exchange": "NASDAQ",
       "old_name": "INDIVIOR PLC",
       "old_ticker": "",
-      "new_name": "Indivior Pharmaceuticals, Inc.",
+      "new_name": "Supernus, Inc.",
       "new_ticker": "INDV",
       "change_type": "Name Change",
       "date": "2026-01-08",
@@ -6113,56 +6133,6 @@
       "change_type": "Name Change",
       "date": "2025-11-04",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001473334&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "SIMON PROPERTY GROUP INC /DE/",
-      "old_ticker": "",
-      "new_name": "SIMON PROPERTY GROUP INC.",
-      "new_ticker": "SPG",
-      "change_type": "Name Change",
-      "date": "2025-11-03",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001063761&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Grayscale Dogecoin Trust (DOGE)",
-      "old_ticker": "",
-      "new_name": "Grayscale Dogecoin Trust ETF",
-      "new_ticker": "GDOG",
-      "change_type": "Name Change",
-      "date": "2025-11-03",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002055510&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "Commerce Resources Corp.",
-      "old_ticker": "CCE",
-      "new_name": "MONT ROYAL RESOURCES LIMITED.",
-      "new_ticker": "MRZL",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-03",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=305245&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "Logica Ventures Corp.",
-      "old_ticker": "LOG.P",
-      "new_name": "GALACTIC GOLD CORP.",
-      "new_ticker": "GGAU",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-03",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=305247&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "Mongolia Growth Group Ltd.",
-      "old_ticker": "YAK",
-      "new_name": "MONGOLIA GROWTH GROUP LTD.",
-      "new_ticker": "YAK.H",
-      "change_type": "Symbol Change",
-      "date": "2025-11-03",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=305248&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
