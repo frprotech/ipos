@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T06:16:57+00:00",
+  "updated_at": "2026-11-04T14:39:08+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -93,16 +93,6 @@
       "fetched_at": "2026-11-04"
     },
     {
-      "company": "Aspen Neuroscience, Inc.",
-      "ticker": "ASPE",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-10-30",
-      "sector": "",
-      "status": "Priced",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-11-04"
-    },
-    {
       "company": "Bambusa Therapeutics, Inc.",
       "ticker": "BBTX",
       "exchange": "NASDAQ",
@@ -113,11 +103,11 @@
       "fetched_at": "2026-11-04"
     },
     {
-      "company": "BHAV Acquisition Corp II",
-      "ticker": "BHAIU",
+      "company": "Aspen Neuroscience, Inc.",
+      "ticker": "ASPE",
       "exchange": "NASDAQ",
-      "listing_date": "2026-10-29",
-      "sector": "SPAC / Blank Check",
+      "listing_date": "2026-10-30",
+      "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-11-04"
@@ -128,6 +118,16 @@
       "exchange": "NASDAQ",
       "listing_date": "2026-10-29",
       "sector": "Financial Services",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-11-04"
+    },
+    {
+      "company": "BHAV Acquisition Corp II",
+      "ticker": "BHAIU",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-29",
+      "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-11-04"
@@ -243,21 +243,21 @@
       "fetched_at": "2026-11-04"
     },
     {
-      "company": "Iambic Therapeutics, Inc.",
-      "ticker": "IAM",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-10-15",
-      "sector": "Healthcare",
-      "status": "Priced",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-11-04"
-    },
-    {
       "company": "Amaero Inc.",
       "ticker": "AMRO",
       "exchange": "NASDAQ",
       "listing_date": "2026-10-15",
       "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-11-04"
+    },
+    {
+      "company": "Iambic Therapeutics, Inc.",
+      "ticker": "IAM",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-15",
+      "sector": "Healthcare",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-11-04"
@@ -413,21 +413,21 @@
       "fetched_at": "2026-11-04"
     },
     {
-      "company": "TRex Bio, Inc.",
-      "ticker": "TRXB",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-10-09",
-      "sector": "",
-      "status": "Priced",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-11-04"
-    },
-    {
       "company": "Retension Pharmaceuticals, Inc.",
       "ticker": "RTSN",
       "exchange": "NASDAQ",
       "listing_date": "2026-10-09",
       "sector": "Healthcare",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-11-04"
+    },
+    {
+      "company": "TRex Bio, Inc.",
+      "ticker": "TRXB",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-10-09",
+      "sector": "",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-11-04"
@@ -493,21 +493,21 @@
       "fetched_at": "2026-11-04"
     },
     {
-      "company": "Southport Acquisition Corp. II",
-      "ticker": "PORTU",
-      "exchange": "NYSE",
-      "listing_date": "2026-10-01",
-      "sector": "SPAC / Blank Check",
-      "status": "Priced",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-11-04"
-    },
-    {
       "company": "Chilwa Minerals Ltd",
       "ticker": "CHWM",
       "exchange": "NASDAQ",
       "listing_date": "2026-10-01",
       "sector": "Mining & Materials",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-11-04"
+    },
+    {
+      "company": "Southport Acquisition Corp. II",
+      "ticker": "PORTU",
+      "exchange": "NYSE",
+      "listing_date": "2026-10-01",
+      "sector": "SPAC / Blank Check",
       "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-11-04"
