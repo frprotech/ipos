@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T07:00:43+00:00",
+  "updated_at": "2026-11-04T20:05:04+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -5885,16 +5885,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002078008&type=8-K"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "Gannett Co., Inc.",
-      "old_ticker": "",
-      "new_name": "USA TODAY Co., Inc.",
-      "new_ticker": "TDAY",
-      "change_type": "Name Change",
-      "date": "2025-11-14",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579684&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Roth CH Holdings, Inc.",
       "old_ticker": "",
@@ -5903,6 +5893,16 @@
       "change_type": "Name Change",
       "date": "2025-11-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002068385&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Gannett Co., Inc.",
+      "old_ticker": "",
+      "new_name": "USA TODAY Co., Inc.",
+      "new_ticker": "TDAY",
+      "change_type": "Name Change",
+      "date": "2025-11-14",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579684&type=8-K"
     },
     {
       "exchange": "TSXV",
