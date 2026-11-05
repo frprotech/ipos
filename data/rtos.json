@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-11-04T20:05:04+00:00",
+  "updated_at": "2026-11-05T07:27:07+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "Blaze Minerals Limited",
+      "old_ticker": "BLZ",
+      "new_name": "Silverback Minerals Limited",
+      "new_ticker": "SBK",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-11-11",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Gibb River Diamonds Limited",
+      "old_ticker": "GBI",
+      "new_name": "GIB Mining Limited",
+      "new_ticker": "GIB",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-11-09",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
     {
       "exchange": "ASX",
       "old_name": "Hiremii Limited",
@@ -93,6 +113,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-10-26",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Laser Photonics Corp",
+      "old_ticker": "",
+      "new_name": "LASE Corp.",
+      "new_ticker": "LASE",
+      "change_type": "Name Change",
+      "date": "2026-10-26",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001807887&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -4227,10 +4257,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Heritage Distilling Holding Company, Inc.",
-      "old_ticker": "CASK",
+      "old_ticker": "",
       "new_name": "IP STRATEGY HOLDINGS, INC.",
       "new_ticker": "IPST",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-02-03",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001788230&type=8-K"
     },
@@ -6103,36 +6133,6 @@
       "change_type": "Name Change",
       "date": "2025-11-06",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001702780&type=8-K"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "First American Uranium Inc",
-      "new_ticker": "URM",
-      "change_type": "Symbol Change",
-      "date": "2025-11-04",
-      "source": "https://thecse.com/bulletin/2025-1104-symbol-change-first-american-uranium-inc-urm"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Magnum Ice Cream Co B.V.",
-      "old_ticker": "",
-      "new_name": "Magnum Ice Cream Co N.V.",
-      "new_ticker": "MICC",
-      "change_type": "Name Change",
-      "date": "2025-11-04",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002071668&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Nova Lifestyle, Inc.",
-      "old_ticker": "",
-      "new_name": "XMax Inc.",
-      "new_ticker": "XMAX",
-      "change_type": "Name Change",
-      "date": "2025-11-04",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001473334&type=8-K"
     }
   ]
 }

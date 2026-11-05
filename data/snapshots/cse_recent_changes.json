@@ -745,5 +745,12 @@
       "symbol_was": "CMET",
       "effective_on": "2026-10-30"
     }
+  ],
+  "AGRI": [
+    {
+      "name_was": "Eat Well Investment Group Inc.",
+      "symbol_was": "EWG",
+      "effective_on": "2026-11-05"
+    }
   ]
 }
