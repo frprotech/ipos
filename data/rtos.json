@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T20:18:52+00:00",
+  "updated_at": "2026-11-06T07:27:26+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -16,8 +16,18 @@
     },
     {
       "exchange": "ASX",
+      "old_name": "Southern Cross Media Group Limited",
+      "old_ticker": "SXL",
+      "new_name": "Seven Media Group Limited",
+      "new_ticker": "SMG",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-11-10",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
       "old_name": "Gibb River Diamonds Limited",
-      "old_ticker": "GBI",
+      "old_ticker": "GIB",
       "new_name": "GIB Mining Limited",
       "new_ticker": "GIB",
       "change_type": "Name & Symbol Change",
@@ -57,10 +67,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Indivior Pharmaceuticals, Inc.",
-      "old_ticker": "",
+      "old_ticker": "INDV",
       "new_name": "Supernus, Inc.",
-      "new_ticker": "INDV",
-      "change_type": "Name Change",
+      "new_ticker": "SUPN",
+      "change_type": "Name & Symbol Change",
       "date": "2026-11-02",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001625297&type=8-K"
     },
@@ -83,6 +93,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-10-29",
       "source": "https://thecse.com/bulletin/2026-1029-name-symbol-change-and-consolidation-clarity-metals-corp-cmet"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "NUVEEN CALIFORNIA MUNICIPAL VALUE FUND",
+      "old_ticker": "",
+      "new_name": "NUVEEN CALIFORNIA MUNICIPAL INCOME FUND",
+      "new_ticker": "NCA",
+      "change_type": "Name Change",
+      "date": "2026-10-29",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000818851&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -1063,6 +1083,16 @@
       "change_type": "Name Change",
       "date": "2026-08-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000038777&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Perimeter Solutions, Inc.",
+      "old_ticker": "",
+      "new_name": "Perimeter Group Inc.",
+      "new_ticker": "PRM",
+      "change_type": "Name Change",
+      "date": "2026-08-14",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001880319&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -3465,6 +3495,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001734750&type=8-K"
     },
     {
+      "exchange": "NYSE",
+      "old_name": "Brookfield Business Partners L.P.",
+      "old_ticker": "",
+      "new_name": "Brookfield Business Corp",
+      "new_ticker": "BBUC",
+      "change_type": "Name Change",
+      "date": "2026-03-18",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001654795&type=8-K"
+    },
+    {
       "exchange": "TSXV",
       "old_name": "WINSHEAR GOLD CORP.",
       "old_ticker": "WINS",
@@ -4677,10 +4717,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "INDIVIOR PLC",
-      "old_ticker": "",
+      "old_ticker": "INDV",
       "new_name": "Supernus, Inc.",
-      "new_ticker": "INDV",
-      "change_type": "Name Change",
+      "new_ticker": "SUPN",
+      "change_type": "Name & Symbol Change",
       "date": "2026-01-08",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001625297&type=8-K"
     },
