@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T06:38:42+00:00",
+  "updated_at": "2026-11-07T13:36:18+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -436,16 +436,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Aureus Greenway Holdings Inc",
-      "old_ticker": "",
-      "new_name": "Powerus Corp",
-      "new_ticker": "PUSA",
-      "change_type": "Name Change",
-      "date": "2026-10-01",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002009312&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Karman Line Acquisition Corp.",
       "old_ticker": "XTERU",
       "new_name": "Xterax Corp II",
@@ -453,6 +443,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-10-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134856&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Aureus Greenway Holdings Inc",
+      "old_ticker": "",
+      "new_name": "Powerus Corp",
+      "new_ticker": "PUSA",
+      "change_type": "Name Change",
+      "date": "2026-10-01",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002009312&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -1236,16 +1236,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Gazelle Parent, Inc.",
-      "old_ticker": "",
-      "new_name": "Obsidian Therapeutics, Inc.",
-      "new_ticker": "OBX",
-      "change_type": "Name Change",
-      "date": "2026-08-03",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002130606&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Oncology Institute, Inc.",
       "old_ticker": "",
       "new_name": "Starling Oncology, Inc.",
@@ -1253,6 +1243,16 @@
       "change_type": "Name Change",
       "date": "2026-08-03",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001799191&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Gazelle Parent, Inc.",
+      "old_ticker": "",
+      "new_name": "Obsidian Therapeutics, Inc.",
+      "new_ticker": "OBX",
+      "change_type": "Name Change",
+      "date": "2026-08-03",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002130606&type=8-K"
     },
     {
       "exchange": "CSE",
@@ -2286,16 +2286,6 @@
     },
     {
       "exchange": "NYSE",
-      "old_name": "Voyager Technologies, Inc./DE",
-      "old_ticker": "",
-      "new_name": "Voyager Technologies, Inc./TX",
-      "new_ticker": "VOYG",
-      "change_type": "Name Change",
-      "date": "2026-06-04",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001788060&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
       "old_name": "FRESH DEL MONTE PRODUCE INC",
       "old_ticker": "",
       "new_name": "DEL MONTE CORP",
@@ -2303,6 +2293,16 @@
       "change_type": "Name Change",
       "date": "2026-06-04",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001047340&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Voyager Technologies, Inc./DE",
+      "old_ticker": "",
+      "new_name": "Voyager Technologies, Inc./TX",
+      "new_ticker": "VOYG",
+      "change_type": "Name Change",
+      "date": "2026-06-04",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001788060&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -2616,16 +2616,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Bleichroeder Acquisition 2 France",
-      "old_ticker": "PSQLW",
-      "new_name": "Pasqal Holding SA",
-      "new_ticker": "PSQL",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-05-21",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002119292&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "GCI Liberty, Inc.",
       "old_ticker": "",
       "new_name": "Liberty Capital Corp/NV",
@@ -2633,6 +2623,16 @@
       "change_type": "Name Change",
       "date": "2026-05-21",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002057463&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Bleichroeder Acquisition 2 France",
+      "old_ticker": "PSQLW",
+      "new_name": "Pasqal Holding SA",
+      "new_ticker": "PSQL",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-21",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002119292&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -4666,16 +4666,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Mind Medicine (MindMed) Inc.",
-      "old_ticker": "",
-      "new_name": "Definium Therapeutics, Inc.",
-      "new_ticker": "DFTX",
-      "change_type": "Name Change",
-      "date": "2026-01-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001813814&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "iRhythm Technologies, Inc.",
       "old_ticker": "",
       "new_name": "iRhythm Holdings, Inc.",
@@ -4683,6 +4673,16 @@
       "change_type": "Name Change",
       "date": "2026-01-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Mind Medicine (MindMed) Inc.",
+      "old_ticker": "",
+      "new_name": "Definium Therapeutics, Inc.",
+      "new_ticker": "DFTX",
+      "change_type": "Name Change",
+      "date": "2026-01-12",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001813814&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -5985,16 +5985,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002078008&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "Roth CH Holdings, Inc.",
-      "old_ticker": "",
-      "new_name": "SharonAI Holdings Inc.",
-      "new_ticker": "SHAZ",
-      "change_type": "Name Change",
-      "date": "2025-11-14",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002068385&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "Gannett Co., Inc.",
       "old_ticker": "",
@@ -6003,6 +5993,16 @@
       "change_type": "Name Change",
       "date": "2025-11-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579684&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Roth CH Holdings, Inc.",
+      "old_ticker": "",
+      "new_name": "SharonAI Holdings Inc.",
+      "new_ticker": "SHAZ",
+      "change_type": "Name Change",
+      "date": "2025-11-14",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002068385&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -6165,16 +6165,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001969928&type=8-K"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "AG Mortgage Investment Trust, Inc.",
-      "old_ticker": "MITN",
-      "new_name": "TPG Mortgage Investment Trust, Inc.",
-      "new_ticker": "MITT",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514281&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "James River Group Holdings, Ltd.",
       "old_ticker": "",
@@ -6183,6 +6173,16 @@
       "change_type": "Name Change",
       "date": "2025-11-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001620459&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "AG Mortgage Investment Trust, Inc.",
+      "old_ticker": "MITN",
+      "new_name": "TPG Mortgage Investment Trust, Inc.",
+      "new_ticker": "MITT",
+      "change_type": "Name & Symbol Change",
+      "date": "2025-11-07",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514281&type=8-K"
     },
     {
       "exchange": "NASDAQ",
