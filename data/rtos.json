@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T19:43:45+00:00",
+  "updated_at": "2026-11-07T06:38:42+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -43,6 +43,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-11-04",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Churchill Capital Corp XI",
+      "old_ticker": "CCXIU",
+      "new_name": "Agility Robotics, Inc.",
+      "new_ticker": "CCXI",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-11-04",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002074973&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -96,6 +106,16 @@
     },
     {
       "exchange": "NYSE",
+      "old_name": "NUVEEN NEW YORK MUNICIPAL VALUE FUND",
+      "old_ticker": "",
+      "new_name": "NUVEEN NEW YORK MUNICIPAL INCOME FUND",
+      "new_ticker": "NNY",
+      "change_type": "Name Change",
+      "date": "2026-10-29",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000818850&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
       "old_name": "NUVEEN CALIFORNIA MUNICIPAL VALUE FUND",
       "old_ticker": "",
       "new_name": "NUVEEN CALIFORNIA MUNICIPAL INCOME FUND",
@@ -113,6 +133,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-10-28",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "MGP INGREDIENTS INC",
+      "old_ticker": "MGPI",
+      "new_name": "SEMPREON, INC",
+      "new_ticker": "CASK",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-10-28",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000835011&type=8-K"
     },
     {
       "exchange": "CSE",
@@ -257,10 +287,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "VS MEDIA Holdings Ltd",
-      "old_ticker": "",
+      "old_ticker": "VSME",
       "new_name": "Forcendra Holding Ltd",
-      "new_ticker": "VSME",
-      "change_type": "Name Change",
+      "new_ticker": "FCDH",
+      "change_type": "Name & Symbol Change",
       "date": "2026-10-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001951294&type=8-K"
     },
@@ -307,10 +337,10 @@
     {
       "exchange": "NYSE",
       "old_name": "Madison Square Garden Sports Corp.",
-      "old_ticker": "",
+      "old_ticker": "MSGS",
       "new_name": "MSG Knickerbockers Corp.",
-      "new_ticker": "MSGS",
-      "change_type": "Name Change",
+      "new_ticker": "MSGK",
+      "change_type": "Name & Symbol Change",
       "date": "2026-10-09",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001636519&type=8-K"
     },
@@ -6163,16 +6193,6 @@
       "change_type": "Name Change",
       "date": "2025-11-07",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001602842&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Altice USA, Inc.",
-      "old_ticker": "",
-      "new_name": "Optimum Communications, Inc.",
-      "new_ticker": "OPTU",
-      "change_type": "Name Change",
-      "date": "2025-11-06",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001702780&type=8-K"
     }
   ]
 }
