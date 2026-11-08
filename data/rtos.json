@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T22:20:17+00:00",
+  "updated_at": "2026-11-08T06:44:20+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6153,46 +6153,6 @@
       "change_type": "Name Change",
       "date": "2025-11-10",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306148&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "CTRL GROUP Ltd",
-      "old_ticker": "",
-      "new_name": "TJGC GROUP Ltd",
-      "new_ticker": "TJGC",
-      "change_type": "Name Change",
-      "date": "2025-11-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001969928&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "James River Group Holdings, Ltd.",
-      "old_ticker": "",
-      "new_name": "James River Group Holdings, Inc.",
-      "new_ticker": "JRVR",
-      "change_type": "Name Change",
-      "date": "2025-11-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001620459&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "AG Mortgage Investment Trust, Inc.",
-      "old_ticker": "MITN",
-      "new_name": "TPG Mortgage Investment Trust, Inc.",
-      "new_ticker": "MITT",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001514281&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Mogo Inc.",
-      "old_ticker": "",
-      "new_name": "Orion Digital Corp.",
-      "new_ticker": "ORIO",
-      "change_type": "Name Change",
-      "date": "2025-11-07",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001602842&type=8-K"
     }
   ]
 }
