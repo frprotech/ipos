@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T22:44:15+00:00",
+  "updated_at": "2026-11-10T07:48:04+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -33,6 +33,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-11-09",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "GREENE COUNTY BANCORP INC",
+      "old_ticker": "",
+      "new_name": "GREENE BANCORP, INC.",
+      "new_ticker": "GCBC",
+      "change_type": "Name Change",
+      "date": "2026-11-06",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001070524&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -813,6 +823,16 @@
       "change_type": "Name Change",
       "date": "2026-08-31",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866829&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Cadeler Ltd",
+      "old_ticker": "",
+      "new_name": "Cadeler plc",
+      "new_ticker": "CDLR",
+      "change_type": "Name Change",
+      "date": "2026-08-28",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002063345&type=8-K"
     },
     {
       "exchange": "NYSE",
