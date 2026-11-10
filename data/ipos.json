@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T07:14:55+00:00",
+  "updated_at": "2026-11-10T19:42:01+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -70,6 +70,26 @@
       "sector": "Mining & Materials",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-11-10"
+    },
+    {
+      "company": "WINDWARD BIO GROUP AG",
+      "ticker": "WWB",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-11-13",
+      "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-11-10"
+    },
+    {
+      "company": "vVARDIS Holding AG",
+      "ticker": "VVVV",
+      "exchange": "NYSE",
+      "listing_date": "2026-11-13",
+      "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-11-10"
     },
     {
