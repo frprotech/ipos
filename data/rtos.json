@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T07:48:04+00:00",
+  "updated_at": "2026-11-10T20:02:27+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -1256,16 +1256,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Oncology Institute, Inc.",
-      "old_ticker": "",
-      "new_name": "Starling Oncology, Inc.",
-      "new_ticker": "STLN",
-      "change_type": "Name Change",
-      "date": "2026-08-03",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001799191&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Gazelle Parent, Inc.",
       "old_ticker": "",
       "new_name": "Obsidian Therapeutics, Inc.",
@@ -1273,6 +1263,16 @@
       "change_type": "Name Change",
       "date": "2026-08-03",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002130606&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Oncology Institute, Inc.",
+      "old_ticker": "",
+      "new_name": "Starling Oncology, Inc.",
+      "new_ticker": "STLN",
+      "change_type": "Name Change",
+      "date": "2026-08-03",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001799191&type=8-K"
     },
     {
       "exchange": "CSE",
@@ -2306,16 +2306,6 @@
     },
     {
       "exchange": "NYSE",
-      "old_name": "FRESH DEL MONTE PRODUCE INC",
-      "old_ticker": "",
-      "new_name": "DEL MONTE CORP",
-      "new_ticker": "DMC",
-      "change_type": "Name Change",
-      "date": "2026-06-04",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001047340&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
       "old_name": "Voyager Technologies, Inc./DE",
       "old_ticker": "",
       "new_name": "Voyager Technologies, Inc./TX",
@@ -2326,6 +2316,16 @@
     },
     {
       "exchange": "NYSE",
+      "old_name": "FRESH DEL MONTE PRODUCE INC",
+      "old_ticker": "",
+      "new_name": "DEL MONTE CORP",
+      "new_ticker": "DMC",
+      "change_type": "Name Change",
+      "date": "2026-06-04",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001047340&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
       "old_name": "Enviri II Corp",
       "old_ticker": "",
       "new_name": "Enviri Corp",
@@ -2333,16 +2333,6 @@
       "change_type": "Name Change",
       "date": "2026-06-04",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002104052&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Brag House Holdings, Inc.",
-      "old_ticker": "",
-      "new_name": "House of Doge Inc.",
-      "new_ticker": "HODO",
-      "change_type": "Name Change",
-      "date": "2026-06-04",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001903595&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -2965,16 +2955,6 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=317306&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "Middleby Food Processing, Inc.",
-      "old_ticker": "",
-      "new_name": "Midera Food Processing, Inc.",
-      "new_ticker": "MFP",
-      "change_type": "Name Change",
-      "date": "2026-05-04",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002088281&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "AParadise Acquisition Corp.",
       "old_ticker": "",
@@ -2983,6 +2963,16 @@
       "change_type": "Name Change",
       "date": "2026-05-04",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001956439&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Middleby Food Processing, Inc.",
+      "old_ticker": "",
+      "new_name": "Midera Food Processing, Inc.",
+      "new_ticker": "MFP",
+      "change_type": "Name Change",
+      "date": "2026-05-04",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002088281&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -4686,16 +4676,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "iRhythm Technologies, Inc.",
-      "old_ticker": "",
-      "new_name": "iRhythm Holdings, Inc.",
-      "new_ticker": "IRTC",
-      "change_type": "Name Change",
-      "date": "2026-01-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Mind Medicine (MindMed) Inc.",
       "old_ticker": "",
       "new_name": "Definium Therapeutics, Inc.",
@@ -4713,6 +4693,16 @@
       "change_type": "Name Change",
       "date": "2026-01-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001646188&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "iRhythm Technologies, Inc.",
+      "old_ticker": "",
+      "new_name": "iRhythm Holdings, Inc.",
+      "new_ticker": "IRTC",
+      "change_type": "Name Change",
+      "date": "2026-01-12",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
     },
     {
       "exchange": "NASDAQ",
