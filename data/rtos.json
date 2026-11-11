@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-11-11T07:13:15+00:00",
+  "updated_at": "2026-11-11T19:53:19+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "FendX Technologies Inc",
+      "new_ticker": "FNDX",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-11-13",
+      "source": "https://thecse.com/bulletin/2026-1113-name-and-symbol-change-fendx-technologies-inc-fndx"
+    },
     {
       "exchange": "ASX",
       "old_name": "Blaze Minerals Limited",
@@ -1826,16 +1836,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Marex Group plc",
-      "old_ticker": "",
-      "new_name": "Marex Group Ltd",
-      "new_ticker": "MRX",
-      "change_type": "Name Change",
-      "date": "2026-07-01",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001997464&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "ChronoScale Corp",
       "old_ticker": "",
       "new_name": "ChronoScale Holdings Corp",
@@ -1873,6 +1873,16 @@
       "change_type": "Name Change",
       "date": "2026-07-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001095981&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Marex Group plc",
+      "old_ticker": "",
+      "new_name": "Marex Group Ltd",
+      "new_ticker": "MRX",
+      "change_type": "Name Change",
+      "date": "2026-07-01",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001997464&type=8-K"
     },
     {
       "exchange": "TSXV",
