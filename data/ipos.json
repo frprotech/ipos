@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T06:12:41+00:00",
+  "updated_at": "2026-11-11T14:19:47+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -83,8 +83,28 @@
       "fetched_at": "2026-11-11"
     },
     {
+      "company": "ANTHROPIC, PBC",
+      "ticker": "ANT",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-11-19",
+      "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-11-11"
+    },
+    {
       "company": "WINDWARD BIO GROUP AG",
       "ticker": "WWB",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-11-13",
+      "sector": "",
+      "status": "Expected",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-11-11"
+    },
+    {
+      "company": "Tracx Logis Ltd.",
+      "ticker": "TRCX",
       "exchange": "NASDAQ",
       "listing_date": "2026-11-13",
       "sector": "",
