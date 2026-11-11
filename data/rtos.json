@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:02:27+00:00",
+  "updated_at": "2026-11-11T07:13:15+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -35,6 +35,16 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
+      "exchange": "NYSE",
+      "old_name": "Apollo Commercial Real Estate Finance, Inc.",
+      "old_ticker": "",
+      "new_name": "Apollo Commercial Real Estate Finance Liquidating Trust",
+      "new_ticker": "ARI",
+      "change_type": "Name Change",
+      "date": "2026-11-09",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001467760&type=8-K"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "GREENE COUNTY BANCORP INC",
       "old_ticker": "",
@@ -57,9 +67,9 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Churchill Capital Corp XI",
-      "old_ticker": "CCXIU",
+      "old_ticker": "CCXI",
       "new_name": "Agility Robotics, Inc.",
-      "new_ticker": "CCXI",
+      "new_ticker": "AGLT",
       "change_type": "Name & Symbol Change",
       "date": "2026-11-04",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002074973&type=8-K"
@@ -297,10 +307,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "VS MEDIA Holdings Ltd",
-      "old_ticker": "VSME",
+      "old_ticker": "",
       "new_name": "Forcendra Holding Ltd",
       "new_ticker": "FCDH",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-10-14",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001951294&type=8-K"
     },
@@ -693,6 +703,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-09-09",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001847345&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Galmed Pharmaceuticals Ltd.",
+      "old_ticker": "",
+      "new_name": "EoCene Ltd.",
+      "new_ticker": "EOCN",
+      "change_type": "Name Change",
+      "date": "2026-09-09",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001595353&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -1806,6 +1826,16 @@
     },
     {
       "exchange": "NASDAQ",
+      "old_name": "Marex Group plc",
+      "old_ticker": "",
+      "new_name": "Marex Group Ltd",
+      "new_ticker": "MRX",
+      "change_type": "Name Change",
+      "date": "2026-07-01",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001997464&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
       "old_name": "ChronoScale Corp",
       "old_ticker": "",
       "new_name": "ChronoScale Holdings Corp",
@@ -1843,16 +1873,6 @@
       "change_type": "Name Change",
       "date": "2026-07-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001095981&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Marex Group plc",
-      "old_ticker": "",
-      "new_name": "Marex Group Ltd",
-      "new_ticker": "MRX",
-      "change_type": "Name Change",
-      "date": "2026-07-01",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001997464&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -6113,56 +6133,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-11-11",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Spirit Technology Solutions Ltd",
-      "old_ticker": "ST1",
-      "new_name": "Infotrust Ltd",
-      "new_ticker": "ITS",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-10",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "AMBAC FINANCIAL GROUP INC",
-      "old_ticker": "",
-      "new_name": "OCTAVE SPECIALTY GROUP INC",
-      "new_ticker": "OSG",
-      "change_type": "Name Change",
-      "date": "2025-11-10",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874501&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "QuantaSing Group Ltd",
-      "old_ticker": "",
-      "new_name": "Here Group Ltd",
-      "new_ticker": "HERE",
-      "change_type": "Name Change",
-      "date": "2025-11-10",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001932770&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "TORCHLIGHT INNOVATIONS INC.",
-      "old_ticker": "RZL",
-      "new_name": "RZOLV TECHNOLOGIES INC.",
-      "new_ticker": "RZL",
-      "change_type": "Name Change",
-      "date": "2025-11-10",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306147&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "VENERABLE VENTURES LTD.",
-      "old_ticker": "SCMI",
-      "new_name": "SELKIRK COPPER MINES INC.",
-      "new_ticker": "SCMI",
-      "change_type": "Name Change",
-      "date": "2025-11-10",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306148&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
