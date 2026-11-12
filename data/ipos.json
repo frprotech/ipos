@@ -1,7 +1,17 @@
 {
-  "updated_at": "2026-11-12T00:40:37+00:00",
+  "updated_at": "2026-11-12T15:10:25+00:00",
   "sources_failed": [],
   "ipos": [
+    {
+      "company": "Matrix Critical Minerals Limited - Withdrawn",
+      "ticker": "MTX",
+      "exchange": "ASX",
+      "listing_date": null,
+      "sector": "Mining & Materials",
+      "status": "Upcoming",
+      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-11-12"
+    },
     {
       "company": "Maverick Uranium Limited - TBA",
       "ticker": "MAV",
@@ -73,16 +83,6 @@
       "fetched_at": "2026-11-12"
     },
     {
-      "company": "Matrix Critical Minerals Limited",
-      "ticker": "MTX",
-      "exchange": "ASX",
-      "listing_date": "2026-11-23",
-      "sector": "Mining & Materials",
-      "status": "Upcoming",
-      "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
-      "fetched_at": "2026-11-12"
-    },
-    {
       "company": "ANTHROPIC, PBC",
       "ticker": "ANT",
       "exchange": "NASDAQ",
@@ -123,16 +123,6 @@
       "fetched_at": "2026-11-12"
     },
     {
-      "company": "Rezera Inc.",
-      "ticker": "RZRA",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-11-12",
-      "sector": "",
-      "status": "Expected",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-11-12"
-    },
-    {
       "company": "Capability X Limited",
       "ticker": "CX8",
       "exchange": "ASX",
@@ -140,6 +130,16 @@
       "sector": "Technology",
       "status": "Upcoming",
       "source": "https://www.asx.com.au/listings/upcoming-floats-and-listings",
+      "fetched_at": "2026-11-12"
+    },
+    {
+      "company": "https://www.vesaliuslabs.com/",
+      "ticker": "VLAB",
+      "exchange": "CSE",
+      "listing_date": "2026-11-12",
+      "sector": "Healthcare",
+      "status": "Listed",
+      "source": "https://thecse.com/listing/listed-companies/",
       "fetched_at": "2026-11-12"
     },
     {
