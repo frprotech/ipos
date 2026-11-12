@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T07:46:40+00:00",
+  "updated_at": "2026-11-12T20:29:48+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -1836,16 +1836,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Marex Group plc",
-      "old_ticker": "",
-      "new_name": "Marex Group Ltd",
-      "new_ticker": "MRX",
-      "change_type": "Name Change",
-      "date": "2026-07-01",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001997464&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "ChronoScale Corp",
       "old_ticker": "",
       "new_name": "ChronoScale Holdings Corp",
@@ -1883,6 +1873,16 @@
       "change_type": "Name Change",
       "date": "2026-07-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001095981&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Marex Group plc",
+      "old_ticker": "",
+      "new_name": "Marex Group Ltd",
+      "new_ticker": "MRX",
+      "change_type": "Name Change",
+      "date": "2026-07-01",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001997464&type=8-K"
     },
     {
       "exchange": "TSXV",
