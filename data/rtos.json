@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T19:53:19+00:00",
+  "updated_at": "2026-11-12T07:46:40+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -117,10 +117,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "ADIAL PHARMACEUTICALS, INC.",
-      "old_ticker": "ADIL",
+      "old_ticker": "",
       "new_name": "Azora Therapeutics, Inc. (DE)",
       "new_ticker": "AZR",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-10-30",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513525&type=8-K"
     },
@@ -867,10 +867,10 @@
     {
       "exchange": "NYSE",
       "old_name": "Eagle Point Income Co Inc.",
-      "old_ticker": "EICA",
+      "old_ticker": "",
       "new_name": "Eagle Point Income Co",
       "new_ticker": "EIC",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-08-28",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001754836&type=8-K"
     },
@@ -1836,6 +1836,16 @@
     },
     {
       "exchange": "NASDAQ",
+      "old_name": "Marex Group plc",
+      "old_ticker": "",
+      "new_name": "Marex Group Ltd",
+      "new_ticker": "MRX",
+      "change_type": "Name Change",
+      "date": "2026-07-01",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001997464&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
       "old_name": "ChronoScale Corp",
       "old_ticker": "",
       "new_name": "ChronoScale Holdings Corp",
@@ -1873,16 +1883,6 @@
       "change_type": "Name Change",
       "date": "2026-07-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001095981&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Marex Group plc",
-      "old_ticker": "",
-      "new_name": "Marex Group Ltd",
-      "new_ticker": "MRX",
-      "change_type": "Name Change",
-      "date": "2026-07-01",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001997464&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -6133,16 +6133,6 @@
       "change_type": "Name Change",
       "date": "2025-11-12",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306187&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Petratherm Ltd",
-      "old_ticker": "PTR",
-      "new_name": "PTR Minerals Ltd",
-      "new_ticker": "PTR",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-11",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     }
   ]
 }
