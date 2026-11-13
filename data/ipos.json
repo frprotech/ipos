@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T06:41:25+00:00",
+  "updated_at": "2026-11-13T19:39:36+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -83,7 +83,7 @@
       "fetched_at": "2026-11-13"
     },
     {
-      "company": "ANTHROPIC, PBC",
+      "company": "Anthropic, PBC",
       "ticker": "ANT",
       "exchange": "NASDAQ",
       "listing_date": "2026-11-19",
