@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T20:29:48+00:00",
+  "updated_at": "2026-11-13T07:22:15+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -35,6 +35,16 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "Olema Pharmaceuticals, Inc.",
+      "old_ticker": "",
+      "new_name": "Olema Oncology, Inc.",
+      "new_ticker": "OLMA",
+      "change_type": "Name Change",
+      "date": "2026-11-10",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001750284&type=8-K"
+    },
+    {
       "exchange": "ASX",
       "old_name": "Gibb River Diamonds Limited",
       "old_ticker": "GIB",
@@ -43,6 +53,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-11-09",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "JAB Acquisition Corp I",
+      "old_ticker": "ATLQR",
+      "new_name": "Atlantic Acquisition Corp I",
+      "new_ticker": "ATLQ",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-11-09",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002128739&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -63,6 +83,16 @@
       "change_type": "Name Change",
       "date": "2026-11-06",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001070524&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "CSLM Digital Asset Acquisition Corp III, Ltd",
+      "old_ticker": "KOYNU",
+      "new_name": "First Digital Acquisition Corp Ltd.",
+      "new_ticker": "KOYN",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-11-06",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002068454&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -277,10 +307,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "WESTPORT FUEL SYSTEMS INC.",
-      "old_ticker": "WPRT",
+      "old_ticker": "",
       "new_name": "AETHERION TECHNOLOGIES INC.",
       "new_ticker": "AETR",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-10-16",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001370416&type=8-K"
     },
@@ -1836,6 +1866,16 @@
     },
     {
       "exchange": "NASDAQ",
+      "old_name": "Marex Group plc",
+      "old_ticker": "",
+      "new_name": "Marex Group Ltd",
+      "new_ticker": "MRX",
+      "change_type": "Name Change",
+      "date": "2026-07-01",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001997464&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
       "old_name": "ChronoScale Corp",
       "old_ticker": "",
       "new_name": "ChronoScale Holdings Corp",
@@ -1873,16 +1913,6 @@
       "change_type": "Name Change",
       "date": "2026-07-01",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001095981&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Marex Group plc",
-      "old_ticker": "",
-      "new_name": "Marex Group Ltd",
-      "new_ticker": "MRX",
-      "change_type": "Name Change",
-      "date": "2026-07-01",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001997464&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -6083,56 +6113,6 @@
       "change_type": "Name Change",
       "date": "2025-11-13",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306207&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Mercurity Fintech Holding Inc.",
-      "old_ticker": "",
-      "new_name": "Chaince Digital Holdings Inc.",
-      "new_ticker": "CD",
-      "change_type": "Name Change",
-      "date": "2025-11-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001527762&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "LEAP THERAPEUTICS, INC.",
-      "old_ticker": "",
-      "new_name": "CYPHERPUNK TECHNOLOGIES INC.",
-      "new_ticker": "CYPH",
-      "change_type": "Name Change",
-      "date": "2025-11-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001509745&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "AGRIFORCE GROWING SYSTEMS LTD.",
-      "old_ticker": "",
-      "new_name": "AVAX ONE TECHNOLOGY LTD.",
-      "new_ticker": "AVX",
-      "change_type": "Name Change",
-      "date": "2025-11-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001826397&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Grayscale Chainlink Trust (LINK)",
-      "old_ticker": "",
-      "new_name": "Grayscale Chainlink Trust ETF",
-      "new_ticker": "GLNK",
-      "change_type": "Name Change",
-      "date": "2025-11-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001852025&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "LEVIATHAN GOLD LTD.",
-      "old_ticker": "LVX",
-      "new_name": "LEVIATHAN METALS CORP.",
-      "new_ticker": "LVX",
-      "change_type": "Name Change",
-      "date": "2025-11-12",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306187&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
