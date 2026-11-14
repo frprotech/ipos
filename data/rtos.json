@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T20:05:23+00:00",
+  "updated_at": "2026-11-14T07:04:49+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -176,16 +176,6 @@
     },
     {
       "exchange": "NYSE",
-      "old_name": "NUVEEN NEW YORK MUNICIPAL VALUE FUND",
-      "old_ticker": "",
-      "new_name": "NUVEEN NEW YORK MUNICIPAL INCOME FUND",
-      "new_ticker": "NNY",
-      "change_type": "Name Change",
-      "date": "2026-10-29",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000818850&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
       "old_name": "NUVEEN CALIFORNIA MUNICIPAL VALUE FUND",
       "old_ticker": "",
       "new_name": "NUVEEN CALIFORNIA MUNICIPAL INCOME FUND",
@@ -193,6 +183,16 @@
       "change_type": "Name Change",
       "date": "2026-10-29",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000818851&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "NUVEEN NEW YORK MUNICIPAL VALUE FUND",
+      "old_ticker": "",
+      "new_name": "NUVEEN NEW YORK MUNICIPAL INCOME FUND",
+      "new_ticker": "NNY",
+      "change_type": "Name Change",
+      "date": "2026-10-29",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000818850&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -236,16 +236,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Laser Photonics Corp",
-      "old_ticker": "",
-      "new_name": "LASE Corp.",
-      "new_ticker": "LASE",
-      "change_type": "Name Change",
-      "date": "2026-10-26",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001807887&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "Brera Holdings PLC",
       "old_ticker": "",
       "new_name": "Solmate Infrastructure PLC",
@@ -253,6 +243,16 @@
       "change_type": "Name Change",
       "date": "2026-10-26",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001939965&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Laser Photonics Corp",
+      "old_ticker": "",
+      "new_name": "LASE Corp.",
+      "new_ticker": "LASE",
+      "change_type": "Name Change",
+      "date": "2026-10-26",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001807887&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -1385,16 +1385,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001631574&type=8-K"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "Ultra AI Opportunities Inc.",
-      "old_ticker": "",
-      "new_name": "Ives Ultra AI Opportunities Inc.",
-      "new_ticker": "IVAI",
-      "change_type": "Name Change",
-      "date": "2026-07-30",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002077345&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Tevogen Bio Holdings Inc.",
       "old_ticker": "TVGNW",
@@ -1403,6 +1393,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-07-30",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001860871&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Ultra AI Opportunities Inc.",
+      "old_ticker": "",
+      "new_name": "Ives Ultra AI Opportunities Inc.",
+      "new_ticker": "IVAI",
+      "change_type": "Name Change",
+      "date": "2026-07-30",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002077345&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -3025,16 +3025,6 @@
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=317306&CORRECTION_FLG=N&HC_FLAG1=checked"
     },
     {
-      "exchange": "NYSE",
-      "old_name": "AParadise Acquisition Corp.",
-      "old_ticker": "",
-      "new_name": "Enhanced Group Inc.",
-      "new_ticker": "ENHA",
-      "change_type": "Name Change",
-      "date": "2026-05-04",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001956439&type=8-K"
-    },
-    {
       "exchange": "NASDAQ",
       "old_name": "Middleby Food Processing, Inc.",
       "old_ticker": "",
@@ -3043,6 +3033,16 @@
       "change_type": "Name Change",
       "date": "2026-05-04",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002088281&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "AParadise Acquisition Corp.",
+      "old_ticker": "",
+      "new_name": "Enhanced Group Inc.",
+      "new_ticker": "ENHA",
+      "change_type": "Name Change",
+      "date": "2026-05-04",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001956439&type=8-K"
     },
     {
       "exchange": "TSXV",
@@ -3785,16 +3785,6 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001980845&type=8-K"
     },
     {
-      "exchange": "NASDAQ",
-      "old_name": "Medalist Diversified REIT, Inc.",
-      "old_ticker": "",
-      "new_name": "Medalist Diversified, Inc.",
-      "new_ticker": "MDRR",
-      "change_type": "Name Change",
-      "date": "2026-03-06",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001654595&type=8-K"
-    },
-    {
       "exchange": "NYSE",
       "old_name": "Phaos Technology (Cayman) Holdings Ltd",
       "old_ticker": "",
@@ -3803,6 +3793,16 @@
       "change_type": "Name Change",
       "date": "2026-03-06",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002024258&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Medalist Diversified REIT, Inc.",
+      "old_ticker": "",
+      "new_name": "Medalist Diversified, Inc.",
+      "new_ticker": "MDRR",
+      "change_type": "Name Change",
+      "date": "2026-03-06",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001654595&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -6093,36 +6093,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-11-14",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306426&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Bitwise 10 Crypto Index Fund",
-      "old_ticker": "",
-      "new_name": "Bitwise 10 Crypto Index ETF",
-      "new_ticker": "BITW",
-      "change_type": "Name Change",
-      "date": "2025-11-13",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001723788&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "AIM6 Ventures Inc.",
-      "old_ticker": "AIMF.P",
-      "new_name": "ELEVATE SERVICE GROUP INC.",
-      "new_ticker": "SERV",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-13",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306205&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "ELEMENTAL ROYALTY CORPORATION (\"ELE\") [formerly, ELEMENTAL ALTUS ROYALTIES CORP. (\"ELE\")] EMX ROYALTY CORPORATION",
-      "new_ticker": "EMX",
-      "change_type": "Name Change",
-      "date": "2025-11-13",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306207&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
