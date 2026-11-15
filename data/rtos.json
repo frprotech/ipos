@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T22:46:21+00:00",
+  "updated_at": "2026-11-15T07:15:01+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6053,46 +6053,6 @@
       "change_type": "Symbol Change",
       "date": "2025-11-16",
       "source": "https://thecse.com/bulletin/2025-1116-resumption-and-symbol-change-inactive-designation-digicann-ventures-inc-dcnn"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Cyprium Holdings Ltd",
-      "old_ticker": "",
-      "new_name": "Versigent PLC",
-      "new_ticker": "VGNT",
-      "change_type": "Name Change",
-      "date": "2025-11-14",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002078008&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "Gannett Co., Inc.",
-      "old_ticker": "",
-      "new_name": "USA TODAY Co., Inc.",
-      "new_ticker": "TDAY",
-      "change_type": "Name Change",
-      "date": "2025-11-14",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001579684&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Roth CH Holdings, Inc.",
-      "old_ticker": "",
-      "new_name": "SharonAI Holdings Inc.",
-      "new_ticker": "SHAZ",
-      "change_type": "Name Change",
-      "date": "2025-11-14",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002068385&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "K9 GOLD CORP.",
-      "old_ticker": "KNC",
-      "new_name": "AMERICORE RESOURCES CORP.",
-      "new_ticker": "AMCO",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-14",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306426&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
