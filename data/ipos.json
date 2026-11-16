@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T06:24:53+00:00",
+  "updated_at": "2026-11-16T21:59:23+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -93,12 +93,32 @@
       "fetched_at": "2026-11-16"
     },
     {
-      "company": "Tracx Logis Ltd.",
-      "ticker": "TRCX",
+      "company": "Modern Mining Technology Corp.",
+      "ticker": "MDRN",
+      "exchange": "NYSE",
+      "listing_date": "2026-11-13",
+      "sector": "Mining & Materials",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-11-16"
+    },
+    {
+      "company": "vVARDIS Holding AG",
+      "ticker": "VVVV",
+      "exchange": "NYSE",
+      "listing_date": "2026-11-13",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-11-16"
+    },
+    {
+      "company": "WINDWARD BIO GROUP AG",
+      "ticker": "WWB",
       "exchange": "NASDAQ",
       "listing_date": "2026-11-13",
       "sector": "",
-      "status": "Expected",
+      "status": "Priced",
       "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-11-16"
     },
