@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T08:32:16+00:00",
+  "updated_at": "2026-11-17T21:23:07+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -793,16 +793,6 @@
       "change_type": "Name Change",
       "date": "2026-09-09",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001595353&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "BiomX Inc.",
-      "old_ticker": "",
-      "new_name": "Tessera Defense & Homeland Security Inc.",
-      "new_ticker": "HLSQ",
-      "change_type": "Name Change",
-      "date": "2026-09-09",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001739174&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -4786,16 +4776,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Ondas Holdings Inc.",
-      "old_ticker": "",
-      "new_name": "Ondas Inc.",
-      "new_ticker": "ONDS",
-      "change_type": "Name Change",
-      "date": "2026-01-12",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001646188&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "iRhythm Technologies, Inc.",
       "old_ticker": "",
       "new_name": "iRhythm Holdings, Inc.",
@@ -4803,6 +4783,16 @@
       "change_type": "Name Change",
       "date": "2026-01-12",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388658&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Ondas Holdings Inc.",
+      "old_ticker": "",
+      "new_name": "Ondas Inc.",
+      "new_ticker": "ONDS",
+      "change_type": "Name Change",
+      "date": "2026-01-12",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001646188&type=8-K"
     },
     {
       "exchange": "NASDAQ",
