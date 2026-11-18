@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-11-17T21:23:07+00:00",
+  "updated_at": "2026-11-18T07:59:29+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "NAOS Ex-50 Opportunities Company Limited",
+      "old_ticker": "NAC",
+      "new_name": "NAOS Founders & Owners Company Limited",
+      "new_ticker": "NAC",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-11-20",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "BLACK HILLS CORP /SD/",
+      "old_ticker": "",
+      "new_name": "Bright Horizon Energy Corp",
+      "new_ticker": "BKH",
+      "change_type": "Name Change",
+      "date": "2026-11-16",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001130464&type=8-K"
+    },
     {
       "exchange": "CSE",
       "old_name": "",
@@ -4497,10 +4517,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Lottery.com Inc.",
-      "old_ticker": "LTRYW",
+      "old_ticker": "",
       "new_name": "Sports Entertainment Gaming Global Corp",
       "new_ticker": "SEGG",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-01-29",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001673481&type=8-K"
     },
@@ -6053,16 +6073,6 @@
       "change_type": "Symbol Change",
       "date": "2025-11-18",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306666&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Favo Capital, Inc.",
-      "old_ticker": "",
-      "new_name": "Stewards, Inc.",
-      "new_ticker": "SWRD",
-      "change_type": "Name Change",
-      "date": "2025-11-17",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001795851&type=8-K"
     }
   ]
 }
