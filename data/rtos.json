@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T07:59:34+00:00",
+  "updated_at": "2026-11-19T21:01:28+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -1115,6 +1115,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001720265&type=8-K"
     },
     {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "NovaRed Mining Inc",
+      "new_ticker": "NRED",
+      "change_type": "Name Change",
+      "date": "2026-08-20",
+      "source": "https://thecse.com/bulletin/2026-0820-name-change-novared-mining-inc-nred"
+    },
+    {
       "exchange": "NASDAQ",
       "old_name": "Plum Acquisition Corp, IV",
       "old_ticker": "PLMKU",
@@ -1383,6 +1393,16 @@
       "change_type": "Name Change",
       "date": "2026-08-03",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001799191&type=8-K"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Integrated Cyber Solutions Inc",
+      "new_ticker": "ICS",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-08-02",
+      "source": "https://thecse.com/bulletin/2026-0802-name-and-symbol-change-integrated-cyber-solutions-inc-ics"
     },
     {
       "exchange": "NASDAQ",
@@ -2273,6 +2293,16 @@
       "change_type": "Name Change",
       "date": "2026-06-12",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=318886&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Cullinan Metals Corp",
+      "new_ticker": "CMT",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-06-11",
+      "source": "https://thecse.com/bulletin/2026-0611-name-and-symbol-change-cullinan-metals-corp-cmt"
     },
     {
       "exchange": "NASDAQ",
@@ -3335,6 +3365,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001095435&type=8-K"
     },
     {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Vanguard Mining Corp",
+      "new_ticker": "UUU",
+      "change_type": "Name Change",
+      "date": "2026-04-19",
+      "source": "https://thecse.com/bulletin/2026-0419-name-change-and-consolidation-vanguard-mining-corp-uuu"
+    },
+    {
       "exchange": "NYSE",
       "old_name": "Seed External Spinco Inc.",
       "old_ticker": "",
@@ -3835,6 +3875,16 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Xcite Resources Inc",
+      "new_ticker": "XRI",
+      "change_type": "Name Change",
+      "date": "2026-03-04",
+      "source": "https://thecse.com/bulletin/2026-0304-name-change-xcite-resources-inc-xri"
+    },
+    {
       "exchange": "NYSE",
       "old_name": "PRESIDIO PUBCO INC.",
       "old_ticker": "",
@@ -4263,6 +4313,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-02-11",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=311906&CORRECTION_FLG=N&HC_FLAG1=checked"
+    },
+    {
+      "exchange": "CSE",
+      "old_name": "",
+      "old_ticker": "",
+      "new_name": "Beyond Lithium Inc",
+      "new_ticker": "BY",
+      "change_type": "Name Change",
+      "date": "2026-02-10",
+      "source": "https://thecse.com/bulletin/2026-0210-name-change-beyond-lithium-inc-by"
     },
     {
       "exchange": "NASDAQ",
