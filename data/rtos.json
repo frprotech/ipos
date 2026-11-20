@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T21:01:28+00:00",
+  "updated_at": "2026-11-20T07:49:11+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -5007,10 +5007,10 @@
     {
       "exchange": "NYSE",
       "old_name": "OWENS & MINOR INC/VA/",
-      "old_ticker": "",
+      "old_ticker": "ACH",
       "new_name": "ACCENDRA HEALTH INC/VA/",
-      "new_ticker": "ACH",
-      "change_type": "Name Change",
+      "new_ticker": "ACCH",
+      "change_type": "Name & Symbol Change",
       "date": "2025-12-31",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000075252&type=8-K"
     },
@@ -6013,56 +6013,6 @@
       "change_type": "Name Change",
       "date": "2025-11-20",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002037427&type=8-K"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Tombador Iron Limited",
-      "old_ticker": "TI1",
-      "new_name": "Atomic Eagle Ltd",
-      "new_ticker": "AEU",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-19",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Entero Therapeutics, Inc.",
-      "old_ticker": "",
-      "new_name": "GridAI Technologies Corp.",
-      "new_ticker": "GRDX",
-      "change_type": "Name Change",
-      "date": "2025-11-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604191&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Qualigen Therapeutics, Inc.",
-      "old_ticker": "",
-      "new_name": "FF EAI Robotics Ecosystem Inc.",
-      "new_ticker": "FFR",
-      "change_type": "Name Change",
-      "date": "2025-11-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001460702&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Oblong, Inc.",
-      "old_ticker": "",
-      "new_name": "TaoWeave, Inc.",
-      "new_ticker": "TWAV",
-      "change_type": "Name Change",
-      "date": "2025-11-19",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000746210&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "0749116 B.C. LTD.",
-      "old_ticker": "TRR",
-      "new_name": "TERRA ROSSA GOLD LTD.",
-      "new_ticker": "TRR",
-      "change_type": "Name Change",
-      "date": "2025-11-19",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306689&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
