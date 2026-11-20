@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T07:12:03+00:00",
+  "updated_at": "2026-11-20T20:13:24+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -93,6 +93,16 @@
       "fetched_at": "2026-11-20"
     },
     {
+      "company": "Anthropic, PBC",
+      "ticker": "ANT",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-11-19",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
+      "fetched_at": "2026-11-20"
+    },
+    {
       "company": "https://www.timeplay.com",
       "ticker": "TMPL",
       "exchange": "CSE",
@@ -100,6 +110,16 @@
       "sector": "Technology",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
+      "fetched_at": "2026-11-20"
+    },
+    {
+      "company": "WINDWARD BIO GROUP AG",
+      "ticker": "WWB",
+      "exchange": "NASDAQ",
+      "listing_date": "2026-11-13",
+      "sector": "",
+      "status": "Priced",
+      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-11-20"
     },
     {
@@ -116,16 +136,6 @@
       "company": "vVARDIS Holding AG",
       "ticker": "VVVV",
       "exchange": "NYSE",
-      "listing_date": "2026-11-13",
-      "sector": "",
-      "status": "Priced",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
-      "fetched_at": "2026-11-20"
-    },
-    {
-      "company": "WINDWARD BIO GROUP AG",
-      "ticker": "WWB",
-      "exchange": "NASDAQ",
       "listing_date": "2026-11-13",
       "sector": "",
       "status": "Priced",
