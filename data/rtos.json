@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T19:50:02+00:00",
+  "updated_at": "2026-11-22T07:30:37+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -6003,36 +6003,6 @@
       "change_type": "Symbol Change",
       "date": "2025-11-24",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306946&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Tryptamine Therapeutics Limited",
-      "old_ticker": "TYP",
-      "new_name": "Entropy Neurodynamics Limited",
-      "new_ticker": "ENP",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-21",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "World Blockchain Corp",
-      "new_ticker": "CK",
-      "change_type": "Symbol Change",
-      "date": "2025-11-21",
-      "source": "https://thecse.com/bulletin/2025-1121-symbol-change-world-blockchain-corp-ck"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Prestige Wealth Inc.",
-      "old_ticker": "",
-      "new_name": "Aurelion Inc.",
-      "new_ticker": "AURE",
-      "change_type": "Name Change",
-      "date": "2025-11-21",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001765850&type=8-K"
     }
   ]
 }
