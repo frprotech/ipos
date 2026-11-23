@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T07:33:28+00:00",
+  "updated_at": "2026-11-23T23:51:14+00:00",
   "sources_failed": [],
   "ipos": [
     {
@@ -80,16 +80,6 @@
       "sector": "Mining & Materials",
       "status": "Listed",
       "source": "https://thecse.com/listing/listed-companies/",
-      "fetched_at": "2026-11-23"
-    },
-    {
-      "company": "Football Manager SPAC Inc.",
-      "ticker": "FBLLU",
-      "exchange": "NASDAQ",
-      "listing_date": "2026-11-20",
-      "sector": "SPAC / Blank Check",
-      "status": "Expected",
-      "source": "https://www.nasdaq.com/market-activity/ipos",
       "fetched_at": "2026-11-23"
     },
     {
