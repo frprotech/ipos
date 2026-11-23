@@ -1,9 +1,39 @@
 {
-  "updated_at": "2026-11-22T20:00:08+00:00",
+  "updated_at": "2026-11-23T08:18:53+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "OD6 Metals Limited",
+      "old_ticker": "OD6",
+      "new_name": "Adaven Limited",
+      "new_ticker": "ADA",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-11-26",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Teaminvest Private Group Limited",
+      "old_ticker": "TIP",
+      "new_name": "Teaminvest Group Limited",
+      "new_ticker": "TIP",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-11-25",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "Impedimed Limited",
+      "old_ticker": "IPD",
+      "new_name": "Sozohealth Holdings Limited",
+      "new_ticker": "SZH",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-11-25",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
     {
       "exchange": "ASX",
       "old_name": "Fortifai Ltd",
