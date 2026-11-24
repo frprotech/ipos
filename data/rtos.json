@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T00:25:20+00:00",
+  "updated_at": "2026-11-24T10:28:04+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -45,6 +45,16 @@
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "BEACON TOPCO, INC.",
+      "old_ticker": "",
+      "new_name": "Clywedog Therapeutics Holdings, Inc.",
+      "new_ticker": "CLYD",
+      "change_type": "Name Change",
+      "date": "2026-11-23",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002094256&type=8-K"
+    },
+    {
       "exchange": "ASX",
       "old_name": "NAOS Ex-50 Opportunities Company Limited",
       "old_ticker": "NAC",
@@ -53,6 +63,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-11-20",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Melar Acquisition Corp. I/Cayman",
+      "old_ticker": "MACIU",
+      "new_name": "Everli Global Holdings Inc.",
+      "new_ticker": "MACI",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-11-20",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002016221&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -67,10 +87,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "InMed Pharmaceuticals Inc.",
-      "old_ticker": "INM",
+      "old_ticker": "",
       "new_name": "Mentari Therapeutics, Inc.",
       "new_ticker": "MTRI",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-11-16",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001728328&type=8-K"
     },
