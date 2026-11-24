@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T08:18:53+00:00",
+  "updated_at": "2026-11-24T00:25:20+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -1066,16 +1066,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "BIT ORIGIN Ltd",
-      "old_ticker": "",
-      "new_name": "SANGRIX INC.",
-      "new_ticker": "SGRX",
-      "change_type": "Name Change",
-      "date": "2026-08-26",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001735556&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "YY Group Holding Ltd.",
       "old_ticker": "",
       "new_name": "YYForce Inc.",
@@ -1083,6 +1073,16 @@
       "change_type": "Name Change",
       "date": "2026-08-26",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001985337&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "BIT ORIGIN Ltd",
+      "old_ticker": "",
+      "new_name": "SANGRIX INC.",
+      "new_ticker": "SGRX",
+      "change_type": "Name Change",
+      "date": "2026-08-26",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001735556&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -2236,16 +2236,6 @@
     },
     {
       "exchange": "NYSE",
-      "old_name": "Skillz Inc.",
-      "old_ticker": "",
-      "new_name": "Firy Inc.",
-      "new_ticker": "FIRY",
-      "change_type": "Name Change",
-      "date": "2026-06-18",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001801661&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
       "old_name": "MFS MULTIMARKET INCOME TRUST",
       "old_ticker": "",
       "new_name": "ABERDEEN MULTI-MARKET INCOME FUND",
@@ -2253,6 +2243,16 @@
       "change_type": "Name Change",
       "date": "2026-06-18",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000809173&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Skillz Inc.",
+      "old_ticker": "",
+      "new_name": "Firy Inc.",
+      "new_ticker": "FIRY",
+      "change_type": "Name Change",
+      "date": "2026-06-18",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001801661&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -2916,16 +2916,6 @@
     },
     {
       "exchange": "NASDAQ",
-      "old_name": "Sharps Technology Inc.",
-      "old_ticker": "SKYAW",
-      "new_name": "SkyAI, Inc.",
-      "new_ticker": "SKYA",
-      "change_type": "Name & Symbol Change",
-      "date": "2026-05-15",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001737995&type=8-K"
-    },
-    {
-      "exchange": "NASDAQ",
       "old_name": "US ENERGY CORP",
       "old_ticker": "",
       "new_name": "BIG SKY INDUSTRIAL INC.",
@@ -2933,6 +2923,16 @@
       "change_type": "Name Change",
       "date": "2026-05-15",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000101594&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Sharps Technology Inc.",
+      "old_ticker": "SKYAW",
+      "new_name": "SkyAI, Inc.",
+      "new_ticker": "SKYA",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-05-15",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001737995&type=8-K"
     },
     {
       "exchange": "NASDAQ",
