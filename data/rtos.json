@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-11-24T22:47:23+00:00",
+  "updated_at": "2026-11-25T09:14:40+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "VRX Silica Limited",
+      "old_ticker": "VRX",
+      "new_name": "Ortus Minerals Ltd",
+      "new_ticker": "ORT",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-11-30",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
     {
       "exchange": "ASX",
       "old_name": "OD6 Metals Limited",
@@ -67,12 +77,22 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Melar Acquisition Corp. I/Cayman",
-      "old_ticker": "MACIU",
+      "old_ticker": "EVRL",
       "new_name": "Everli Global Holdings Inc.",
       "new_ticker": "MACI",
       "change_type": "Name & Symbol Change",
       "date": "2026-11-20",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002016221&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "GridAI Technologies Corp.",
+      "old_ticker": "",
+      "new_name": "GridAI Power Corp.",
+      "new_ticker": "GRDX",
+      "change_type": "Name Change",
+      "date": "2026-11-17",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001604191&type=8-K"
     },
     {
       "exchange": "NYSE",
@@ -123,6 +143,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-11-13",
       "source": "https://thecse.com/bulletin/2026-1113-name-and-symbol-change-fendx-technologies-inc-fndx"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Rallybio Corp",
+      "old_ticker": "RLYB",
+      "new_name": "Avenzo Therapeutics, Inc.",
+      "new_ticker": "AVZO",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-11-12",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001739410&type=8-K"
     },
     {
       "exchange": "ASX",
@@ -205,6 +235,16 @@
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002068454&type=8-K"
     },
     {
+      "exchange": "NASDAQ",
+      "old_name": "Black Mammoth Metals Corp",
+      "old_ticker": "",
+      "new_name": "Black Mammoth Metals Corp.",
+      "new_ticker": "BMMX",
+      "change_type": "Name Change",
+      "date": "2026-11-06",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001929908&type=8-K"
+    },
+    {
       "exchange": "ASX",
       "old_name": "Hiremii Limited",
       "old_ticker": "HMI",
@@ -267,10 +307,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "Indivior Pharmaceuticals, Inc.",
-      "old_ticker": "INDV",
+      "old_ticker": "",
       "new_name": "Supernus, Inc.",
       "new_ticker": "SUPN",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-11-02",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001625297&type=8-K"
     },
@@ -4967,10 +5007,10 @@
     {
       "exchange": "NASDAQ",
       "old_name": "INDIVIOR PLC",
-      "old_ticker": "INDV",
+      "old_ticker": "",
       "new_name": "Supernus, Inc.",
       "new_ticker": "SUPN",
-      "change_type": "Name & Symbol Change",
+      "change_type": "Name Change",
       "date": "2026-01-08",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001625297&type=8-K"
     },
@@ -6013,46 +6053,6 @@
       "change_type": "Name & Symbol Change",
       "date": "2025-11-25",
       "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306965&CORRECTION_FLG=N&HC_FLAG1=checked"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "VGI Partners Global Investments Limited",
-      "old_ticker": "VG1",
-      "new_name": "Regal Partners Global Investments Limited",
-      "new_ticker": "RG1",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-24",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Energy Plug Technologies Corp",
-      "new_ticker": "PLUG",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-24",
-      "source": "https://thecse.com/bulletin/2025-1124-name-and-symbol-change-energy-plug-technologies-corp-plug"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "MESA AIR GROUP INC",
-      "old_ticker": "",
-      "new_name": "REPUBLIC AIRWAYS HOLDINGS INC.",
-      "new_ticker": "RJET",
-      "change_type": "Name Change",
-      "date": "2025-11-24",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000810332&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "Hill Incorporated",
-      "old_ticker": "HILL",
-      "new_name": "HILL INCORPORATED",
-      "new_ticker": "HILL.H",
-      "change_type": "Symbol Change",
-      "date": "2025-11-24",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306946&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
