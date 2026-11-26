@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-11-25T22:00:26+00:00",
+  "updated_at": "2026-11-26T08:56:12+00:00",
   "sources_failed": [
     "TSX"
   ],
   "rtos": [
+    {
+      "exchange": "ASX",
+      "old_name": "Aeeris Ltd",
+      "old_ticker": "AER",
+      "new_name": "Blue Horizon Intel Ltd",
+      "new_ticker": "BHI",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-12-01",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "ASX",
+      "old_name": "International Graphite Limited",
+      "old_ticker": "IG6",
+      "new_name": "IG6 Advanced Materials Limited",
+      "new_ticker": "IG6",
+      "change_type": "Name & Symbol Change",
+      "date": "2026-11-30",
+      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
     {
       "exchange": "ASX",
       "old_name": "VRX Silica Limited",
@@ -86,6 +106,16 @@
     },
     {
       "exchange": "NASDAQ",
+      "old_name": "Passage BIO, Inc.",
+      "old_ticker": "",
+      "new_name": "Remix Therapeutics, Inc.",
+      "new_ticker": "PASG",
+      "change_type": "Name Change",
+      "date": "2026-11-19",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001787297&type=8-K"
+    },
+    {
+      "exchange": "NASDAQ",
       "old_name": "GridAI Technologies Corp.",
       "old_ticker": "",
       "new_name": "GridAI Power Corp.",
@@ -113,6 +143,16 @@
       "change_type": "Name Change",
       "date": "2026-11-16",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001728328&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Nuveen Core Plus Impact Fund",
+      "old_ticker": "",
+      "new_name": "Nuveen Credit & Impact Bond Fund",
+      "new_ticker": "NPCT",
+      "change_type": "Name Change",
+      "date": "2026-11-16",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001835068&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -463,6 +503,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-10-22",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001826011&type=8-K"
+    },
+    {
+      "exchange": "NYSE",
+      "old_name": "Nuveen Global High Income Fund",
+      "old_ticker": "",
+      "new_name": "Nuveen Global Credit Income Fund",
+      "new_ticker": "JGH",
+      "change_type": "Name Change",
+      "date": "2026-10-20",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001615905&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -6003,56 +6053,6 @@
       "change_type": "Name Change",
       "date": "2025-11-26",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002031069&type=8-K"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Austchina Holdings Limited",
-      "old_ticker": "AUH",
-      "new_name": "Pacific Resources Limited",
-      "new_ticker": "PXR",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-25",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "CSE",
-      "old_name": "",
-      "old_ticker": "",
-      "new_name": "Pangea Natural Foods Inc",
-      "new_ticker": "PNGA",
-      "change_type": "Name Change",
-      "date": "2025-11-25",
-      "source": "https://thecse.com/bulletin/2025-1125-name-change-pangea-natural-foods-inc-pnga"
-    },
-    {
-      "exchange": "NASDAQ",
-      "old_name": "Elemental Altus Royalties Corp.",
-      "old_ticker": "",
-      "new_name": "Elemental Royalty Corp",
-      "new_ticker": "ELE",
-      "change_type": "Name Change",
-      "date": "2025-11-25",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002086771&type=8-K"
-    },
-    {
-      "exchange": "NYSE",
-      "old_name": "HOUSTON AMERICAN ENERGY CORP",
-      "old_ticker": "",
-      "new_name": "ABUNDIA GLOBAL IMPACT GROUP, INC.",
-      "new_ticker": "AGIG",
-      "change_type": "Name Change",
-      "date": "2025-11-25",
-      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001156041&type=8-K"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "MINERAL HILL INDUSTRIES LTD.",
-      "old_ticker": "MHI",
-      "new_name": "GOLD STRATEGY INC.",
-      "new_ticker": "GST",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-25",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=306965&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
