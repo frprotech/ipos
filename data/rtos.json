@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T21:41:09+00:00",
+  "updated_at": "2026-11-28T08:29:29+00:00",
   "sources_failed": [
     "TSX"
   ],
@@ -73,6 +73,16 @@
       "change_type": "Name & Symbol Change",
       "date": "2026-11-24",
       "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
+    },
+    {
+      "exchange": "NASDAQ",
+      "old_name": "Eagle Bancorp Montana, Inc.",
+      "old_ticker": "",
+      "new_name": "Opportunity Bancorp, Inc.",
+      "new_ticker": "EBMT",
+      "change_type": "Name Change",
+      "date": "2026-11-23",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001478454&type=8-K"
     },
     {
       "exchange": "NASDAQ",
@@ -6013,26 +6023,6 @@
       "change_type": "Name Change",
       "date": "2025-11-28",
       "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001628369&type=8-K"
-    },
-    {
-      "exchange": "ASX",
-      "old_name": "Pantera Lithium Limited",
-      "old_ticker": "PFE",
-      "new_name": "Pantera Minerals Limited",
-      "new_ticker": "PFE",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-27",
-      "source": "https://www.asx.com.au/markets/market-resources/asx-codes-and-descriptors/asx-code-changes"
-    },
-    {
-      "exchange": "TSXV",
-      "old_name": "SOKOMAN MINERALS CORP.",
-      "old_ticker": "SIC",
-      "new_name": "PIRATE GOLD CORP.",
-      "new_ticker": "YARR",
-      "change_type": "Name & Symbol Change",
-      "date": "2025-11-27",
-      "source": "http://infoventure.tsx.com/TSXVenture/TSXVentureHttpController?GetPage=NoticesContents&PO_ID=0&NOTICE_ID=307206&CORRECTION_FLG=N&HC_FLAG1=checked"
     }
   ]
 }
